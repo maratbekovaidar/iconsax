@@ -71,6 +71,15 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+## Dynamic String Lookup (kebab-case)
+
+You can retrieve the `IconData` dynamically by using its kebab-case string name (as listed in `iconsax-names.json`):
+
+```dart
+// Returns IconData or null if the name is invalid
+final IconData? icon = Iconsax.fromName('linear-add-circle');
+```
+
 ## Naming Exceptions
 
 For icons whose base names start with a digit (e.g. `24-support`, `3d-rotate`), the getters are prepended with `i` to form valid Dart identifiers:

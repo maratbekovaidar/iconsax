@@ -8,6 +8,10 @@ export 'src/iconsax_data.dart';
 class Iconsax {
   Iconsax._();
 
+  /// Returns the [IconData] for the given kebab-case [name], or `null` if not found.
+  /// Example: `Iconsax.fromName('bold-24-support')`
+  static IconData? fromName(String name) => IconsaxData.fromName(name);
+
   static const IconsaxBold bold = IconsaxBold();
   static const IconsaxBroken broken = IconsaxBroken();
   static const IconsaxBulk bulk = IconsaxBulk();
