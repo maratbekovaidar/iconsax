@@ -1069,7 +1069,8 @@ class IconsaxBold {
   IconData get danger => IconsaxData.boldDanger;
 
   /// Getter for `boldDashDashNavigationControlSpeedTransportationRoute` icon.
-  IconData get dashDashNavigationControlSpeedTransportationRoute => IconsaxData.boldDashDashNavigationControlSpeedTransportationRoute;
+  IconData get dashDashNavigationControlSpeedTransportationRoute =>
+      IconsaxData.boldDashDashNavigationControlSpeedTransportationRoute;
 
   /// Getter for `boldData` icon.
   IconData get data => IconsaxData.boldData;
@@ -1087,7 +1088,8 @@ class IconsaxBold {
   IconData get deer => IconsaxData.boldDeer;
 
   /// Getter for `boldDentDentalCareToothbrushOralHygieneCheckupSmile` icon.
-  IconData get dentDentalCareToothbrushOralHygieneCheckupSmile => IconsaxData.boldDentDentalCareToothbrushOralHygieneCheckupSmile;
+  IconData get dentDentalCareToothbrushOralHygieneCheckupSmile =>
+      IconsaxData.boldDentDentalCareToothbrushOralHygieneCheckupSmile;
 
   /// Getter for `boldDesigntools` icon.
   IconData get designtools => IconsaxData.boldDesigntools;
@@ -2350,7 +2352,8 @@ class IconsaxBold {
   IconData get omegaSquare => IconsaxData.boldOmegaSquare;
 
   /// Getter for `boldOntologyKnowledgeStructureConceptMapSemanticsInformation` icon.
-  IconData get ontologyKnowledgeStructureConceptMapSemanticsInformation => IconsaxData.boldOntologyKnowledgeStructureConceptMapSemanticsInformation;
+  IconData get ontologyKnowledgeStructureConceptMapSemanticsInformation =>
+      IconsaxData.boldOntologyKnowledgeStructureConceptMapSemanticsInformation;
 
   /// Getter for `boldPadlock` icon.
   IconData get padlock => IconsaxData.boldPadlock;
@@ -3568,7 +3571,8 @@ class IconsaxBold {
   IconData get windows => IconsaxData.boldWindows;
 
   /// Getter for `boldWingWingFlyFlightAircraftAerodynamicsWingspan` icon.
-  IconData get wingWingFlyFlightAircraftAerodynamicsWingspan => IconsaxData.boldWingWingFlyFlightAircraftAerodynamicsWingspan;
+  IconData get wingWingFlyFlightAircraftAerodynamicsWingspan =>
+      IconsaxData.boldWingWingFlyFlightAircraftAerodynamicsWingspan;
 
   /// Getter for `boldWinterBoots` icon.
   IconData get winterBoots => IconsaxData.boldWinterBoots;
@@ -3602,7 +3606,6 @@ class IconsaxBold {
 
   /// Getter for `boldZoom` icon.
   IconData get zoom => IconsaxData.boldZoom;
-
 }
 
 /// Style namespace for Iconsax [broken] icons.
@@ -5935,7 +5938,8 @@ class IconsaxBroken {
   IconData get omegaSquare => IconsaxData.brokenOmegaSquare;
 
   /// Getter for `brokenOntologyOntologyKnowledgeStructureConceptMapDataRelationships` icon.
-  IconData get ontologyOntologyKnowledgeStructureConceptMapDataRelationships => IconsaxData.brokenOntologyOntologyKnowledgeStructureConceptMapDataRelationships;
+  IconData get ontologyOntologyKnowledgeStructureConceptMapDataRelationships =>
+      IconsaxData.brokenOntologyOntologyKnowledgeStructureConceptMapDataRelationships;
 
   /// Getter for `brokenPadlock` icon.
   IconData get padlock => IconsaxData.brokenPadlock;
@@ -7180,7 +7184,8 @@ class IconsaxBroken {
   IconData get xiaomi => IconsaxData.brokenXiaomi;
 
   /// Getter for `brokenXrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions` icon.
-  IconData get xrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions => IconsaxData.brokenXrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions;
+  IconData get xrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions =>
+      IconsaxData.brokenXrpXrpCryptocurrencyDigitalAssetBlockchainPaymentTransactions;
 
   /// Getter for `brokenYoutube` icon.
   IconData get youtube => IconsaxData.brokenYoutube;
@@ -7193,7 +7198,6 @@ class IconsaxBroken {
 
   /// Getter for `brokenZoom` icon.
   IconData get zoom => IconsaxData.brokenZoom;
-
 }
 
 /// Style namespace for Iconsax [bulk] icons.
@@ -8260,7 +8264,8 @@ class IconsaxBulk {
   IconData get deer => IconsaxData.bulkDeer;
 
   /// Getter for `bulkDentDentalCareOralHealthToothbrushTeethCleaning` icon.
-  IconData get dentDentalCareOralHealthToothbrushTeethCleaning => IconsaxData.bulkDentDentalCareOralHealthToothbrushTeethCleaning;
+  IconData get dentDentalCareOralHealthToothbrushTeethCleaning =>
+      IconsaxData.bulkDentDentalCareOralHealthToothbrushTeethCleaning;
 
   /// Getter for `bulkDesigntools` icon.
   IconData get designtools => IconsaxData.bulkDesigntools;
@@ -10781,7 +10786,6 @@ class IconsaxBulk {
 
   /// Getter for `bulkZoom` icon.
   IconData get zoom => IconsaxData.bulkZoom;
-
 }
 
 /// Style namespace for Iconsax [linear] icons.
@@ -14366,7 +14370,6 @@ class IconsaxLinear {
 
   /// Getter for `linearZoom` icon.
   IconData get zoom => IconsaxData.linearZoom;
-
 }
 
 /// Style namespace for Iconsax [outline] icons.
@@ -16705,7 +16708,8 @@ class IconsaxOutline {
   IconData get omegaSquare => IconsaxData.outlineOmegaSquare;
 
   /// Getter for `outlineOntologyKnowledgeStructureConceptMapRelationshipDataModel` icon.
-  IconData get ontologyKnowledgeStructureConceptMapRelationshipDataModel => IconsaxData.outlineOntologyKnowledgeStructureConceptMapRelationshipDataModel;
+  IconData get ontologyKnowledgeStructureConceptMapRelationshipDataModel =>
+      IconsaxData.outlineOntologyKnowledgeStructureConceptMapRelationshipDataModel;
 
   /// Getter for `outlinePadlock` icon.
   IconData get padlock => IconsaxData.outlinePadlock;
@@ -17957,7 +17961,6 @@ class IconsaxOutline {
 
   /// Getter for `outlineZoom` icon.
   IconData get zoom => IconsaxData.outlineZoom;
-
 }
 
 /// Style namespace for Iconsax [twotone] icons.
@@ -19024,7 +19027,8 @@ class IconsaxTwotone {
   IconData get deer => IconsaxData.twotoneDeer;
 
   /// Getter for `twotoneDentDentalCareToothHygieneOralHealthCleaning` icon.
-  IconData get dentDentalCareToothHygieneOralHealthCleaning => IconsaxData.twotoneDentDentalCareToothHygieneOralHealthCleaning;
+  IconData get dentDentalCareToothHygieneOralHealthCleaning =>
+      IconsaxData.twotoneDentDentalCareToothHygieneOralHealthCleaning;
 
   /// Getter for `twotoneDesigntools` icon.
   IconData get designtools => IconsaxData.twotoneDesigntools;
@@ -20230,7 +20234,8 @@ class IconsaxTwotone {
   IconData get omegaSquare => IconsaxData.twotoneOmegaSquare;
 
   /// Getter for `twotoneOntologyKnowledgeStructureConceptMappingSemanticRelationDataModel` icon.
-  IconData get ontologyKnowledgeStructureConceptMappingSemanticRelationDataModel => IconsaxData.twotoneOntologyKnowledgeStructureConceptMappingSemanticRelationDataModel;
+  IconData get ontologyKnowledgeStructureConceptMappingSemanticRelationDataModel =>
+      IconsaxData.twotoneOntologyKnowledgeStructureConceptMappingSemanticRelationDataModel;
 
   /// Getter for `twotonePadlock` icon.
   IconData get padlock => IconsaxData.twotonePadlock;
@@ -21421,7 +21426,8 @@ class IconsaxTwotone {
   IconData get windows => IconsaxData.twotoneWindows;
 
   /// Getter for `twotoneWingWingFlightAerodynamicsTransportationFreedomAviation` icon.
-  IconData get wingWingFlightAerodynamicsTransportationFreedomAviation => IconsaxData.twotoneWingWingFlightAerodynamicsTransportationFreedomAviation;
+  IconData get wingWingFlightAerodynamicsTransportationFreedomAviation =>
+      IconsaxData.twotoneWingWingFlightAerodynamicsTransportationFreedomAviation;
 
   /// Getter for `twotoneWinterBoots` icon.
   IconData get winterBoots => IconsaxData.twotoneWinterBoots;
@@ -21455,6 +21461,4 @@ class IconsaxTwotone {
 
   /// Getter for `twotoneZoom` icon.
   IconData get zoom => IconsaxData.twotoneZoom;
-
 }
-
