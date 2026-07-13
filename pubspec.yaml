@@ -16,6 +16,21 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: Iconsax
+    - family: IconsaxBold
       fonts:
-        - asset: fonts/iconsax.ttf
+        - asset: fonts/iconsax_bold.ttf
+    - family: IconsaxBroken
+      fonts:
+        - asset: fonts/iconsax_broken.ttf
+    - family: IconsaxBulk
+      fonts:
+        - asset: fonts/iconsax_bulk.ttf
+    - family: IconsaxLinear
+      fonts:
+        - asset: fonts/iconsax_linear.ttf
+    - family: IconsaxOutline
+      fonts:
+        - asset: fonts/iconsax_outline.ttf
+    - family: IconsaxTwotone
+      fonts:
+        - asset: fonts/iconsax_twotone.ttf
