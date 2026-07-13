@@ -1,0 +1,17 @@
+name: iconsax
+description: Iconsax icon package for Flutter, with support for bold, broken, bulk, linear, outline, and twotone styles as separate getters.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Iconsax
+      fonts:
+        - asset: fonts/iconsax.ttf
