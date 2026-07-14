@@ -217,7 +217,7 @@ def process_style(style):
     return count[0]
 
 def main():
-    styles = ["bold", "broken", "bulk", "linear", "outline", "twotone"]
+    styles = ["bold", "outline"]
     total_rendered = 0
     t0 = time.time()
     for style in styles:
