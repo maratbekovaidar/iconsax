@@ -3,3 +3,7 @@
 pubspec.lock
 build/
 *.log
+
+# Exclude scripts and svgs directories
+scripts/
+svgs/

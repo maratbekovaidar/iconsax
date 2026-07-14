@@ -806,8 +806,7 @@ class IconsaxResolver {
     'bold-okb-okb': 0x9da,
     'bold-omega-circle': 0x9d9,
     'bold-omega-square': 0x9d8,
-    'bold-ontology-knowledge-structure-concept-map-semantics-information':
-        0x9d7,
+    'bold-ontology-knowledge-structure-concept-map-semantics-information': 0x9d7,
     'bold-padlock': 0x9d6,
     'bold-paint-brush': 0x9d4,
     'bold-paint-brush-8abd': 0x9d5,
@@ -2000,8 +1999,7 @@ class IconsaxResolver {
     'broken-okb-okb': 0x531,
     'broken-omega-circle': 0x530,
     'broken-omega-square': 0x52f,
-    'broken-ontology-ontology-knowledge-structure-concept-map-data-relationships':
-        0x52e,
+    'broken-ontology-ontology-knowledge-structure-concept-map-data-relationships': 0x52e,
     'broken-padlock': 0x52d,
     'broken-paint-brush': 0x52b,
     'broken-paint-brush-a258': 0x52c,
@@ -2416,8 +2414,7 @@ class IconsaxResolver {
     'broken-woman': 0x392,
     'broken-xd': 0x391,
     'broken-xiaomi': 0x390,
-    'broken-xrp-xrp-cryptocurrency-digital-asset-blockchain-payment-transactions':
-        0x38f,
+    'broken-xrp-xrp-cryptocurrency-digital-asset-blockchain-payment-transactions': 0x38f,
     'broken-youtube': 0x38e,
     'broken-zel-zel': 0x38d,
     'broken-zipline': 0x38c,
@@ -5586,8 +5583,7 @@ class IconsaxResolver {
     'outline-okb-okb': 0xf731,
     'outline-omega-circle': 0xf730,
     'outline-omega-square': 0xf72f,
-    'outline-ontology-knowledge-structure-concept-map-relationship-data-model':
-        0xf72e,
+    'outline-ontology-knowledge-structure-concept-map-relationship-data-model': 0xf72e,
     'outline-padlock': 0xf72d,
     'outline-paint-brush': 0xf72b,
     'outline-paint-brush-4007': 0xf72c,
@@ -6760,8 +6756,7 @@ class IconsaxResolver {
     'twotone-okb-okb': 0xf29c,
     'twotone-omega-circle': 0xf29b,
     'twotone-omega-square': 0xf29a,
-    'twotone-ontology-knowledge-structure-concept-mapping-semantic-relation-data-model':
-        0xf299,
+    'twotone-ontology-knowledge-structure-concept-mapping-semantic-relation-data-model': 0xf299,
     'twotone-padlock': 0xf298,
     'twotone-paint-brush': 0xf296,
     'twotone-paint-brush-16ba': 0xf297,
@@ -7158,8 +7153,7 @@ class IconsaxResolver {
     'twotone-wind': 0xf10e,
     'twotone-wind-6471': 0xf10f,
     'twotone-windows': 0xf10d,
-    'twotone-wing-wing-flight-aerodynamics-transportation-freedom-aviation':
-        0xf10c,
+    'twotone-wing-wing-flight-aerodynamics-transportation-freedom-aviation': 0xf10c,
     'twotone-winter-boots': 0xf10b,
     'twotone-winter-mitten': 0xf10a,
     'twotone-winter-pattern': 0xf109,
