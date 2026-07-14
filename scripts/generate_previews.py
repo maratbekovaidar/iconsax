@@ -57,7 +57,7 @@ def expand_line_to_polygon(pt1, pt2, thickness=60):
         (pt2[0] - hx, pt2[1] - hy),
     ]
 
-def render_vector_glyph(glyph_set, glyph_name, output_path, size=128, padding=12):
+def render_vector_glyph(glyph_set, glyph_name, output_path, is_twotone=False, size=128, padding=12):
     glyph = glyph_set[glyph_name]
     pen = FlatteningPen(glyph_set)
     glyph.draw(pen)
@@ -97,18 +97,19 @@ def render_vector_glyph(glyph_set, glyph_name, output_path, size=128, padding=12
     
     scale = (temp_size - 24) / max(w_font, h_font)
     
-    temp_img = Image.new("L", (temp_size, temp_size), 0)
-    for poly in polys:
-        mask = Image.new("L", (temp_size, temp_size), 0)
-        draw_mask = ImageDraw.Draw(mask)
+    temp_img = Image.new("RGBA", (temp_size, temp_size), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(temp_img)
+    
+    for i, poly in enumerate(polys):
         trans_poly = []
         for pt in poly:
             tx = (temp_size - w_font * scale) / 2.0 + (pt[0] - min_x) * scale
             ty = (temp_size - h_font * scale) / 2.0 + (temp_size - 24 - (pt[1] - min_y) * scale)
             trans_poly.append((tx, ty))
-        draw_mask.polygon(trans_poly, fill=255)
-        # Apply Even-Odd fill rule via XOR
-        temp_img = ImageChops.difference(temp_img, mask)
+            
+        # Draw with 30% alpha (76) for Contour 0 in twotone style
+        alpha = 76 if (is_twotone and i == 0) else 255
+        draw.polygon(trans_poly, fill=(0, 0, 0, alpha))
         
     bbox = temp_img.getbbox()
     if not bbox:
@@ -128,15 +129,10 @@ def render_vector_glyph(glyph_set, glyph_name, output_path, size=128, padding=12
         w_crop, h_crop = new_w, new_h
         
     final_img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    solid_black = Image.new("RGBA", (size, size), (0, 0, 0, 255))
-    
     x = (size - w_crop) // 2
     y = (size - h_crop) // 2
     
-    final_mask = Image.new("L", (size, size), 0)
-    final_mask.paste(cropped, (x, y))
-    
-    final_img.paste(solid_black, (0, 0), final_mask)
+    final_img.paste(cropped, (x, y), cropped)
     
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     final_img.save(output_path)
@@ -170,6 +166,7 @@ def process_style(style):
     )
     
     count = [0]
+    is_twotone = (style == "twotone")
     
     def replacer(match):
         comments = match.group(1)
@@ -201,7 +198,7 @@ def process_style(style):
         try:
             glyph_name = cmap.get(codepoint)
             if glyph_name:
-                success = render_vector_glyph(glyph_set, glyph_name, output_path)
+                success = render_vector_glyph(glyph_set, glyph_name, output_path, is_twotone=is_twotone)
                 if success:
                     count[0] += 1
             else:
