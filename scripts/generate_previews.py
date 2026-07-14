@@ -17,7 +17,7 @@ def render_glyph_to_png(font_path, codepoint, output_path, size=128):
     draw = ImageDraw.Draw(image)
     
     # Load font
-    font_size = int(size * 0.7)
+    font_size = int(size * 0.85)
     font = ImageFont.truetype(font_path, font_size)
     
     # Character to draw
@@ -32,13 +32,8 @@ def render_glyph_to_png(font_path, codepoint, output_path, size=128):
     x = (size - w) / 2.0 - bbox[0]
     y = (size - h) / 2.0 - bbox[1]
     
-    # Background circle (sleek dark grey/charcoal)
-    bg_color = (33, 37, 41, 255) # Hex #212529
-    margin = 4
-    draw.ellipse([margin, margin, size - margin, size - margin], fill=bg_color)
-    
-    # Draw white glyph
-    glyph_color = (255, 255, 255, 255)
+    # Draw black glyph
+    glyph_color = (0, 0, 0, 255)
     draw.text((x, y), char, font=font, fill=glyph_color)
     
     image.save(output_path, "PNG")
