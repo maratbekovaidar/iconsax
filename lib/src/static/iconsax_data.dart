@@ -1,5 +1,8 @@
 import 'package:flutter/widgets.dart';
-import '../iconsax.dart';
+import 'bold.dart';
+import 'broken.dart';
+import 'bulk.dart';
+import 'twotone.dart';
 
 /// Helper data class for multi-path icons (like twotone and bulk).
 class IconsaxData {
