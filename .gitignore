@@ -7,3 +7,4 @@ build/
 # Exclude scripts and svgs directories
 scripts/
 svgs/
+node_modules/
