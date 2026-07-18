@@ -41,14 +41,27 @@ class IconsaxIcon extends StatelessWidget {
       width: iconSize,
       height: iconSize,
       child: Stack(
-        alignment: Alignment.center,
         children: List.generate(
           icon.icons.length,
-          (index) => Icon(
-            icon.icons[index],
-            size: iconSize,
-            color: iconColor.withAlpha((icon.opacities[index] * 255).round()),
-          ),
+          (index) {
+            final iconData = icon.icons[index];
+            return Positioned.fill(
+              child: RichText(
+                overflow: TextOverflow.visible,
+                textDirection: TextDirection.ltr,
+                text: TextSpan(
+                  text: String.fromCharCode(iconData.codePoint),
+                  style: TextStyle(
+                    inherit: false,
+                    color: iconColor.withAlpha((icon.opacities[index] * 255).round()),
+                    fontSize: iconSize,
+                    fontFamily: iconData.fontFamily,
+                    package: iconData.fontPackage,
+                  ),
+                ),
+              ),
+            );
+          },
         ),
       ),
     );
