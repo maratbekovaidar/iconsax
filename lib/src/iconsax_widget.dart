@@ -12,6 +12,11 @@ class IconsaxIconData {
 }
 
 /// Виджет для отрисовки многослойной иконки
+///
+/// Каждый слой — отдельный глиф того же шрифта, размещённый на общей сетке
+/// 24x24. Слои рисуются обычным [Icon] с одинаковым [size], поэтому раскладка
+/// совпадает с однотонными стилями (`linear`, `bold`, ...) до пикселя, а слои
+/// сохраняют взаимное положение из исходного SVG.
 class IconsaxIcon extends StatelessWidget {
   final IconsaxIconData icon;
   final double? size;
@@ -41,27 +46,14 @@ class IconsaxIcon extends StatelessWidget {
       width: iconSize,
       height: iconSize,
       child: Stack(
+        alignment: Alignment.center,
         children: List.generate(
           icon.icons.length,
-          (index) {
-            final iconData = icon.icons[index];
-            return Positioned.fill(
-              child: RichText(
-                overflow: TextOverflow.visible,
-                textDirection: TextDirection.ltr,
-                text: TextSpan(
-                  text: String.fromCharCode(iconData.codePoint),
-                  style: TextStyle(
-                    inherit: false,
-                    color: iconColor.withAlpha((icon.opacities[index] * 255).round()),
-                    fontSize: iconSize,
-                    fontFamily: iconData.fontFamily,
-                    package: iconData.fontPackage,
-                  ),
-                ),
-              ),
-            );
-          },
+          (index) => Icon(
+            icon.icons[index],
+            size: iconSize,
+            color: iconColor.withAlpha((icon.opacities[index] * 255).round()),
+          ),
         ),
       ),
     );
