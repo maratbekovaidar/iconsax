@@ -1,229 +1,174 @@
+#!/usr/bin/env python3
+"""Render the PNG previews shown in the doc comment of every icon getter.
+
+Reads the public style classes (`lib/src/iconsax_<style>.dart`), rasterises each
+icon out of the matching font and writes
+`assets/icon-preview/<style>/<getter>.png`, then rewrites the `/// ![](...)`
+line above each getter to point at it.
+
+Rendering goes through FreeType (Pillow's `ImageFont`), i.e. the same engine
+Flutter uses, and lays the glyph out the way `Icon` does: the em box is the
+icon box, the advance width is centred in it and the baseline sits on the
+bottom edge. Previews therefore show the real placement rather than a
+crop-to-ink, so a misaligned icon looks misaligned here too.
+
+`bulk` and `twotone` icons are composites: their layers are stacked in list
+order, each at its own opacity, exactly like the `IconsaxIcon` widget.
+
+Usage
+-----
+    python3 scripts/generate_previews.py                  # all six styles
+    python3 scripts/generate_previews.py --styles bulk twotone
+    python3 scripts/generate_previews.py --limit 20       # smoke test
+    python3 scripts/generate_previews.py --no-dart        # PNGs only
+"""
+
+import argparse
 import os
 import re
 import sys
-import math
 import time
-from PIL import Image, ImageDraw, ImageChops
-from fontTools.ttLib import TTFont
-from fontTools.pens.basePen import BasePen
 
-BASE_DIR = "/Users/aidarmaratbekov/Developer/iconsax"
+from PIL import Image, ImageDraw, ImageFont
+from fontTools.ttLib import TTFont
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO_OWNER = "maratbekovaidar"
 REPO_NAME = "iconsax"
 BRANCH = "master"
 
-class FlatteningPen(BasePen):
-    def __init__(self, glyphSet=None):
-        BasePen.__init__(self, glyphSet)
-        self.polygons = []
-        self.current_poly = []
+STYLES = ["bold", "broken", "bulk", "linear", "outline", "twotone"]
+MULTI_LAYER = {"bulk", "twotone"}
 
-    def _moveTo(self, pt):
-        if self.current_poly:
-            self.polygons.append(self.current_poly)
-        self.current_poly = [pt]
+CANVAS = 128
+PADDING = 12
+ICON_BOX = CANVAS - 2 * PADDING
+SUPERSAMPLE = 4  # rasterise large, downscale once -- cheap and much smoother
 
-    def _lineTo(self, pt):
-        self.current_poly.append(pt)
+# `static const IconData name = raw.IconsaxBold.name;`
+MONO_RE = re.compile(
+    r"((?:[ \t]*///[^\n]*\n)*)"
+    r"([ \t]*static\s+const\s+IconData\s+(\w+)\s*=\s*raw\.\w+\.(\w+)\s*;)")
 
-    def _curveToOne(self, pt1, pt2, pt3):
-        pt0 = self.current_poly[-1]
-        steps = 8
-        for i in range(1, steps + 1):
-            t = i / steps
-            x = (1-t)**3 * pt0[0] + 3*(1-t)**2 * t * pt1[0] + 3*(1-t) * t**2 * pt2[0] + t**3 * pt3[0]
-            y = (1-t)**3 * pt0[1] + 3*(1-t)**2 * t * pt1[1] + 3*(1-t) * t**2 * pt2[1] + t**3 * pt3[1]
-            self.current_poly.append((x, y))
+# `static const IconsaxIconData name = IconsaxIconData(icons: [...], opacities: [...]);`
+MULTI_RE = re.compile(
+    r"((?:[ \t]*///[^\n]*\n)*)"
+    r"([ \t]*static\s+const\s+IconsaxIconData\s+(\w+)\s*=\s*IconsaxIconData\(\n"
+    r"    icons: \[\n(.*?)    \],\n"
+    r"    opacities: \[\n(.*?)    \],\n  \);)", re.S)
 
-    def _closePath(self):
-        if self.current_poly:
-            self.polygons.append(self.current_poly)
-            self.current_poly = []
 
-def expand_line_to_polygon(pt1, pt2, thickness=60):
-    dx = pt2[0] - pt1[0]
-    dy = pt2[1] - pt1[1]
-    length = math.hypot(dx, dy)
-    if length == 0:
-        return []
-    nx = -dy / length
-    ny = dx / length
-    hx = nx * (thickness / 2.0)
-    hy = ny * (thickness / 2.0)
-    return [
-        (pt1[0] - hx, pt1[1] - hy),
-        (pt1[0] + hx, pt1[1] + hy),
-        (pt2[0] + hx, pt2[1] + hy),
-        (pt2[0] - hx, pt2[1] - hy),
-    ]
+def raw_codepoints(style):
+    """Map every raw getter name to its codepoint."""
+    path = os.path.join(BASE_DIR, "lib", "src", "static", f"{style}.dart")
+    source = open(path, encoding="utf-8").read()
+    return {m.group(1): int(m.group(2), 16) for m in re.finditer(
+        r"static const IconData (\w+) =\s*\n?\s*IconData\(0x([0-9a-fA-F]+)", source)}
 
-def render_vector_glyph(glyph_set, glyph_name, output_path, is_twotone=False, size=128, padding=12):
-    glyph = glyph_set[glyph_name]
-    pen = FlatteningPen(glyph_set)
-    glyph.draw(pen)
-    
-    polys = []
-    for poly in pen.polygons:
-        # Filter out 1000x1000 bounding box
-        if len(poly) == 4:
-            xs = [pt[0] for pt in poly]
-            ys = [pt[1] for pt in poly]
-            if min(xs) == 0 and max(xs) == 1000 and min(ys) == 0 and max(ys) == 1000:
-                continue
-        # Handle stroke line segments
-        if len(poly) == 2:
-            poly = expand_line_to_polygon(poly[0], poly[1])
-            if not poly:
-                continue
-        elif len(poly) < 2:
-            continue
-        polys.append(poly)
-        
-    if not polys:
+
+def render(layers, font, output_path):
+    """Stack `layers` -- [(codepoint, opacity)] -- onto a transparent canvas."""
+    scale = SUPERSAMPLE
+    big = Image.new("RGBA", (CANVAS * scale, CANVAS * scale), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(big)
+    # Same geometry as Flutter's Icon: advance width centred in the box, glyph
+    # sitting on the baseline at the bottom of the box.
+    left = PADDING * scale
+    baseline = (PADDING + ICON_BOX) * scale
+    for codepoint, opacity in layers:
+        draw.text((left, baseline), chr(codepoint), font=font,
+                  fill=(0, 0, 0, round(opacity * 255)), anchor="ls")
+    if not big.getbbox():
         return False
-        
-    # Draw on 256x256 canvas for speed
-    temp_size = 256
-    all_xs = [pt[0] for poly in polys for pt in poly]
-    all_ys = [pt[1] for poly in polys for pt in poly]
-    
-    min_x, max_x = min(all_xs), max(all_xs)
-    min_y, max_y = min(all_ys), max(all_ys)
-    
-    w_font = max_x - min_x
-    h_font = max_y - min_y
-    if w_font == 0: w_font = 1
-    if h_font == 0: h_font = 1
-    
-    scale = (temp_size - 24) / max(w_font, h_font)
-    
-    temp_img = Image.new("RGBA", (temp_size, temp_size), (0, 0, 0, 0))
-    draw = ImageDraw.Draw(temp_img)
-    
-    for i, poly in enumerate(polys):
-        trans_poly = []
-        for pt in poly:
-            tx = (temp_size - w_font * scale) / 2.0 + (pt[0] - min_x) * scale
-            ty = (temp_size - h_font * scale) / 2.0 + (temp_size - 24 - (pt[1] - min_y) * scale)
-            trans_poly.append((tx, ty))
-            
-        # Draw with 30% alpha (76) for Contour 0 in twotone style
-        alpha = 76 if (is_twotone and i == 0) else 255
-        draw.polygon(trans_poly, fill=(0, 0, 0, alpha))
-        
-    bbox = temp_img.getbbox()
-    if not bbox:
-        return False
-        
-    cropped = temp_img.crop(bbox)
-    w_crop, h_crop = cropped.size
-    
-    max_w = size - 2 * padding
-    max_h = size - 2 * padding
-    
-    if w_crop > max_w or h_crop > max_h:
-        ratio = min(max_w / w_crop, max_h / h_crop)
-        new_w = int(w_crop * ratio)
-        new_h = int(h_crop * ratio)
-        cropped = cropped.resize((new_w, new_h), Image.Resampling.LANCZOS)
-        w_crop, h_crop = new_w, new_h
-        
-    final_img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    x = (size - w_crop) // 2
-    y = (size - h_crop) // 2
-    
-    final_img.paste(cropped, (x, y), cropped)
-    
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    final_img.save(output_path)
+    big.resize((CANVAS, CANVAS), Image.LANCZOS).save(output_path)
     return True
 
-def process_style(style):
-    dart_path = os.path.join(BASE_DIR, f"lib/src/{style}.dart")
-    font_path = os.path.join(BASE_DIR, f"fonts/iconsax_{style}.ttf")
-    
-    if not os.path.exists(dart_path):
-        print(f"Skipping style '{style}': Dart file not found at {dart_path}")
-        return 0
-    if not os.path.exists(font_path):
-        print(f"Skipping style '{style}': Font file not found at {font_path}")
-        return 0
-        
-    print(f"Processing style '{style}'...")
-    
-    font = TTFont(font_path)
-    glyph_set = font.getGlyphSet()
-    cmap = font.getBestCmap()
-    
-    with open(dart_path, "r", encoding="utf-8") as f:
-        content = f.read()
-        
-    pattern = re.compile(
-        r"((?:[ \t]*///[^\n]*\n)*)"
-        r"([ \t]*static\s+const\s+IconData\s+(\w+)\s*=\s*"
-        r"IconData\s*\(\s*(0x[a-fA-F0-9]+)\s*,\s*fontFamily\s*:\s*[a-zA-Z_]\w*\s*,\s*fontPackage\s*:\s*[a-zA-Z_]\w*\s*\)\s*;)",
-        re.MULTILINE
-    )
-    
-    count = [0]
-    is_twotone = (style == "twotone")
-    
-    def replacer(match):
-        comments = match.group(1)
-        full_code = match.group(2)
-        name = match.group(3)
-        codepoint_str = match.group(4)
-        
-        lines = comments.splitlines()
-        cleaned_lines = []
-        for line in lines:
-            if re.search(r"///\s*!\[\]\(", line):
-                continue
-            cleaned_lines.append(line)
-            
-        indent = "  "
-        indent_match = re.match(r"^([ \t]*)", full_code)
-        if indent_match:
-            indent = indent_match.group(1)
-            
-        preview_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/assets/icon-preview/{style}/{name}.png"
-        preview_comment = f"{indent}/// ![]({preview_url})"
-        
-        new_comments_list = [preview_comment] + cleaned_lines
-        new_comments = "\n".join(new_comments_list) + "\n"
-        
-        codepoint = int(codepoint_str, 16)
-        output_path = os.path.join(BASE_DIR, f"assets/icon-preview/{style}/{name}.png")
-        
-        try:
-            glyph_name = cmap.get(codepoint)
-            if glyph_name:
-                success = render_vector_glyph(glyph_set, glyph_name, output_path, is_twotone=is_twotone)
-                if success:
-                    count[0] += 1
-            else:
-                print(f"  Warning: codepoint {codepoint_str} not found in font map for {name}")
-        except Exception as e:
-            print(f"  Error rendering glyph '{name}' ({codepoint_str}) in style '{style}': {e}")
-            
-        return new_comments + full_code
 
-    new_content = pattern.sub(replacer, content)
-    
-    with open(dart_path, "w", encoding="utf-8") as f:
-        f.write(new_content)
-        
-    print(f"Completed '{style}': Rendered {count[0]} icons and updated Dart comments.")
-    return count[0]
+def preview_comment(style, name, indent):
+    url = (f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}"
+           f"/assets/icon-preview/{style}/{name}.png")
+    return f"{indent}/// ![]({url})"
+
+
+def rewrite_comment(comments, code, style, name):
+    """Replace the `![]()` line above a getter, keeping the rest of the docs."""
+    kept = [line for line in comments.splitlines()
+            if not re.search(r"///\s*!\[\]\(", line)]
+    indent = re.match(r"^([ \t]*)", code).group(1)
+    return "\n".join([preview_comment(style, name, indent)] + kept) + "\n" + code
+
+
+def process_style(style, limit, write_dart):
+    public_path = os.path.join(BASE_DIR, "lib", "src", f"iconsax_{style}.dart")
+    font_path = os.path.join(BASE_DIR, "fonts", f"iconsax_{style}.ttf")
+    for path in (public_path, font_path):
+        if not os.path.exists(path):
+            print(f"  {style}: missing {path}, skipped")
+            return 0
+
+    codepoints = raw_codepoints(style)
+    upem = TTFont(font_path)["head"].unitsPerEm
+    font = ImageFont.truetype(font_path, ICON_BOX * SUPERSAMPLE)
+    out_dir = os.path.join(BASE_DIR, "assets", "icon-preview", style)
+    os.makedirs(out_dir, exist_ok=True)
+
+    source = open(public_path, encoding="utf-8").read()
+    rendered = [0]
+    skipped = [0]
+
+    def handle(name, layers, comments, code):
+        if limit and rendered[0] >= limit:
+            return None
+        if not layers:
+            skipped[0] += 1
+            return None
+        if not render(layers, font, os.path.join(out_dir, f"{name}.png")):
+            skipped[0] += 1
+            return None
+        rendered[0] += 1
+        return rewrite_comment(comments, code, style, name)
+
+    def mono(match):
+        comments, code, name, raw_name = match.groups()
+        cp = codepoints.get(raw_name)
+        return handle(name, [(cp, 1.0)] if cp else None, comments, code) or match.group(0)
+
+    def multi(match):
+        comments, code, name, icons_body, ops_body = match.groups()
+        names = re.findall(r"raw\.\w+\.(\w+),", icons_body)
+        ops = [float(x) for x in re.findall(r"([0-9.]+),", ops_body)]
+        layers = [(codepoints[n], o) for n, o in zip(names, ops) if n in codepoints]
+        return handle(name, layers, comments, code) or match.group(0)
+
+    pattern, replacer = (MULTI_RE, multi) if style in MULTI_LAYER else (MONO_RE, mono)
+    new_source = pattern.sub(replacer, source)
+
+    if write_dart and not limit:
+        with open(public_path, "w", encoding="utf-8") as handle_out:
+            handle_out.write(new_source)
+
+    print(f"  {style:8s} upem={upem}  rendered {rendered[0]}  skipped {skipped[0]}"
+          + ("  (--limit: Dart not rewritten)" if limit else ""))
+    return rendered[0]
+
 
 def main():
-    styles = ["bold", "outline"]
-    total_rendered = 0
-    t0 = time.time()
-    for style in styles:
-        total_rendered += process_style(style)
-    t1 = time.time()
-    print(f"\nAll done! Total rendered: {total_rendered} icons in {t1 - t0:.2f} seconds.")
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--styles", nargs="+", default=STYLES, choices=STYLES)
+    parser.add_argument("--limit", type=int, default=0,
+                        help="render at most N icons per style and leave the "
+                             "Dart sources alone (smoke test)")
+    parser.add_argument("--no-dart", action="store_true",
+                        help="write the PNGs but do not touch the doc comments")
+    args = parser.parse_args()
+
+    started = time.time()
+    total = 0
+    for style in args.styles:
+        total += process_style(style, args.limit, not args.no_dart)
+    print(f"\nRendered {total} previews in {time.time() - started:.1f}s")
+
 
 if __name__ == "__main__":
     main()

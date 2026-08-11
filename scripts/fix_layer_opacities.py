@@ -52,9 +52,8 @@ import sys
 import xml.etree.ElementTree as ET
 
 STYLES = ["bulk", "twotone"]
-DEFAULT_ICONS_JSON = os.path.expanduser(
-    "~/.gemini/antigravity/brain/93ea342e-9b17-460b-9769-77cb0e08de45/scratch/all_icons_data.json"
-)
+DEFAULT_ICONS_JSON = os.environ.get("ICONSAX_CATALOGUE") or os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), ".cache", "all_icons_data.json")
 NON_DRAWABLE = {"defs", "clipPath", "mask", "title", "desc", "style", "metadata"}
 
 
