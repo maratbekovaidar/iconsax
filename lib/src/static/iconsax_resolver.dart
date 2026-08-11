@@ -10,7 +10,7 @@ class IconsaxResolver {
   /// Returns the [IconData] for the given kebab-case [name], or `null` if not found.
   /// Example: `IconsaxResolver.fromName('bold-24-support')`
   static IconData? fromName(String name) {
-    final codePoint = _codePoints[name];
+    final codePoint = codePoints[name];
     if (codePoint == null) return null;
 
     // Determine the style and select the corresponding font family
@@ -30,7 +30,8 @@ class IconsaxResolver {
     return IconData(codePoint, fontFamily: fontFamily, fontPackage: 'iconsax');
   }
 
-  static const Map<String, int> _codePoints = {
+  /// Codepoint of every single glyph, keyed by its kebab-case name.
+  static const Map<String, int> codePoints = {
     'bold-24-support': 0xfa114,
     'bold-3-dots-more': 0xfd547,
     'bold-3d-cube-scan': 0xfa0fd,

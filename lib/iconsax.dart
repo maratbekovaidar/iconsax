@@ -1,6 +1,7 @@
 library iconsax;
 
 export 'src/iconsax_widget.dart';
+export 'src/iconsax_resolver.dart';
 export 'src/iconsax_bold.dart';
 export 'src/iconsax_broken.dart';
 export 'src/iconsax_bulk.dart';

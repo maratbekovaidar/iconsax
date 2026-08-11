@@ -109,14 +109,17 @@ clashing names gets a 4-hex-character suffix derived from its source URL — so
 
 ## Dynamic lookup by name
 
-`IconsaxResolver` maps a kebab-case name to `IconData`. It is not exported from
-`package:iconsax/iconsax.dart` — import it directly:
+`IconsaxResolver` maps a kebab-case name to an icon. It is part of the public
+API, so `package:iconsax/iconsax.dart` is the only import you need:
 
 ```dart
-import 'package:iconsax/src/static/iconsax_resolver.dart';
+import 'package:iconsax/iconsax.dart';
 
 // IconData, or null if the name is unknown
 final IconData? icon = IconsaxResolver.fromName('linear-add-circle');
+
+// Multi-layer icons come back as IconsaxIconData for IconsaxIcon
+final IconsaxIconData? layered = IconsaxResolver.compositeFromName('bold-hex-hex');
 ```
 
 > [!WARNING]
@@ -125,10 +128,20 @@ final IconData? icon = IconsaxResolver.fromName('linear-add-circle');
 > constants; reach for the resolver only for names that genuinely arrive at
 > runtime (e.g. from an API).
 
-Keys for `bold`/`broken`/`linear`/`outline` are whole icons (`bold-24-support`).
-For `bulk`/`twotone` the keys are individual **layers** (`bulk-24-support-path1`,
-`twotone-aave-aave-group1`) — the resolver has no composite entry and cannot
-return an `IconsaxIconData`.
+| Member | Returns | |
+| --- | --- | --- |
+| `fromName(name)` | `IconData?` | single glyph, `null` if unknown |
+| `compositeFromName(name)` | `IconsaxIconData?` | multi-layer icon, `null` if unknown |
+| `contains(name)` | `bool` | true for either kind of name |
+| `styleOf(name)` | `IconsaxStyle?` | style from the name's prefix |
+| `names` / `compositeNames` | `Iterable<String>` | every known name |
+| `namesOf(style)` / `compositeNamesOf(style)` | `Iterable<String>` | names of one style |
+
+Single-glyph keys for `bold`/`broken`/`linear`/`outline` are whole icons
+(`bold-24-support`). For `bulk`/`twotone` they are individual **layers**
+(`bulk-24-support-path1`, `twotone-aave-aave-group1`); the icon as a whole lives
+under the layer-free name (`twotone-aave-aave`) and only `compositeFromName`
+returns it.
 
 ## Known gaps
 
