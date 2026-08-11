@@ -22,8 +22,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkActivity` icon.
   static const IconsaxIconData activity = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.activityPath2,
       raw.IconsaxBulk.activityPath1,
+      raw.IconsaxBulk.activityPath2,
     ],
     opacities: [
       0.4,
@@ -59,8 +59,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAddItem` icon.
   static const IconsaxIconData addItem = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.addItemPath2,
       raw.IconsaxBulk.addItemPath1,
+      raw.IconsaxBulk.addItemPath2,
       raw.IconsaxBulk.addItemPath3,
     ],
     opacities: [
@@ -77,7 +77,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.addSquarePath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -85,11 +85,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiAc` icon.
   static const IconsaxIconData aiAc = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiAcPath4,
-      raw.IconsaxBulk.aiAcPath3,
-      raw.IconsaxBulk.aiAcPath5,
       raw.IconsaxBulk.aiAcPath1,
       raw.IconsaxBulk.aiAcPath2,
+      raw.IconsaxBulk.aiAcPath3,
+      raw.IconsaxBulk.aiAcPath4,
+      raw.IconsaxBulk.aiAcPath5,
       raw.IconsaxBulk.aiAcPath6,
       raw.IconsaxBulk.aiAcPath7,
     ],
@@ -109,8 +109,8 @@ class IconsaxBulk {
   static const IconsaxIconData aiAdd = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.aiAddPath1,
-      raw.IconsaxBulk.aiAddPath3,
       raw.IconsaxBulk.aiAddPath2,
+      raw.IconsaxBulk.aiAddPath3,
     ],
     opacities: [
       0.4,
@@ -123,13 +123,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiAntenna` icon.
   static const IconsaxIconData aiAntenna = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiAntennaPath4,
-      raw.IconsaxBulk.aiAntennaPath7,
-      raw.IconsaxBulk.aiAntennaPath5,
       raw.IconsaxBulk.aiAntennaPath1,
       raw.IconsaxBulk.aiAntennaPath2,
       raw.IconsaxBulk.aiAntennaPath3,
+      raw.IconsaxBulk.aiAntennaPath4,
+      raw.IconsaxBulk.aiAntennaPath5,
       raw.IconsaxBulk.aiAntennaPath6,
+      raw.IconsaxBulk.aiAntennaPath7,
     ],
     opacities: [
       0.4,
@@ -146,9 +146,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiCommentary` icon.
   static const IconsaxIconData aiCommentary = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiCommentaryPath3,
-      raw.IconsaxBulk.aiCommentaryPath2,
       raw.IconsaxBulk.aiCommentaryPath1,
+      raw.IconsaxBulk.aiCommentaryPath2,
+      raw.IconsaxBulk.aiCommentaryPath3,
     ],
     opacities: [
       0.4,
@@ -161,11 +161,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiFuelTank` icon.
   static const IconsaxIconData aiFuelTank = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiFuelTankPath4,
-      raw.IconsaxBulk.aiFuelTankPath2,
-      raw.IconsaxBulk.aiFuelTankPath5,
       raw.IconsaxBulk.aiFuelTankPath1,
+      raw.IconsaxBulk.aiFuelTankPath2,
       raw.IconsaxBulk.aiFuelTankPath3,
+      raw.IconsaxBulk.aiFuelTankPath4,
+      raw.IconsaxBulk.aiFuelTankPath5,
     ],
     opacities: [
       0.4,
@@ -180,9 +180,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiHeartSquare` icon.
   static const IconsaxIconData aiHeartSquare = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.aiHeartSquarePath1,
       raw.IconsaxBulk.aiHeartSquarePath2,
       raw.IconsaxBulk.aiHeartSquarePath3,
-      raw.IconsaxBulk.aiHeartSquarePath1,
     ],
     opacities: [
       0.4,
@@ -211,8 +211,8 @@ class IconsaxBulk {
   static const IconsaxIconData aiHospital = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.aiHospitalPath1,
-      raw.IconsaxBulk.aiHospitalPath3,
       raw.IconsaxBulk.aiHospitalPath2,
+      raw.IconsaxBulk.aiHospitalPath3,
     ],
     opacities: [
       0.4,
@@ -225,9 +225,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiHousing` icon.
   static const IconsaxIconData aiHousing = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiHousingPath3,
-      raw.IconsaxBulk.aiHousingPath2,
       raw.IconsaxBulk.aiHousingPath1,
+      raw.IconsaxBulk.aiHousingPath2,
+      raw.IconsaxBulk.aiHousingPath3,
     ],
     opacities: [
       0.4,
@@ -240,8 +240,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiLandscape` icon.
   static const IconsaxIconData aiLandscape = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiLandscapePath2,
       raw.IconsaxBulk.aiLandscapePath1,
+      raw.IconsaxBulk.aiLandscapePath2,
       raw.IconsaxBulk.aiLandscapePath3,
     ],
     opacities: [
@@ -255,9 +255,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiLoveletter` icon.
   static const IconsaxIconData aiLoveletter = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.aiLoveletterPath1,
       raw.IconsaxBulk.aiLoveletterPath2,
       raw.IconsaxBulk.aiLoveletterPath3,
-      raw.IconsaxBulk.aiLoveletterPath1,
       raw.IconsaxBulk.aiLoveletterPath4,
     ],
     opacities: [
@@ -272,9 +272,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiRecordVideo` icon.
   static const IconsaxIconData aiRecordVideo = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiRecordVideoPath3,
-      raw.IconsaxBulk.aiRecordVideoPath2,
       raw.IconsaxBulk.aiRecordVideoPath1,
+      raw.IconsaxBulk.aiRecordVideoPath2,
+      raw.IconsaxBulk.aiRecordVideoPath3,
     ],
     opacities: [
       0.4,
@@ -328,11 +328,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiSyringe` icon.
   static const IconsaxIconData aiSyringe = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.aiSyringePath1,
+      raw.IconsaxBulk.aiSyringePath2,
       raw.IconsaxBulk.aiSyringePath3,
       raw.IconsaxBulk.aiSyringePath4,
       raw.IconsaxBulk.aiSyringePath5,
-      raw.IconsaxBulk.aiSyringePath1,
-      raw.IconsaxBulk.aiSyringePath2,
     ],
     opacities: [
       1.0,
@@ -347,9 +347,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiTagPrice` icon.
   static const IconsaxIconData aiTagPrice = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.aiTagPricePath1,
       raw.IconsaxBulk.aiTagPricePath2,
       raw.IconsaxBulk.aiTagPricePath3,
-      raw.IconsaxBulk.aiTagPricePath1,
     ],
     opacities: [
       0.4,
@@ -362,15 +362,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiTools` icon.
   static const IconsaxIconData aiTools = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiToolsPath2,
       raw.IconsaxBulk.aiToolsPath1,
+      raw.IconsaxBulk.aiToolsPath2,
       raw.IconsaxBulk.aiToolsGroup1,
       raw.IconsaxBulk.aiToolsPath3,
     ],
     opacities: [
       1.0,
       1.0,
-      1.0,
+      0.4,
       1.0,
     ],
   );
@@ -379,11 +379,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiUsers` icon.
   static const IconsaxIconData aiUsers = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.aiUsersPath1,
+      raw.IconsaxBulk.aiUsersPath2,
+      raw.IconsaxBulk.aiUsersPath3,
       raw.IconsaxBulk.aiUsersPath4,
       raw.IconsaxBulk.aiUsersPath5,
-      raw.IconsaxBulk.aiUsersPath2,
-      raw.IconsaxBulk.aiUsersPath1,
-      raw.IconsaxBulk.aiUsersPath3,
     ],
     opacities: [
       1.0,
@@ -398,10 +398,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiWaterCycle` icon.
   static const IconsaxIconData aiWaterCycle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiWaterCyclePath4,
-      raw.IconsaxBulk.aiWaterCyclePath3,
-      raw.IconsaxBulk.aiWaterCyclePath2,
       raw.IconsaxBulk.aiWaterCyclePath1,
+      raw.IconsaxBulk.aiWaterCyclePath2,
+      raw.IconsaxBulk.aiWaterCyclePath3,
+      raw.IconsaxBulk.aiWaterCyclePath4,
     ],
     opacities: [
       1.0,
@@ -415,12 +415,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkAiWeight` icon.
   static const IconsaxIconData aiWeight = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aiWeightPath6,
-      raw.IconsaxBulk.aiWeightPath4,
-      raw.IconsaxBulk.aiWeightPath2,
-      raw.IconsaxBulk.aiWeightPath5,
       raw.IconsaxBulk.aiWeightPath1,
+      raw.IconsaxBulk.aiWeightPath2,
       raw.IconsaxBulk.aiWeightPath3,
+      raw.IconsaxBulk.aiWeightPath4,
+      raw.IconsaxBulk.aiWeightPath5,
+      raw.IconsaxBulk.aiWeightPath6,
     ],
     opacities: [
       0.4,
@@ -436,10 +436,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkAirdrop` icon.
   static const IconsaxIconData airdrop = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.airdropPath3,
-      raw.IconsaxBulk.airdropPath4,
       raw.IconsaxBulk.airdropPath1,
       raw.IconsaxBulk.airdropPath2,
+      raw.IconsaxBulk.airdropPath3,
+      raw.IconsaxBulk.airdropPath4,
     ],
     opacities: [
       1.0,
@@ -453,8 +453,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAirplane` icon.
   static const IconsaxIconData airplane = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.airplanePath2,
       raw.IconsaxBulk.airplanePath1,
+      raw.IconsaxBulk.airplanePath2,
     ],
     opacities: [
       1.0,
@@ -490,12 +490,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkAirpods` icon.
   static const IconsaxIconData airpods = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.airpodsPath2,
-      raw.IconsaxBulk.airpodsPath4,
-      raw.IconsaxBulk.airpodsPath6,
-      raw.IconsaxBulk.airpodsPath5,
       raw.IconsaxBulk.airpodsPath1,
+      raw.IconsaxBulk.airpodsPath2,
       raw.IconsaxBulk.airpodsPath3,
+      raw.IconsaxBulk.airpodsPath4,
+      raw.IconsaxBulk.airpodsPath5,
+      raw.IconsaxBulk.airpodsPath6,
     ],
     opacities: [
       0.4,
@@ -511,10 +511,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlarm` icon.
   static const IconsaxIconData alarm = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.alarmPath5,
+      raw.IconsaxBulk.alarmPath1,
       raw.IconsaxBulk.alarmPath2,
       raw.IconsaxBulk.alarmPath3,
-      raw.IconsaxBulk.alarmPath1,
+      raw.IconsaxBulk.alarmPath5,
     ],
     opacities: [
       0.4,
@@ -528,9 +528,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlignBottom` icon.
   static const IconsaxIconData alignBottom = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.alignBottomPath3,
-      raw.IconsaxBulk.alignBottomPath2,
       raw.IconsaxBulk.alignBottomPath1,
+      raw.IconsaxBulk.alignBottomPath2,
+      raw.IconsaxBulk.alignBottomPath3,
     ],
     opacities: [
       1.0,
@@ -543,11 +543,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlignHorizontally` icon.
   static const IconsaxIconData alignHorizontally = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.alignHorizontallyPath1,
       raw.IconsaxBulk.alignHorizontallyPath2,
-      raw.IconsaxBulk.alignHorizontallyPath5,
       raw.IconsaxBulk.alignHorizontallyPath3,
       raw.IconsaxBulk.alignHorizontallyPath4,
-      raw.IconsaxBulk.alignHorizontallyPath1,
+      raw.IconsaxBulk.alignHorizontallyPath5,
     ],
     opacities: [
       1.0,
@@ -574,8 +574,8 @@ class IconsaxBulk {
   static const IconsaxIconData alignLeftFaa4 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.alignLeftFaa4Path1,
-      raw.IconsaxBulk.alignLeftFaa4Path3,
       raw.IconsaxBulk.alignLeftFaa4Path2,
+      raw.IconsaxBulk.alignLeftFaa4Path3,
     ],
     opacities: [
       1.0,
@@ -588,9 +588,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlignRight` icon.
   static const IconsaxIconData alignRight = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.alignRightPath1,
       raw.IconsaxBulk.alignRightPath2,
       raw.IconsaxBulk.alignRightPath3,
-      raw.IconsaxBulk.alignRightPath1,
     ],
     opacities: [
       1.0,
@@ -603,8 +603,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlignTop1b71` icon.
   static const IconsaxIconData alignTop1b71 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.alignTop1b71Path2,
       raw.IconsaxBulk.alignTop1b71Path1,
+      raw.IconsaxBulk.alignTop1b71Path2,
     ],
     opacities: [
       1.0,
@@ -616,8 +616,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlignTop4a09` icon.
   static const IconsaxIconData alignTop4a09 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.alignTop4a09Path2,
       raw.IconsaxBulk.alignTop4a09Path1,
+      raw.IconsaxBulk.alignTop4a09Path2,
     ],
     opacities: [
       1.0,
@@ -629,11 +629,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAlignVertically` icon.
   static const IconsaxIconData alignVertically = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.alignVerticallyPath4,
-      raw.IconsaxBulk.alignVerticallyPath3,
-      raw.IconsaxBulk.alignVerticallyPath5,
       raw.IconsaxBulk.alignVerticallyPath1,
       raw.IconsaxBulk.alignVerticallyPath2,
+      raw.IconsaxBulk.alignVerticallyPath3,
+      raw.IconsaxBulk.alignVerticallyPath4,
+      raw.IconsaxBulk.alignVerticallyPath5,
     ],
     opacities: [
       1.0,
@@ -648,12 +648,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkAndroid` icon.
   static const IconsaxIconData android = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.androidPath1,
+      raw.IconsaxBulk.androidPath2,
       raw.IconsaxBulk.androidPath3,
+      raw.IconsaxBulk.androidPath4,
       raw.IconsaxBulk.androidPath5,
       raw.IconsaxBulk.androidPath6,
-      raw.IconsaxBulk.androidPath2,
-      raw.IconsaxBulk.androidPath4,
-      raw.IconsaxBulk.androidPath1,
     ],
     opacities: [
       1.0,
@@ -680,9 +680,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAngel2` icon.
   static const IconsaxIconData angel2 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.angel2Path1,
       raw.IconsaxBulk.angel2Path2,
       raw.IconsaxBulk.angel2Path3,
-      raw.IconsaxBulk.angel2Path1,
     ],
     opacities: [
       1.0,
@@ -695,9 +695,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAnkrAnkr` icon.
   static const IconsaxIconData ankrAnkr = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ankrAnkrPath3,
-      raw.IconsaxBulk.ankrAnkrPath2,
       raw.IconsaxBulk.ankrAnkrPath1,
+      raw.IconsaxBulk.ankrAnkrPath2,
+      raw.IconsaxBulk.ankrAnkrPath3,
     ],
     opacities: [
       1.0,
@@ -710,8 +710,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkApple` icon.
   static const IconsaxIconData apple = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.applePath2,
       raw.IconsaxBulk.applePath1,
+      raw.IconsaxBulk.applePath2,
     ],
     opacities: [
       1.0,
@@ -723,8 +723,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAquarius` icon.
   static const IconsaxIconData aquarius = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.aquariusPath2,
       raw.IconsaxBulk.aquariusPath1,
+      raw.IconsaxBulk.aquariusPath2,
     ],
     opacities: [
       1.0,
@@ -760,9 +760,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkArchiveB57c` icon.
   static const IconsaxIconData archiveB57c = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.archiveB57cPath3,
       raw.IconsaxBulk.archiveB57cPath1,
       raw.IconsaxBulk.archiveB57cPath2,
+      raw.IconsaxBulk.archiveB57cPath3,
     ],
     opacities: [
       0.4,
@@ -776,8 +776,8 @@ class IconsaxBulk {
   static const IconsaxIconData archiveBook = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.archiveBookPath1,
-      raw.IconsaxBulk.archiveBookPath4,
       raw.IconsaxBulk.archiveBookPath3,
+      raw.IconsaxBulk.archiveBookPath4,
     ],
     opacities: [
       0.4,
@@ -790,8 +790,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArchiveC847` icon.
   static const IconsaxIconData archiveC847 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.archiveC847Path2,
       raw.IconsaxBulk.archiveC847Path1,
+      raw.IconsaxBulk.archiveC847Path2,
     ],
     opacities: [
       0.4,
@@ -829,8 +829,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArchiveTick` icon.
   static const IconsaxIconData archiveTick = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.archiveTickPath2,
       raw.IconsaxBulk.archiveTickPath1,
+      raw.IconsaxBulk.archiveTickPath2,
     ],
     opacities: [
       0.4,
@@ -842,12 +842,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrow` icon.
   static const IconsaxIconData arrow = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowPath4,
       raw.IconsaxBulk.arrowPath1,
-      raw.IconsaxBulk.arrowPath3,
-      raw.IconsaxBulk.arrowPath6,
-      raw.IconsaxBulk.arrowPath5,
       raw.IconsaxBulk.arrowPath2,
+      raw.IconsaxBulk.arrowPath3,
+      raw.IconsaxBulk.arrowPath4,
+      raw.IconsaxBulk.arrowPath5,
+      raw.IconsaxBulk.arrowPath6,
     ],
     opacities: [
       0.4,
@@ -946,8 +946,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowDown3` icon.
   static const IconsaxIconData arrowDown3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowDown3Path2,
       raw.IconsaxBulk.arrowDown3Path1,
+      raw.IconsaxBulk.arrowDown3Path2,
     ],
     opacities: [
       0.4,
@@ -985,8 +985,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowLeft` icon.
   static const IconsaxIconData arrowLeft = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowLeftPath2,
       raw.IconsaxBulk.arrowLeftPath1,
+      raw.IconsaxBulk.arrowLeftPath2,
     ],
     opacities: [
       0.4,
@@ -1048,8 +1048,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowRight2` icon.
   static const IconsaxIconData arrowRight2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowRight2Path2,
       raw.IconsaxBulk.arrowRight2Path1,
+      raw.IconsaxBulk.arrowRight2Path2,
     ],
     opacities: [
       0.4,
@@ -1061,8 +1061,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowRight3` icon.
   static const IconsaxIconData arrowRight3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowRight3Path2,
       raw.IconsaxBulk.arrowRight3Path1,
+      raw.IconsaxBulk.arrowRight3Path2,
     ],
     opacities: [
       0.4,
@@ -1074,8 +1074,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowSquare` icon.
   static const IconsaxIconData arrowSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowSquarePath2,
       raw.IconsaxBulk.arrowSquarePath1,
+      raw.IconsaxBulk.arrowSquarePath2,
     ],
     opacities: [
       0.4,
@@ -1131,9 +1131,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowSwap` icon.
   static const IconsaxIconData arrowSwap = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.arrowSwapPath1,
       raw.IconsaxBulk.arrowSwapPath2,
       raw.IconsaxBulk.arrowSwapPath3,
-      raw.IconsaxBulk.arrowSwapPath1,
     ],
     opacities: [
       0.4,
@@ -1146,11 +1146,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowSwap2` icon.
   static const IconsaxIconData arrowSwap2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowSwap2Path3,
       raw.IconsaxBulk.arrowSwap2Path2,
+      raw.IconsaxBulk.arrowSwap2Path3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -1163,7 +1163,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.arrowSwap3Path3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -1198,8 +1198,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowUp` icon.
   static const IconsaxIconData arrowUp = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowUpPath2,
       raw.IconsaxBulk.arrowUpPath1,
+      raw.IconsaxBulk.arrowUpPath2,
     ],
     opacities: [
       1.0,
@@ -1211,8 +1211,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkArrowUp2` icon.
   static const IconsaxIconData arrowUp2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.arrowUp2Path2,
       raw.IconsaxBulk.arrowUp2Path1,
+      raw.IconsaxBulk.arrowUp2Path2,
     ],
     opacities: [
       0.4,
@@ -1262,7 +1262,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.attachSquarePath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -1281,11 +1281,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkAugurRep` icon.
   static const IconsaxIconData augurRep = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.augurRepPath3,
       raw.IconsaxBulk.augurRepPath2,
+      raw.IconsaxBulk.augurRepPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -1294,8 +1294,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAutobrightness` icon.
   static const IconsaxIconData autobrightness = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.autobrightnessPath2,
       raw.IconsaxBulk.autobrightnessPath1,
+      raw.IconsaxBulk.autobrightnessPath2,
       raw.IconsaxBulk.autobrightnessPath3,
     ],
     opacities: [
@@ -1314,7 +1314,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.autonioNioxPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -1324,8 +1324,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkAvalancheAvax` icon.
   static const IconsaxIconData avalancheAvax = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.avalancheAvaxPath2,
       raw.IconsaxBulk.avalancheAvaxPath1,
+      raw.IconsaxBulk.avalancheAvaxPath2,
     ],
     opacities: [
       1.0,
@@ -1337,9 +1337,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkAward` icon.
   static const IconsaxIconData award = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.awardPath1,
       raw.IconsaxBulk.awardPath2,
       raw.IconsaxBulk.awardPath3,
-      raw.IconsaxBulk.awardPath1,
     ],
     opacities: [
       0.4,
@@ -1365,9 +1365,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBackward10Seconds` icon.
   static const IconsaxIconData backward10Seconds = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.backward10SecondsPath1,
       raw.IconsaxBulk.backward10SecondsPath2,
       raw.IconsaxBulk.backward10SecondsPath3,
-      raw.IconsaxBulk.backward10SecondsPath1,
     ],
     opacities: [
       1.0,
@@ -1385,7 +1385,7 @@ class IconsaxBulk {
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -1406,9 +1406,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBackwardItem` icon.
   static const IconsaxIconData backwardItem = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.backwardItemPath3,
       raw.IconsaxBulk.backwardItemPath1,
       raw.IconsaxBulk.backwardItemPath2,
+      raw.IconsaxBulk.backwardItemPath3,
     ],
     opacities: [
       0.4,
@@ -1506,8 +1506,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBagTimer` icon.
   static const IconsaxIconData bagTimer = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bagTimerPath4,
       raw.IconsaxBulk.bagTimerPath3,
+      raw.IconsaxBulk.bagTimerPath4,
     ],
     opacities: [
       0.4,
@@ -1520,8 +1520,8 @@ class IconsaxBulk {
   static const IconsaxIconData ball10 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.ball10Path1,
-      raw.IconsaxBulk.ball10Path3,
       raw.IconsaxBulk.ball10Path2,
+      raw.IconsaxBulk.ball10Path3,
     ],
     opacities: [
       0.4,
@@ -1534,14 +1534,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall11` icon.
   static const IconsaxIconData ball11 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball11Path4,
       raw.IconsaxBulk.ball11Path1,
       raw.IconsaxBulk.ball11Path3,
+      raw.IconsaxBulk.ball11Path4,
     ],
     opacities: [
       1.0,
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -1549,9 +1549,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall12` icon.
   static const IconsaxIconData ball12 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball12Path3,
       raw.IconsaxBulk.ball12Path1,
       raw.IconsaxBulk.ball12Path2,
+      raw.IconsaxBulk.ball12Path3,
       raw.IconsaxBulk.ball12Path4,
     ],
     opacities: [
@@ -1566,9 +1566,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall13` icon.
   static const IconsaxIconData ball13 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball13Path3,
-      raw.IconsaxBulk.ball13Path2,
       raw.IconsaxBulk.ball13Path1,
+      raw.IconsaxBulk.ball13Path2,
+      raw.IconsaxBulk.ball13Path3,
     ],
     opacities: [
       1.0,
@@ -1581,15 +1581,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall14` icon.
   static const IconsaxIconData ball14 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball14Path2,
-      raw.IconsaxBulk.ball14Path6,
-      raw.IconsaxBulk.ball14Path9,
       raw.IconsaxBulk.ball14Path1,
+      raw.IconsaxBulk.ball14Path2,
+      raw.IconsaxBulk.ball14Path3,
       raw.IconsaxBulk.ball14Path4,
       raw.IconsaxBulk.ball14Path5,
-      raw.IconsaxBulk.ball14Path8,
+      raw.IconsaxBulk.ball14Path6,
       raw.IconsaxBulk.ball14Path7,
-      raw.IconsaxBulk.ball14Path3,
+      raw.IconsaxBulk.ball14Path8,
+      raw.IconsaxBulk.ball14Path9,
     ],
     opacities: [
       1.0,
@@ -1608,10 +1608,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall15` icon.
   static const IconsaxIconData ball15 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball15Path4,
-      raw.IconsaxBulk.ball15Path3,
       raw.IconsaxBulk.ball15Path1,
       raw.IconsaxBulk.ball15Path2,
+      raw.IconsaxBulk.ball15Path3,
+      raw.IconsaxBulk.ball15Path4,
     ],
     opacities: [
       1.0,
@@ -1625,16 +1625,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall16` icon.
   static const IconsaxIconData ball16 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball16Path4,
       raw.IconsaxBulk.ball16Path1,
-      raw.IconsaxBulk.ball16Path5,
       raw.IconsaxBulk.ball16Path2,
+      raw.IconsaxBulk.ball16Path4,
+      raw.IconsaxBulk.ball16Path5,
     ],
     opacities: [
       1.0,
       0.4,
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -1642,15 +1642,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall17` icon.
   static const IconsaxIconData ball17 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball17Path2,
-      raw.IconsaxBulk.ball17Group2,
       raw.IconsaxBulk.ball17Path1,
       raw.IconsaxBulk.ball17Group1,
+      raw.IconsaxBulk.ball17Group2,
+      raw.IconsaxBulk.ball17Path2,
     ],
     opacities: [
       1.0,
-      1.0,
-      1.0,
+      0.4,
+      0.4,
       1.0,
     ],
   );
@@ -1659,10 +1659,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall18` icon.
   static const IconsaxIconData ball18 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball18Path4,
-      raw.IconsaxBulk.ball18Path3,
       raw.IconsaxBulk.ball18Path1,
       raw.IconsaxBulk.ball18Path2,
+      raw.IconsaxBulk.ball18Path3,
+      raw.IconsaxBulk.ball18Path4,
     ],
     opacities: [
       1.0,
@@ -1676,16 +1676,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall19` icon.
   static const IconsaxIconData ball19 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball19Path2,
-      raw.IconsaxBulk.ball19Path9,
-      raw.IconsaxBulk.ball19Path7,
-      raw.IconsaxBulk.ball19Path4,
-      raw.IconsaxBulk.ball19Path3,
-      raw.IconsaxBulk.ball19Path6,
-      raw.IconsaxBulk.ball19Path10,
       raw.IconsaxBulk.ball19Path1,
-      raw.IconsaxBulk.ball19Path8,
+      raw.IconsaxBulk.ball19Path2,
+      raw.IconsaxBulk.ball19Path3,
+      raw.IconsaxBulk.ball19Path4,
       raw.IconsaxBulk.ball19Path5,
+      raw.IconsaxBulk.ball19Path6,
+      raw.IconsaxBulk.ball19Path7,
+      raw.IconsaxBulk.ball19Path8,
+      raw.IconsaxBulk.ball19Path9,
+      raw.IconsaxBulk.ball19Path10,
     ],
     opacities: [
       0.4,
@@ -1706,12 +1706,12 @@ class IconsaxBulk {
   static const IconsaxIconData ball20 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.ball20Path1,
-      raw.IconsaxBulk.ball20Path2,
       raw.IconsaxBulk.ball20Group1,
+      raw.IconsaxBulk.ball20Path2,
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
       1.0,
     ],
   );
@@ -1732,8 +1732,8 @@ class IconsaxBulk {
   static const IconsaxIconData ball22 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.ball22Path1,
-      raw.IconsaxBulk.ball22Path3,
       raw.IconsaxBulk.ball22Path2,
+      raw.IconsaxBulk.ball22Path3,
     ],
     opacities: [
       1.0,
@@ -1759,11 +1759,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall24` icon.
   static const IconsaxIconData ball24 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.ball24Path1,
+      raw.IconsaxBulk.ball24Path2,
+      raw.IconsaxBulk.ball24Path3,
       raw.IconsaxBulk.ball24Path4,
       raw.IconsaxBulk.ball24Path5,
-      raw.IconsaxBulk.ball24Path1,
-      raw.IconsaxBulk.ball24Path3,
-      raw.IconsaxBulk.ball24Path2,
     ],
     opacities: [
       0.4,
@@ -1778,10 +1778,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall25` icon.
   static const IconsaxIconData ball25 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball25Path5,
-      raw.IconsaxBulk.ball25Path3,
-      raw.IconsaxBulk.ball25Path2,
       raw.IconsaxBulk.ball25Path1,
+      raw.IconsaxBulk.ball25Path2,
+      raw.IconsaxBulk.ball25Path3,
+      raw.IconsaxBulk.ball25Path5,
     ],
     opacities: [
       0.4,
@@ -1795,11 +1795,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall26` icon.
   static const IconsaxIconData ball26 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.ball26Path1,
       raw.IconsaxBulk.ball26Path2,
       raw.IconsaxBulk.ball26Path3,
       raw.IconsaxBulk.ball26Path4,
       raw.IconsaxBulk.ball26Path5,
-      raw.IconsaxBulk.ball26Path1,
     ],
     opacities: [
       0.4,
@@ -1814,14 +1814,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall262` icon.
   static const IconsaxIconData ball262 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball262Path2,
       raw.IconsaxBulk.ball262Path1,
+      raw.IconsaxBulk.ball262Path2,
       raw.IconsaxBulk.ball262Group1,
     ],
     opacities: [
       0.4,
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -1829,12 +1829,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall27` icon.
   static const IconsaxIconData ball27 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.ball27Path1,
       raw.IconsaxBulk.ball27Path2,
       raw.IconsaxBulk.ball27Path3,
-      raw.IconsaxBulk.ball27Path6,
-      raw.IconsaxBulk.ball27Path1,
       raw.IconsaxBulk.ball27Path4,
       raw.IconsaxBulk.ball27Path5,
+      raw.IconsaxBulk.ball27Path6,
     ],
     opacities: [
       0.4,
@@ -1850,12 +1850,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall272` icon.
   static const IconsaxIconData ball272 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball272Path4,
-      raw.IconsaxBulk.ball272Path3,
       raw.IconsaxBulk.ball272Path2,
+      raw.IconsaxBulk.ball272Path3,
+      raw.IconsaxBulk.ball272Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -1883,7 +1883,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.ball4Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -1912,7 +1912,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.ball6Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -1921,12 +1921,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall7` icon.
   static const IconsaxIconData ball7 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball7Path3,
       raw.IconsaxBulk.ball7Path2,
+      raw.IconsaxBulk.ball7Path3,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -1934,16 +1934,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall8` icon.
   static const IconsaxIconData ball8 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ball8Path5,
+      raw.IconsaxBulk.ball8Path1,
       raw.IconsaxBulk.ball8Path2,
       raw.IconsaxBulk.ball8Path3,
-      raw.IconsaxBulk.ball8Path1,
+      raw.IconsaxBulk.ball8Path5,
     ],
     opacities: [
       1.0,
       0.4,
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -1951,9 +1951,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBall9` icon.
   static const IconsaxIconData ball9 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.ball9Path1,
       raw.IconsaxBulk.ball9Path2,
       raw.IconsaxBulk.ball9Path3,
-      raw.IconsaxBulk.ball9Path1,
     ],
     opacities: [
       1.0,
@@ -1977,9 +1977,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBaloons` icon.
   static const IconsaxIconData baloons = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.baloonsPath1,
       raw.IconsaxBulk.baloonsPath2,
       raw.IconsaxBulk.baloonsPath3,
-      raw.IconsaxBulk.baloonsPath1,
     ],
     opacities: [
       1.0,
@@ -1992,13 +1992,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkBank` icon.
   static const IconsaxIconData bank = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bankPath3,
       raw.IconsaxBulk.bankPath1,
-      raw.IconsaxBulk.bankPath5,
-      raw.IconsaxBulk.bankPath4,
       raw.IconsaxBulk.bankPath2,
-      raw.IconsaxBulk.bankPath7,
+      raw.IconsaxBulk.bankPath3,
+      raw.IconsaxBulk.bankPath4,
+      raw.IconsaxBulk.bankPath5,
       raw.IconsaxBulk.bankPath6,
+      raw.IconsaxBulk.bankPath7,
     ],
     opacities: [
       1.0,
@@ -2015,14 +2015,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkBarcode` icon.
   static const IconsaxIconData barcode = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.barcodePath4,
-      raw.IconsaxBulk.barcodePath7,
-      raw.IconsaxBulk.barcodePath3,
-      raw.IconsaxBulk.barcodePath2,
-      raw.IconsaxBulk.barcodePath8,
       raw.IconsaxBulk.barcodePath1,
+      raw.IconsaxBulk.barcodePath2,
+      raw.IconsaxBulk.barcodePath3,
+      raw.IconsaxBulk.barcodePath4,
       raw.IconsaxBulk.barcodePath5,
       raw.IconsaxBulk.barcodePath6,
+      raw.IconsaxBulk.barcodePath7,
+      raw.IconsaxBulk.barcodePath8,
     ],
     opacities: [
       0.4,
@@ -2040,10 +2040,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBattery2bars` icon.
   static const IconsaxIconData battery2bars = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.battery2barsPath4,
-      raw.IconsaxBulk.battery2barsPath2,
       raw.IconsaxBulk.battery2barsPath1,
+      raw.IconsaxBulk.battery2barsPath2,
       raw.IconsaxBulk.battery2barsPath3,
+      raw.IconsaxBulk.battery2barsPath4,
     ],
     opacities: [
       0.4,
@@ -2068,14 +2068,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkBatteryDisable` icon.
   static const IconsaxIconData batteryDisable = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.batteryDisablePath2,
       raw.IconsaxBulk.batteryDisablePath3,
       raw.IconsaxBulk.batteryDisablePath4,
-      raw.IconsaxBulk.batteryDisablePath2,
     ],
     opacities: [
+      0.4,
+      0.4,
       1.0,
-      0.4,
-      0.4,
     ],
   );
 
@@ -2106,8 +2106,8 @@ class IconsaxBulk {
   static const IconsaxIconData behance = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.behancePath1,
-      raw.IconsaxBulk.behancePath3,
       raw.IconsaxBulk.behancePath2,
+      raw.IconsaxBulk.behancePath3,
     ],
     opacities: [
       1.0,
@@ -2120,9 +2120,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBell` icon.
   static const IconsaxIconData bell = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.bellPath1,
       raw.IconsaxBulk.bellPath2,
       raw.IconsaxBulk.bellPath3,
-      raw.IconsaxBulk.bellPath1,
     ],
     opacities: [
       1.0,
@@ -2135,8 +2135,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBell2` icon.
   static const IconsaxIconData bell2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bell2Path2,
       raw.IconsaxBulk.bell2Path1,
+      raw.IconsaxBulk.bell2Path2,
     ],
     opacities: [
       0.4,
@@ -2148,11 +2148,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBezier` icon.
   static const IconsaxIconData bezier = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bezierPath5,
-      raw.IconsaxBulk.bezierPath3,
       raw.IconsaxBulk.bezierPath1,
       raw.IconsaxBulk.bezierPath2,
+      raw.IconsaxBulk.bezierPath3,
       raw.IconsaxBulk.bezierPath4,
+      raw.IconsaxBulk.bezierPath5,
     ],
     opacities: [
       1.0,
@@ -2168,9 +2168,9 @@ class IconsaxBulk {
   static const IconsaxIconData bill = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.billPath1,
-      raw.IconsaxBulk.billPath4,
       raw.IconsaxBulk.billPath2,
       raw.IconsaxBulk.billPath3,
+      raw.IconsaxBulk.billPath4,
     ],
     opacities: [
       0.4,
@@ -2184,11 +2184,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBinanceCoinBnb` icon.
   static const IconsaxIconData binanceCoinBnb = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.binanceCoinBnbPath1,
       raw.IconsaxBulk.binanceCoinBnbPath2,
       raw.IconsaxBulk.binanceCoinBnbPath3,
-      raw.IconsaxBulk.binanceCoinBnbPath5,
       raw.IconsaxBulk.binanceCoinBnbPath4,
-      raw.IconsaxBulk.binanceCoinBnbPath1,
+      raw.IconsaxBulk.binanceCoinBnbPath5,
     ],
     opacities: [
       1.0,
@@ -2204,9 +2204,9 @@ class IconsaxBulk {
   static const IconsaxIconData binanceUsdBusd = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.binanceUsdBusdPath1,
-      raw.IconsaxBulk.binanceUsdBusdPath4,
       raw.IconsaxBulk.binanceUsdBusdPath2,
       raw.IconsaxBulk.binanceUsdBusdPath3,
+      raw.IconsaxBulk.binanceUsdBusdPath4,
     ],
     opacities: [
       1.0,
@@ -2220,9 +2220,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBirds` icon.
   static const IconsaxIconData birds = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.birdsPath1,
       raw.IconsaxBulk.birdsPath2,
       raw.IconsaxBulk.birdsPath3,
-      raw.IconsaxBulk.birdsPath1,
     ],
     opacities: [
       1.0,
@@ -2246,9 +2246,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBitcoinCard` icon.
   static const IconsaxIconData bitcoinCard = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bitcoinCardPath3,
       raw.IconsaxBulk.bitcoinCardPath1,
       raw.IconsaxBulk.bitcoinCardPath2,
+      raw.IconsaxBulk.bitcoinCardPath3,
     ],
     opacities: [
       0.4,
@@ -2261,11 +2261,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBitcoinConvert` icon.
   static const IconsaxIconData bitcoinConvert = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bitcoinConvertPath3,
-      raw.IconsaxBulk.bitcoinConvertPath5,
-      raw.IconsaxBulk.bitcoinConvertPath2,
       raw.IconsaxBulk.bitcoinConvertPath1,
+      raw.IconsaxBulk.bitcoinConvertPath2,
+      raw.IconsaxBulk.bitcoinConvertPath3,
       raw.IconsaxBulk.bitcoinConvertPath4,
+      raw.IconsaxBulk.bitcoinConvertPath5,
     ],
     opacities: [
       0.4,
@@ -2280,8 +2280,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBitcoinRefresh` icon.
   static const IconsaxIconData bitcoinRefresh = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bitcoinRefreshPath2,
       raw.IconsaxBulk.bitcoinRefreshPath1,
+      raw.IconsaxBulk.bitcoinRefreshPath2,
       raw.IconsaxBulk.bitcoinRefreshPath3,
     ],
     opacities: [
@@ -2295,10 +2295,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBlend4975` icon.
   static const IconsaxIconData blend4975 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.blend4975Path3,
-      raw.IconsaxBulk.blend4975Path2,
-      raw.IconsaxBulk.blend4975Path4,
       raw.IconsaxBulk.blend4975Path1,
+      raw.IconsaxBulk.blend4975Path2,
+      raw.IconsaxBulk.blend4975Path3,
+      raw.IconsaxBulk.blend4975Path4,
     ],
     opacities: [
       1.0,
@@ -2312,8 +2312,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBlend63e8` icon.
   static const IconsaxIconData blend63e8 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.blend63e8Path2,
       raw.IconsaxBulk.blend63e8Path1,
+      raw.IconsaxBulk.blend63e8Path2,
     ],
     opacities: [
       1.0,
@@ -2325,8 +2325,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBlogger` icon.
   static const IconsaxIconData blogger = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bloggerPath2,
       raw.IconsaxBulk.bloggerPath1,
+      raw.IconsaxBulk.bloggerPath2,
     ],
     opacities: [
       1.0,
@@ -2338,12 +2338,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBluetooth3fa8` icon.
   static const IconsaxIconData bluetooth3fa8 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bluetooth3fa8Path3,
       raw.IconsaxBulk.bluetooth3fa8Path2,
+      raw.IconsaxBulk.bluetooth3fa8Path3,
       raw.IconsaxBulk.bluetooth3fa8Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -2366,8 +2366,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBluetoothCircle` icon.
   static const IconsaxIconData bluetoothCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bluetoothCirclePath2,
       raw.IconsaxBulk.bluetoothCirclePath1,
+      raw.IconsaxBulk.bluetoothCirclePath2,
     ],
     opacities: [
       0.4,
@@ -2379,8 +2379,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBluetoothRectangle` icon.
   static const IconsaxIconData bluetoothRectangle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bluetoothRectanglePath2,
       raw.IconsaxBulk.bluetoothRectanglePath1,
+      raw.IconsaxBulk.bluetoothRectanglePath2,
     ],
     opacities: [
       0.4,
@@ -2405,9 +2405,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBook` icon.
   static const IconsaxIconData book = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bookPath3,
-      raw.IconsaxBulk.bookPath2,
       raw.IconsaxBulk.bookPath1,
+      raw.IconsaxBulk.bookPath2,
+      raw.IconsaxBulk.bookPath3,
     ],
     opacities: [
       0.4,
@@ -2420,10 +2420,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBookOpen` icon.
   static const IconsaxIconData bookOpen = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bookOpenPath3,
       raw.IconsaxBulk.bookOpenPath1,
-      raw.IconsaxBulk.bookOpenPath4,
       raw.IconsaxBulk.bookOpenPath2,
+      raw.IconsaxBulk.bookOpenPath3,
+      raw.IconsaxBulk.bookOpenPath4,
     ],
     opacities: [
       0.4,
@@ -2438,8 +2438,8 @@ class IconsaxBulk {
   static const IconsaxIconData bookSaved = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.bookSavedPath1,
-      raw.IconsaxBulk.bookSavedPath3,
       raw.IconsaxBulk.bookSavedPath2,
+      raw.IconsaxBulk.bookSavedPath3,
     ],
     opacities: [
       0.4,
@@ -2493,8 +2493,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBookmarkAa34` icon.
   static const IconsaxIconData bookmarkAa34 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bookmarkAa34Path2,
       raw.IconsaxBulk.bookmarkAa34Path1,
+      raw.IconsaxBulk.bookmarkAa34Path2,
     ],
     opacities: [
       1.0,
@@ -2519,12 +2519,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBox391d` icon.
   static const IconsaxIconData box391d = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.box391dPath5,
       raw.IconsaxBulk.box391dPath4,
+      raw.IconsaxBulk.box391dPath5,
     ],
     opacities: [
-      0.4,
-      0.4,
+      1.0,
+      1.0,
     ],
   );
 
@@ -2532,10 +2532,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkBoxAdd` icon.
   static const IconsaxIconData boxAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.boxAddPath2,
       raw.IconsaxBulk.boxAddPath1,
-      raw.IconsaxBulk.boxAddPath4,
+      raw.IconsaxBulk.boxAddPath2,
       raw.IconsaxBulk.boxAddPath3,
+      raw.IconsaxBulk.boxAddPath4,
     ],
     opacities: [
       1.0,
@@ -2549,9 +2549,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBoxE5ec` icon.
   static const IconsaxIconData boxE5ec = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.boxE5ecPath3,
-      raw.IconsaxBulk.boxE5ecPath2,
       raw.IconsaxBulk.boxE5ecPath1,
+      raw.IconsaxBulk.boxE5ecPath2,
+      raw.IconsaxBulk.boxE5ecPath3,
     ],
     opacities: [
       0.4,
@@ -2564,13 +2564,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkBoxF6ea` icon.
   static const IconsaxIconData boxF6ea = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.boxF6eaPath3,
-      raw.IconsaxBulk.boxF6eaPath6,
-      raw.IconsaxBulk.boxF6eaPath5,
-      raw.IconsaxBulk.boxF6eaPath7,
-      raw.IconsaxBulk.boxF6eaPath2,
-      raw.IconsaxBulk.boxF6eaPath4,
       raw.IconsaxBulk.boxF6eaPath1,
+      raw.IconsaxBulk.boxF6eaPath2,
+      raw.IconsaxBulk.boxF6eaPath3,
+      raw.IconsaxBulk.boxF6eaPath4,
+      raw.IconsaxBulk.boxF6eaPath5,
+      raw.IconsaxBulk.boxF6eaPath6,
+      raw.IconsaxBulk.boxF6eaPath7,
     ],
     opacities: [
       0.4,
@@ -2589,8 +2589,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.boxRemovePath1,
       raw.IconsaxBulk.boxRemovePath2,
-      raw.IconsaxBulk.boxRemovePath4,
       raw.IconsaxBulk.boxRemovePath3,
+      raw.IconsaxBulk.boxRemovePath4,
     ],
     opacities: [
       1.0,
@@ -2604,14 +2604,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkBoxSearch` icon.
   static const IconsaxIconData boxSearch = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.boxSearchPath4,
       raw.IconsaxBulk.boxSearchPath1,
       raw.IconsaxBulk.boxSearchPath3,
+      raw.IconsaxBulk.boxSearchPath4,
     ],
     opacities: [
       0.4,
       0.4,
-      0.4,
+      1.0,
     ],
   );
 
@@ -2630,12 +2630,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBoxTime` icon.
   static const IconsaxIconData boxTime = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.boxTimePath4,
       raw.IconsaxBulk.boxTimePath1,
+      raw.IconsaxBulk.boxTimePath4,
     ],
     opacities: [
       0.4,
-      0.4,
+      1.0,
     ],
   );
 
@@ -2656,9 +2656,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkBrifecaseCross` icon.
   static const IconsaxIconData brifecaseCross = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.brifecaseCrossPath3,
-      raw.IconsaxBulk.brifecaseCrossPath2,
       raw.IconsaxBulk.brifecaseCrossPath1,
+      raw.IconsaxBulk.brifecaseCrossPath2,
+      raw.IconsaxBulk.brifecaseCrossPath3,
     ],
     opacities: [
       1.0,
@@ -2694,11 +2694,11 @@ class IconsaxBulk {
   static const IconsaxIconData broom = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.broomPath1,
-      raw.IconsaxBulk.broomPath5,
-      raw.IconsaxBulk.broomPath6,
       raw.IconsaxBulk.broomPath2,
       raw.IconsaxBulk.broomPath3,
       raw.IconsaxBulk.broomPath4,
+      raw.IconsaxBulk.broomPath5,
+      raw.IconsaxBulk.broomPath6,
     ],
     opacities: [
       0.4,
@@ -2730,9 +2730,9 @@ class IconsaxBulk {
   static const IconsaxIconData brushSquare = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.brushSquarePath1,
-      raw.IconsaxBulk.brushSquarePath4,
       raw.IconsaxBulk.brushSquarePath2,
       raw.IconsaxBulk.brushSquarePath3,
+      raw.IconsaxBulk.brushSquarePath4,
     ],
     opacities: [
       0.4,
@@ -2747,8 +2747,8 @@ class IconsaxBulk {
   static const IconsaxIconData bubble = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.bubblePath1,
-      raw.IconsaxBulk.bubblePath3,
       raw.IconsaxBulk.bubblePath2,
+      raw.IconsaxBulk.bubblePath3,
     ],
     opacities: [
       1.0,
@@ -2762,8 +2762,8 @@ class IconsaxBulk {
   static const IconsaxIconData bucket = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.bucketPath1,
-      raw.IconsaxBulk.bucketPath3,
       raw.IconsaxBulk.bucketPath2,
+      raw.IconsaxBulk.bucketPath3,
       raw.IconsaxBulk.bucketPath4,
     ],
     opacities: [
@@ -2782,7 +2782,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.bucketCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -2791,8 +2791,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkBucketSquare` icon.
   static const IconsaxIconData bucketSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.bucketSquarePath2,
       raw.IconsaxBulk.bucketSquarePath1,
+      raw.IconsaxBulk.bucketSquarePath2,
     ],
     opacities: [
       0.4,
@@ -2804,12 +2804,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkBuilding60e2` icon.
   static const IconsaxIconData building60e2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.building60e2Path5,
       raw.IconsaxBulk.building60e2Path1,
-      raw.IconsaxBulk.building60e2Path3,
       raw.IconsaxBulk.building60e2Path2,
-      raw.IconsaxBulk.building60e2Path6,
+      raw.IconsaxBulk.building60e2Path3,
       raw.IconsaxBulk.building60e2Path4,
+      raw.IconsaxBulk.building60e2Path5,
+      raw.IconsaxBulk.building60e2Path6,
     ],
     opacities: [
       0.4,
@@ -2826,8 +2826,8 @@ class IconsaxBulk {
   static const IconsaxIconData building6926 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.building6926Path1,
-      raw.IconsaxBulk.building6926Path3,
       raw.IconsaxBulk.building6926Path2,
+      raw.IconsaxBulk.building6926Path3,
       raw.IconsaxBulk.building6926Path4,
       raw.IconsaxBulk.building6926Path5,
     ],
@@ -2844,14 +2844,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkBuildingAa08` icon.
   static const IconsaxIconData buildingAa08 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.buildingAa08Path4,
       raw.IconsaxBulk.buildingAa08Path1,
-      raw.IconsaxBulk.buildingAa08Path6,
-      raw.IconsaxBulk.buildingAa08Path8,
-      raw.IconsaxBulk.buildingAa08Path3,
-      raw.IconsaxBulk.buildingAa08Path7,
-      raw.IconsaxBulk.buildingAa08Path5,
       raw.IconsaxBulk.buildingAa08Path2,
+      raw.IconsaxBulk.buildingAa08Path3,
+      raw.IconsaxBulk.buildingAa08Path4,
+      raw.IconsaxBulk.buildingAa08Path5,
+      raw.IconsaxBulk.buildingAa08Path6,
+      raw.IconsaxBulk.buildingAa08Path7,
+      raw.IconsaxBulk.buildingAa08Path8,
     ],
     opacities: [
       1.0,
@@ -2869,11 +2869,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBuildingF4ac` icon.
   static const IconsaxIconData buildingF4ac = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.buildingF4acPath5,
-      raw.IconsaxBulk.buildingF4acPath4,
+      raw.IconsaxBulk.buildingF4acPath1,
       raw.IconsaxBulk.buildingF4acPath2,
       raw.IconsaxBulk.buildingF4acPath3,
-      raw.IconsaxBulk.buildingF4acPath1,
+      raw.IconsaxBulk.buildingF4acPath4,
+      raw.IconsaxBulk.buildingF4acPath5,
     ],
     opacities: [
       0.4,
@@ -2888,11 +2888,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBuildings3ff3` icon.
   static const IconsaxIconData buildings3ff3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.buildings3ff3Path4,
-      raw.IconsaxBulk.buildings3ff3Path5,
       raw.IconsaxBulk.buildings3ff3Path1,
       raw.IconsaxBulk.buildings3ff3Path2,
       raw.IconsaxBulk.buildings3ff3Path3,
+      raw.IconsaxBulk.buildings3ff3Path4,
+      raw.IconsaxBulk.buildings3ff3Path5,
       raw.IconsaxBulk.buildings3ff3Path6,
     ],
     opacities: [
@@ -2909,11 +2909,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkBuildingsBf24` icon.
   static const IconsaxIconData buildingsBf24 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.buildingsBf24Path1,
       raw.IconsaxBulk.buildingsBf24Path2,
+      raw.IconsaxBulk.buildingsBf24Path3,
       raw.IconsaxBulk.buildingsBf24Path4,
       raw.IconsaxBulk.buildingsBf24Path5,
-      raw.IconsaxBulk.buildingsBf24Path3,
-      raw.IconsaxBulk.buildingsBf24Path1,
       raw.IconsaxBulk.buildingsBf24Path6,
     ],
     opacities: [
@@ -2931,12 +2931,12 @@ class IconsaxBulk {
   static const IconsaxIconData bus = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.busPath2,
-      raw.IconsaxBulk.busPath5,
-      raw.IconsaxBulk.busPath4,
       raw.IconsaxBulk.busPath3,
+      raw.IconsaxBulk.busPath4,
+      raw.IconsaxBulk.busPath5,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -2962,10 +2962,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkCake2` icon.
   static const IconsaxIconData cake2 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.cake2Path1,
       raw.IconsaxBulk.cake2Path2,
       raw.IconsaxBulk.cake2Path3,
       raw.IconsaxBulk.cake2Path4,
-      raw.IconsaxBulk.cake2Path1,
     ],
     opacities: [
       1.0,
@@ -2979,18 +2979,18 @@ class IconsaxBulk {
   /// Composite getter for `bulkCakeA2cb` icon.
   static const IconsaxIconData cakeA2cb = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.cakeA2cbPath2,
+      raw.IconsaxBulk.cakeA2cbPath3,
       raw.IconsaxBulk.cakeA2cbPath4,
       raw.IconsaxBulk.cakeA2cbPath5,
-      raw.IconsaxBulk.cakeA2cbPath3,
       raw.IconsaxBulk.cakeA2cbPath6,
-      raw.IconsaxBulk.cakeA2cbPath2,
     ],
     opacities: [
-      1.0,
       0.4,
       1.0,
       1.0,
       1.0,
+      0.4,
     ],
   );
 
@@ -2999,12 +2999,12 @@ class IconsaxBulk {
   static const IconsaxIconData cakeE395 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.cakeE395Path1,
-      raw.IconsaxBulk.cakeE395Path4,
       raw.IconsaxBulk.cakeE395Path3,
+      raw.IconsaxBulk.cakeE395Path4,
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3014,12 +3014,12 @@ class IconsaxBulk {
   static const IconsaxIconData calculator = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.calculatorPath1,
-      raw.IconsaxBulk.calculatorPath5,
-      raw.IconsaxBulk.calculatorPath4,
+      raw.IconsaxBulk.calculatorPath2,
       raw.IconsaxBulk.calculatorPath3,
+      raw.IconsaxBulk.calculatorPath4,
+      raw.IconsaxBulk.calculatorPath5,
       raw.IconsaxBulk.calculatorPath7,
       raw.IconsaxBulk.calculatorPath8,
-      raw.IconsaxBulk.calculatorPath2,
     ],
     opacities: [
       0.4,
@@ -3036,8 +3036,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendar2` icon.
   static const IconsaxIconData calendar2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.calendar2Path4,
       raw.IconsaxBulk.calendar2Path1,
+      raw.IconsaxBulk.calendar2Path4,
     ],
     opacities: [
       0.4,
@@ -3064,12 +3064,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendar4` icon.
   static const IconsaxIconData calendar4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.calendar4Path6,
       raw.IconsaxBulk.calendar4Path4,
       raw.IconsaxBulk.calendar4Path5,
+      raw.IconsaxBulk.calendar4Path6,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -3079,16 +3079,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendar4d18` icon.
   static const IconsaxIconData calendar4d18 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.calendar4d18Path7,
-      raw.IconsaxBulk.calendar4d18Path5,
-      raw.IconsaxBulk.calendar4d18Path6,
-      raw.IconsaxBulk.calendar4d18Path8,
       raw.IconsaxBulk.calendar4d18Path3,
       raw.IconsaxBulk.calendar4d18Path4,
+      raw.IconsaxBulk.calendar4d18Path5,
+      raw.IconsaxBulk.calendar4d18Path6,
+      raw.IconsaxBulk.calendar4d18Path7,
+      raw.IconsaxBulk.calendar4d18Path8,
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -3100,13 +3100,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendar681a` icon.
   static const IconsaxIconData calendar681a = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.calendar681aPath3,
       raw.IconsaxBulk.calendar681aPath4,
       raw.IconsaxBulk.calendar681aPath5,
-      raw.IconsaxBulk.calendar681aPath3,
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3126,12 +3126,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendarAdd` icon.
   static const IconsaxIconData calendarAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.calendarAddPath6,
+      raw.IconsaxBulk.calendarAddPath1,
       raw.IconsaxBulk.calendarAddPath2,
       raw.IconsaxBulk.calendarAddPath3,
-      raw.IconsaxBulk.calendarAddPath1,
-      raw.IconsaxBulk.calendarAddPath5,
       raw.IconsaxBulk.calendarAddPath4,
+      raw.IconsaxBulk.calendarAddPath5,
+      raw.IconsaxBulk.calendarAddPath6,
     ],
     opacities: [
       1.0,
@@ -3160,11 +3160,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendarCircle` icon.
   static const IconsaxIconData calendarCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.calendarCirclePath3,
       raw.IconsaxBulk.calendarCirclePath2,
+      raw.IconsaxBulk.calendarCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3173,11 +3173,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendarDate` icon.
   static const IconsaxIconData calendarDate = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.calendarDatePath5,
-      raw.IconsaxBulk.calendarDatePath4,
-      raw.IconsaxBulk.calendarDatePath2,
       raw.IconsaxBulk.calendarDatePath1,
+      raw.IconsaxBulk.calendarDatePath2,
       raw.IconsaxBulk.calendarDatePath3,
+      raw.IconsaxBulk.calendarDatePath4,
+      raw.IconsaxBulk.calendarDatePath5,
     ],
     opacities: [
       1.0,
@@ -3192,9 +3192,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendarEdit` icon.
   static const IconsaxIconData calendarEdit = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.calendarEditPath1,
       raw.IconsaxBulk.calendarEditPath2,
       raw.IconsaxBulk.calendarEditPath3,
-      raw.IconsaxBulk.calendarEditPath1,
     ],
     opacities: [
       1.0,
@@ -3240,13 +3240,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkCalendarTree` icon.
   static const IconsaxIconData calendarTree = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.calendarTreePath1,
       raw.IconsaxBulk.calendarTreePath2,
+      raw.IconsaxBulk.calendarTreePath3,
+      raw.IconsaxBulk.calendarTreePath4,
+      raw.IconsaxBulk.calendarTreePath5,
       raw.IconsaxBulk.calendarTreePath7,
       raw.IconsaxBulk.calendarTreePath8,
-      raw.IconsaxBulk.calendarTreePath5,
-      raw.IconsaxBulk.calendarTreePath4,
-      raw.IconsaxBulk.calendarTreePath3,
-      raw.IconsaxBulk.calendarTreePath1,
     ],
     opacities: [
       0.4,
@@ -3263,9 +3263,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCallAdd` icon.
   static const IconsaxIconData callAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.callAddPath3,
-      raw.IconsaxBulk.callAddPath2,
       raw.IconsaxBulk.callAddPath1,
+      raw.IconsaxBulk.callAddPath2,
+      raw.IconsaxBulk.callAddPath3,
     ],
     opacities: [
       1.0,
@@ -3278,8 +3278,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCallCalling` icon.
   static const IconsaxIconData callCalling = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.callCallingPath2,
       raw.IconsaxBulk.callCallingPath1,
+      raw.IconsaxBulk.callCallingPath2,
     ],
     opacities: [
       1.0,
@@ -3346,9 +3346,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCallSlash` icon.
   static const IconsaxIconData callSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.callSlashPath3,
       raw.IconsaxBulk.callSlashPath1,
       raw.IconsaxBulk.callSlashPath2,
+      raw.IconsaxBulk.callSlashPath3,
     ],
     opacities: [
       1.0,
@@ -3374,11 +3374,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCameraSlash` icon.
   static const IconsaxIconData cameraSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cameraSlashPath4,
-      raw.IconsaxBulk.cameraSlashPath3,
-      raw.IconsaxBulk.cameraSlashPath5,
       raw.IconsaxBulk.cameraSlashPath1,
       raw.IconsaxBulk.cameraSlashPath2,
+      raw.IconsaxBulk.cameraSlashPath3,
+      raw.IconsaxBulk.cameraSlashPath4,
+      raw.IconsaxBulk.cameraSlashPath5,
       raw.IconsaxBulk.cameraSlashPath6,
     ],
     opacities: [
@@ -3438,10 +3438,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkCandy2` icon.
   static const IconsaxIconData candy2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.candy2Path2,
-      raw.IconsaxBulk.candy2Path4,
       raw.IconsaxBulk.candy2Path1,
+      raw.IconsaxBulk.candy2Path2,
       raw.IconsaxBulk.candy2Path3,
+      raw.IconsaxBulk.candy2Path4,
     ],
     opacities: [
       1.0,
@@ -3470,10 +3470,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkCandy4` icon.
   static const IconsaxIconData candy4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.candy4Path4,
+      raw.IconsaxBulk.candy4Path1,
       raw.IconsaxBulk.candy4Path2,
       raw.IconsaxBulk.candy4Path3,
-      raw.IconsaxBulk.candy4Path1,
+      raw.IconsaxBulk.candy4Path4,
     ],
     opacities: [
       1.0,
@@ -3487,14 +3487,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkCandyCane3` icon.
   static const IconsaxIconData candyCane3 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.candyCane3Path1,
+      raw.IconsaxBulk.candyCane3Path2,
+      raw.IconsaxBulk.candyCane3Path3,
+      raw.IconsaxBulk.candyCane3Path4,
       raw.IconsaxBulk.candyCane3Path5,
+      raw.IconsaxBulk.candyCane3Path6,
       raw.IconsaxBulk.candyCane3Path7,
       raw.IconsaxBulk.candyCane3Path8,
-      raw.IconsaxBulk.candyCane3Path2,
-      raw.IconsaxBulk.candyCane3Path4,
-      raw.IconsaxBulk.candyCane3Path6,
-      raw.IconsaxBulk.candyCane3Path3,
-      raw.IconsaxBulk.candyCane3Path1,
     ],
     opacities: [
       0.4,
@@ -3526,11 +3526,11 @@ class IconsaxBulk {
   static const IconsaxIconData candyCane4 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.candyCane4Path1,
-      raw.IconsaxBulk.candyCane4Path6,
       raw.IconsaxBulk.candyCane4Path2,
+      raw.IconsaxBulk.candyCane4Path3,
       raw.IconsaxBulk.candyCane4Path4,
       raw.IconsaxBulk.candyCane4Path5,
-      raw.IconsaxBulk.candyCane4Path3,
+      raw.IconsaxBulk.candyCane4Path6,
     ],
     opacities: [
       0.4,
@@ -3559,9 +3559,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCar` icon.
   static const IconsaxIconData car = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.carPath1,
       raw.IconsaxBulk.carPath2,
       raw.IconsaxBulk.carPath3,
-      raw.IconsaxBulk.carPath1,
       raw.IconsaxBulk.carPath4,
     ],
     opacities: [
@@ -3576,8 +3576,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCard` icon.
   static const IconsaxIconData card = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cardPath2,
       raw.IconsaxBulk.cardPath1,
+      raw.IconsaxBulk.cardPath2,
       raw.IconsaxBulk.cardPath3,
     ],
     opacities: [
@@ -3591,9 +3591,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCardAdd` icon.
   static const IconsaxIconData cardAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cardAddPath3,
-      raw.IconsaxBulk.cardAddPath2,
       raw.IconsaxBulk.cardAddPath1,
+      raw.IconsaxBulk.cardAddPath2,
+      raw.IconsaxBulk.cardAddPath3,
     ],
     opacities: [
       0.4,
@@ -3606,15 +3606,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkCardCoin` icon.
   static const IconsaxIconData cardCoin = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cardCoinPath4,
+      raw.IconsaxBulk.cardCoinPath1,
       raw.IconsaxBulk.cardCoinPath2,
       raw.IconsaxBulk.cardCoinGroup1,
-      raw.IconsaxBulk.cardCoinPath1,
+      raw.IconsaxBulk.cardCoinPath4,
     ],
     opacities: [
       0.4,
       1.0,
-      1.0,
+      0.4,
       1.0,
     ],
   );
@@ -3634,9 +3634,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCardPos` icon.
   static const IconsaxIconData cardPos = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.cardPosPath1,
       raw.IconsaxBulk.cardPosPath2,
       raw.IconsaxBulk.cardPosPath3,
-      raw.IconsaxBulk.cardPosPath1,
       raw.IconsaxBulk.cardPosPath5,
     ],
     opacities: [
@@ -3663,9 +3663,9 @@ class IconsaxBulk {
   static const IconsaxIconData cardRemove59b9 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.cardRemove59b9Path1,
-      raw.IconsaxBulk.cardRemove59b9Path4,
       raw.IconsaxBulk.cardRemove59b9Path2,
       raw.IconsaxBulk.cardRemove59b9Path3,
+      raw.IconsaxBulk.cardRemove59b9Path4,
     ],
     opacities: [
       1.0,
@@ -3701,11 +3701,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCardSlash` icon.
   static const IconsaxIconData cardSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cardSlashPath5,
+      raw.IconsaxBulk.cardSlashPath1,
       raw.IconsaxBulk.cardSlashPath2,
       raw.IconsaxBulk.cardSlashPath3,
-      raw.IconsaxBulk.cardSlashPath1,
       raw.IconsaxBulk.cardSlashPath4,
+      raw.IconsaxBulk.cardSlashPath5,
       raw.IconsaxBulk.cardSlashPath7,
     ],
     opacities: [
@@ -3744,22 +3744,22 @@ class IconsaxBulk {
   /// Composite getter for `bulkCardanoAda` icon.
   static const IconsaxIconData cardanoAda = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.cardanoAdaGroup1,
+      raw.IconsaxBulk.cardanoAdaPath1,
+      raw.IconsaxBulk.cardanoAdaPath2,
+      raw.IconsaxBulk.cardanoAdaPath3,
       raw.IconsaxBulk.cardanoAdaPath4,
       raw.IconsaxBulk.cardanoAdaPath5,
-      raw.IconsaxBulk.cardanoAdaGroup1,
       raw.IconsaxBulk.cardanoAdaPath6,
-      raw.IconsaxBulk.cardanoAdaPath3,
-      raw.IconsaxBulk.cardanoAdaPath2,
-      raw.IconsaxBulk.cardanoAdaPath1,
     ],
     opacities: [
       0.6,
-      0.6,
-      0.6,
-      0.6,
-      0.6,
-      0.6,
-      0.6,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
     ],
   );
 
@@ -3769,8 +3769,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.cardsPath1,
       raw.IconsaxBulk.cardsPath2,
-      raw.IconsaxBulk.cardsPath4,
       raw.IconsaxBulk.cardsPath3,
+      raw.IconsaxBulk.cardsPath4,
     ],
     opacities: [
       0.4,
@@ -3784,9 +3784,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCategory514f` icon.
   static const IconsaxIconData category514f = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.category514fPath3,
       raw.IconsaxBulk.category514fPath1,
       raw.IconsaxBulk.category514fPath2,
+      raw.IconsaxBulk.category514fPath3,
       raw.IconsaxBulk.category514fPath4,
     ],
     opacities: [
@@ -3801,12 +3801,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkCategoryD7fa` icon.
   static const IconsaxIconData categoryD7fa = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.categoryD7faPath3,
       raw.IconsaxBulk.categoryD7faPath1,
+      raw.IconsaxBulk.categoryD7faPath3,
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
     ],
   );
 
@@ -3814,8 +3814,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCd` icon.
   static const IconsaxIconData cd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cdPath2,
       raw.IconsaxBulk.cdPath1,
+      raw.IconsaxBulk.cdPath2,
     ],
     opacities: [
       0.4,
@@ -3840,11 +3840,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCelsiusCel` icon.
   static const IconsaxIconData celsiusCel = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.celsiusCelPath3,
       raw.IconsaxBulk.celsiusCelPath2,
+      raw.IconsaxBulk.celsiusCelPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3868,7 +3868,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.chart268fPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3877,11 +3877,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkChart3b18` icon.
   static const IconsaxIconData chart3b18 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.chart3b18Path3,
       raw.IconsaxBulk.chart3b18Path2,
+      raw.IconsaxBulk.chart3b18Path3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3890,10 +3890,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkChart6774` icon.
   static const IconsaxIconData chart6774 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.chart6774Path2,
       raw.IconsaxBulk.chart6774Path1,
-      raw.IconsaxBulk.chart6774Path4,
+      raw.IconsaxBulk.chart6774Path2,
       raw.IconsaxBulk.chart6774Path3,
+      raw.IconsaxBulk.chart6774Path4,
     ],
     opacities: [
       0.4,
@@ -3907,10 +3907,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkChartA417` icon.
   static const IconsaxIconData chartA417 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.chartA417Path4,
       raw.IconsaxBulk.chartA417Path1,
-      raw.IconsaxBulk.chartA417Path3,
       raw.IconsaxBulk.chartA417Path2,
+      raw.IconsaxBulk.chartA417Path3,
+      raw.IconsaxBulk.chartA417Path4,
     ],
     opacities: [
       1.0,
@@ -3924,10 +3924,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkChartFail` icon.
   static const IconsaxIconData chartFail = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.chartFailPath1,
+      raw.IconsaxBulk.chartFailPath2,
       raw.IconsaxBulk.chartFailPath3,
       raw.IconsaxBulk.chartFailPath4,
-      raw.IconsaxBulk.chartFailPath2,
-      raw.IconsaxBulk.chartFailPath1,
       raw.IconsaxBulk.chartFailPath5,
     ],
     opacities: [
@@ -3944,13 +3944,13 @@ class IconsaxBulk {
   static const IconsaxIconData chartSquare2ad9 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.chartSquare2ad9Path2,
-      raw.IconsaxBulk.chartSquare2ad9Path4,
       raw.IconsaxBulk.chartSquare2ad9Path3,
+      raw.IconsaxBulk.chartSquare2ad9Path4,
     ],
     opacities: [
-      0.4,
       1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -3958,12 +3958,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkChartSquareA0f1` icon.
   static const IconsaxIconData chartSquareA0f1 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.chartSquareA0f1Path3,
       raw.IconsaxBulk.chartSquareA0f1Path2,
+      raw.IconsaxBulk.chartSquareA0f1Path3,
       raw.IconsaxBulk.chartSquareA0f1Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -3985,9 +3985,9 @@ class IconsaxBulk {
   static const IconsaxIconData chatbox = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.chatboxPath1,
+      raw.IconsaxBulk.chatboxPath2,
       raw.IconsaxBulk.chatboxPath3,
       raw.IconsaxBulk.chatboxPath4,
-      raw.IconsaxBulk.chatboxPath2,
     ],
     opacities: [
       0.4,
@@ -4006,9 +4006,9 @@ class IconsaxBulk {
       raw.IconsaxBulk.checkPath4,
     ],
     opacities: [
+      0.4,
+      0.4,
       1.0,
-      0.4,
-      0.4,
     ],
   );
 
@@ -4016,17 +4016,17 @@ class IconsaxBulk {
   /// Composite getter for `bulkChristmasBell` icon.
   static const IconsaxIconData christmasBell = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.christmasBellPath4,
-      raw.IconsaxBulk.christmasBellGroup1,
       raw.IconsaxBulk.christmasBellPath1,
-      raw.IconsaxBulk.christmasBellPath3,
       raw.IconsaxBulk.christmasBellPath2,
+      raw.IconsaxBulk.christmasBellPath3,
+      raw.IconsaxBulk.christmasBellGroup1,
+      raw.IconsaxBulk.christmasBellPath4,
     ],
     opacities: [
       1.0,
       1.0,
       1.0,
-      1.0,
+      0.4,
       1.0,
     ],
   );
@@ -4035,12 +4035,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkChristmasBow` icon.
   static const IconsaxIconData christmasBow = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.christmasBowPath4,
       raw.IconsaxBulk.christmasBowPath1,
-      raw.IconsaxBulk.christmasBowPath6,
-      raw.IconsaxBulk.christmasBowPath5,
-      raw.IconsaxBulk.christmasBowPath3,
       raw.IconsaxBulk.christmasBowPath2,
+      raw.IconsaxBulk.christmasBowPath3,
+      raw.IconsaxBulk.christmasBowPath4,
+      raw.IconsaxBulk.christmasBowPath5,
+      raw.IconsaxBulk.christmasBowPath6,
     ],
     opacities: [
       1.0,
@@ -4057,15 +4057,15 @@ class IconsaxBulk {
   static const IconsaxIconData christmasCard = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.christmasCardPath1,
-      raw.IconsaxBulk.christmasCardPath7,
-      raw.IconsaxBulk.christmasCardPath10,
-      raw.IconsaxBulk.christmasCardPath6,
-      raw.IconsaxBulk.christmasCardPath9,
-      raw.IconsaxBulk.christmasCardPath5,
+      raw.IconsaxBulk.christmasCardPath2,
       raw.IconsaxBulk.christmasCardPath3,
       raw.IconsaxBulk.christmasCardPath4,
-      raw.IconsaxBulk.christmasCardPath2,
+      raw.IconsaxBulk.christmasCardPath5,
+      raw.IconsaxBulk.christmasCardPath6,
+      raw.IconsaxBulk.christmasCardPath7,
       raw.IconsaxBulk.christmasCardPath8,
+      raw.IconsaxBulk.christmasCardPath9,
+      raw.IconsaxBulk.christmasCardPath10,
     ],
     opacities: [
       1.0,
@@ -4085,32 +4085,32 @@ class IconsaxBulk {
   /// Composite getter for `bulkChristmasHouse` icon.
   static const IconsaxIconData christmasHouse = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.christmasHousePath12,
       raw.IconsaxBulk.christmasHousePath1,
-      raw.IconsaxBulk.christmasHousePath25,
+      raw.IconsaxBulk.christmasHousePath2,
+      raw.IconsaxBulk.christmasHousePath3,
+      raw.IconsaxBulk.christmasHousePath4,
+      raw.IconsaxBulk.christmasHousePath5,
       raw.IconsaxBulk.christmasHousePath6,
+      raw.IconsaxBulk.christmasHousePath7,
+      raw.IconsaxBulk.christmasHousePath8,
+      raw.IconsaxBulk.christmasHousePath9,
+      raw.IconsaxBulk.christmasHousePath10,
+      raw.IconsaxBulk.christmasHousePath11,
+      raw.IconsaxBulk.christmasHousePath12,
       raw.IconsaxBulk.christmasHousePath13,
-      raw.IconsaxBulk.christmasHousePath21,
       raw.IconsaxBulk.christmasHousePath14,
       raw.IconsaxBulk.christmasHousePath15,
-      raw.IconsaxBulk.christmasHousePath4,
-      raw.IconsaxBulk.christmasHousePath20,
-      raw.IconsaxBulk.christmasHousePath2,
-      raw.IconsaxBulk.christmasHousePath9,
-      raw.IconsaxBulk.christmasHousePath17,
-      raw.IconsaxBulk.christmasHousePath19,
-      raw.IconsaxBulk.christmasHousePath18,
       raw.IconsaxBulk.christmasHousePath16,
-      raw.IconsaxBulk.christmasHousePath11,
-      raw.IconsaxBulk.christmasHousePath7,
-      raw.IconsaxBulk.christmasHousePath26,
-      raw.IconsaxBulk.christmasHousePath3,
+      raw.IconsaxBulk.christmasHousePath17,
+      raw.IconsaxBulk.christmasHousePath18,
+      raw.IconsaxBulk.christmasHousePath19,
+      raw.IconsaxBulk.christmasHousePath20,
+      raw.IconsaxBulk.christmasHousePath21,
       raw.IconsaxBulk.christmasHousePath22,
-      raw.IconsaxBulk.christmasHousePath8,
-      raw.IconsaxBulk.christmasHousePath24,
-      raw.IconsaxBulk.christmasHousePath10,
       raw.IconsaxBulk.christmasHousePath23,
-      raw.IconsaxBulk.christmasHousePath5,
+      raw.IconsaxBulk.christmasHousePath24,
+      raw.IconsaxBulk.christmasHousePath25,
+      raw.IconsaxBulk.christmasHousePath26,
     ],
     opacities: [
       1.0,
@@ -4157,11 +4157,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkChristmasSweater` icon.
   static const IconsaxIconData christmasSweater = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.christmasSweaterPath3,
-      raw.IconsaxBulk.christmasSweaterPath2,
-      raw.IconsaxBulk.christmasSweaterPath5,
       raw.IconsaxBulk.christmasSweaterPath1,
+      raw.IconsaxBulk.christmasSweaterPath2,
+      raw.IconsaxBulk.christmasSweaterPath3,
       raw.IconsaxBulk.christmasSweaterPath4,
+      raw.IconsaxBulk.christmasSweaterPath5,
     ],
     opacities: [
       1.0,
@@ -4176,16 +4176,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkChristmasTree` icon.
   static const IconsaxIconData christmasTree = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.christmasTreePath7,
+      raw.IconsaxBulk.christmasTreePath1,
       raw.IconsaxBulk.christmasTreePath2,
-      raw.IconsaxBulk.christmasTreePath10,
-      raw.IconsaxBulk.christmasTreePath9,
-      raw.IconsaxBulk.christmasTreePath6,
+      raw.IconsaxBulk.christmasTreePath3,
       raw.IconsaxBulk.christmasTreePath4,
       raw.IconsaxBulk.christmasTreePath5,
-      raw.IconsaxBulk.christmasTreePath1,
+      raw.IconsaxBulk.christmasTreePath6,
+      raw.IconsaxBulk.christmasTreePath7,
       raw.IconsaxBulk.christmasTreePath8,
-      raw.IconsaxBulk.christmasTreePath3,
+      raw.IconsaxBulk.christmasTreePath9,
+      raw.IconsaxBulk.christmasTreePath10,
     ],
     opacities: [
       1.0,
@@ -4205,18 +4205,18 @@ class IconsaxBulk {
   /// Composite getter for `bulkChristmasWreath` icon.
   static const IconsaxIconData christmasWreath = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.christmasWreathPath9,
-      raw.IconsaxBulk.christmasWreathPath7,
-      raw.IconsaxBulk.christmasWreathPath5,
+      raw.IconsaxBulk.christmasWreathPath1,
       raw.IconsaxBulk.christmasWreathPath2,
-      raw.IconsaxBulk.christmasWreathPath10,
-      raw.IconsaxBulk.christmasWreathPath12,
-      raw.IconsaxBulk.christmasWreathPath11,
       raw.IconsaxBulk.christmasWreathPath3,
       raw.IconsaxBulk.christmasWreathPath4,
+      raw.IconsaxBulk.christmasWreathPath5,
       raw.IconsaxBulk.christmasWreathPath6,
+      raw.IconsaxBulk.christmasWreathPath7,
       raw.IconsaxBulk.christmasWreathPath8,
-      raw.IconsaxBulk.christmasWreathPath1,
+      raw.IconsaxBulk.christmasWreathPath9,
+      raw.IconsaxBulk.christmasWreathPath10,
+      raw.IconsaxBulk.christmasWreathPath11,
+      raw.IconsaxBulk.christmasWreathPath12,
     ],
     opacities: [
       1.0,
@@ -4238,8 +4238,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkChrome` icon.
   static const IconsaxIconData chrome = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.chromePath2,
       raw.IconsaxBulk.chromePath1,
+      raw.IconsaxBulk.chromePath2,
     ],
     opacities: [
       0.4,
@@ -4251,8 +4251,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCivicCvc` icon.
   static const IconsaxIconData civicCvc = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.civicCvcPath2,
       raw.IconsaxBulk.civicCvcPath1,
+      raw.IconsaxBulk.civicCvcPath2,
     ],
     opacities: [
       1.0,
@@ -4279,9 +4279,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkClipboardClose` icon.
   static const IconsaxIconData clipboardClose = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.clipboardClosePath3,
       raw.IconsaxBulk.clipboardClosePath1,
       raw.IconsaxBulk.clipboardClosePath2,
+      raw.IconsaxBulk.clipboardClosePath3,
     ],
     opacities: [
       0.4,
@@ -4320,7 +4320,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.clipboardTextPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -4341,8 +4341,8 @@ class IconsaxBulk {
   static const IconsaxIconData clock2 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.clock2Path1,
-      raw.IconsaxBulk.clock2Path3,
       raw.IconsaxBulk.clock2Path2,
+      raw.IconsaxBulk.clock2Path3,
     ],
     opacities: [
       0.4,
@@ -4370,7 +4370,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.clock734dPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -4379,10 +4379,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkClockE55e` icon.
   static const IconsaxIconData clockE55e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.clockE55ePath4,
-      raw.IconsaxBulk.clockE55ePath3,
-      raw.IconsaxBulk.clockE55ePath2,
       raw.IconsaxBulk.clockE55ePath1,
+      raw.IconsaxBulk.clockE55ePath2,
+      raw.IconsaxBulk.clockE55ePath3,
+      raw.IconsaxBulk.clockE55ePath4,
     ],
     opacities: [
       0.4,
@@ -4423,7 +4423,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.cloudChangePath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -4444,8 +4444,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCloudRemove` icon.
   static const IconsaxIconData cloudRemove = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cloudRemovePath2,
       raw.IconsaxBulk.cloudRemovePath1,
+      raw.IconsaxBulk.cloudRemovePath2,
     ],
     opacities: [
       0.4,
@@ -4458,9 +4458,9 @@ class IconsaxBulk {
   static const IconsaxIconData codeBa3b = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.codeBa3bPath1,
+      raw.IconsaxBulk.codeBa3bPath2,
       raw.IconsaxBulk.codeBa3bPath3,
       raw.IconsaxBulk.codeBa3bPath4,
-      raw.IconsaxBulk.codeBa3bPath2,
     ],
     opacities: [
       0.4,
@@ -4474,10 +4474,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkCodeCircle` icon.
   static const IconsaxIconData codeCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.codeCirclePath2,
       raw.IconsaxBulk.codeCirclePath1,
-      raw.IconsaxBulk.codeCirclePath4,
+      raw.IconsaxBulk.codeCirclePath2,
       raw.IconsaxBulk.codeCirclePath3,
+      raw.IconsaxBulk.codeCirclePath4,
     ],
     opacities: [
       0.4,
@@ -4492,8 +4492,8 @@ class IconsaxBulk {
   static const IconsaxIconData codeD70b = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.codeD70bPath1,
-      raw.IconsaxBulk.codeD70bPath3,
       raw.IconsaxBulk.codeD70bPath2,
+      raw.IconsaxBulk.codeD70bPath3,
     ],
     opacities: [
       0.4,
@@ -4506,12 +4506,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkCoffee` icon.
   static const IconsaxIconData coffee = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.coffeePath6,
-      raw.IconsaxBulk.coffeePath2,
-      raw.IconsaxBulk.coffeePath5,
-      raw.IconsaxBulk.coffeePath4,
-      raw.IconsaxBulk.coffeePath3,
       raw.IconsaxBulk.coffeePath1,
+      raw.IconsaxBulk.coffeePath2,
+      raw.IconsaxBulk.coffeePath3,
+      raw.IconsaxBulk.coffeePath4,
+      raw.IconsaxBulk.coffeePath5,
+      raw.IconsaxBulk.coffeePath6,
     ],
     opacities: [
       0.6,
@@ -4555,9 +4555,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkColorSwatch` icon.
   static const IconsaxIconData colorSwatch = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.colorSwatchPath1,
       raw.IconsaxBulk.colorSwatchPath2,
       raw.IconsaxBulk.colorSwatchPath3,
-      raw.IconsaxBulk.colorSwatchPath1,
     ],
     opacities: [
       0.4,
@@ -4570,9 +4570,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkColorfilter` icon.
   static const IconsaxIconData colorfilter = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.colorfilterPath3,
       raw.IconsaxBulk.colorfilterPath1,
       raw.IconsaxBulk.colorfilterPath2,
+      raw.IconsaxBulk.colorfilterPath3,
     ],
     opacities: [
       0.6,
@@ -4585,10 +4585,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkColorsSquare` icon.
   static const IconsaxIconData colorsSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.colorsSquarePath4,
-      raw.IconsaxBulk.colorsSquarePath3,
-      raw.IconsaxBulk.colorsSquarePath2,
       raw.IconsaxBulk.colorsSquarePath1,
+      raw.IconsaxBulk.colorsSquarePath2,
+      raw.IconsaxBulk.colorsSquarePath3,
+      raw.IconsaxBulk.colorsSquarePath4,
     ],
     opacities: [
       0.4,
@@ -4602,11 +4602,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCommand` icon.
   static const IconsaxIconData command = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.commandPath3,
-      raw.IconsaxBulk.commandPath2,
       raw.IconsaxBulk.commandPath1,
-      raw.IconsaxBulk.commandPath5,
+      raw.IconsaxBulk.commandPath2,
+      raw.IconsaxBulk.commandPath3,
       raw.IconsaxBulk.commandPath4,
+      raw.IconsaxBulk.commandPath5,
     ],
     opacities: [
       1.0,
@@ -4622,13 +4622,13 @@ class IconsaxBulk {
   static const IconsaxIconData commandSquare = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.commandSquarePath2,
+      raw.IconsaxBulk.commandSquarePath3,
       raw.IconsaxBulk.commandSquarePath4,
       raw.IconsaxBulk.commandSquarePath5,
-      raw.IconsaxBulk.commandSquarePath3,
       raw.IconsaxBulk.commandSquarePath6,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -4652,8 +4652,8 @@ class IconsaxBulk {
   static const IconsaxIconData computing = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.computingPath1,
-      raw.IconsaxBulk.computingPath3,
       raw.IconsaxBulk.computingPath2,
+      raw.IconsaxBulk.computingPath3,
     ],
     opacities: [
       0.4,
@@ -4667,10 +4667,10 @@ class IconsaxBulk {
   static const IconsaxIconData conversationBox = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.conversationBoxPath1,
-      raw.IconsaxBulk.conversationBoxPath3,
-      raw.IconsaxBulk.conversationBoxPath5,
-      raw.IconsaxBulk.conversationBoxPath4,
       raw.IconsaxBulk.conversationBoxPath2,
+      raw.IconsaxBulk.conversationBoxPath3,
+      raw.IconsaxBulk.conversationBoxPath4,
+      raw.IconsaxBulk.conversationBoxPath5,
     ],
     opacities: [
       0.4,
@@ -4685,11 +4685,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkConvert3dCube` icon.
   static const IconsaxIconData convert3dCube = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.convert3dCubePath1,
+      raw.IconsaxBulk.convert3dCubePath2,
+      raw.IconsaxBulk.convert3dCubePath3,
       raw.IconsaxBulk.convert3dCubePath4,
       raw.IconsaxBulk.convert3dCubePath5,
-      raw.IconsaxBulk.convert3dCubePath1,
-      raw.IconsaxBulk.convert3dCubePath3,
-      raw.IconsaxBulk.convert3dCubePath2,
       raw.IconsaxBulk.convert3dCubePath6,
       raw.IconsaxBulk.convert3dCubePath7,
       raw.IconsaxBulk.convert3dCubePath8,
@@ -4710,9 +4710,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkConvertArrow` icon.
   static const IconsaxIconData convertArrow = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.convertArrowPath1,
       raw.IconsaxBulk.convertArrowPath2,
       raw.IconsaxBulk.convertArrowPath3,
-      raw.IconsaxBulk.convertArrowPath1,
     ],
     opacities: [
       0.4,
@@ -4726,11 +4726,11 @@ class IconsaxBulk {
   static const IconsaxIconData convertCard = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.convertCardPath1,
+      raw.IconsaxBulk.convertCardPath2,
+      raw.IconsaxBulk.convertCardPath3,
       raw.IconsaxBulk.convertCardPath4,
       raw.IconsaxBulk.convertCardPath5,
       raw.IconsaxBulk.convertCardPath6,
-      raw.IconsaxBulk.convertCardPath3,
-      raw.IconsaxBulk.convertCardPath2,
     ],
     opacities: [
       0.4,
@@ -4746,9 +4746,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkConvertshape15e9` icon.
   static const IconsaxIconData convertshape15e9 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.convertshape15e9Path3,
       raw.IconsaxBulk.convertshape15e9Path1,
       raw.IconsaxBulk.convertshape15e9Path2,
+      raw.IconsaxBulk.convertshape15e9Path3,
       raw.IconsaxBulk.convertshape15e9Path4,
     ],
     opacities: [
@@ -4800,8 +4800,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCopyright` icon.
   static const IconsaxIconData copyright = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.copyrightPath2,
       raw.IconsaxBulk.copyrightPath1,
+      raw.IconsaxBulk.copyrightPath2,
     ],
     opacities: [
       0.4,
@@ -4813,8 +4813,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCourthouse` icon.
   static const IconsaxIconData courthouse = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.courthousePath2,
       raw.IconsaxBulk.courthousePath1,
+      raw.IconsaxBulk.courthousePath2,
     ],
     opacities: [
       0.4,
@@ -4837,20 +4837,20 @@ class IconsaxBulk {
   /// Composite getter for `bulkCpuCharge` icon.
   static const IconsaxIconData cpuCharge = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.cpuChargePath4,
-      raw.IconsaxBulk.cpuChargePath6,
       raw.IconsaxBulk.cpuChargePath1,
+      raw.IconsaxBulk.cpuChargePath2,
+      raw.IconsaxBulk.cpuChargePath3,
+      raw.IconsaxBulk.cpuChargePath4,
+      raw.IconsaxBulk.cpuChargePath5,
+      raw.IconsaxBulk.cpuChargePath6,
+      raw.IconsaxBulk.cpuChargePath7,
+      raw.IconsaxBulk.cpuChargePath8,
+      raw.IconsaxBulk.cpuChargePath9,
+      raw.IconsaxBulk.cpuChargePath10,
+      raw.IconsaxBulk.cpuChargePath11,
       raw.IconsaxBulk.cpuChargePath12,
       raw.IconsaxBulk.cpuChargePath13,
-      raw.IconsaxBulk.cpuChargePath11,
-      raw.IconsaxBulk.cpuChargePath3,
-      raw.IconsaxBulk.cpuChargePath8,
       raw.IconsaxBulk.cpuChargePath14,
-      raw.IconsaxBulk.cpuChargePath9,
-      raw.IconsaxBulk.cpuChargePath2,
-      raw.IconsaxBulk.cpuChargePath5,
-      raw.IconsaxBulk.cpuChargePath7,
-      raw.IconsaxBulk.cpuChargePath10,
     ],
     opacities: [
       0.4,
@@ -4874,15 +4874,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkCpuSetting` icon.
   static const IconsaxIconData cpuSetting = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.cpuSettingPath1,
       raw.IconsaxBulk.cpuSettingPath2,
       raw.IconsaxBulk.cpuSettingPath11,
       raw.IconsaxBulk.cpuSettingPath12,
-      raw.IconsaxBulk.cpuSettingPath1,
     ],
     opacities: [
       0.4,
       1.0,
-      1.0,
+      0.4,
       1.0,
     ],
   );
@@ -4891,11 +4891,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCreativeCommons` icon.
   static const IconsaxIconData creativeCommons = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.creativeCommonsPath3,
       raw.IconsaxBulk.creativeCommonsPath2,
+      raw.IconsaxBulk.creativeCommonsPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -4905,8 +4905,8 @@ class IconsaxBulk {
   static const IconsaxIconData crop = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.cropPath1,
-      raw.IconsaxBulk.cropPath3,
       raw.IconsaxBulk.cropPath2,
+      raw.IconsaxBulk.cropPath3,
     ],
     opacities: [
       0.4,
@@ -4919,9 +4919,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkCrown1ba7` icon.
   static const IconsaxIconData crown1ba7 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.crown1ba7Path1,
       raw.IconsaxBulk.crown1ba7Path2,
       raw.IconsaxBulk.crown1ba7Path3,
-      raw.IconsaxBulk.crown1ba7Path1,
     ],
     opacities: [
       0.4,
@@ -4934,8 +4934,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkCrownA04e` icon.
   static const IconsaxIconData crownA04e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.crownA04ePath2,
       raw.IconsaxBulk.crownA04ePath1,
+      raw.IconsaxBulk.crownA04ePath2,
     ],
     opacities: [
       1.0,
@@ -4947,11 +4947,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkCup` icon.
   static const IconsaxIconData cup = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.cupPath1,
+      raw.IconsaxBulk.cupPath2,
+      raw.IconsaxBulk.cupPath3,
       raw.IconsaxBulk.cupPath4,
       raw.IconsaxBulk.cupPath5,
-      raw.IconsaxBulk.cupPath2,
-      raw.IconsaxBulk.cupPath1,
-      raw.IconsaxBulk.cupPath3,
     ],
     opacities: [
       0.4,
@@ -4967,11 +4967,11 @@ class IconsaxBulk {
   static const IconsaxIconData daiDai = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.daiDaiPath2,
-      raw.IconsaxBulk.daiDaiPath4,
       raw.IconsaxBulk.daiDaiPath3,
+      raw.IconsaxBulk.daiDaiPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -5009,10 +5009,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkDataAf90` icon.
   static const IconsaxIconData dataAf90 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.dataAf90Path3,
       raw.IconsaxBulk.dataAf90Path1,
-      raw.IconsaxBulk.dataAf90Path4,
       raw.IconsaxBulk.dataAf90Path2,
+      raw.IconsaxBulk.dataAf90Path3,
+      raw.IconsaxBulk.dataAf90Path4,
       raw.IconsaxBulk.dataAf90Path5,
     ],
     opacities: [
@@ -5047,13 +5047,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkDecor` icon.
   static const IconsaxIconData decor = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.decorPath5,
+      raw.IconsaxBulk.decorPath1,
       raw.IconsaxBulk.decorPath2,
-      raw.IconsaxBulk.decorPath7,
       raw.IconsaxBulk.decorPath3,
       raw.IconsaxBulk.decorPath4,
+      raw.IconsaxBulk.decorPath5,
       raw.IconsaxBulk.decorPath6,
-      raw.IconsaxBulk.decorPath1,
+      raw.IconsaxBulk.decorPath7,
     ],
     opacities: [
       1.0,
@@ -5083,11 +5083,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkDeer` icon.
   static const IconsaxIconData deer = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.deerPath5,
+      raw.IconsaxBulk.deerPath1,
       raw.IconsaxBulk.deerPath2,
       raw.IconsaxBulk.deerPath3,
       raw.IconsaxBulk.deerPath4,
-      raw.IconsaxBulk.deerPath1,
+      raw.IconsaxBulk.deerPath5,
     ],
     opacities: [
       1.0,
@@ -5113,16 +5113,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkDesigntools` icon.
   static const IconsaxIconData designtools = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.designtoolsPath5,
-      raw.IconsaxBulk.designtoolsPath4,
-      raw.IconsaxBulk.designtoolsPath3,
       raw.IconsaxBulk.designtoolsPath2,
+      raw.IconsaxBulk.designtoolsPath3,
+      raw.IconsaxBulk.designtoolsPath4,
+      raw.IconsaxBulk.designtoolsPath5,
     ],
     opacities: [
       1.0,
-      1.0,
       0.4,
       1.0,
+      0.4,
     ],
   );
 
@@ -5130,12 +5130,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkDeviceMessage` icon.
   static const IconsaxIconData deviceMessage = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.deviceMessagePath4,
-      raw.IconsaxBulk.deviceMessagePath6,
       raw.IconsaxBulk.deviceMessagePath1,
-      raw.IconsaxBulk.deviceMessagePath5,
       raw.IconsaxBulk.deviceMessagePath2,
       raw.IconsaxBulk.deviceMessagePath3,
+      raw.IconsaxBulk.deviceMessagePath4,
+      raw.IconsaxBulk.deviceMessagePath5,
+      raw.IconsaxBulk.deviceMessagePath6,
     ],
     opacities: [
       1.0,
@@ -5151,14 +5151,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkDevicesC3ba` icon.
   static const IconsaxIconData devicesC3ba = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.devicesC3baPath1,
+      raw.IconsaxBulk.devicesC3baPath2,
+      raw.IconsaxBulk.devicesC3baPath3,
+      raw.IconsaxBulk.devicesC3baPath4,
       raw.IconsaxBulk.devicesC3baPath5,
       raw.IconsaxBulk.devicesC3baPath6,
-      raw.IconsaxBulk.devicesC3baPath1,
-      raw.IconsaxBulk.devicesC3baPath3,
-      raw.IconsaxBulk.devicesC3baPath2,
-      raw.IconsaxBulk.devicesC3baPath4,
-      raw.IconsaxBulk.devicesC3baPath8,
       raw.IconsaxBulk.devicesC3baPath7,
+      raw.IconsaxBulk.devicesC3baPath8,
     ],
     opacities: [
       1.0,
@@ -5176,10 +5176,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkDevicesC432` icon.
   static const IconsaxIconData devicesC432 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.devicesC432Path4,
       raw.IconsaxBulk.devicesC432Path1,
-      raw.IconsaxBulk.devicesC432Path3,
       raw.IconsaxBulk.devicesC432Path2,
+      raw.IconsaxBulk.devicesC432Path3,
+      raw.IconsaxBulk.devicesC432Path4,
     ],
     opacities: [
       0.4,
@@ -5193,8 +5193,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDiagram` icon.
   static const IconsaxIconData diagram = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.diagramPath2,
       raw.IconsaxBulk.diagramPath1,
+      raw.IconsaxBulk.diagramPath2,
     ],
     opacities: [
       1.0,
@@ -5206,8 +5206,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDiamonds` icon.
   static const IconsaxIconData diamonds = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.diamondsPath2,
       raw.IconsaxBulk.diamondsPath1,
+      raw.IconsaxBulk.diamondsPath2,
     ],
     opacities: [
       1.0,
@@ -5223,7 +5223,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.directPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -5232,8 +5232,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDirectDown` icon.
   static const IconsaxIconData directDown = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.directDownPath2,
       raw.IconsaxBulk.directDownPath1,
+      raw.IconsaxBulk.directDownPath2,
     ],
     opacities: [
       1.0,
@@ -5245,9 +5245,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkDirectInbox` icon.
   static const IconsaxIconData directInbox = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.directInboxPath3,
-      raw.IconsaxBulk.directInboxPath2,
       raw.IconsaxBulk.directInboxPath1,
+      raw.IconsaxBulk.directInboxPath2,
+      raw.IconsaxBulk.directInboxPath3,
     ],
     opacities: [
       0.4,
@@ -5273,9 +5273,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkDirectNotification` icon.
   static const IconsaxIconData directNotification = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.directNotificationPath3,
-      raw.IconsaxBulk.directNotificationPath2,
       raw.IconsaxBulk.directNotificationPath1,
+      raw.IconsaxBulk.directNotificationPath2,
+      raw.IconsaxBulk.directNotificationPath3,
     ],
     opacities: [
       1.0,
@@ -5304,7 +5304,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.directSendPath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -5323,10 +5323,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkDirectboxDefault` icon.
   static const IconsaxIconData directboxDefault = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.directboxDefaultPath2,
       raw.IconsaxBulk.directboxDefaultPath1,
-      raw.IconsaxBulk.directboxDefaultPath4,
+      raw.IconsaxBulk.directboxDefaultPath2,
       raw.IconsaxBulk.directboxDefaultPath3,
+      raw.IconsaxBulk.directboxDefaultPath4,
     ],
     opacities: [
       1.0,
@@ -5340,8 +5340,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDirectboxNotif` icon.
   static const IconsaxIconData directboxNotif = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.directboxNotifPath3,
       raw.IconsaxBulk.directboxNotifPath1,
+      raw.IconsaxBulk.directboxNotifPath3,
     ],
     opacities: [
       1.0,
@@ -5366,8 +5366,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDirectboxSend` icon.
   static const IconsaxIconData directboxSend = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.directboxSendPath2,
       raw.IconsaxBulk.directboxSendPath1,
+      raw.IconsaxBulk.directboxSendPath2,
     ],
     opacities: [
       0.4,
@@ -5379,10 +5379,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkDiscountCircle` icon.
   static const IconsaxIconData discountCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.discountCirclePath4,
-      raw.IconsaxBulk.discountCirclePath3,
       raw.IconsaxBulk.discountCirclePath1,
       raw.IconsaxBulk.discountCirclePath2,
+      raw.IconsaxBulk.discountCirclePath3,
+      raw.IconsaxBulk.discountCirclePath4,
     ],
     opacities: [
       0.4,
@@ -5409,8 +5409,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDiscover01ae` icon.
   static const IconsaxIconData discover01ae = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.discover01aePath2,
       raw.IconsaxBulk.discover01aePath1,
+      raw.IconsaxBulk.discover01aePath2,
     ],
     opacities: [
       0.4,
@@ -5422,8 +5422,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDiscoverE0f3` icon.
   static const IconsaxIconData discoverE0f3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.discoverE0f3Path2,
       raw.IconsaxBulk.discoverE0f3Path1,
+      raw.IconsaxBulk.discoverE0f3Path2,
     ],
     opacities: [
       0.4,
@@ -5448,9 +5448,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkDocument6c9d` icon.
   static const IconsaxIconData document6c9d = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.document6c9dPath3,
       raw.IconsaxBulk.document6c9dPath1,
       raw.IconsaxBulk.document6c9dPath2,
+      raw.IconsaxBulk.document6c9dPath3,
     ],
     opacities: [
       0.4,
@@ -5463,9 +5463,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkDocumentCloud` icon.
   static const IconsaxIconData documentCloud = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.documentCloudPath3,
       raw.IconsaxBulk.documentCloudPath1,
       raw.IconsaxBulk.documentCloudPath2,
+      raw.IconsaxBulk.documentCloudPath3,
     ],
     opacities: [
       0.4,
@@ -5494,8 +5494,8 @@ class IconsaxBulk {
   static const IconsaxIconData documentCodeDc1a = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.documentCodeDc1aPath1,
-      raw.IconsaxBulk.documentCodeDc1aPath3,
       raw.IconsaxBulk.documentCodeDc1aPath2,
+      raw.IconsaxBulk.documentCodeDc1aPath3,
       raw.IconsaxBulk.documentCodeDc1aPath4,
     ],
     opacities: [
@@ -5510,9 +5510,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkDocumentCopy` icon.
   static const IconsaxIconData documentCopy = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.documentCopyPath3,
       raw.IconsaxBulk.documentCopyPath1,
       raw.IconsaxBulk.documentCopyPath2,
+      raw.IconsaxBulk.documentCopyPath3,
     ],
     opacities: [
       0.4,
@@ -5525,9 +5525,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkDocumentDownload` icon.
   static const IconsaxIconData documentDownload = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.documentDownloadPath3,
-      raw.IconsaxBulk.documentDownloadPath2,
       raw.IconsaxBulk.documentDownloadPath1,
+      raw.IconsaxBulk.documentDownloadPath2,
+      raw.IconsaxBulk.documentDownloadPath3,
     ],
     opacities: [
       0.4,
@@ -5583,7 +5583,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.documentLikePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -5618,7 +5618,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.documentText36c0Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -5631,7 +5631,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.documentTextDed2Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -5651,8 +5651,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkDollarCircle` icon.
   static const IconsaxIconData dollarCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.dollarCirclePath2,
       raw.IconsaxBulk.dollarCirclePath1,
+      raw.IconsaxBulk.dollarCirclePath2,
     ],
     opacities: [
       0.4,
@@ -5664,12 +5664,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkDribbble` icon.
   static const IconsaxIconData dribbble = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.dribbblePath6,
-      raw.IconsaxBulk.dribbblePath5,
-      raw.IconsaxBulk.dribbblePath4,
-      raw.IconsaxBulk.dribbblePath2,
       raw.IconsaxBulk.dribbblePath1,
+      raw.IconsaxBulk.dribbblePath2,
       raw.IconsaxBulk.dribbblePath3,
+      raw.IconsaxBulk.dribbblePath4,
+      raw.IconsaxBulk.dribbblePath5,
+      raw.IconsaxBulk.dribbblePath6,
     ],
     opacities: [
       1.0,
@@ -5685,12 +5685,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkDriver4328` icon.
   static const IconsaxIconData driver4328 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.driver4328Path8,
-      raw.IconsaxBulk.driver4328Path7,
       raw.IconsaxBulk.driver4328Path5,
+      raw.IconsaxBulk.driver4328Path7,
+      raw.IconsaxBulk.driver4328Path8,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -5701,12 +5701,12 @@ class IconsaxBulk {
   static const IconsaxIconData driverEace = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.driverEacePath1,
-      raw.IconsaxBulk.driverEacePath3,
       raw.IconsaxBulk.driverEacePath2,
-      raw.IconsaxBulk.driverEacePath7,
+      raw.IconsaxBulk.driverEacePath3,
+      raw.IconsaxBulk.driverEacePath4,
       raw.IconsaxBulk.driverEacePath5,
       raw.IconsaxBulk.driverEacePath6,
-      raw.IconsaxBulk.driverEacePath4,
+      raw.IconsaxBulk.driverEacePath7,
       raw.IconsaxBulk.driverEacePath8,
     ],
     opacities: [
@@ -5725,13 +5725,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkDriverRefresh` icon.
   static const IconsaxIconData driverRefresh = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.driverRefreshPath5,
       raw.IconsaxBulk.driverRefreshPath1,
-      raw.IconsaxBulk.driverRefreshPath3,
       raw.IconsaxBulk.driverRefreshPath2,
-      raw.IconsaxBulk.driverRefreshPath7,
+      raw.IconsaxBulk.driverRefreshPath3,
       raw.IconsaxBulk.driverRefreshPath4,
+      raw.IconsaxBulk.driverRefreshPath5,
       raw.IconsaxBulk.driverRefreshPath6,
+      raw.IconsaxBulk.driverRefreshPath7,
     ],
     opacities: [
       0.4,
@@ -5748,20 +5748,20 @@ class IconsaxBulk {
   /// Composite getter for `bulkDriving` icon.
   static const IconsaxIconData driving = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.drivingPath8,
-      raw.IconsaxBulk.drivingPath2,
-      raw.IconsaxBulk.drivingPath5,
-      raw.IconsaxBulk.drivingPath7,
-      raw.IconsaxBulk.drivingPath6,
       raw.IconsaxBulk.drivingPath1,
+      raw.IconsaxBulk.drivingPath2,
       raw.IconsaxBulk.drivingPath4,
+      raw.IconsaxBulk.drivingPath5,
+      raw.IconsaxBulk.drivingPath6,
+      raw.IconsaxBulk.drivingPath7,
+      raw.IconsaxBulk.drivingPath8,
     ],
     opacities: [
       1.0,
       1.0,
       1.0,
-      1.0,
       0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -5771,11 +5771,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkDropbox` icon.
   static const IconsaxIconData dropbox = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.dropboxPath5,
+      raw.IconsaxBulk.dropboxPath1,
       raw.IconsaxBulk.dropboxPath2,
       raw.IconsaxBulk.dropboxPath3,
       raw.IconsaxBulk.dropboxPath4,
-      raw.IconsaxBulk.dropboxPath1,
+      raw.IconsaxBulk.dropboxPath5,
     ],
     opacities: [
       0.4,
@@ -5790,9 +5790,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkEdit537e` icon.
   static const IconsaxIconData edit537e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.edit537ePath3,
       raw.IconsaxBulk.edit537ePath1,
       raw.IconsaxBulk.edit537ePath2,
+      raw.IconsaxBulk.edit537ePath3,
     ],
     opacities: [
       0.4,
@@ -5805,9 +5805,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkEditF574` icon.
   static const IconsaxIconData editF574 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.editF574Path3,
       raw.IconsaxBulk.editF574Path1,
       raw.IconsaxBulk.editF574Path2,
+      raw.IconsaxBulk.editF574Path3,
     ],
     opacities: [
       0.4,
@@ -5820,10 +5820,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkEducareEkt` icon.
   static const IconsaxIconData educareEkt = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.educareEktPath3,
-      raw.IconsaxBulk.educareEktPath4,
       raw.IconsaxBulk.educareEktPath1,
       raw.IconsaxBulk.educareEktPath2,
+      raw.IconsaxBulk.educareEktPath3,
+      raw.IconsaxBulk.educareEktPath4,
     ],
     opacities: [
       0.4,
@@ -5837,10 +5837,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkElectricity` icon.
   static const IconsaxIconData electricity = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.electricityPath4,
       raw.IconsaxBulk.electricityPath1,
-      raw.IconsaxBulk.electricityPath3,
       raw.IconsaxBulk.electricityPath2,
+      raw.IconsaxBulk.electricityPath3,
+      raw.IconsaxBulk.electricityPath4,
     ],
     opacities: [
       0.4,
@@ -5855,9 +5855,9 @@ class IconsaxBulk {
   static const IconsaxIconData emailSnow = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.emailSnowPath1,
-      raw.IconsaxBulk.emailSnowPath4,
-      raw.IconsaxBulk.emailSnowPath3,
       raw.IconsaxBulk.emailSnowPath2,
+      raw.IconsaxBulk.emailSnowPath3,
+      raw.IconsaxBulk.emailSnowPath4,
     ],
     opacities: [
       0.4,
@@ -5882,12 +5882,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkEmojiHappy` icon.
   static const IconsaxIconData emojiHappy = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.emojiHappyPath4,
       raw.IconsaxBulk.emojiHappyPath2,
       raw.IconsaxBulk.emojiHappyPath3,
+      raw.IconsaxBulk.emojiHappyPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -5897,10 +5897,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkEmojiNormal` icon.
   static const IconsaxIconData emojiNormal = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.emojiNormalPath4,
-      raw.IconsaxBulk.emojiNormalPath2,
       raw.IconsaxBulk.emojiNormalPath1,
+      raw.IconsaxBulk.emojiNormalPath2,
       raw.IconsaxBulk.emojiNormalPath3,
+      raw.IconsaxBulk.emojiNormalPath4,
     ],
     opacities: [
       0.4,
@@ -5915,11 +5915,11 @@ class IconsaxBulk {
   static const IconsaxIconData emojiSad = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.emojiSadPath2,
-      raw.IconsaxBulk.emojiSadPath4,
       raw.IconsaxBulk.emojiSadPath3,
+      raw.IconsaxBulk.emojiSadPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -5932,7 +5932,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.emptyWalletPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -5941,9 +5941,9 @@ class IconsaxBulk {
   static const IconsaxIconData emptyWalletAdd = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.emptyWalletAddPath1,
+      raw.IconsaxBulk.emptyWalletAddPath2,
       raw.IconsaxBulk.emptyWalletAddPath3,
       raw.IconsaxBulk.emptyWalletAddPath4,
-      raw.IconsaxBulk.emptyWalletAddPath2,
       raw.IconsaxBulk.emptyWalletAddPath5,
     ],
     opacities: [
@@ -5959,11 +5959,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkEmptyWalletChange` icon.
   static const IconsaxIconData emptyWalletChange = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.emptyWalletChangePath4,
       raw.IconsaxBulk.emptyWalletChangePath1,
       raw.IconsaxBulk.emptyWalletChangePath2,
-      raw.IconsaxBulk.emptyWalletChangePath5,
       raw.IconsaxBulk.emptyWalletChangePath3,
+      raw.IconsaxBulk.emptyWalletChangePath4,
+      raw.IconsaxBulk.emptyWalletChangePath5,
     ],
     opacities: [
       0.4,
@@ -6017,12 +6017,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkEnhancePrize` icon.
   static const IconsaxIconData enhancePrize = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.enhancePrizePath3,
-      raw.IconsaxBulk.enhancePrizePath6,
-      raw.IconsaxBulk.enhancePrizePath4,
-      raw.IconsaxBulk.enhancePrizePath2,
       raw.IconsaxBulk.enhancePrizePath1,
+      raw.IconsaxBulk.enhancePrizePath2,
+      raw.IconsaxBulk.enhancePrizePath3,
+      raw.IconsaxBulk.enhancePrizePath4,
       raw.IconsaxBulk.enhancePrizePath5,
+      raw.IconsaxBulk.enhancePrizePath6,
     ],
     opacities: [
       0.4,
@@ -6038,9 +6038,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkEnhanceUserAi` icon.
   static const IconsaxIconData enhanceUserAi = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.enhanceUserAiPath1,
       raw.IconsaxBulk.enhanceUserAiPath2,
       raw.IconsaxBulk.enhanceUserAiPath3,
-      raw.IconsaxBulk.enhanceUserAiPath1,
     ],
     opacities: [
       1.0,
@@ -6064,9 +6064,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkEosEos` icon.
   static const IconsaxIconData eosEos = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.eosEosPath3,
       raw.IconsaxBulk.eosEosPath1,
       raw.IconsaxBulk.eosEosPath2,
+      raw.IconsaxBulk.eosEosPath3,
     ],
     opacities: [
       1.0,
@@ -6079,9 +6079,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkEraser0eda` icon.
   static const IconsaxIconData eraser0eda = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.eraser0edaPath1,
       raw.IconsaxBulk.eraser0edaPath2,
       raw.IconsaxBulk.eraser0edaPath3,
-      raw.IconsaxBulk.eraser0edaPath1,
     ],
     opacities: [
       1.0,
@@ -6094,8 +6094,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkEraserC406` icon.
   static const IconsaxIconData eraserC406 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.eraserC406Path2,
       raw.IconsaxBulk.eraserC406Path1,
+      raw.IconsaxBulk.eraserC406Path2,
       raw.IconsaxBulk.eraserC406Path3,
     ],
     opacities: [
@@ -6109,9 +6109,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkEthereumClassicEtc` icon.
   static const IconsaxIconData ethereumClassicEtc = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ethereumClassicEtcPath3,
-      raw.IconsaxBulk.ethereumClassicEtcPath2,
       raw.IconsaxBulk.ethereumClassicEtcPath1,
+      raw.IconsaxBulk.ethereumClassicEtcPath2,
+      raw.IconsaxBulk.ethereumClassicEtcPath3,
     ],
     opacities: [
       0.4,
@@ -6163,8 +6163,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkExportCircle` icon.
   static const IconsaxIconData exportCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.exportCirclePath2,
       raw.IconsaxBulk.exportCirclePath1,
+      raw.IconsaxBulk.exportCirclePath2,
     ],
     opacities: [
       0.4,
@@ -6176,11 +6176,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkExternalDrive` icon.
   static const IconsaxIconData externalDrive = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.externalDrivePath2,
-      raw.IconsaxBulk.externalDrivePath5,
-      raw.IconsaxBulk.externalDrivePath4,
       raw.IconsaxBulk.externalDrivePath1,
+      raw.IconsaxBulk.externalDrivePath2,
       raw.IconsaxBulk.externalDrivePath3,
+      raw.IconsaxBulk.externalDrivePath4,
+      raw.IconsaxBulk.externalDrivePath5,
     ],
     opacities: [
       0.4,
@@ -6195,8 +6195,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkEye` icon.
   static const IconsaxIconData eye = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.eyePath2,
       raw.IconsaxBulk.eyePath1,
+      raw.IconsaxBulk.eyePath2,
     ],
     opacities: [
       0.4,
@@ -6208,10 +6208,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkEyeSlash` icon.
   static const IconsaxIconData eyeSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.eyeSlashPath4,
       raw.IconsaxBulk.eyeSlashPath1,
-      raw.IconsaxBulk.eyeSlashPath3,
       raw.IconsaxBulk.eyeSlashPath2,
+      raw.IconsaxBulk.eyeSlashPath3,
+      raw.IconsaxBulk.eyeSlashPath4,
       raw.IconsaxBulk.eyeSlashPath5,
     ],
     opacities: [
@@ -6239,8 +6239,8 @@ class IconsaxBulk {
   static const IconsaxIconData favoriteChart = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.favoriteChartPath1,
-      raw.IconsaxBulk.favoriteChartPath3,
       raw.IconsaxBulk.favoriteChartPath2,
+      raw.IconsaxBulk.favoriteChartPath3,
     ],
     opacities: [
       0.4,
@@ -6253,11 +6253,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkFigma` icon.
   static const IconsaxIconData figma = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.figmaPath5,
-      raw.IconsaxBulk.figmaPath3,
       raw.IconsaxBulk.figmaPath1,
       raw.IconsaxBulk.figmaPath2,
+      raw.IconsaxBulk.figmaPath3,
       raw.IconsaxBulk.figmaPath4,
+      raw.IconsaxBulk.figmaPath5,
     ],
     opacities: [
       1.0,
@@ -6272,18 +6272,18 @@ class IconsaxBulk {
   /// Composite getter for `bulkFigmaCircle` icon.
   static const IconsaxIconData figmaCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.figmaCirclePath6,
       raw.IconsaxBulk.figmaCirclePath2,
-      raw.IconsaxBulk.figmaCirclePath5,
-      raw.IconsaxBulk.figmaCirclePath4,
       raw.IconsaxBulk.figmaCirclePath3,
+      raw.IconsaxBulk.figmaCirclePath4,
+      raw.IconsaxBulk.figmaCirclePath5,
+      raw.IconsaxBulk.figmaCirclePath6,
     ],
     opacities: [
-      0.4,
       1.0,
       0.4,
       1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -6304,8 +6304,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFilterAdd` icon.
   static const IconsaxIconData filterAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.filterAddPath2,
       raw.IconsaxBulk.filterAddPath1,
+      raw.IconsaxBulk.filterAddPath2,
     ],
     opacities: [
       0.4,
@@ -6354,8 +6354,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFilterSquare` icon.
   static const IconsaxIconData filterSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.filterSquarePath2,
       raw.IconsaxBulk.filterSquarePath1,
+      raw.IconsaxBulk.filterSquarePath2,
     ],
     opacities: [
       0.4,
@@ -6379,8 +6379,8 @@ class IconsaxBulk {
   static const IconsaxIconData fingerCircle = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.fingerCirclePath1,
-      raw.IconsaxBulk.fingerCirclePath3,
       raw.IconsaxBulk.fingerCirclePath2,
+      raw.IconsaxBulk.fingerCirclePath3,
     ],
     opacities: [
       0.4,
@@ -6395,8 +6395,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.fingerScanPath1,
       raw.IconsaxBulk.fingerScanPath2,
-      raw.IconsaxBulk.fingerScanPath4,
       raw.IconsaxBulk.fingerScanPath3,
+      raw.IconsaxBulk.fingerScanPath4,
       raw.IconsaxBulk.fingerScanPath6,
     ],
     opacities: [
@@ -6412,9 +6412,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkFire` icon.
   static const IconsaxIconData fire = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.firePath1,
       raw.IconsaxBulk.firePath2,
       raw.IconsaxBulk.firePath3,
-      raw.IconsaxBulk.firePath1,
     ],
     opacities: [
       1.0,
@@ -6440,8 +6440,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.fire3Path1,
       raw.IconsaxBulk.fire3Path2,
-      raw.IconsaxBulk.fire3Path4,
       raw.IconsaxBulk.fire3Path3,
+      raw.IconsaxBulk.fire3Path4,
     ],
     opacities: [
       1.0,
@@ -6455,9 +6455,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkFireworks` icon.
   static const IconsaxIconData fireworks = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.fireworksPath3,
       raw.IconsaxBulk.fireworksPath1,
       raw.IconsaxBulk.fireworksPath2,
+      raw.IconsaxBulk.fireworksPath3,
     ],
     opacities: [
       1.0,
@@ -6470,8 +6470,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFireworks2` icon.
   static const IconsaxIconData fireworks2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.fireworks2Path2,
       raw.IconsaxBulk.fireworks2Path1,
+      raw.IconsaxBulk.fireworks2Path2,
     ],
     opacities: [
       0.4,
@@ -6483,11 +6483,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkFireworks3` icon.
   static const IconsaxIconData fireworks3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.fireworks3Path4,
-      raw.IconsaxBulk.fireworks3Path2,
-      raw.IconsaxBulk.fireworks3Path5,
       raw.IconsaxBulk.fireworks3Path1,
+      raw.IconsaxBulk.fireworks3Path2,
       raw.IconsaxBulk.fireworks3Path3,
+      raw.IconsaxBulk.fireworks3Path4,
+      raw.IconsaxBulk.fireworks3Path5,
     ],
     opacities: [
       0.4,
@@ -6513,11 +6513,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkFirstline` icon.
   static const IconsaxIconData firstline = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.firstlinePath4,
-      raw.IconsaxBulk.firstlinePath5,
+      raw.IconsaxBulk.firstlinePath1,
       raw.IconsaxBulk.firstlinePath2,
       raw.IconsaxBulk.firstlinePath3,
-      raw.IconsaxBulk.firstlinePath1,
+      raw.IconsaxBulk.firstlinePath4,
+      raw.IconsaxBulk.firstlinePath5,
     ],
     opacities: [
       1.0,
@@ -6545,8 +6545,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFlag9959` icon.
   static const IconsaxIconData flag9959 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.flag9959Path2,
       raw.IconsaxBulk.flag9959Path1,
+      raw.IconsaxBulk.flag9959Path2,
     ],
     opacities: [
       1.0,
@@ -6558,8 +6558,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFlash` icon.
   static const IconsaxIconData flash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.flashPath2,
       raw.IconsaxBulk.flashPath1,
+      raw.IconsaxBulk.flashPath2,
     ],
     opacities: [
       1.0,
@@ -6598,8 +6598,8 @@ class IconsaxBulk {
   static const IconsaxIconData flashSlash = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.flashSlashPath1,
-      raw.IconsaxBulk.flashSlashPath3,
       raw.IconsaxBulk.flashSlashPath2,
+      raw.IconsaxBulk.flashSlashPath3,
     ],
     opacities: [
       1.0,
@@ -6649,8 +6649,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFolderCloud` icon.
   static const IconsaxIconData folderCloud = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.folderCloudPath2,
       raw.IconsaxBulk.folderCloudPath1,
+      raw.IconsaxBulk.folderCloudPath2,
     ],
     opacities: [
       0.4,
@@ -6675,8 +6675,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkFolderCross` icon.
   static const IconsaxIconData folderCross = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.folderCrossPath2,
       raw.IconsaxBulk.folderCrossPath1,
+      raw.IconsaxBulk.folderCrossPath2,
     ],
     opacities: [
       0.4,
@@ -6746,10 +6746,10 @@ class IconsaxBulk {
   static const IconsaxIconData formatCircle = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.formatCirclePath1,
-      raw.IconsaxBulk.formatCirclePath3,
-      raw.IconsaxBulk.formatCirclePath5,
       raw.IconsaxBulk.formatCirclePath2,
+      raw.IconsaxBulk.formatCirclePath3,
       raw.IconsaxBulk.formatCirclePath4,
+      raw.IconsaxBulk.formatCirclePath5,
     ],
     opacities: [
       1.0,
@@ -6764,10 +6764,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkFormatSquare` icon.
   static const IconsaxIconData formatSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.formatSquarePath4,
-      raw.IconsaxBulk.formatSquarePath2,
       raw.IconsaxBulk.formatSquarePath1,
+      raw.IconsaxBulk.formatSquarePath2,
       raw.IconsaxBulk.formatSquarePath3,
+      raw.IconsaxBulk.formatSquarePath4,
       raw.IconsaxBulk.formatSquarePath5,
     ],
     opacities: [
@@ -6796,8 +6796,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkForward10Seconds` icon.
   static const IconsaxIconData forward10Seconds = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.forward10SecondsPath2,
       raw.IconsaxBulk.forward10SecondsPath1,
+      raw.IconsaxBulk.forward10SecondsPath2,
     ],
     opacities: [
       0.4,
@@ -6837,8 +6837,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkForwardItem` icon.
   static const IconsaxIconData forwardItem = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.forwardItemPath2,
       raw.IconsaxBulk.forwardItemPath1,
+      raw.IconsaxBulk.forwardItemPath2,
       raw.IconsaxBulk.forwardItemPath3,
     ],
     opacities: [
@@ -6855,7 +6855,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.framerPath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -6863,10 +6863,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkFtxTokenFtt` icon.
   static const IconsaxIconData ftxTokenFtt = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ftxTokenFttPath4,
-      raw.IconsaxBulk.ftxTokenFttPath3,
       raw.IconsaxBulk.ftxTokenFttPath1,
       raw.IconsaxBulk.ftxTokenFttPath2,
+      raw.IconsaxBulk.ftxTokenFttPath3,
+      raw.IconsaxBulk.ftxTokenFttPath4,
     ],
     opacities: [
       1.0,
@@ -6883,7 +6883,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.galleryPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -6891,9 +6891,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGalleryAdd` icon.
   static const IconsaxIconData galleryAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.galleryAddPath3,
       raw.IconsaxBulk.galleryAddPath1,
       raw.IconsaxBulk.galleryAddPath2,
+      raw.IconsaxBulk.galleryAddPath3,
       raw.IconsaxBulk.galleryAddPath4,
     ],
     opacities: [
@@ -6942,9 +6942,9 @@ class IconsaxBulk {
   static const IconsaxIconData gallerySlash = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.gallerySlashPath1,
-      raw.IconsaxBulk.gallerySlashPath5,
       raw.IconsaxBulk.gallerySlashPath2,
       raw.IconsaxBulk.gallerySlashPath3,
+      raw.IconsaxBulk.gallerySlashPath5,
     ],
     opacities: [
       0.4,
@@ -6969,13 +6969,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkGame` icon.
   static const IconsaxIconData game = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gamePath7,
-      raw.IconsaxBulk.gamePath6,
+      raw.IconsaxBulk.gamePath1,
       raw.IconsaxBulk.gamePath2,
-      raw.IconsaxBulk.gamePath5,
       raw.IconsaxBulk.gamePath3,
       raw.IconsaxBulk.gamePath4,
-      raw.IconsaxBulk.gamePath1,
+      raw.IconsaxBulk.gamePath5,
+      raw.IconsaxBulk.gamePath6,
+      raw.IconsaxBulk.gamePath7,
     ],
     opacities: [
       1.0,
@@ -6993,10 +6993,10 @@ class IconsaxBulk {
   static const IconsaxIconData gameboy = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.gameboyPath1,
-      raw.IconsaxBulk.gameboyPath3,
-      raw.IconsaxBulk.gameboyPath5,
-      raw.IconsaxBulk.gameboyPath4,
       raw.IconsaxBulk.gameboyPath2,
+      raw.IconsaxBulk.gameboyPath3,
+      raw.IconsaxBulk.gameboyPath4,
+      raw.IconsaxBulk.gameboyPath5,
     ],
     opacities: [
       0.4,
@@ -7013,9 +7013,9 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.gasStationPath1,
       raw.IconsaxBulk.gasStationPath2,
-      raw.IconsaxBulk.gasStationPath5,
-      raw.IconsaxBulk.gasStationPath4,
       raw.IconsaxBulk.gasStationPath3,
+      raw.IconsaxBulk.gasStationPath4,
+      raw.IconsaxBulk.gasStationPath5,
     ],
     opacities: [
       0.4,
@@ -7030,11 +7030,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkGemini6b5c` icon.
   static const IconsaxIconData gemini6b5c = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gemini6b5cPath2,
       raw.IconsaxBulk.gemini6b5cPath1,
-      raw.IconsaxBulk.gemini6b5cPath5,
+      raw.IconsaxBulk.gemini6b5cPath2,
       raw.IconsaxBulk.gemini6b5cPath3,
       raw.IconsaxBulk.gemini6b5cPath4,
+      raw.IconsaxBulk.gemini6b5cPath5,
     ],
     opacities: [
       1.0,
@@ -7052,7 +7052,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.geminiAe39Path2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -7060,9 +7060,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGhost` icon.
   static const IconsaxIconData ghost = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.ghostPath1,
       raw.IconsaxBulk.ghostPath2,
       raw.IconsaxBulk.ghostPath3,
-      raw.IconsaxBulk.ghostPath1,
     ],
     opacities: [
       0.4,
@@ -7075,9 +7075,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift10` icon.
   static const IconsaxIconData gift10 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift10Path3,
       raw.IconsaxBulk.gift10Path1,
       raw.IconsaxBulk.gift10Path2,
+      raw.IconsaxBulk.gift10Path3,
       raw.IconsaxBulk.gift10Path4,
       raw.IconsaxBulk.gift10Path5,
     ],
@@ -7094,9 +7094,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift12` icon.
   static const IconsaxIconData gift12 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift12Path3,
       raw.IconsaxBulk.gift12Path1,
       raw.IconsaxBulk.gift12Path2,
+      raw.IconsaxBulk.gift12Path3,
     ],
     opacities: [
       1.0,
@@ -7109,9 +7109,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift122` icon.
   static const IconsaxIconData gift122 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.gift122Path1,
       raw.IconsaxBulk.gift122Path2,
       raw.IconsaxBulk.gift122Path3,
-      raw.IconsaxBulk.gift122Path1,
     ],
     opacities: [
       1.0,
@@ -7124,12 +7124,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift13` icon.
   static const IconsaxIconData gift13 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift13Path3,
-      raw.IconsaxBulk.gift13Path5,
-      raw.IconsaxBulk.gift13Path4,
       raw.IconsaxBulk.gift13Path1,
-      raw.IconsaxBulk.gift13Path6,
       raw.IconsaxBulk.gift13Path2,
+      raw.IconsaxBulk.gift13Path3,
+      raw.IconsaxBulk.gift13Path4,
+      raw.IconsaxBulk.gift13Path5,
+      raw.IconsaxBulk.gift13Path6,
     ],
     opacities: [
       0.4,
@@ -7145,14 +7145,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift14` icon.
   static const IconsaxIconData gift14 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.gift14Path3,
       raw.IconsaxBulk.gift14Path4,
       raw.IconsaxBulk.gift14Path6,
-      raw.IconsaxBulk.gift14Path3,
     ],
     opacities: [
       0.4,
       1.0,
-      0.4,
+      1.0,
     ],
   );
 
@@ -7160,9 +7160,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift142` icon.
   static const IconsaxIconData gift142 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.gift142Path1,
       raw.IconsaxBulk.gift142Path2,
       raw.IconsaxBulk.gift142Path3,
-      raw.IconsaxBulk.gift142Path1,
     ],
     opacities: [
       0.4,
@@ -7175,10 +7175,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift15` icon.
   static const IconsaxIconData gift15 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.gift15Path1,
       raw.IconsaxBulk.gift15Path2,
       raw.IconsaxBulk.gift15Path3,
       raw.IconsaxBulk.gift15Path4,
-      raw.IconsaxBulk.gift15Path1,
     ],
     opacities: [
       0.4,
@@ -7192,8 +7192,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift16` icon.
   static const IconsaxIconData gift16 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift16Path2,
       raw.IconsaxBulk.gift16Path1,
+      raw.IconsaxBulk.gift16Path2,
       raw.IconsaxBulk.gift16Path3,
     ],
     opacities: [
@@ -7208,12 +7208,12 @@ class IconsaxBulk {
   static const IconsaxIconData gift162 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.gift162Path1,
-      raw.IconsaxBulk.gift162Path7,
       raw.IconsaxBulk.gift162Path2,
-      raw.IconsaxBulk.gift162Path4,
-      raw.IconsaxBulk.gift162Path6,
-      raw.IconsaxBulk.gift162Path5,
       raw.IconsaxBulk.gift162Path3,
+      raw.IconsaxBulk.gift162Path4,
+      raw.IconsaxBulk.gift162Path5,
+      raw.IconsaxBulk.gift162Path6,
+      raw.IconsaxBulk.gift162Path7,
     ],
     opacities: [
       0.4,
@@ -7243,11 +7243,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift172` icon.
   static const IconsaxIconData gift172 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift172Path5,
       raw.IconsaxBulk.gift172Path1,
       raw.IconsaxBulk.gift172Path2,
       raw.IconsaxBulk.gift172Path3,
       raw.IconsaxBulk.gift172Path4,
+      raw.IconsaxBulk.gift172Path5,
       raw.IconsaxBulk.gift172Path6,
     ],
     opacities: [
@@ -7264,8 +7264,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift3` icon.
   static const IconsaxIconData gift3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift3Path2,
       raw.IconsaxBulk.gift3Path1,
+      raw.IconsaxBulk.gift3Path2,
     ],
     opacities: [
       0.4,
@@ -7290,13 +7290,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift5` icon.
   static const IconsaxIconData gift5 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift5Path5,
       raw.IconsaxBulk.gift5Path1,
       raw.IconsaxBulk.gift5Path2,
+      raw.IconsaxBulk.gift5Path3,
       raw.IconsaxBulk.gift5Path4,
+      raw.IconsaxBulk.gift5Path5,
       raw.IconsaxBulk.gift5Path6,
       raw.IconsaxBulk.gift5Path7,
-      raw.IconsaxBulk.gift5Path3,
     ],
     opacities: [
       1.0,
@@ -7313,12 +7313,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkGift9` icon.
   static const IconsaxIconData gift9 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gift9Path6,
-      raw.IconsaxBulk.gift9Path3,
-      raw.IconsaxBulk.gift9Path5,
-      raw.IconsaxBulk.gift9Path4,
-      raw.IconsaxBulk.gift9Path2,
       raw.IconsaxBulk.gift9Path1,
+      raw.IconsaxBulk.gift9Path2,
+      raw.IconsaxBulk.gift9Path3,
+      raw.IconsaxBulk.gift9Path4,
+      raw.IconsaxBulk.gift9Path5,
+      raw.IconsaxBulk.gift9Path6,
     ],
     opacities: [
       0.4,
@@ -7347,9 +7347,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGiftA435` icon.
   static const IconsaxIconData giftA435 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.giftA435Path3,
-      raw.IconsaxBulk.giftA435Path2,
       raw.IconsaxBulk.giftA435Path1,
+      raw.IconsaxBulk.giftA435Path2,
+      raw.IconsaxBulk.giftA435Path3,
     ],
     opacities: [
       1.0,
@@ -7362,22 +7362,22 @@ class IconsaxBulk {
   /// Composite getter for `bulkGiftBag` icon.
   static const IconsaxIconData giftBag = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.giftBagPath1,
+      raw.IconsaxBulk.giftBagPath2,
       raw.IconsaxBulk.giftBagPath3,
       raw.IconsaxBulk.giftBagPath4,
-      raw.IconsaxBulk.giftBagPath9,
-      raw.IconsaxBulk.giftBagPath2,
-      raw.IconsaxBulk.giftBagPath6,
-      raw.IconsaxBulk.giftBagPath13,
-      raw.IconsaxBulk.giftBagPath11,
-      raw.IconsaxBulk.giftBagPath14,
-      raw.IconsaxBulk.giftBagPath8,
       raw.IconsaxBulk.giftBagPath5,
-      raw.IconsaxBulk.giftBagPath12,
+      raw.IconsaxBulk.giftBagPath6,
       raw.IconsaxBulk.giftBagPath7,
-      raw.IconsaxBulk.giftBagPath1,
+      raw.IconsaxBulk.giftBagPath8,
+      raw.IconsaxBulk.giftBagPath9,
       raw.IconsaxBulk.giftBagPath10,
-      raw.IconsaxBulk.giftBagPath17,
+      raw.IconsaxBulk.giftBagPath11,
+      raw.IconsaxBulk.giftBagPath12,
+      raw.IconsaxBulk.giftBagPath13,
+      raw.IconsaxBulk.giftBagPath14,
       raw.IconsaxBulk.giftBagPath15,
+      raw.IconsaxBulk.giftBagPath17,
     ],
     opacities: [
       1.0,
@@ -7403,15 +7403,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkGiftCupcake` icon.
   static const IconsaxIconData giftCupcake = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.giftCupcakePath6,
-      raw.IconsaxBulk.giftCupcakePath10,
       raw.IconsaxBulk.giftCupcakePath1,
-      raw.IconsaxBulk.giftCupcakePath4,
-      raw.IconsaxBulk.giftCupcakePath8,
       raw.IconsaxBulk.giftCupcakePath2,
-      raw.IconsaxBulk.giftCupcakePath9,
       raw.IconsaxBulk.giftCupcakePath3,
+      raw.IconsaxBulk.giftCupcakePath4,
+      raw.IconsaxBulk.giftCupcakePath6,
       raw.IconsaxBulk.giftCupcakePath7,
+      raw.IconsaxBulk.giftCupcakePath8,
+      raw.IconsaxBulk.giftCupcakePath9,
+      raw.IconsaxBulk.giftCupcakePath10,
     ],
     opacities: [
       1.0,
@@ -7431,10 +7431,10 @@ class IconsaxBulk {
   static const IconsaxIconData giftE024 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.giftE024Path1,
-      raw.IconsaxBulk.giftE024Path4,
       raw.IconsaxBulk.giftE024Path2,
-      raw.IconsaxBulk.giftE024Path5,
       raw.IconsaxBulk.giftE024Path3,
+      raw.IconsaxBulk.giftE024Path4,
+      raw.IconsaxBulk.giftE024Path5,
     ],
     opacities: [
       0.4,
@@ -7462,9 +7462,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGlass21f3` icon.
   static const IconsaxIconData glass21f3 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.glass21f3Path1,
       raw.IconsaxBulk.glass21f3Path2,
       raw.IconsaxBulk.glass21f3Path3,
-      raw.IconsaxBulk.glass21f3Path1,
     ],
     opacities: [
       1.0,
@@ -7477,10 +7477,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGlassAce5` icon.
   static const IconsaxIconData glassAce5 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.glassAce5Path4,
       raw.IconsaxBulk.glassAce5Path1,
-      raw.IconsaxBulk.glassAce5Path3,
       raw.IconsaxBulk.glassAce5Path2,
+      raw.IconsaxBulk.glassAce5Path3,
+      raw.IconsaxBulk.glassAce5Path4,
       raw.IconsaxBulk.glassAce5Path5,
     ],
     opacities: [
@@ -7496,15 +7496,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkGlobal` icon.
   static const IconsaxIconData global = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.globalPath4,
-      raw.IconsaxBulk.globalPath3,
-      raw.IconsaxBulk.globalPath8,
-      raw.IconsaxBulk.globalPath9,
-      raw.IconsaxBulk.globalPath2,
       raw.IconsaxBulk.globalPath1,
+      raw.IconsaxBulk.globalPath2,
+      raw.IconsaxBulk.globalPath3,
+      raw.IconsaxBulk.globalPath4,
+      raw.IconsaxBulk.globalPath5,
       raw.IconsaxBulk.globalPath6,
       raw.IconsaxBulk.globalPath7,
-      raw.IconsaxBulk.globalPath5,
+      raw.IconsaxBulk.globalPath8,
+      raw.IconsaxBulk.globalPath9,
     ],
     opacities: [
       0.4,
@@ -7523,16 +7523,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkGlobalEdit` icon.
   static const IconsaxIconData globalEdit = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.globalEditPath9,
-      raw.IconsaxBulk.globalEditPath7,
-      raw.IconsaxBulk.globalEditPath8,
-      raw.IconsaxBulk.globalEditPath6,
+      raw.IconsaxBulk.globalEditPath1,
+      raw.IconsaxBulk.globalEditPath2,
       raw.IconsaxBulk.globalEditPath3,
       raw.IconsaxBulk.globalEditPath4,
-      raw.IconsaxBulk.globalEditPath1,
-      raw.IconsaxBulk.globalEditPath10,
-      raw.IconsaxBulk.globalEditPath2,
       raw.IconsaxBulk.globalEditPath5,
+      raw.IconsaxBulk.globalEditPath6,
+      raw.IconsaxBulk.globalEditPath7,
+      raw.IconsaxBulk.globalEditPath8,
+      raw.IconsaxBulk.globalEditPath9,
+      raw.IconsaxBulk.globalEditPath10,
     ],
     opacities: [
       1.0,
@@ -7552,14 +7552,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkGlobalRefresh` icon.
   static const IconsaxIconData globalRefresh = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.globalRefreshPath8,
-      raw.IconsaxBulk.globalRefreshPath5,
       raw.IconsaxBulk.globalRefreshPath2,
       raw.IconsaxBulk.globalRefreshPath4,
+      raw.IconsaxBulk.globalRefreshPath5,
       raw.IconsaxBulk.globalRefreshPath6,
+      raw.IconsaxBulk.globalRefreshPath8,
     ],
     opacities: [
-      1.0,
+      0.4,
       0.4,
       0.4,
       0.4,
@@ -7583,8 +7583,8 @@ class IconsaxBulk {
   static const IconsaxIconData google = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.googlePath1,
-      raw.IconsaxBulk.googlePath3,
       raw.IconsaxBulk.googlePath2,
+      raw.IconsaxBulk.googlePath3,
     ],
     opacities: [
       1.0,
@@ -7597,12 +7597,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkGoogleDrive` icon.
   static const IconsaxIconData googleDrive = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.googleDrivePath6,
-      raw.IconsaxBulk.googleDrivePath3,
-      raw.IconsaxBulk.googleDrivePath5,
       raw.IconsaxBulk.googleDrivePath1,
-      raw.IconsaxBulk.googleDrivePath4,
       raw.IconsaxBulk.googleDrivePath2,
+      raw.IconsaxBulk.googleDrivePath3,
+      raw.IconsaxBulk.googleDrivePath4,
+      raw.IconsaxBulk.googleDrivePath5,
+      raw.IconsaxBulk.googleDrivePath6,
       raw.IconsaxBulk.googleDrivePath7,
     ],
     opacities: [
@@ -7620,10 +7620,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGooglePlay` icon.
   static const IconsaxIconData googlePlay = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.googlePlayPath4,
-      raw.IconsaxBulk.googlePlayPath2,
       raw.IconsaxBulk.googlePlayPath1,
+      raw.IconsaxBulk.googlePlayPath2,
       raw.IconsaxBulk.googlePlayPath3,
+      raw.IconsaxBulk.googlePlayPath4,
     ],
     opacities: [
       0.4,
@@ -7637,8 +7637,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkGps` icon.
   static const IconsaxIconData gps = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gpsPath2,
       raw.IconsaxBulk.gpsPath1,
+      raw.IconsaxBulk.gpsPath2,
     ],
     opacities: [
       0.4,
@@ -7650,17 +7650,17 @@ class IconsaxBulk {
   /// Composite getter for `bulkGpsSlash` icon.
   static const IconsaxIconData gpsSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gpsSlashPath7,
-      raw.IconsaxBulk.gpsSlashPath3,
       raw.IconsaxBulk.gpsSlashPath2,
-      raw.IconsaxBulk.gpsSlashPath6,
-      raw.IconsaxBulk.gpsSlashPath8,
-      raw.IconsaxBulk.gpsSlashPath5,
+      raw.IconsaxBulk.gpsSlashPath3,
       raw.IconsaxBulk.gpsSlashPath4,
+      raw.IconsaxBulk.gpsSlashPath5,
+      raw.IconsaxBulk.gpsSlashPath6,
+      raw.IconsaxBulk.gpsSlashPath7,
+      raw.IconsaxBulk.gpsSlashPath8,
     ],
     opacities: [
       0.4,
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -7673,8 +7673,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkGraph` icon.
   static const IconsaxIconData graph = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.graphPath2,
       raw.IconsaxBulk.graphPath1,
+      raw.IconsaxBulk.graphPath2,
     ],
     opacities: [
       1.0,
@@ -7686,10 +7686,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGrid2e17` icon.
   static const IconsaxIconData grid2e17 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.grid2e17Path4,
       raw.IconsaxBulk.grid2e17Path1,
       raw.IconsaxBulk.grid2e17Path2,
       raw.IconsaxBulk.grid2e17Path3,
+      raw.IconsaxBulk.grid2e17Path4,
     ],
     opacities: [
       0.4,
@@ -7703,12 +7703,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkGrid3d04` icon.
   static const IconsaxIconData grid3d04 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.grid3d04Path5,
-      raw.IconsaxBulk.grid3d04Path6,
+      raw.IconsaxBulk.grid3d04Path1,
       raw.IconsaxBulk.grid3d04Path2,
       raw.IconsaxBulk.grid3d04Path3,
-      raw.IconsaxBulk.grid3d04Path1,
       raw.IconsaxBulk.grid3d04Path4,
+      raw.IconsaxBulk.grid3d04Path5,
+      raw.IconsaxBulk.grid3d04Path6,
     ],
     opacities: [
       0.4,
@@ -7724,9 +7724,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkGrid4113` icon.
   static const IconsaxIconData grid4113 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.grid4113Path1,
       raw.IconsaxBulk.grid4113Path2,
       raw.IconsaxBulk.grid4113Path3,
-      raw.IconsaxBulk.grid4113Path1,
     ],
     opacities: [
       0.6,
@@ -7739,10 +7739,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGrid4aeb` icon.
   static const IconsaxIconData grid4aeb = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.grid4aebPath4,
       raw.IconsaxBulk.grid4aebPath1,
       raw.IconsaxBulk.grid4aebPath2,
       raw.IconsaxBulk.grid4aebPath3,
+      raw.IconsaxBulk.grid4aebPath4,
     ],
     opacities: [
       0.6,
@@ -7759,7 +7759,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.grid5c48Path1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -7767,8 +7767,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkGrid9270` icon.
   static const IconsaxIconData grid9270 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.grid9270Path2,
       raw.IconsaxBulk.grid9270Path1,
+      raw.IconsaxBulk.grid9270Path2,
       raw.IconsaxBulk.grid9270Path3,
     ],
     opacities: [
@@ -7783,14 +7783,14 @@ class IconsaxBulk {
   static const IconsaxIconData grid9b45 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.grid9b45Path1,
+      raw.IconsaxBulk.grid9b45Path2,
+      raw.IconsaxBulk.grid9b45Path3,
+      raw.IconsaxBulk.grid9b45Path4,
+      raw.IconsaxBulk.grid9b45Path5,
+      raw.IconsaxBulk.grid9b45Path6,
+      raw.IconsaxBulk.grid9b45Path7,
       raw.IconsaxBulk.grid9b45Path8,
       raw.IconsaxBulk.grid9b45Path9,
-      raw.IconsaxBulk.grid9b45Path5,
-      raw.IconsaxBulk.grid9b45Path2,
-      raw.IconsaxBulk.grid9b45Path7,
-      raw.IconsaxBulk.grid9b45Path4,
-      raw.IconsaxBulk.grid9b45Path3,
-      raw.IconsaxBulk.grid9b45Path6,
     ],
     opacities: [
       1.0,
@@ -7823,8 +7823,8 @@ class IconsaxBulk {
   static const IconsaxIconData gridAc1d = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.gridAc1dPath1,
-      raw.IconsaxBulk.gridAc1dPath3,
       raw.IconsaxBulk.gridAc1dPath2,
+      raw.IconsaxBulk.gridAc1dPath3,
     ],
     opacities: [
       0.4,
@@ -7837,10 +7837,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGridAdd` icon.
   static const IconsaxIconData gridAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gridAddPath3,
       raw.IconsaxBulk.gridAddPath1,
-      raw.IconsaxBulk.gridAddPath4,
       raw.IconsaxBulk.gridAddPath2,
+      raw.IconsaxBulk.gridAddPath3,
+      raw.IconsaxBulk.gridAddPath4,
     ],
     opacities: [
       1.0,
@@ -7854,12 +7854,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkGridEdit` icon.
   static const IconsaxIconData gridEdit = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gridEditPath3,
-      raw.IconsaxBulk.gridEditPath4,
-      raw.IconsaxBulk.gridEditPath6,
-      raw.IconsaxBulk.gridEditPath5,
       raw.IconsaxBulk.gridEditPath1,
       raw.IconsaxBulk.gridEditPath2,
+      raw.IconsaxBulk.gridEditPath3,
+      raw.IconsaxBulk.gridEditPath4,
+      raw.IconsaxBulk.gridEditPath5,
+      raw.IconsaxBulk.gridEditPath6,
       raw.IconsaxBulk.gridEditPath7,
     ],
     opacities: [
@@ -7890,15 +7890,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkGridEraser` icon.
   static const IconsaxIconData gridEraser = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gridEraserPath5,
       raw.IconsaxBulk.gridEraserPath3,
-      raw.IconsaxBulk.gridEraserPath8,
       raw.IconsaxBulk.gridEraserPath4,
+      raw.IconsaxBulk.gridEraserPath5,
       raw.IconsaxBulk.gridEraserPath7,
+      raw.IconsaxBulk.gridEraserPath8,
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
       1.0,
       0.4,
       1.0,
@@ -7920,10 +7920,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkGrids` icon.
   static const IconsaxIconData grids = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.gridsPath4,
-      raw.IconsaxBulk.gridsPath3,
-      raw.IconsaxBulk.gridsPath2,
       raw.IconsaxBulk.gridsPath1,
+      raw.IconsaxBulk.gridsPath2,
+      raw.IconsaxBulk.gridsPath3,
+      raw.IconsaxBulk.gridsPath4,
     ],
     opacities: [
       0.4,
@@ -7937,14 +7937,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkHangingOrnament` icon.
   static const IconsaxIconData hangingOrnament = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hangingOrnamentPath2,
       raw.IconsaxBulk.hangingOrnamentPath1,
-      raw.IconsaxBulk.hangingOrnamentPath4,
-      raw.IconsaxBulk.hangingOrnamentPath6,
-      raw.IconsaxBulk.hangingOrnamentPath8,
-      raw.IconsaxBulk.hangingOrnamentPath5,
-      raw.IconsaxBulk.hangingOrnamentPath7,
+      raw.IconsaxBulk.hangingOrnamentPath2,
       raw.IconsaxBulk.hangingOrnamentPath3,
+      raw.IconsaxBulk.hangingOrnamentPath4,
+      raw.IconsaxBulk.hangingOrnamentPath5,
+      raw.IconsaxBulk.hangingOrnamentPath6,
+      raw.IconsaxBulk.hangingOrnamentPath7,
+      raw.IconsaxBulk.hangingOrnamentPath8,
     ],
     opacities: [
       1.0,
@@ -7962,8 +7962,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHappy` icon.
   static const IconsaxIconData happy = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.happyPath2,
       raw.IconsaxBulk.happyPath1,
+      raw.IconsaxBulk.happyPath2,
     ],
     opacities: [
       0.4,
@@ -8038,12 +8038,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkHat` icon.
   static const IconsaxIconData hat = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hatPath3,
       raw.IconsaxBulk.hatPath1,
+      raw.IconsaxBulk.hatPath3,
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -8051,10 +8051,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkHat2` icon.
   static const IconsaxIconData hat2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hat2Path3,
-      raw.IconsaxBulk.hat2Path2,
-      raw.IconsaxBulk.hat2Path4,
       raw.IconsaxBulk.hat2Path1,
+      raw.IconsaxBulk.hat2Path2,
+      raw.IconsaxBulk.hat2Path3,
+      raw.IconsaxBulk.hat2Path4,
     ],
     opacities: [
       0.4,
@@ -8069,8 +8069,8 @@ class IconsaxBulk {
   static const IconsaxIconData hat3 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.hat3Path1,
-      raw.IconsaxBulk.hat3Path3,
       raw.IconsaxBulk.hat3Path2,
+      raw.IconsaxBulk.hat3Path3,
     ],
     opacities: [
       1.0,
@@ -8083,9 +8083,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkHeadphone` icon.
   static const IconsaxIconData headphone = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.headphonePath1,
       raw.IconsaxBulk.headphonePath2,
       raw.IconsaxBulk.headphonePath3,
-      raw.IconsaxBulk.headphonePath1,
     ],
     opacities: [
       0.4,
@@ -8099,13 +8099,13 @@ class IconsaxBulk {
   static const IconsaxIconData headphones = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.headphonesPath1,
+      raw.IconsaxBulk.headphonesPath2,
       raw.IconsaxBulk.headphonesPath3,
+      raw.IconsaxBulk.headphonesPath4,
       raw.IconsaxBulk.headphonesPath5,
+      raw.IconsaxBulk.headphonesPath6,
       raw.IconsaxBulk.headphonesPath7,
       raw.IconsaxBulk.headphonesPath8,
-      raw.IconsaxBulk.headphonesPath2,
-      raw.IconsaxBulk.headphonesPath6,
-      raw.IconsaxBulk.headphonesPath4,
     ],
     opacities: [
       0.4,
@@ -8123,8 +8123,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHealth` icon.
   static const IconsaxIconData health = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.healthPath2,
       raw.IconsaxBulk.healthPath1,
+      raw.IconsaxBulk.healthPath2,
       raw.IconsaxBulk.healthPath3,
     ],
     opacities: [
@@ -8138,8 +8138,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHeart` icon.
   static const IconsaxIconData heart = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.heartPath2,
       raw.IconsaxBulk.heartPath1,
+      raw.IconsaxBulk.heartPath2,
     ],
     opacities: [
       1.0,
@@ -8167,7 +8167,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.heartCirclePath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -8175,8 +8175,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHeartEdit` icon.
   static const IconsaxIconData heartEdit = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.heartEditPath2,
       raw.IconsaxBulk.heartEditPath1,
+      raw.IconsaxBulk.heartEditPath2,
     ],
     opacities: [
       0.4,
@@ -8210,8 +8210,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHeartSlash` icon.
   static const IconsaxIconData heartSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.heartSlashPath2,
       raw.IconsaxBulk.heartSlashPath1,
+      raw.IconsaxBulk.heartSlashPath2,
     ],
     opacities: [
       0.4,
@@ -8223,8 +8223,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHeartTick` icon.
   static const IconsaxIconData heartTick = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.heartTickPath2,
       raw.IconsaxBulk.heartTickPath1,
+      raw.IconsaxBulk.heartTickPath2,
     ],
     opacities: [
       1.0,
@@ -8237,10 +8237,10 @@ class IconsaxBulk {
   static const IconsaxIconData hederaHashgraphHbar = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.hederaHashgraphHbarPath1,
-      raw.IconsaxBulk.hederaHashgraphHbarPath3,
-      raw.IconsaxBulk.hederaHashgraphHbarPath5,
       raw.IconsaxBulk.hederaHashgraphHbarPath2,
+      raw.IconsaxBulk.hederaHashgraphHbarPath3,
       raw.IconsaxBulk.hederaHashgraphHbarPath4,
+      raw.IconsaxBulk.hederaHashgraphHbarPath5,
     ],
     opacities: [
       1.0,
@@ -8270,12 +8270,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkHierarchy1090` icon.
   static const IconsaxIconData hierarchy1090 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hierarchy1090Path4,
       raw.IconsaxBulk.hierarchy1090Path2,
+      raw.IconsaxBulk.hierarchy1090Path4,
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -8283,10 +8283,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkHierarchy6f91` icon.
   static const IconsaxIconData hierarchy6f91 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hierarchy6f91Path4,
+      raw.IconsaxBulk.hierarchy6f91Path1,
       raw.IconsaxBulk.hierarchy6f91Path2,
       raw.IconsaxBulk.hierarchy6f91Path3,
-      raw.IconsaxBulk.hierarchy6f91Path1,
+      raw.IconsaxBulk.hierarchy6f91Path4,
     ],
     opacities: [
       1.0,
@@ -8302,8 +8302,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.hierarchy8d16Path1,
       raw.IconsaxBulk.hierarchy8d16Path2,
-      raw.IconsaxBulk.hierarchy8d16Path4,
       raw.IconsaxBulk.hierarchy8d16Path3,
+      raw.IconsaxBulk.hierarchy8d16Path4,
     ],
     opacities: [
       1.0,
@@ -8328,9 +8328,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkHierarchySquareC3f6` icon.
   static const IconsaxIconData hierarchySquareC3f6 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hierarchySquareC3f6Path3,
-      raw.IconsaxBulk.hierarchySquareC3f6Path2,
       raw.IconsaxBulk.hierarchySquareC3f6Path1,
+      raw.IconsaxBulk.hierarchySquareC3f6Path2,
+      raw.IconsaxBulk.hierarchySquareC3f6Path3,
     ],
     opacities: [
       0.4,
@@ -8343,8 +8343,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHierarchySquareC7ae` icon.
   static const IconsaxIconData hierarchySquareC7ae = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hierarchySquareC7aePath2,
       raw.IconsaxBulk.hierarchySquareC7aePath1,
+      raw.IconsaxBulk.hierarchySquareC7aePath2,
     ],
     opacities: [
       0.4,
@@ -8356,28 +8356,28 @@ class IconsaxBulk {
   /// Composite getter for `bulkHoHoHo` icon.
   static const IconsaxIconData hoHoHo = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.hoHoHoPath10,
-      raw.IconsaxBulk.hoHoHoPath2,
-      raw.IconsaxBulk.hoHoHoPath6,
-      raw.IconsaxBulk.hoHoHoPath13,
-      raw.IconsaxBulk.hoHoHoPath15,
-      raw.IconsaxBulk.hoHoHoPath4,
-      raw.IconsaxBulk.hoHoHoPath7,
-      raw.IconsaxBulk.hoHoHoPath9,
       raw.IconsaxBulk.hoHoHoPath1,
+      raw.IconsaxBulk.hoHoHoPath2,
       raw.IconsaxBulk.hoHoHoPath3,
-      raw.IconsaxBulk.hoHoHoPath14,
-      raw.IconsaxBulk.hoHoHoPath8,
-      raw.IconsaxBulk.hoHoHoPath12,
       raw.IconsaxBulk.hoHoHoGroup1,
-      raw.IconsaxBulk.hoHoHoPath11,
+      raw.IconsaxBulk.hoHoHoPath4,
       raw.IconsaxBulk.hoHoHoPath5,
+      raw.IconsaxBulk.hoHoHoPath6,
+      raw.IconsaxBulk.hoHoHoPath7,
+      raw.IconsaxBulk.hoHoHoPath8,
+      raw.IconsaxBulk.hoHoHoPath9,
+      raw.IconsaxBulk.hoHoHoPath10,
+      raw.IconsaxBulk.hoHoHoPath11,
+      raw.IconsaxBulk.hoHoHoPath12,
+      raw.IconsaxBulk.hoHoHoPath13,
+      raw.IconsaxBulk.hoHoHoPath14,
+      raw.IconsaxBulk.hoHoHoPath15,
     ],
     opacities: [
       1.0,
       1.0,
       1.0,
-      1.0,
+      0.4,
       1.0,
       1.0,
       1.0,
@@ -8410,8 +8410,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHome7fa7` icon.
   static const IconsaxIconData home7fa7 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.home7fa7Path2,
       raw.IconsaxBulk.home7fa7Path1,
+      raw.IconsaxBulk.home7fa7Path2,
     ],
     opacities: [
       0.4,
@@ -8426,7 +8426,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.homeA392Path1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -8447,8 +8447,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHomeHashtag` icon.
   static const IconsaxIconData homeHashtag = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.homeHashtagPath2,
       raw.IconsaxBulk.homeHashtagPath1,
+      raw.IconsaxBulk.homeHashtagPath2,
     ],
     opacities: [
       0.4,
@@ -8460,8 +8460,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHomeTrendDown` icon.
   static const IconsaxIconData homeTrendDown = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.homeTrendDownPath2,
       raw.IconsaxBulk.homeTrendDownPath1,
+      raw.IconsaxBulk.homeTrendDownPath2,
     ],
     opacities: [
       0.4,
@@ -8485,9 +8485,9 @@ class IconsaxBulk {
   static const IconsaxIconData homeWifi = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.homeWifiPath1,
+      raw.IconsaxBulk.homeWifiPath2,
       raw.IconsaxBulk.homeWifiPath3,
       raw.IconsaxBulk.homeWifiPath4,
-      raw.IconsaxBulk.homeWifiPath2,
     ],
     opacities: [
       0.4,
@@ -8501,16 +8501,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkHorseshoe` icon.
   static const IconsaxIconData horseshoe = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.horseshoePath4,
       raw.IconsaxBulk.horseshoePath1,
-      raw.IconsaxBulk.horseshoePath5,
-      raw.IconsaxBulk.horseshoePath8,
       raw.IconsaxBulk.horseshoePath2,
       raw.IconsaxBulk.horseshoePath3,
+      raw.IconsaxBulk.horseshoePath4,
+      raw.IconsaxBulk.horseshoePath5,
+      raw.IconsaxBulk.horseshoePath6,
       raw.IconsaxBulk.horseshoePath7,
+      raw.IconsaxBulk.horseshoePath8,
       raw.IconsaxBulk.horseshoePath9,
       raw.IconsaxBulk.horseshoePath10,
-      raw.IconsaxBulk.horseshoePath6,
     ],
     opacities: [
       1.0,
@@ -8535,7 +8535,7 @@ class IconsaxBulk {
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
     ],
   );
 
@@ -8543,9 +8543,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkHourglass` icon.
   static const IconsaxIconData hourglass = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.hourglassPath1,
       raw.IconsaxBulk.hourglassPath2,
       raw.IconsaxBulk.hourglassPath3,
-      raw.IconsaxBulk.hourglassPath1,
     ],
     opacities: [
       0.4,
@@ -8561,9 +8561,9 @@ class IconsaxBulk {
       raw.IconsaxBulk.house5025Path1,
       raw.IconsaxBulk.house5025Path2,
       raw.IconsaxBulk.house5025Path3,
-      raw.IconsaxBulk.house5025Path6,
-      raw.IconsaxBulk.house5025Path5,
       raw.IconsaxBulk.house5025Path4,
+      raw.IconsaxBulk.house5025Path5,
+      raw.IconsaxBulk.house5025Path6,
     ],
     opacities: [
       1.0,
@@ -8580,9 +8580,9 @@ class IconsaxBulk {
   static const IconsaxIconData houseD9dc = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.houseD9dcPath1,
+      raw.IconsaxBulk.houseD9dcPath2,
       raw.IconsaxBulk.houseD9dcPath3,
       raw.IconsaxBulk.houseD9dcPath4,
-      raw.IconsaxBulk.houseD9dcPath2,
     ],
     opacities: [
       1.0,
@@ -8609,8 +8609,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkHtmlC16a` icon.
   static const IconsaxIconData htmlC16a = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.htmlC16aPath2,
       raw.IconsaxBulk.htmlC16aPath1,
+      raw.IconsaxBulk.htmlC16aPath2,
     ],
     opacities: [
       0.4,
@@ -8667,11 +8667,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkI3dCubeScan` icon.
   static const IconsaxIconData i3dCubeScan = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.i3dCubeScanPath1,
+      raw.IconsaxBulk.i3dCubeScanPath2,
+      raw.IconsaxBulk.i3dCubeScanPath3,
       raw.IconsaxBulk.i3dCubeScanPath4,
       raw.IconsaxBulk.i3dCubeScanPath5,
-      raw.IconsaxBulk.i3dCubeScanPath1,
-      raw.IconsaxBulk.i3dCubeScanPath3,
-      raw.IconsaxBulk.i3dCubeScanPath2,
     ],
     opacities: [
       0.4,
@@ -8686,10 +8686,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkI3dRotate` icon.
   static const IconsaxIconData i3dRotate = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.i3dRotatePath3,
       raw.IconsaxBulk.i3dRotatePath1,
-      raw.IconsaxBulk.i3dRotatePath4,
       raw.IconsaxBulk.i3dRotatePath2,
+      raw.IconsaxBulk.i3dRotatePath3,
+      raw.IconsaxBulk.i3dRotatePath4,
     ],
     opacities: [
       1.0,
@@ -8703,8 +8703,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkI3dSquare` icon.
   static const IconsaxIconData i3dSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.i3dSquarePath2,
       raw.IconsaxBulk.i3dSquarePath1,
+      raw.IconsaxBulk.i3dSquarePath2,
     ],
     opacities: [
       0.4,
@@ -8716,9 +8716,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkI3dcube` icon.
   static const IconsaxIconData i3dcube = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.i3dcubePath1,
       raw.IconsaxBulk.i3dcubePath2,
       raw.IconsaxBulk.i3dcubePath3,
-      raw.IconsaxBulk.i3dcubePath1,
     ],
     opacities: [
       1.0,
@@ -8731,9 +8731,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkI3square` icon.
   static const IconsaxIconData i3square = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.i3squarePath3,
-      raw.IconsaxBulk.i3squarePath2,
       raw.IconsaxBulk.i3squarePath1,
+      raw.IconsaxBulk.i3squarePath2,
+      raw.IconsaxBulk.i3squarePath3,
     ],
     opacities: [
       0.4,
@@ -8746,10 +8746,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkIconIcx` icon.
   static const IconsaxIconData iconIcx = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.iconIcxPath4,
-      raw.IconsaxBulk.iconIcxPath3,
-      raw.IconsaxBulk.iconIcxPath2,
       raw.IconsaxBulk.iconIcxPath1,
+      raw.IconsaxBulk.iconIcxPath2,
+      raw.IconsaxBulk.iconIcxPath3,
+      raw.IconsaxBulk.iconIcxPath4,
     ],
     opacities: [
       0.4,
@@ -8764,9 +8764,9 @@ class IconsaxBulk {
   static const IconsaxIconData illustrator = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.illustratorPath1,
-      raw.IconsaxBulk.illustratorPath4,
-      raw.IconsaxBulk.illustratorPath3,
       raw.IconsaxBulk.illustratorPath2,
+      raw.IconsaxBulk.illustratorPath3,
+      raw.IconsaxBulk.illustratorPath4,
     ],
     opacities: [
       0.4,
@@ -8780,8 +8780,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkImage` icon.
   static const IconsaxIconData image = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.imagePath2,
       raw.IconsaxBulk.imagePath1,
+      raw.IconsaxBulk.imagePath2,
     ],
     opacities: [
       0.4,
@@ -8826,9 +8826,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkInfoCircle` icon.
   static const IconsaxIconData infoCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.infoCirclePath3,
-      raw.IconsaxBulk.infoCirclePath2,
       raw.IconsaxBulk.infoCirclePath1,
+      raw.IconsaxBulk.infoCirclePath2,
+      raw.IconsaxBulk.infoCirclePath3,
     ],
     opacities: [
       0.4,
@@ -8858,7 +8858,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.instagramPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -8870,7 +8870,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.iostIostPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -8882,7 +8882,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.javascriptPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -8904,10 +8904,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkJudge` icon.
   static const IconsaxIconData judge = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.judgePath4,
       raw.IconsaxBulk.judgePath1,
-      raw.IconsaxBulk.judgePath3,
       raw.IconsaxBulk.judgePath2,
+      raw.IconsaxBulk.judgePath3,
+      raw.IconsaxBulk.judgePath4,
     ],
     opacities: [
       1.0,
@@ -8945,9 +8945,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkKeyboard` icon.
   static const IconsaxIconData keyboard = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.keyboardPath4,
-      raw.IconsaxBulk.keyboardPath3,
       raw.IconsaxBulk.keyboardPath1,
+      raw.IconsaxBulk.keyboardPath3,
+      raw.IconsaxBulk.keyboardPath4,
       raw.IconsaxBulk.keyboardPath5,
     ],
     opacities: [
@@ -8963,14 +8963,14 @@ class IconsaxBulk {
   static const IconsaxIconData keyboardOpen = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.keyboardOpenPath2,
-      raw.IconsaxBulk.keyboardOpenPath5,
-      raw.IconsaxBulk.keyboardOpenPath4,
       raw.IconsaxBulk.keyboardOpenPath3,
+      raw.IconsaxBulk.keyboardOpenPath4,
+      raw.IconsaxBulk.keyboardOpenPath5,
       raw.IconsaxBulk.keyboardOpenPath6,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -8981,10 +8981,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkKyberNetworkKnc` icon.
   static const IconsaxIconData kyberNetworkKnc = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.kyberNetworkKncPath1,
+      raw.IconsaxBulk.kyberNetworkKncPath2,
       raw.IconsaxBulk.kyberNetworkKncPath3,
       raw.IconsaxBulk.kyberNetworkKncPath4,
-      raw.IconsaxBulk.kyberNetworkKncPath2,
-      raw.IconsaxBulk.kyberNetworkKncPath1,
     ],
     opacities: [
       0.6,
@@ -8998,9 +8998,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkLampCharge` icon.
   static const IconsaxIconData lampCharge = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lampChargePath3,
       raw.IconsaxBulk.lampChargePath1,
       raw.IconsaxBulk.lampChargePath2,
+      raw.IconsaxBulk.lampChargePath3,
     ],
     opacities: [
       0.4,
@@ -9014,9 +9014,9 @@ class IconsaxBulk {
   static const IconsaxIconData lampChristmas = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.lampChristmasPath1,
+      raw.IconsaxBulk.lampChristmasPath2,
       raw.IconsaxBulk.lampChristmasPath3,
       raw.IconsaxBulk.lampChristmasPath4,
-      raw.IconsaxBulk.lampChristmasPath2,
     ],
     opacities: [
       0.4,
@@ -9041,9 +9041,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkLampF020` icon.
   static const IconsaxIconData lampF020 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lampF020Path3,
       raw.IconsaxBulk.lampF020Path1,
       raw.IconsaxBulk.lampF020Path2,
+      raw.IconsaxBulk.lampF020Path3,
     ],
     opacities: [
       0.4,
@@ -9056,13 +9056,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkLampSlash` icon.
   static const IconsaxIconData lampSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lampSlashPath4,
       raw.IconsaxBulk.lampSlashPath2,
       raw.IconsaxBulk.lampSlashPath3,
+      raw.IconsaxBulk.lampSlashPath4,
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
       0.4,
     ],
   );
@@ -9082,10 +9082,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkLanternStar` icon.
   static const IconsaxIconData lanternStar = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.lanternStarPath1,
+      raw.IconsaxBulk.lanternStarPath2,
       raw.IconsaxBulk.lanternStarPath3,
       raw.IconsaxBulk.lanternStarPath4,
-      raw.IconsaxBulk.lanternStarPath2,
-      raw.IconsaxBulk.lanternStarPath1,
     ],
     opacities: [
       1.0,
@@ -9099,9 +9099,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkLayer` icon.
   static const IconsaxIconData layer = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.layerPath1,
       raw.IconsaxBulk.layerPath2,
       raw.IconsaxBulk.layerPath3,
-      raw.IconsaxBulk.layerPath1,
     ],
     opacities: [
       1.0,
@@ -9127,8 +9127,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLeftBarGrid` icon.
   static const IconsaxIconData leftBarGrid = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.leftBarGridPath2,
       raw.IconsaxBulk.leftBarGridPath1,
+      raw.IconsaxBulk.leftBarGridPath2,
       raw.IconsaxBulk.leftBarGridPath3,
     ],
     opacities: [
@@ -9145,7 +9145,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.leftSidebarGridPath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -9154,11 +9154,11 @@ class IconsaxBulk {
   static const IconsaxIconData level = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.levelPath2,
-      raw.IconsaxBulk.levelPath4,
       raw.IconsaxBulk.levelPath3,
+      raw.IconsaxBulk.levelPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -9168,8 +9168,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLifebuoy` icon.
   static const IconsaxIconData lifebuoy = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lifebuoyPath2,
       raw.IconsaxBulk.lifebuoyPath1,
+      raw.IconsaxBulk.lifebuoyPath2,
     ],
     opacities: [
       0.4,
@@ -9194,10 +9194,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkLikeDislike` icon.
   static const IconsaxIconData likeDislike = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.likeDislikePath4,
       raw.IconsaxBulk.likeDislikePath1,
       raw.IconsaxBulk.likeDislikePath2,
       raw.IconsaxBulk.likeDislikePath3,
+      raw.IconsaxBulk.likeDislikePath4,
     ],
     opacities: [
       0.4,
@@ -9224,8 +9224,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLikeShapes` icon.
   static const IconsaxIconData likeShapes = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.likeShapesPath2,
       raw.IconsaxBulk.likeShapesPath1,
+      raw.IconsaxBulk.likeShapesPath2,
     ],
     opacities: [
       0.4,
@@ -9251,9 +9251,9 @@ class IconsaxBulk {
   static const IconsaxIconData link4f4c = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.link4f4cPath1,
-      raw.IconsaxBulk.link4f4cPath4,
-      raw.IconsaxBulk.link4f4cPath3,
       raw.IconsaxBulk.link4f4cPath2,
+      raw.IconsaxBulk.link4f4cPath3,
+      raw.IconsaxBulk.link4f4cPath4,
     ],
     opacities: [
       1.0,
@@ -9267,8 +9267,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLink7b24` icon.
   static const IconsaxIconData link7b24 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.link7b24Path2,
       raw.IconsaxBulk.link7b24Path1,
+      raw.IconsaxBulk.link7b24Path2,
       raw.IconsaxBulk.link7b24Path3,
       raw.IconsaxBulk.link7b24Path4,
     ],
@@ -9284,9 +9284,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkLinkAf67` icon.
   static const IconsaxIconData linkAf67 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.linkAf67Path3,
-      raw.IconsaxBulk.linkAf67Path2,
       raw.IconsaxBulk.linkAf67Path1,
+      raw.IconsaxBulk.linkAf67Path2,
+      raw.IconsaxBulk.linkAf67Path3,
     ],
     opacities: [
       0.4,
@@ -9299,11 +9299,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkLinkCircle` icon.
   static const IconsaxIconData linkCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.linkCirclePath3,
       raw.IconsaxBulk.linkCirclePath2,
+      raw.IconsaxBulk.linkCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -9312,8 +9312,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLinkD467` icon.
   static const IconsaxIconData linkD467 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.linkD467Path2,
       raw.IconsaxBulk.linkD467Path1,
+      raw.IconsaxBulk.linkD467Path2,
     ],
     opacities: [
       1.0,
@@ -9325,11 +9325,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkLinkSquare` icon.
   static const IconsaxIconData linkSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.linkSquarePath3,
       raw.IconsaxBulk.linkSquarePath2,
+      raw.IconsaxBulk.linkSquarePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -9338,9 +9338,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkLitecoin` icon.
   static const IconsaxIconData litecoin = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.litecoinPath1,
       raw.IconsaxBulk.litecoinPath2,
       raw.IconsaxBulk.litecoinPath3,
-      raw.IconsaxBulk.litecoinPath1,
     ],
     opacities: [
       0.4,
@@ -9353,8 +9353,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLocation` icon.
   static const IconsaxIconData location = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.locationPath2,
       raw.IconsaxBulk.locationPath1,
+      raw.IconsaxBulk.locationPath2,
     ],
     opacities: [
       0.4,
@@ -9366,8 +9366,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLocationAdd` icon.
   static const IconsaxIconData locationAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.locationAddPath2,
       raw.IconsaxBulk.locationAddPath1,
+      raw.IconsaxBulk.locationAddPath2,
     ],
     opacities: [
       0.4,
@@ -9401,9 +9401,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkLocationSlash` icon.
   static const IconsaxIconData locationSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.locationSlashPath3,
-      raw.IconsaxBulk.locationSlashPath2,
       raw.IconsaxBulk.locationSlashPath1,
+      raw.IconsaxBulk.locationSlashPath2,
+      raw.IconsaxBulk.locationSlashPath3,
     ],
     opacities: [
       0.4,
@@ -9427,11 +9427,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkLock` icon.
   static const IconsaxIconData lock = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lockPath5,
-      raw.IconsaxBulk.lockPath4,
+      raw.IconsaxBulk.lockPath1,
       raw.IconsaxBulk.lockPath2,
       raw.IconsaxBulk.lockPath3,
-      raw.IconsaxBulk.lockPath1,
+      raw.IconsaxBulk.lockPath4,
+      raw.IconsaxBulk.lockPath5,
     ],
     opacities: [
       1.0,
@@ -9457,14 +9457,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkLockSlash` icon.
   static const IconsaxIconData lockSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lockSlashPath3,
       raw.IconsaxBulk.lockSlashPath2,
+      raw.IconsaxBulk.lockSlashPath3,
       raw.IconsaxBulk.lockSlashPath4,
     ],
     opacities: [
-      1.0,
       0.4,
       1.0,
+      0.4,
     ],
   );
 
@@ -9472,8 +9472,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLogin` icon.
   static const IconsaxIconData login = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.loginPath2,
       raw.IconsaxBulk.loginPath1,
+      raw.IconsaxBulk.loginPath2,
     ],
     opacities: [
       0.4,
@@ -9485,8 +9485,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLogin2` icon.
   static const IconsaxIconData login2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.login2Path2,
       raw.IconsaxBulk.login2Path1,
+      raw.IconsaxBulk.login2Path2,
     ],
     opacities: [
       0.4,
@@ -9522,12 +9522,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkLollipop` icon.
   static const IconsaxIconData lollipop = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lollipopPath3,
-      raw.IconsaxBulk.lollipopPath6,
+      raw.IconsaxBulk.lollipopPath1,
       raw.IconsaxBulk.lollipopPath2,
+      raw.IconsaxBulk.lollipopPath3,
       raw.IconsaxBulk.lollipopPath4,
       raw.IconsaxBulk.lollipopPath5,
-      raw.IconsaxBulk.lollipopPath1,
+      raw.IconsaxBulk.lollipopPath6,
     ],
     opacities: [
       1.0,
@@ -9543,8 +9543,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkLovely` icon.
   static const IconsaxIconData lovely = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.lovelyPath2,
       raw.IconsaxBulk.lovelyPath1,
+      raw.IconsaxBulk.lovelyPath2,
     ],
     opacities: [
       0.4,
@@ -9557,13 +9557,13 @@ class IconsaxBulk {
   static const IconsaxIconData magic = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.magicPath1,
-      raw.IconsaxBulk.magicPath3,
       raw.IconsaxBulk.magicPath2,
+      raw.IconsaxBulk.magicPath3,
     ],
     opacities: [
       1.0,
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -9588,8 +9588,8 @@ class IconsaxBulk {
       raw.IconsaxBulk.magicWandPath2,
       raw.IconsaxBulk.magicWandPath3,
       raw.IconsaxBulk.magicWandPath4,
-      raw.IconsaxBulk.magicWandPath6,
       raw.IconsaxBulk.magicWandPath5,
+      raw.IconsaxBulk.magicWandPath6,
     ],
     opacities: [
       1.0,
@@ -9605,10 +9605,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMagicpen` icon.
   static const IconsaxIconData magicpen = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.magicpenPath1,
+      raw.IconsaxBulk.magicpenPath2,
       raw.IconsaxBulk.magicpenPath4,
       raw.IconsaxBulk.magicpenPath5,
-      raw.IconsaxBulk.magicpenPath2,
-      raw.IconsaxBulk.magicpenPath1,
     ],
     opacities: [
       1.0,
@@ -9635,11 +9635,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkMakerMkr` icon.
   static const IconsaxIconData makerMkr = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.makerMkrPath3,
       raw.IconsaxBulk.makerMkrPath2,
+      raw.IconsaxBulk.makerMkrPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -9661,8 +9661,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMap5d82` icon.
   static const IconsaxIconData map5d82 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.map5d82Path2,
       raw.IconsaxBulk.map5d82Path1,
+      raw.IconsaxBulk.map5d82Path2,
       raw.IconsaxBulk.map5d82Path3,
     ],
     opacities: [
@@ -9677,10 +9677,10 @@ class IconsaxBulk {
   static const IconsaxIconData mapC53c = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.mapC53cPath1,
-      raw.IconsaxBulk.mapC53cPath3,
       raw.IconsaxBulk.mapC53cPath2,
-      raw.IconsaxBulk.mapC53cPath5,
+      raw.IconsaxBulk.mapC53cPath3,
       raw.IconsaxBulk.mapC53cPath4,
+      raw.IconsaxBulk.mapC53cPath5,
     ],
     opacities: [
       0.4,
@@ -9708,8 +9708,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMask5217` icon.
   static const IconsaxIconData mask5217 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.mask5217Path2,
       raw.IconsaxBulk.mask5217Path1,
+      raw.IconsaxBulk.mask5217Path2,
     ],
     opacities: [
       0.4,
@@ -9733,13 +9733,13 @@ class IconsaxBulk {
   static const IconsaxIconData math = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.mathPath2,
-      raw.IconsaxBulk.mathPath5,
-      raw.IconsaxBulk.mathPath6,
       raw.IconsaxBulk.mathPath3,
       raw.IconsaxBulk.mathPath4,
+      raw.IconsaxBulk.mathPath5,
+      raw.IconsaxBulk.mathPath6,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -9751,9 +9751,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMaximize1da7` icon.
   static const IconsaxIconData maximize1da7 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.maximize1da7Path3,
-      raw.IconsaxBulk.maximize1da7Path2,
       raw.IconsaxBulk.maximize1da7Path1,
+      raw.IconsaxBulk.maximize1da7Path2,
+      raw.IconsaxBulk.maximize1da7Path3,
     ],
     opacities: [
       0.4,
@@ -9766,13 +9766,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkMaximize2ba9` icon.
   static const IconsaxIconData maximize2ba9 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.maximize2ba9Path4,
-      raw.IconsaxBulk.maximize2ba9Path5,
       raw.IconsaxBulk.maximize2ba9Path2,
       raw.IconsaxBulk.maximize2ba9Path3,
+      raw.IconsaxBulk.maximize2ba9Path4,
+      raw.IconsaxBulk.maximize2ba9Path5,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -9783,8 +9783,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMaximize3ef9` icon.
   static const IconsaxIconData maximize3ef9 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.maximize3ef9Path2,
       raw.IconsaxBulk.maximize3ef9Path1,
+      raw.IconsaxBulk.maximize3ef9Path2,
     ],
     opacities: [
       0.4,
@@ -9807,11 +9807,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkMaximizeA4dd` icon.
   static const IconsaxIconData maximizeA4dd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.maximizeA4ddPath3,
       raw.IconsaxBulk.maximizeA4ddPath2,
+      raw.IconsaxBulk.maximizeA4ddPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -9821,9 +9821,9 @@ class IconsaxBulk {
   static const IconsaxIconData maximizeCircle = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.maximizeCirclePath1,
+      raw.IconsaxBulk.maximizeCirclePath2,
       raw.IconsaxBulk.maximizeCirclePath3,
       raw.IconsaxBulk.maximizeCirclePath4,
-      raw.IconsaxBulk.maximizeCirclePath2,
     ],
     opacities: [
       1.0,
@@ -9865,10 +9865,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMenu1506` icon.
   static const IconsaxIconData menu1506 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.menu1506Path2,
       raw.IconsaxBulk.menu1506Path1,
-      raw.IconsaxBulk.menu1506Path4,
+      raw.IconsaxBulk.menu1506Path2,
       raw.IconsaxBulk.menu1506Path3,
+      raw.IconsaxBulk.menu1506Path4,
     ],
     opacities: [
       0.4,
@@ -9882,12 +9882,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkMenuBoard` icon.
   static const IconsaxIconData menuBoard = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.menuBoardPath1,
+      raw.IconsaxBulk.menuBoardPath2,
       raw.IconsaxBulk.menuBoardPath3,
       raw.IconsaxBulk.menuBoardPath4,
       raw.IconsaxBulk.menuBoardPath5,
       raw.IconsaxBulk.menuBoardPath6,
-      raw.IconsaxBulk.menuBoardPath1,
-      raw.IconsaxBulk.menuBoardPath2,
     ],
     opacities: [
       0.4,
@@ -9903,12 +9903,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkMenuD0cd` icon.
   static const IconsaxIconData menuD0cd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.menuD0cdPath4,
-      raw.IconsaxBulk.menuD0cdPath3,
       raw.IconsaxBulk.menuD0cdPath2,
+      raw.IconsaxBulk.menuD0cdPath3,
+      raw.IconsaxBulk.menuD0cdPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -9934,7 +9934,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.messageAdd4715Path1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -9945,7 +9945,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.messageBubblePath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -9964,8 +9964,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessageEdit` icon.
   static const IconsaxIconData messageEdit = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messageEditPath2,
       raw.IconsaxBulk.messageEditPath1,
+      raw.IconsaxBulk.messageEditPath2,
       raw.IconsaxBulk.messageEditPath3,
     ],
     opacities: [
@@ -9980,10 +9980,10 @@ class IconsaxBulk {
   static const IconsaxIconData messageFavorite = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.messageFavoritePath1,
-      raw.IconsaxBulk.messageFavoritePath3,
       raw.IconsaxBulk.messageFavoritePath2,
-      raw.IconsaxBulk.messageFavoritePath5,
+      raw.IconsaxBulk.messageFavoritePath3,
       raw.IconsaxBulk.messageFavoritePath4,
+      raw.IconsaxBulk.messageFavoritePath5,
     ],
     opacities: [
       1.0,
@@ -10011,8 +10011,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessageProgramming` icon.
   static const IconsaxIconData messageProgramming = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messageProgrammingPath3,
       raw.IconsaxBulk.messageProgrammingPath1,
+      raw.IconsaxBulk.messageProgrammingPath3,
       raw.IconsaxBulk.messageProgrammingPath4,
     ],
     opacities: [
@@ -10026,9 +10026,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessageQuestion` icon.
   static const IconsaxIconData messageQuestion = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messageQuestionPath3,
-      raw.IconsaxBulk.messageQuestionPath2,
       raw.IconsaxBulk.messageQuestionPath1,
+      raw.IconsaxBulk.messageQuestionPath2,
+      raw.IconsaxBulk.messageQuestionPath3,
     ],
     opacities: [
       0.4,
@@ -10042,8 +10042,8 @@ class IconsaxBulk {
   static const IconsaxIconData messageRemove = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.messageRemovePath1,
-      raw.IconsaxBulk.messageRemovePath3,
       raw.IconsaxBulk.messageRemovePath2,
+      raw.IconsaxBulk.messageRemovePath3,
     ],
     opacities: [
       0.4,
@@ -10056,11 +10056,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessageSearch` icon.
   static const IconsaxIconData messageSearch = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messageSearchPath5,
-      raw.IconsaxBulk.messageSearchPath2,
       raw.IconsaxBulk.messageSearchPath1,
-      raw.IconsaxBulk.messageSearchPath4,
+      raw.IconsaxBulk.messageSearchPath2,
       raw.IconsaxBulk.messageSearchPath3,
+      raw.IconsaxBulk.messageSearchPath4,
+      raw.IconsaxBulk.messageSearchPath5,
     ],
     opacities: [
       1.0,
@@ -10075,8 +10075,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessageSquare` icon.
   static const IconsaxIconData messageSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messageSquarePath2,
       raw.IconsaxBulk.messageSquarePath1,
+      raw.IconsaxBulk.messageSquarePath2,
     ],
     opacities: [
       1.0,
@@ -10088,8 +10088,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessageText3106` icon.
   static const IconsaxIconData messageText3106 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messageText3106Path2,
       raw.IconsaxBulk.messageText3106Path1,
+      raw.IconsaxBulk.messageText3106Path2,
       raw.IconsaxBulk.messageText3106Path3,
     ],
     opacities: [
@@ -10107,7 +10107,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.messageText409ePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -10149,8 +10149,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMessagesBubbles` icon.
   static const IconsaxIconData messagesBubbles = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.messagesBubblesPath2,
       raw.IconsaxBulk.messagesBubblesPath1,
+      raw.IconsaxBulk.messagesBubblesPath2,
       raw.IconsaxBulk.messagesBubblesPath3,
     ],
     opacities: [
@@ -10216,10 +10216,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMicrophoneSlash6580` icon.
   static const IconsaxIconData microphoneSlash6580 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.microphoneSlash6580Path4,
-      raw.IconsaxBulk.microphoneSlash6580Path3,
-      raw.IconsaxBulk.microphoneSlash6580Path2,
       raw.IconsaxBulk.microphoneSlash6580Path1,
+      raw.IconsaxBulk.microphoneSlash6580Path2,
+      raw.IconsaxBulk.microphoneSlash6580Path3,
+      raw.IconsaxBulk.microphoneSlash6580Path4,
     ],
     opacities: [
       1.0,
@@ -10248,9 +10248,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMilk` icon.
   static const IconsaxIconData milk = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.milkPath1,
       raw.IconsaxBulk.milkPath2,
       raw.IconsaxBulk.milkPath3,
-      raw.IconsaxBulk.milkPath1,
     ],
     opacities: [
       1.0,
@@ -10263,9 +10263,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMiniMusicSquare` icon.
   static const IconsaxIconData miniMusicSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.miniMusicSquarePath3,
-      raw.IconsaxBulk.miniMusicSquarePath2,
       raw.IconsaxBulk.miniMusicSquarePath1,
+      raw.IconsaxBulk.miniMusicSquarePath2,
+      raw.IconsaxBulk.miniMusicSquarePath3,
     ],
     opacities: [
       0.4,
@@ -10324,10 +10324,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMirroringScreen` icon.
   static const IconsaxIconData mirroringScreen = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.mirroringScreenPath3,
       raw.IconsaxBulk.mirroringScreenPath1,
-      raw.IconsaxBulk.mirroringScreenPath4,
       raw.IconsaxBulk.mirroringScreenPath2,
+      raw.IconsaxBulk.mirroringScreenPath3,
+      raw.IconsaxBulk.mirroringScreenPath4,
     ],
     opacities: [
       0.4,
@@ -10341,16 +10341,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkMistletoe` icon.
   static const IconsaxIconData mistletoe = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.mistletoePath8,
-      raw.IconsaxBulk.mistletoePath10,
-      raw.IconsaxBulk.mistletoePath5,
-      raw.IconsaxBulk.mistletoePath9,
-      raw.IconsaxBulk.mistletoePath7,
-      raw.IconsaxBulk.mistletoePath6,
-      raw.IconsaxBulk.mistletoePath2,
-      raw.IconsaxBulk.mistletoePath4,
-      raw.IconsaxBulk.mistletoePath3,
       raw.IconsaxBulk.mistletoePath1,
+      raw.IconsaxBulk.mistletoePath2,
+      raw.IconsaxBulk.mistletoePath3,
+      raw.IconsaxBulk.mistletoePath4,
+      raw.IconsaxBulk.mistletoePath5,
+      raw.IconsaxBulk.mistletoePath6,
+      raw.IconsaxBulk.mistletoePath7,
+      raw.IconsaxBulk.mistletoePath8,
+      raw.IconsaxBulk.mistletoePath9,
+      raw.IconsaxBulk.mistletoePath10,
     ],
     opacities: [
       1.0,
@@ -10370,8 +10370,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMitten` icon.
   static const IconsaxIconData mitten = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.mittenPath2,
       raw.IconsaxBulk.mittenPath1,
+      raw.IconsaxBulk.mittenPath2,
     ],
     opacities: [
       0.4,
@@ -10383,9 +10383,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMobile` icon.
   static const IconsaxIconData mobile = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.mobilePath3,
       raw.IconsaxBulk.mobilePath1,
       raw.IconsaxBulk.mobilePath2,
+      raw.IconsaxBulk.mobilePath3,
     ],
     opacities: [
       0.4,
@@ -10398,9 +10398,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMobileProgramming` icon.
   static const IconsaxIconData mobileProgramming = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.mobileProgrammingPath3,
       raw.IconsaxBulk.mobileProgrammingPath1,
       raw.IconsaxBulk.mobileProgrammingPath2,
+      raw.IconsaxBulk.mobileProgrammingPath3,
     ],
     opacities: [
       1.0,
@@ -10427,10 +10427,10 @@ class IconsaxBulk {
   static const IconsaxIconData money43fe = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.money43fePath1,
-      raw.IconsaxBulk.money43fePath6,
+      raw.IconsaxBulk.money43fePath3,
       raw.IconsaxBulk.money43fePath4,
       raw.IconsaxBulk.money43fePath5,
-      raw.IconsaxBulk.money43fePath3,
+      raw.IconsaxBulk.money43fePath6,
     ],
     opacities: [
       0.4,
@@ -10445,13 +10445,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkMoney68f4` icon.
   static const IconsaxIconData money68f4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.money68f4Path6,
-      raw.IconsaxBulk.money68f4Path4,
       raw.IconsaxBulk.money68f4Path3,
+      raw.IconsaxBulk.money68f4Path4,
       raw.IconsaxBulk.money68f4Path5,
+      raw.IconsaxBulk.money68f4Path6,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -10462,11 +10462,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkMoney7797` icon.
   static const IconsaxIconData money7797 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.money7797Path4,
       raw.IconsaxBulk.money7797Path3,
+      raw.IconsaxBulk.money7797Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -10476,9 +10476,9 @@ class IconsaxBulk {
   static const IconsaxIconData money8ac2 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.money8ac2Path1,
-      raw.IconsaxBulk.money8ac2Path4,
-      raw.IconsaxBulk.money8ac2Path3,
       raw.IconsaxBulk.money8ac2Path2,
+      raw.IconsaxBulk.money8ac2Path3,
+      raw.IconsaxBulk.money8ac2Path4,
     ],
     opacities: [
       0.4,
@@ -10492,10 +10492,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMoneyAdd` icon.
   static const IconsaxIconData moneyAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.moneyAddPath4,
-      raw.IconsaxBulk.moneyAddPath3,
       raw.IconsaxBulk.moneyAddPath1,
       raw.IconsaxBulk.moneyAddPath2,
+      raw.IconsaxBulk.moneyAddPath3,
+      raw.IconsaxBulk.moneyAddPath4,
     ],
     opacities: [
       0.4,
@@ -10509,8 +10509,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMoneyChange` icon.
   static const IconsaxIconData moneyChange = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.moneyChangePath4,
       raw.IconsaxBulk.moneyChangePath1,
+      raw.IconsaxBulk.moneyChangePath4,
     ],
     opacities: [
       0.4,
@@ -10535,13 +10535,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkMoneyRecive` icon.
   static const IconsaxIconData moneyRecive = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.moneyRecivePath7,
-      raw.IconsaxBulk.moneyRecivePath2,
-      raw.IconsaxBulk.moneyRecivePath5,
       raw.IconsaxBulk.moneyRecivePath1,
-      raw.IconsaxBulk.moneyRecivePath6,
-      raw.IconsaxBulk.moneyRecivePath4,
+      raw.IconsaxBulk.moneyRecivePath2,
       raw.IconsaxBulk.moneyRecivePath3,
+      raw.IconsaxBulk.moneyRecivePath4,
+      raw.IconsaxBulk.moneyRecivePath5,
+      raw.IconsaxBulk.moneyRecivePath6,
+      raw.IconsaxBulk.moneyRecivePath7,
     ],
     opacities: [
       0.4,
@@ -10619,8 +10619,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMonitor` icon.
   static const IconsaxIconData monitor = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.monitorPath2,
       raw.IconsaxBulk.monitorPath1,
+      raw.IconsaxBulk.monitorPath2,
     ],
     opacities: [
       0.4,
@@ -10647,9 +10647,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMonitorRecorder` icon.
   static const IconsaxIconData monitorRecorder = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.monitorRecorderPath3,
-      raw.IconsaxBulk.monitorRecorderPath2,
       raw.IconsaxBulk.monitorRecorderPath1,
+      raw.IconsaxBulk.monitorRecorderPath2,
+      raw.IconsaxBulk.monitorRecorderPath3,
     ],
     opacities: [
       0.4,
@@ -10667,7 +10667,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.morePath4,
     ],
     opacities: [
-      0.4,
+      0.97,
       0.97,
       0.97,
     ],
@@ -10677,12 +10677,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkMoreCircle` icon.
   static const IconsaxIconData moreCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.moreCirclePath4,
       raw.IconsaxBulk.moreCirclePath2,
       raw.IconsaxBulk.moreCirclePath3,
+      raw.IconsaxBulk.moreCirclePath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -10742,8 +10742,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMusic` icon.
   static const IconsaxIconData music = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.musicPath2,
       raw.IconsaxBulk.musicPath1,
+      raw.IconsaxBulk.musicPath2,
     ],
     opacities: [
       1.0,
@@ -10755,12 +10755,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkMusicCircle` icon.
   static const IconsaxIconData musicCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.musicCirclePath3,
       raw.IconsaxBulk.musicCirclePath1,
-      raw.IconsaxBulk.musicCirclePath5,
-      raw.IconsaxBulk.musicCirclePath4,
-      raw.IconsaxBulk.musicCirclePath6,
       raw.IconsaxBulk.musicCirclePath2,
+      raw.IconsaxBulk.musicCirclePath3,
+      raw.IconsaxBulk.musicCirclePath4,
+      raw.IconsaxBulk.musicCirclePath5,
+      raw.IconsaxBulk.musicCirclePath6,
     ],
     opacities: [
       0.4,
@@ -10776,9 +10776,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkMusicDashboard` icon.
   static const IconsaxIconData musicDashboard = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.musicDashboardPath3,
-      raw.IconsaxBulk.musicDashboardPath2,
       raw.IconsaxBulk.musicDashboardPath1,
+      raw.IconsaxBulk.musicDashboardPath2,
+      raw.IconsaxBulk.musicDashboardPath3,
     ],
     opacities: [
       1.0,
@@ -10791,10 +10791,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMusicFilter` icon.
   static const IconsaxIconData musicFilter = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.musicFilterPath4,
-      raw.IconsaxBulk.musicFilterPath3,
-      raw.IconsaxBulk.musicFilterPath2,
       raw.IconsaxBulk.musicFilterPath1,
+      raw.IconsaxBulk.musicFilterPath2,
+      raw.IconsaxBulk.musicFilterPath3,
+      raw.IconsaxBulk.musicFilterPath4,
       raw.IconsaxBulk.musicFilterPath5,
     ],
     opacities: [
@@ -10810,10 +10810,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkMusicLibrary` icon.
   static const IconsaxIconData musicLibrary = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.musicLibraryPath2,
       raw.IconsaxBulk.musicLibraryPath1,
-      raw.IconsaxBulk.musicLibraryPath4,
+      raw.IconsaxBulk.musicLibraryPath2,
       raw.IconsaxBulk.musicLibraryPath3,
+      raw.IconsaxBulk.musicLibraryPath4,
     ],
     opacities: [
       1.0,
@@ -10829,8 +10829,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.musicPlayPath1,
       raw.IconsaxBulk.musicPlayPath2,
-      raw.IconsaxBulk.musicPlayPath4,
       raw.IconsaxBulk.musicPlayPath3,
+      raw.IconsaxBulk.musicPlayPath4,
     ],
     opacities: [
       1.0,
@@ -10844,8 +10844,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkMusicPlaylist` icon.
   static const IconsaxIconData musicPlaylist = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.musicPlaylistPath2,
       raw.IconsaxBulk.musicPlaylistPath1,
+      raw.IconsaxBulk.musicPlaylistPath2,
       raw.IconsaxBulk.musicPlaylistPath3,
       raw.IconsaxBulk.musicPlaylistPath4,
     ],
@@ -10888,13 +10888,13 @@ class IconsaxBulk {
   static const IconsaxIconData nebulasNas = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.nebulasNasPath2,
-      raw.IconsaxBulk.nebulasNasPath5,
       raw.IconsaxBulk.nebulasNasPath3,
-      raw.IconsaxBulk.nebulasNasPath6,
       raw.IconsaxBulk.nebulasNasPath4,
+      raw.IconsaxBulk.nebulasNasPath5,
+      raw.IconsaxBulk.nebulasNasPath6,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -10907,8 +10907,8 @@ class IconsaxBulk {
   static const IconsaxIconData nemXem = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.nemXemPath1,
-      raw.IconsaxBulk.nemXemPath3,
       raw.IconsaxBulk.nemXemPath2,
+      raw.IconsaxBulk.nemXemPath3,
     ],
     opacities: [
       0.6,
@@ -10951,7 +10951,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.note7b04Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -10960,11 +10960,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkNoteA06d` icon.
   static const IconsaxIconData noteA06d = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.noteA06dPath5,
       raw.IconsaxBulk.noteA06dPath4,
+      raw.IconsaxBulk.noteA06dPath5,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -10973,10 +10973,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkNoteAdd` icon.
   static const IconsaxIconData noteAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.noteAddPath4,
-      raw.IconsaxBulk.noteAddPath3,
-      raw.IconsaxBulk.noteAddPath2,
       raw.IconsaxBulk.noteAddPath1,
+      raw.IconsaxBulk.noteAddPath2,
+      raw.IconsaxBulk.noteAddPath3,
+      raw.IconsaxBulk.noteAddPath4,
     ],
     opacities: [
       0.4,
@@ -10990,10 +10990,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkNoteE122` icon.
   static const IconsaxIconData noteE122 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.noteE122Path4,
+      raw.IconsaxBulk.noteE122Path1,
       raw.IconsaxBulk.noteE122Path2,
       raw.IconsaxBulk.noteE122Path3,
-      raw.IconsaxBulk.noteE122Path1,
+      raw.IconsaxBulk.noteE122Path4,
     ],
     opacities: [
       0.4,
@@ -11007,12 +11007,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkNoteFavorite` icon.
   static const IconsaxIconData noteFavorite = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.noteFavoritePath1,
+      raw.IconsaxBulk.noteFavoritePath2,
+      raw.IconsaxBulk.noteFavoritePath3,
       raw.IconsaxBulk.noteFavoritePath4,
       raw.IconsaxBulk.noteFavoritePath5,
       raw.IconsaxBulk.noteFavoritePath6,
-      raw.IconsaxBulk.noteFavoritePath2,
-      raw.IconsaxBulk.noteFavoritePath3,
-      raw.IconsaxBulk.noteFavoritePath1,
     ],
     opacities: [
       1.0,
@@ -11028,9 +11028,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkNoteRemove` icon.
   static const IconsaxIconData noteRemove = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.noteRemovePath3,
       raw.IconsaxBulk.noteRemovePath1,
       raw.IconsaxBulk.noteRemovePath2,
+      raw.IconsaxBulk.noteRemovePath3,
       raw.IconsaxBulk.noteRemovePath4,
       raw.IconsaxBulk.noteRemovePath5,
     ],
@@ -11047,9 +11047,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkNoteText` icon.
   static const IconsaxIconData noteText = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.noteTextPath1,
       raw.IconsaxBulk.noteTextPath2,
       raw.IconsaxBulk.noteTextPath3,
-      raw.IconsaxBulk.noteTextPath1,
       raw.IconsaxBulk.noteTextPath4,
       raw.IconsaxBulk.noteTextPath5,
     ],
@@ -11079,9 +11079,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkNotificationBing` icon.
   static const IconsaxIconData notificationBing = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.notificationBingPath3,
-      raw.IconsaxBulk.notificationBingPath2,
       raw.IconsaxBulk.notificationBingPath1,
+      raw.IconsaxBulk.notificationBingPath2,
+      raw.IconsaxBulk.notificationBingPath3,
     ],
     opacities: [
       0.4,
@@ -11094,8 +11094,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkNotificationCircle` icon.
   static const IconsaxIconData notificationCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.notificationCirclePath2,
       raw.IconsaxBulk.notificationCirclePath1,
+      raw.IconsaxBulk.notificationCirclePath2,
     ],
     opacities: [
       1.0,
@@ -11107,12 +11107,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkNotificationFavorite` icon.
   static const IconsaxIconData notificationFavorite = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.notificationFavoritePath3,
       raw.IconsaxBulk.notificationFavoritePath2,
+      raw.IconsaxBulk.notificationFavoritePath3,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -11125,7 +11125,7 @@ class IconsaxBulk {
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
     ],
   );
 
@@ -11133,28 +11133,28 @@ class IconsaxBulk {
   /// Composite getter for `bulkOceanProtocolOcean` icon.
   static const IconsaxIconData oceanProtocolOcean = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.oceanProtocolOceanPath5,
       raw.IconsaxBulk.oceanProtocolOceanPath1,
-      raw.IconsaxBulk.oceanProtocolOceanPath9,
-      raw.IconsaxBulk.oceanProtocolOceanPath8,
-      raw.IconsaxBulk.oceanProtocolOceanPath3,
-      raw.IconsaxBulk.oceanProtocolOceanPath7,
-      raw.IconsaxBulk.oceanProtocolOceanPath4,
-      raw.IconsaxBulk.oceanProtocolOceanGroup1,
       raw.IconsaxBulk.oceanProtocolOceanPath2,
+      raw.IconsaxBulk.oceanProtocolOceanPath3,
+      raw.IconsaxBulk.oceanProtocolOceanGroup1,
+      raw.IconsaxBulk.oceanProtocolOceanPath4,
+      raw.IconsaxBulk.oceanProtocolOceanPath5,
       raw.IconsaxBulk.oceanProtocolOceanPath6,
+      raw.IconsaxBulk.oceanProtocolOceanPath7,
+      raw.IconsaxBulk.oceanProtocolOceanPath8,
+      raw.IconsaxBulk.oceanProtocolOceanPath9,
     ],
     opacities: [
       1.0,
       1.0,
       1.0,
       0.6,
-      0.4,
-      0.2,
       1.0,
       1.0,
-      0.6,
-      0.6,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
     ],
   );
 
@@ -11166,7 +11166,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.okAppPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -11175,14 +11175,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkOkbOkb` icon.
   static const IconsaxIconData okbOkb = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.okbOkbPath7,
-      raw.IconsaxBulk.okbOkbPath3,
-      raw.IconsaxBulk.okbOkbPath6,
-      raw.IconsaxBulk.okbOkbPath5,
-      raw.IconsaxBulk.okbOkbPath8,
       raw.IconsaxBulk.okbOkbPath1,
       raw.IconsaxBulk.okbOkbPath2,
+      raw.IconsaxBulk.okbOkbPath3,
       raw.IconsaxBulk.okbOkbPath4,
+      raw.IconsaxBulk.okbOkbPath5,
+      raw.IconsaxBulk.okbOkbPath6,
+      raw.IconsaxBulk.okbOkbPath7,
+      raw.IconsaxBulk.okbOkbPath8,
     ],
     opacities: [
       0.4,
@@ -11211,8 +11211,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkOmegaSquare` icon.
   static const IconsaxIconData omegaSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.omegaSquarePath2,
       raw.IconsaxBulk.omegaSquarePath1,
+      raw.IconsaxBulk.omegaSquarePath2,
     ],
     opacities: [
       0.4,
@@ -11224,8 +11224,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkOntologyOnt` icon.
   static const IconsaxIconData ontologyOnt = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ontologyOntPath2,
       raw.IconsaxBulk.ontologyOntPath1,
+      raw.IconsaxBulk.ontologyOntPath2,
     ],
     opacities: [
       0.4,
@@ -11263,10 +11263,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkPaintBrushAc3a` icon.
   static const IconsaxIconData paintBrushAc3a = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.paintBrushAc3aPath4,
-      raw.IconsaxBulk.paintBrushAc3aPath3,
-      raw.IconsaxBulk.paintBrushAc3aPath2,
       raw.IconsaxBulk.paintBrushAc3aPath1,
+      raw.IconsaxBulk.paintBrushAc3aPath2,
+      raw.IconsaxBulk.paintBrushAc3aPath3,
+      raw.IconsaxBulk.paintBrushAc3aPath4,
     ],
     opacities: [
       1.0,
@@ -11281,8 +11281,8 @@ class IconsaxBulk {
   static const IconsaxIconData paintRoller = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.paintRollerPath1,
-      raw.IconsaxBulk.paintRollerPath3,
       raw.IconsaxBulk.paintRollerPath2,
+      raw.IconsaxBulk.paintRollerPath3,
     ],
     opacities: [
       1.0,
@@ -11295,8 +11295,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkPaintbucket` icon.
   static const IconsaxIconData paintbucket = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.paintbucketPath2,
       raw.IconsaxBulk.paintbucketPath1,
+      raw.IconsaxBulk.paintbucketPath2,
       raw.IconsaxBulk.paintbucketPath3,
     ],
     opacities: [
@@ -11310,8 +11310,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkPaper` icon.
   static const IconsaxIconData paper = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.paperPath2,
       raw.IconsaxBulk.paperPath1,
+      raw.IconsaxBulk.paperPath2,
     ],
     opacities: [
       0.4,
@@ -11323,8 +11323,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkPaper2` icon.
   static const IconsaxIconData paper2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.paper2Path2,
       raw.IconsaxBulk.paper2Path1,
+      raw.IconsaxBulk.paper2Path2,
     ],
     opacities: [
       0.4,
@@ -11360,12 +11360,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkParagraphspacing` icon.
   static const IconsaxIconData paragraphspacing = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.paragraphspacingPath3,
       raw.IconsaxBulk.paragraphspacingPath1,
+      raw.IconsaxBulk.paragraphspacingPath3,
     ],
     opacities: [
       0.4,
-      0.4,
+      1.0,
     ],
   );
 
@@ -11373,18 +11373,18 @@ class IconsaxBulk {
   /// Composite getter for `bulkPartyHat` icon.
   static const IconsaxIconData partyHat = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.partyHatPath4,
-      raw.IconsaxBulk.partyHatPath11,
-      raw.IconsaxBulk.partyHatPath5,
-      raw.IconsaxBulk.partyHatPath10,
-      raw.IconsaxBulk.partyHatPath2,
-      raw.IconsaxBulk.partyHatPath12,
-      raw.IconsaxBulk.partyHatPath9,
-      raw.IconsaxBulk.partyHatPath7,
-      raw.IconsaxBulk.partyHatPath6,
       raw.IconsaxBulk.partyHatPath1,
+      raw.IconsaxBulk.partyHatPath2,
       raw.IconsaxBulk.partyHatPath3,
+      raw.IconsaxBulk.partyHatPath4,
+      raw.IconsaxBulk.partyHatPath5,
+      raw.IconsaxBulk.partyHatPath6,
+      raw.IconsaxBulk.partyHatPath7,
       raw.IconsaxBulk.partyHatPath8,
+      raw.IconsaxBulk.partyHatPath9,
+      raw.IconsaxBulk.partyHatPath10,
+      raw.IconsaxBulk.partyHatPath11,
+      raw.IconsaxBulk.partyHatPath12,
     ],
     opacities: [
       1.0,
@@ -11406,18 +11406,18 @@ class IconsaxBulk {
   /// Composite getter for `bulkPartyPopper` icon.
   static const IconsaxIconData partyPopper = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.partyPopperPath9,
-      raw.IconsaxBulk.partyPopperPath12,
-      raw.IconsaxBulk.partyPopperPath3,
-      raw.IconsaxBulk.partyPopperPath6,
-      raw.IconsaxBulk.partyPopperPath10,
       raw.IconsaxBulk.partyPopperPath1,
-      raw.IconsaxBulk.partyPopperPath11,
       raw.IconsaxBulk.partyPopperPath2,
-      raw.IconsaxBulk.partyPopperPath5,
+      raw.IconsaxBulk.partyPopperPath3,
       raw.IconsaxBulk.partyPopperPath4,
-      raw.IconsaxBulk.partyPopperPath8,
+      raw.IconsaxBulk.partyPopperPath5,
+      raw.IconsaxBulk.partyPopperPath6,
       raw.IconsaxBulk.partyPopperPath7,
+      raw.IconsaxBulk.partyPopperPath8,
+      raw.IconsaxBulk.partyPopperPath9,
+      raw.IconsaxBulk.partyPopperPath10,
+      raw.IconsaxBulk.partyPopperPath11,
+      raw.IconsaxBulk.partyPopperPath12,
     ],
     opacities: [
       1.0,
@@ -11439,15 +11439,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkPasswordCheck` icon.
   static const IconsaxIconData passwordCheck = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.passwordCheckPath1,
+      raw.IconsaxBulk.passwordCheckPath3,
       raw.IconsaxBulk.passwordCheckPath4,
       raw.IconsaxBulk.passwordCheckPath5,
-      raw.IconsaxBulk.passwordCheckPath3,
-      raw.IconsaxBulk.passwordCheckPath1,
     ],
     opacities: [
       1.0,
       0.4,
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -11459,7 +11459,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.path0d0fPath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -11467,9 +11467,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkPath4ddb` icon.
   static const IconsaxIconData path4ddb = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.path4ddbPath3,
-      raw.IconsaxBulk.path4ddbPath2,
       raw.IconsaxBulk.path4ddbPath1,
+      raw.IconsaxBulk.path4ddbPath2,
+      raw.IconsaxBulk.path4ddbPath3,
     ],
     opacities: [
       1.0,
@@ -11482,10 +11482,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkPathSquare` icon.
   static const IconsaxIconData pathSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.pathSquarePath3,
-      raw.IconsaxBulk.pathSquarePath2,
-      raw.IconsaxBulk.pathSquarePath4,
       raw.IconsaxBulk.pathSquarePath1,
+      raw.IconsaxBulk.pathSquarePath2,
+      raw.IconsaxBulk.pathSquarePath3,
+      raw.IconsaxBulk.pathSquarePath4,
     ],
     opacities: [
       0.4,
@@ -11499,8 +11499,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkPaypal` icon.
   static const IconsaxIconData paypal = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.paypalPath2,
       raw.IconsaxBulk.paypalPath1,
+      raw.IconsaxBulk.paypalPath2,
     ],
     opacities: [
       1.0,
@@ -11512,10 +11512,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkPenAdd` icon.
   static const IconsaxIconData penAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.penAddPath4,
       raw.IconsaxBulk.penAddPath1,
       raw.IconsaxBulk.penAddPath2,
       raw.IconsaxBulk.penAddPath3,
+      raw.IconsaxBulk.penAddPath4,
     ],
     opacities: [
       1.0,
@@ -11546,8 +11546,8 @@ class IconsaxBulk {
     ],
     opacities: [
       1.0,
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -11555,16 +11555,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkPenTool2fb3` icon.
   static const IconsaxIconData penTool2fb3 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.penTool2fb3Path1,
+      raw.IconsaxBulk.penTool2fb3Path2,
       raw.IconsaxBulk.penTool2fb3Path3,
       raw.IconsaxBulk.penTool2fb3Path4,
-      raw.IconsaxBulk.penTool2fb3Path8,
-      raw.IconsaxBulk.penTool2fb3Path6,
-      raw.IconsaxBulk.penTool2fb3Path2,
-      raw.IconsaxBulk.penTool2fb3Path9,
       raw.IconsaxBulk.penTool2fb3Path5,
-      raw.IconsaxBulk.penTool2fb3Path10,
+      raw.IconsaxBulk.penTool2fb3Path6,
       raw.IconsaxBulk.penTool2fb3Path7,
-      raw.IconsaxBulk.penTool2fb3Path1,
+      raw.IconsaxBulk.penTool2fb3Path8,
+      raw.IconsaxBulk.penTool2fb3Path9,
+      raw.IconsaxBulk.penTool2fb3Path10,
     ],
     opacities: [
       1.0,
@@ -11584,13 +11584,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkPenTool7d32` icon.
   static const IconsaxIconData penTool7d32 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.penTool7d32Path4,
-      raw.IconsaxBulk.penTool7d32Path3,
-      raw.IconsaxBulk.penTool7d32Path2,
-      raw.IconsaxBulk.penTool7d32Path7,
       raw.IconsaxBulk.penTool7d32Path1,
+      raw.IconsaxBulk.penTool7d32Path2,
+      raw.IconsaxBulk.penTool7d32Path3,
+      raw.IconsaxBulk.penTool7d32Path4,
       raw.IconsaxBulk.penTool7d32Path5,
       raw.IconsaxBulk.penTool7d32Path6,
+      raw.IconsaxBulk.penTool7d32Path7,
     ],
     opacities: [
       1.0,
@@ -11607,12 +11607,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkPeople` icon.
   static const IconsaxIconData people = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.peoplePath5,
-      raw.IconsaxBulk.peoplePath4,
       raw.IconsaxBulk.peoplePath1,
       raw.IconsaxBulk.peoplePath2,
-      raw.IconsaxBulk.peoplePath6,
       raw.IconsaxBulk.peoplePath3,
+      raw.IconsaxBulk.peoplePath4,
+      raw.IconsaxBulk.peoplePath5,
+      raw.IconsaxBulk.peoplePath6,
     ],
     opacities: [
       0.4,
@@ -11629,11 +11629,11 @@ class IconsaxBulk {
   static const IconsaxIconData percentageCircle = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.percentageCirclePath2,
-      raw.IconsaxBulk.percentageCirclePath4,
       raw.IconsaxBulk.percentageCirclePath3,
+      raw.IconsaxBulk.percentageCirclePath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -11648,7 +11648,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.percentageSquarePath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -11658,12 +11658,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkPersonalcard` icon.
   static const IconsaxIconData personalcard = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.personalcardPath3,
-      raw.IconsaxBulk.personalcardPath2,
-      raw.IconsaxBulk.personalcardPath6,
-      raw.IconsaxBulk.personalcardPath5,
-      raw.IconsaxBulk.personalcardPath4,
       raw.IconsaxBulk.personalcardPath1,
+      raw.IconsaxBulk.personalcardPath2,
+      raw.IconsaxBulk.personalcardPath3,
+      raw.IconsaxBulk.personalcardPath4,
+      raw.IconsaxBulk.personalcardPath5,
+      raw.IconsaxBulk.personalcardPath6,
     ],
     opacities: [
       0.4,
@@ -11679,11 +11679,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkPet` icon.
   static const IconsaxIconData pet = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.petPath5,
-      raw.IconsaxBulk.petPath3,
       raw.IconsaxBulk.petPath1,
-      raw.IconsaxBulk.petPath4,
       raw.IconsaxBulk.petPath2,
+      raw.IconsaxBulk.petPath3,
+      raw.IconsaxBulk.petPath4,
+      raw.IconsaxBulk.petPath5,
     ],
     opacities: [
       0.4,
@@ -11698,9 +11698,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkPhotoshop` icon.
   static const IconsaxIconData photoshop = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.photoshopPath1,
       raw.IconsaxBulk.photoshopPath2,
       raw.IconsaxBulk.photoshopPath3,
-      raw.IconsaxBulk.photoshopPath1,
     ],
     opacities: [
       0.4,
@@ -11735,8 +11735,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkPolygonMatic` icon.
   static const IconsaxIconData polygonMatic = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.polygonMaticPath2,
       raw.IconsaxBulk.polygonMaticPath1,
+      raw.IconsaxBulk.polygonMaticPath2,
       raw.IconsaxBulk.polygonMaticPath3,
     ],
     opacities: [
@@ -11751,9 +11751,9 @@ class IconsaxBulk {
   static const IconsaxIconData polyswarmNct = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.polyswarmNctPath1,
+      raw.IconsaxBulk.polyswarmNctPath2,
       raw.IconsaxBulk.polyswarmNctPath3,
       raw.IconsaxBulk.polyswarmNctPath4,
-      raw.IconsaxBulk.polyswarmNctPath2,
     ],
     opacities: [
       1.0,
@@ -11767,10 +11767,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkPresentationChart` icon.
   static const IconsaxIconData presentationChart = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.presentationChartPath4,
+      raw.IconsaxBulk.presentationChartPath1,
       raw.IconsaxBulk.presentationChartPath2,
       raw.IconsaxBulk.presentationChartPath3,
-      raw.IconsaxBulk.presentationChartPath1,
+      raw.IconsaxBulk.presentationChartPath4,
     ],
     opacities: [
       0.4,
@@ -11784,11 +11784,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkPrinter` icon.
   static const IconsaxIconData printer = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.printerPath3,
       raw.IconsaxBulk.printerPath1,
-      raw.IconsaxBulk.printerPath5,
-      raw.IconsaxBulk.printerPath4,
       raw.IconsaxBulk.printerPath2,
+      raw.IconsaxBulk.printerPath3,
+      raw.IconsaxBulk.printerPath4,
+      raw.IconsaxBulk.printerPath5,
     ],
     opacities: [
       1.0,
@@ -11803,13 +11803,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkPrinterSlash` icon.
   static const IconsaxIconData printerSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.printerSlashPath5,
-      raw.IconsaxBulk.printerSlashPath2,
       raw.IconsaxBulk.printerSlashPath1,
-      raw.IconsaxBulk.printerSlashPath6,
+      raw.IconsaxBulk.printerSlashPath2,
       raw.IconsaxBulk.printerSlashPath3,
-      raw.IconsaxBulk.printerSlashPath7,
       raw.IconsaxBulk.printerSlashPath4,
+      raw.IconsaxBulk.printerSlashPath5,
+      raw.IconsaxBulk.printerSlashPath6,
+      raw.IconsaxBulk.printerSlashPath7,
       raw.IconsaxBulk.printerSlashPath8,
     ],
     opacities: [
@@ -11857,8 +11857,8 @@ class IconsaxBulk {
   static const IconsaxIconData profileAdd = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.profileAddPath1,
-      raw.IconsaxBulk.profileAddPath3,
       raw.IconsaxBulk.profileAddPath2,
+      raw.IconsaxBulk.profileAddPath3,
     ],
     opacities: [
       1.0,
@@ -11875,7 +11875,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.profileCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -11899,8 +11899,8 @@ class IconsaxBulk {
       raw.IconsaxBulk.profileRemovePath3,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -11937,7 +11937,7 @@ class IconsaxBulk {
     ],
     opacities: [
       0.4,
-      1.0,
+      0.4,
     ],
   );
 
@@ -11945,8 +11945,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkPython` icon.
   static const IconsaxIconData python = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.pythonPath2,
       raw.IconsaxBulk.pythonPath1,
+      raw.IconsaxBulk.pythonPath2,
     ],
     opacities: [
       1.0,
@@ -11958,14 +11958,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkQuantQnt` icon.
   static const IconsaxIconData quantQnt = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.quantQntPath6,
-      raw.IconsaxBulk.quantQntPath2,
       raw.IconsaxBulk.quantQntPath1,
+      raw.IconsaxBulk.quantQntPath2,
       raw.IconsaxBulk.quantQntPath3,
-      raw.IconsaxBulk.quantQntPath7,
-      raw.IconsaxBulk.quantQntPath5,
-      raw.IconsaxBulk.quantQntPath8,
       raw.IconsaxBulk.quantQntPath4,
+      raw.IconsaxBulk.quantQntPath5,
+      raw.IconsaxBulk.quantQntPath6,
+      raw.IconsaxBulk.quantQntPath7,
+      raw.IconsaxBulk.quantQntPath8,
     ],
     opacities: [
       0.6,
@@ -11983,8 +11983,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkQuoteDown` icon.
   static const IconsaxIconData quoteDown = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.quoteDownPath2,
       raw.IconsaxBulk.quoteDownPath1,
+      raw.IconsaxBulk.quoteDownPath2,
     ],
     opacities: [
       1.0,
@@ -11996,9 +11996,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkQuoteDownCircle` icon.
   static const IconsaxIconData quoteDownCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.quoteDownCirclePath3,
-      raw.IconsaxBulk.quoteDownCirclePath2,
       raw.IconsaxBulk.quoteDownCirclePath1,
+      raw.IconsaxBulk.quoteDownCirclePath2,
+      raw.IconsaxBulk.quoteDownCirclePath3,
     ],
     opacities: [
       0.4,
@@ -12011,8 +12011,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkQuoteDownSquare` icon.
   static const IconsaxIconData quoteDownSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.quoteDownSquarePath2,
       raw.IconsaxBulk.quoteDownSquarePath1,
+      raw.IconsaxBulk.quoteDownSquarePath2,
     ],
     opacities: [
       0.4,
@@ -12041,7 +12041,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.quoteUpCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -12065,9 +12065,9 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.radar4976Path1,
       raw.IconsaxBulk.radar4976Path2,
-      raw.IconsaxBulk.radar4976Path5,
-      raw.IconsaxBulk.radar4976Path4,
       raw.IconsaxBulk.radar4976Path3,
+      raw.IconsaxBulk.radar4976Path4,
+      raw.IconsaxBulk.radar4976Path5,
     ],
     opacities: [
       1.0,
@@ -12104,11 +12104,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkRam281f` icon.
   static const IconsaxIconData ram281f = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ram281fPath5,
-      raw.IconsaxBulk.ram281fPath4,
-      raw.IconsaxBulk.ram281fPath3,
       raw.IconsaxBulk.ram281fPath1,
       raw.IconsaxBulk.ram281fPath2,
+      raw.IconsaxBulk.ram281fPath3,
+      raw.IconsaxBulk.ram281fPath4,
+      raw.IconsaxBulk.ram281fPath5,
     ],
     opacities: [
       0.4,
@@ -12123,9 +12123,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkRamE405` icon.
   static const IconsaxIconData ramE405 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.ramE405Path1,
       raw.IconsaxBulk.ramE405Path2,
       raw.IconsaxBulk.ramE405Path3,
-      raw.IconsaxBulk.ramE405Path1,
     ],
     opacities: [
       0.4,
@@ -12138,10 +12138,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkRanking3b5a` icon.
   static const IconsaxIconData ranking3b5a = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ranking3b5aPath3,
-      raw.IconsaxBulk.ranking3b5aPath2,
-      raw.IconsaxBulk.ranking3b5aPath4,
       raw.IconsaxBulk.ranking3b5aPath1,
+      raw.IconsaxBulk.ranking3b5aPath2,
+      raw.IconsaxBulk.ranking3b5aPath3,
+      raw.IconsaxBulk.ranking3b5aPath4,
     ],
     opacities: [
       1.0,
@@ -12155,9 +12155,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkRankingE092` icon.
   static const IconsaxIconData rankingE092 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.rankingE092Path1,
       raw.IconsaxBulk.rankingE092Path2,
       raw.IconsaxBulk.rankingE092Path3,
-      raw.IconsaxBulk.rankingE092Path1,
       raw.IconsaxBulk.rankingE092Path4,
     ],
     opacities: [
@@ -12172,10 +12172,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkRankingFd59` icon.
   static const IconsaxIconData rankingFd59 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.rankingFd59Path4,
+      raw.IconsaxBulk.rankingFd59Path1,
       raw.IconsaxBulk.rankingFd59Path2,
       raw.IconsaxBulk.rankingFd59Path3,
-      raw.IconsaxBulk.rankingFd59Path1,
+      raw.IconsaxBulk.rankingFd59Path4,
     ],
     opacities: [
       0.4,
@@ -12189,9 +12189,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceipt3881` icon.
   static const IconsaxIconData receipt3881 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receipt3881Path3,
-      raw.IconsaxBulk.receipt3881Path2,
       raw.IconsaxBulk.receipt3881Path1,
+      raw.IconsaxBulk.receipt3881Path2,
+      raw.IconsaxBulk.receipt3881Path3,
     ],
     opacities: [
       0.4,
@@ -12205,8 +12205,8 @@ class IconsaxBulk {
   static const IconsaxIconData receiptA776 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.receiptA776Path1,
-      raw.IconsaxBulk.receiptA776Path3,
       raw.IconsaxBulk.receiptA776Path2,
+      raw.IconsaxBulk.receiptA776Path3,
     ],
     opacities: [
       0.4,
@@ -12234,11 +12234,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptDiscount` icon.
   static const IconsaxIconData receiptDiscount = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptDiscountPath2,
-      raw.IconsaxBulk.receiptDiscountPath5,
-      raw.IconsaxBulk.receiptDiscountPath4,
       raw.IconsaxBulk.receiptDiscountPath1,
+      raw.IconsaxBulk.receiptDiscountPath2,
       raw.IconsaxBulk.receiptDiscountPath3,
+      raw.IconsaxBulk.receiptDiscountPath4,
+      raw.IconsaxBulk.receiptDiscountPath5,
     ],
     opacities: [
       1.0,
@@ -12253,10 +12253,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptDisscount` icon.
   static const IconsaxIconData receiptDisscount = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptDisscountPath4,
+      raw.IconsaxBulk.receiptDisscountPath1,
       raw.IconsaxBulk.receiptDisscountPath2,
       raw.IconsaxBulk.receiptDisscountPath3,
-      raw.IconsaxBulk.receiptDisscountPath1,
+      raw.IconsaxBulk.receiptDisscountPath4,
     ],
     opacities: [
       0.4,
@@ -12270,12 +12270,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptE48e` icon.
   static const IconsaxIconData receiptE48e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptE48ePath3,
       raw.IconsaxBulk.receiptE48ePath2,
+      raw.IconsaxBulk.receiptE48ePath3,
       raw.IconsaxBulk.receiptE48ePath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -12298,14 +12298,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptItem` icon.
   static const IconsaxIconData receiptItem = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptItemPath4,
       raw.IconsaxBulk.receiptItemPath3,
-      raw.IconsaxBulk.receiptItemPath6,
+      raw.IconsaxBulk.receiptItemPath4,
       raw.IconsaxBulk.receiptItemPath5,
+      raw.IconsaxBulk.receiptItemPath6,
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -12315,9 +12315,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptMinus` icon.
   static const IconsaxIconData receiptMinus = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptMinusPath3,
-      raw.IconsaxBulk.receiptMinusPath2,
       raw.IconsaxBulk.receiptMinusPath1,
+      raw.IconsaxBulk.receiptMinusPath2,
+      raw.IconsaxBulk.receiptMinusPath3,
     ],
     opacities: [
       1.0,
@@ -12330,8 +12330,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptSearch` icon.
   static const IconsaxIconData receiptSearch = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptSearchPath2,
       raw.IconsaxBulk.receiptSearchPath1,
+      raw.IconsaxBulk.receiptSearchPath2,
     ],
     opacities: [
       0.4,
@@ -12354,12 +12354,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiptText` icon.
   static const IconsaxIconData receiptText = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiptTextPath4,
       raw.IconsaxBulk.receiptTextPath2,
+      raw.IconsaxBulk.receiptTextPath4,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -12367,9 +12367,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiveSquare` icon.
   static const IconsaxIconData receiveSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiveSquarePath3,
       raw.IconsaxBulk.receiveSquarePath1,
       raw.IconsaxBulk.receiveSquarePath2,
+      raw.IconsaxBulk.receiveSquarePath3,
     ],
     opacities: [
       0.4,
@@ -12382,11 +12382,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceiveSquare2` icon.
   static const IconsaxIconData receiveSquare2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receiveSquare2Path3,
       raw.IconsaxBulk.receiveSquare2Path2,
+      raw.IconsaxBulk.receiveSquare2Path3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -12395,8 +12395,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkReceived` icon.
   static const IconsaxIconData received = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.receivedPath2,
       raw.IconsaxBulk.receivedPath1,
+      raw.IconsaxBulk.receivedPath2,
       raw.IconsaxBulk.receivedPath3,
     ],
     opacities: [
@@ -12411,9 +12411,9 @@ class IconsaxBulk {
   static const IconsaxIconData recoveryConvert = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.recoveryConvertPath1,
-      raw.IconsaxBulk.recoveryConvertPath4,
       raw.IconsaxBulk.recoveryConvertPath2,
       raw.IconsaxBulk.recoveryConvertPath3,
+      raw.IconsaxBulk.recoveryConvertPath4,
     ],
     opacities: [
       1.0,
@@ -12468,7 +12468,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.refreshCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -12501,11 +12501,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkRefreshSquare` icon.
   static const IconsaxIconData refreshSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.refreshSquarePath3,
       raw.IconsaxBulk.refreshSquarePath2,
+      raw.IconsaxBulk.refreshSquarePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -12514,8 +12514,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkReindeerAntlers` icon.
   static const IconsaxIconData reindeerAntlers = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.reindeerAntlersPath2,
       raw.IconsaxBulk.reindeerAntlersPath1,
+      raw.IconsaxBulk.reindeerAntlersPath2,
     ],
     opacities: [
       1.0,
@@ -12527,11 +12527,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkReindeerArch` icon.
   static const IconsaxIconData reindeerArch = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.reindeerArchPath1,
       raw.IconsaxBulk.reindeerArchPath2,
       raw.IconsaxBulk.reindeerArchPath3,
-      raw.IconsaxBulk.reindeerArchPath5,
-      raw.IconsaxBulk.reindeerArchPath1,
       raw.IconsaxBulk.reindeerArchPath4,
+      raw.IconsaxBulk.reindeerArchPath5,
     ],
     opacities: [
       1.0,
@@ -12546,19 +12546,19 @@ class IconsaxBulk {
   /// Composite getter for `bulkReindeerFace` icon.
   static const IconsaxIconData reindeerFace = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.reindeerFacePath10,
       raw.IconsaxBulk.reindeerFacePath1,
       raw.IconsaxBulk.reindeerFacePath2,
+      raw.IconsaxBulk.reindeerFacePath3,
+      raw.IconsaxBulk.reindeerFacePath4,
       raw.IconsaxBulk.reindeerFacePath5,
-      raw.IconsaxBulk.reindeerFacePath13,
+      raw.IconsaxBulk.reindeerFacePath6,
+      raw.IconsaxBulk.reindeerFacePath7,
       raw.IconsaxBulk.reindeerFacePath8,
       raw.IconsaxBulk.reindeerFacePath9,
-      raw.IconsaxBulk.reindeerFacePath6,
-      raw.IconsaxBulk.reindeerFacePath12,
+      raw.IconsaxBulk.reindeerFacePath10,
       raw.IconsaxBulk.reindeerFacePath11,
-      raw.IconsaxBulk.reindeerFacePath3,
-      raw.IconsaxBulk.reindeerFacePath7,
-      raw.IconsaxBulk.reindeerFacePath4,
+      raw.IconsaxBulk.reindeerFacePath12,
+      raw.IconsaxBulk.reindeerFacePath13,
     ],
     opacities: [
       1.0,
@@ -12594,11 +12594,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkRepeatCircle` icon.
   static const IconsaxIconData repeatCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.repeatCirclePath3,
       raw.IconsaxBulk.repeatCirclePath2,
+      raw.IconsaxBulk.repeatCirclePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -12608,12 +12608,12 @@ class IconsaxBulk {
   static const IconsaxIconData reserve = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.reservePath2,
-      raw.IconsaxBulk.reservePath4,
       raw.IconsaxBulk.reservePath3,
+      raw.IconsaxBulk.reservePath4,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
       1.0,
     ],
   );
@@ -12646,8 +12646,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkRotateRight9c1a` icon.
   static const IconsaxIconData rotateRight9c1a = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.rotateRight9c1aPath2,
       raw.IconsaxBulk.rotateRight9c1aPath1,
+      raw.IconsaxBulk.rotateRight9c1aPath2,
     ],
     opacities: [
       0.4,
@@ -12670,8 +12670,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkRouteSquare` icon.
   static const IconsaxIconData routeSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.routeSquarePath2,
       raw.IconsaxBulk.routeSquarePath1,
+      raw.IconsaxBulk.routeSquarePath2,
     ],
     opacities: [
       0.4,
@@ -12683,11 +12683,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkRoutingD62c` icon.
   static const IconsaxIconData routingD62c = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.routingD62cPath1,
       raw.IconsaxBulk.routingD62cPath2,
       raw.IconsaxBulk.routingD62cPath3,
-      raw.IconsaxBulk.routingD62cPath5,
       raw.IconsaxBulk.routingD62cPath4,
-      raw.IconsaxBulk.routingD62cPath1,
+      raw.IconsaxBulk.routingD62cPath5,
     ],
     opacities: [
       0.4,
@@ -12702,11 +12702,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkRoutingEa3b` icon.
   static const IconsaxIconData routingEa3b = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.routingEa3bPath4,
-      raw.IconsaxBulk.routingEa3bPath2,
       raw.IconsaxBulk.routingEa3bPath1,
-      raw.IconsaxBulk.routingEa3bPath5,
+      raw.IconsaxBulk.routingEa3bPath2,
       raw.IconsaxBulk.routingEa3bPath3,
+      raw.IconsaxBulk.routingEa3bPath4,
+      raw.IconsaxBulk.routingEa3bPath5,
     ],
     opacities: [
       0.4,
@@ -12734,8 +12734,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkRowVertical` icon.
   static const IconsaxIconData rowVertical = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.rowVerticalPath2,
       raw.IconsaxBulk.rowVerticalPath1,
+      raw.IconsaxBulk.rowVerticalPath2,
     ],
     opacities: [
       0.4,
@@ -12747,11 +12747,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkRuler` icon.
   static const IconsaxIconData ruler = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.rulerPath4,
-      raw.IconsaxBulk.rulerPath2,
-      raw.IconsaxBulk.rulerPath5,
       raw.IconsaxBulk.rulerPath1,
+      raw.IconsaxBulk.rulerPath2,
       raw.IconsaxBulk.rulerPath3,
+      raw.IconsaxBulk.rulerPath4,
+      raw.IconsaxBulk.rulerPath5,
     ],
     opacities: [
       0.4,
@@ -12766,18 +12766,18 @@ class IconsaxBulk {
   /// Composite getter for `bulkRulerPen` icon.
   static const IconsaxIconData rulerPen = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.rulerPenPath5,
       raw.IconsaxBulk.rulerPenPath2,
-      raw.IconsaxBulk.rulerPenPath6,
       raw.IconsaxBulk.rulerPenPath3,
       raw.IconsaxBulk.rulerPenPath4,
+      raw.IconsaxBulk.rulerPenPath5,
+      raw.IconsaxBulk.rulerPenPath6,
     ],
     opacities: [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
       0.4,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
     ],
   );
 
@@ -12788,7 +12788,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.safeHomePath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -12809,14 +12809,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkSanta` icon.
   static const IconsaxIconData santa = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.santaPath3,
-      raw.IconsaxBulk.santaPath6,
-      raw.IconsaxBulk.santaPath4,
-      raw.IconsaxBulk.santaPath8,
       raw.IconsaxBulk.santaPath1,
-      raw.IconsaxBulk.santaPath7,
       raw.IconsaxBulk.santaPath2,
+      raw.IconsaxBulk.santaPath3,
+      raw.IconsaxBulk.santaPath4,
       raw.IconsaxBulk.santaPath5,
+      raw.IconsaxBulk.santaPath6,
+      raw.IconsaxBulk.santaPath7,
+      raw.IconsaxBulk.santaPath8,
     ],
     opacities: [
       1.0,
@@ -12834,10 +12834,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSanta2` icon.
   static const IconsaxIconData santa2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.santa2Path4,
       raw.IconsaxBulk.santa2Path1,
       raw.IconsaxBulk.santa2Path2,
       raw.IconsaxBulk.santa2Path3,
+      raw.IconsaxBulk.santa2Path4,
     ],
     opacities: [
       0.4,
@@ -12864,10 +12864,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSantaHat` icon.
   static const IconsaxIconData santaHat = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.santaHatPath4,
       raw.IconsaxBulk.santaHatPath1,
       raw.IconsaxBulk.santaHatPath2,
       raw.IconsaxBulk.santaHatPath3,
+      raw.IconsaxBulk.santaHatPath4,
     ],
     opacities: [
       1.0,
@@ -12883,8 +12883,8 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.santaMouthPath1,
       raw.IconsaxBulk.santaMouthPath2,
-      raw.IconsaxBulk.santaMouthPath4,
       raw.IconsaxBulk.santaMouthPath3,
+      raw.IconsaxBulk.santaMouthPath4,
       raw.IconsaxBulk.santaMouthPath5,
     ],
     opacities: [
@@ -12903,7 +12903,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.savePath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -12911,9 +12911,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSaveAdd` icon.
   static const IconsaxIconData saveAdd = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.saveAddPath1,
       raw.IconsaxBulk.saveAddPath2,
       raw.IconsaxBulk.saveAddPath3,
-      raw.IconsaxBulk.saveAddPath1,
     ],
     opacities: [
       0.4,
@@ -12952,13 +12952,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkScan` icon.
   static const IconsaxIconData scan = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.scanPath2,
       raw.IconsaxBulk.scanPath1,
+      raw.IconsaxBulk.scanPath2,
       raw.IconsaxBulk.scanPath3,
+      raw.IconsaxBulk.scanPath4,
       raw.IconsaxBulk.scanPath5,
       raw.IconsaxBulk.scanPath6,
       raw.IconsaxBulk.scanPath7,
-      raw.IconsaxBulk.scanPath4,
     ],
     opacities: [
       0.4,
@@ -12975,14 +12975,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkScanBarcode` icon.
   static const IconsaxIconData scanBarcode = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.scanBarcodePath1,
+      raw.IconsaxBulk.scanBarcodePath2,
       raw.IconsaxBulk.scanBarcodePath3,
+      raw.IconsaxBulk.scanBarcodePath4,
       raw.IconsaxBulk.scanBarcodePath5,
       raw.IconsaxBulk.scanBarcodePath6,
-      raw.IconsaxBulk.scanBarcodePath8,
-      raw.IconsaxBulk.scanBarcodePath4,
       raw.IconsaxBulk.scanBarcodePath7,
-      raw.IconsaxBulk.scanBarcodePath2,
-      raw.IconsaxBulk.scanBarcodePath1,
+      raw.IconsaxBulk.scanBarcodePath8,
     ],
     opacities: [
       0.4,
@@ -13000,11 +13000,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkScanner` icon.
   static const IconsaxIconData scanner = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.scannerPath5,
       raw.IconsaxBulk.scannerPath1,
-      raw.IconsaxBulk.scannerPath4,
-      raw.IconsaxBulk.scannerPath3,
       raw.IconsaxBulk.scannerPath2,
+      raw.IconsaxBulk.scannerPath3,
+      raw.IconsaxBulk.scannerPath4,
+      raw.IconsaxBulk.scannerPath5,
     ],
     opacities: [
       1.0,
@@ -13019,14 +13019,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkScanning` icon.
   static const IconsaxIconData scanning = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.scanningPath6,
-      raw.IconsaxBulk.scanningPath8,
-      raw.IconsaxBulk.scanningPath7,
       raw.IconsaxBulk.scanningPath5,
+      raw.IconsaxBulk.scanningPath6,
+      raw.IconsaxBulk.scanningPath7,
+      raw.IconsaxBulk.scanningPath8,
     ],
     opacities: [
-      0.4,
       1.0,
+      0.4,
       0.4,
       1.0,
     ],
@@ -13036,9 +13036,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkScissor` icon.
   static const IconsaxIconData scissor = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.scissorPath3,
       raw.IconsaxBulk.scissorPath1,
       raw.IconsaxBulk.scissorPath2,
+      raw.IconsaxBulk.scissorPath3,
     ],
     opacities: [
       1.0,
@@ -13066,9 +13066,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSearchFavorite30cc` icon.
   static const IconsaxIconData searchFavorite30cc = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.searchFavorite30ccPath1,
       raw.IconsaxBulk.searchFavorite30ccPath2,
       raw.IconsaxBulk.searchFavorite30ccPath3,
-      raw.IconsaxBulk.searchFavorite30ccPath1,
     ],
     opacities: [
       0.4,
@@ -13081,8 +13081,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSearchFavoriteC8c3` icon.
   static const IconsaxIconData searchFavoriteC8c3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.searchFavoriteC8c3Path2,
       raw.IconsaxBulk.searchFavoriteC8c3Path1,
+      raw.IconsaxBulk.searchFavoriteC8c3Path2,
       raw.IconsaxBulk.searchFavoriteC8c3Path3,
     ],
     opacities: [
@@ -13096,8 +13096,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSearchStatus95f1` icon.
   static const IconsaxIconData searchStatus95f1 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.searchStatus95f1Path2,
       raw.IconsaxBulk.searchStatus95f1Path1,
+      raw.IconsaxBulk.searchStatus95f1Path2,
     ],
     opacities: [
       1.0,
@@ -13167,7 +13167,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.securityPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -13175,8 +13175,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSecurityCard` icon.
   static const IconsaxIconData securityCard = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.securityCardPath2,
       raw.IconsaxBulk.securityCardPath1,
+      raw.IconsaxBulk.securityCardPath2,
       raw.IconsaxBulk.securityCardPath3,
     ],
     opacities: [
@@ -13203,9 +13203,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSecurityTime` icon.
   static const IconsaxIconData securityTime = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.securityTimePath1,
       raw.IconsaxBulk.securityTimePath2,
       raw.IconsaxBulk.securityTimePath3,
-      raw.IconsaxBulk.securityTimePath1,
     ],
     opacities: [
       0.4,
@@ -13218,11 +13218,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSecurityUser` icon.
   static const IconsaxIconData securityUser = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.securityUserPath3,
       raw.IconsaxBulk.securityUserPath2,
+      raw.IconsaxBulk.securityUserPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -13231,11 +13231,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSend0377` icon.
   static const IconsaxIconData send0377 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.send0377Path3,
       raw.IconsaxBulk.send0377Path2,
+      raw.IconsaxBulk.send0377Path3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -13244,8 +13244,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSend6775` icon.
   static const IconsaxIconData send6775 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.send6775Path2,
       raw.IconsaxBulk.send6775Path1,
+      raw.IconsaxBulk.send6775Path2,
     ],
     opacities: [
       0.4,
@@ -13257,8 +13257,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSendCc79` icon.
   static const IconsaxIconData sendCc79 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sendCc79Path3,
       raw.IconsaxBulk.sendCc79Path1,
+      raw.IconsaxBulk.sendCc79Path3,
     ],
     opacities: [
       0.4,
@@ -13281,12 +13281,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSendSquare2` icon.
   static const IconsaxIconData sendSquare2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sendSquare2Path4,
-      raw.IconsaxBulk.sendSquare2Path3,
       raw.IconsaxBulk.sendSquare2Path2,
+      raw.IconsaxBulk.sendSquare2Path3,
+      raw.IconsaxBulk.sendSquare2Path4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -13296,9 +13296,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkServingDome` icon.
   static const IconsaxIconData servingDome = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.servingDomePath3,
-      raw.IconsaxBulk.servingDomePath2,
       raw.IconsaxBulk.servingDomePath1,
+      raw.IconsaxBulk.servingDomePath2,
+      raw.IconsaxBulk.servingDomePath3,
     ],
     opacities: [
       1.0,
@@ -13311,15 +13311,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkSetting1e74` icon.
   static const IconsaxIconData setting1e74 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.setting1e74Path6,
-      raw.IconsaxBulk.setting1e74Path5,
-      raw.IconsaxBulk.setting1e74Path7,
       raw.IconsaxBulk.setting1e74Path2,
-      raw.IconsaxBulk.setting1e74Path4,
       raw.IconsaxBulk.setting1e74Path3,
+      raw.IconsaxBulk.setting1e74Path4,
+      raw.IconsaxBulk.setting1e74Path5,
+      raw.IconsaxBulk.setting1e74Path6,
+      raw.IconsaxBulk.setting1e74Path7,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -13332,12 +13332,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSetting3092` icon.
   static const IconsaxIconData setting3092 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.setting3092Path6,
       raw.IconsaxBulk.setting3092Path1,
-      raw.IconsaxBulk.setting3092Path3,
-      raw.IconsaxBulk.setting3092Path5,
-      raw.IconsaxBulk.setting3092Path4,
       raw.IconsaxBulk.setting3092Path2,
+      raw.IconsaxBulk.setting3092Path3,
+      raw.IconsaxBulk.setting3092Path4,
+      raw.IconsaxBulk.setting3092Path5,
+      raw.IconsaxBulk.setting3092Path6,
     ],
     opacities: [
       0.4,
@@ -13353,8 +13353,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSetting9b68` icon.
   static const IconsaxIconData setting9b68 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.setting9b68Path2,
       raw.IconsaxBulk.setting9b68Path1,
+      raw.IconsaxBulk.setting9b68Path2,
     ],
     opacities: [
       0.4,
@@ -13366,12 +13366,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSettingF049` icon.
   static const IconsaxIconData settingF049 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.settingF049Path5,
-      raw.IconsaxBulk.settingF049Path3,
       raw.IconsaxBulk.settingF049Path1,
       raw.IconsaxBulk.settingF049Path2,
-      raw.IconsaxBulk.settingF049Path6,
+      raw.IconsaxBulk.settingF049Path3,
       raw.IconsaxBulk.settingF049Path4,
+      raw.IconsaxBulk.settingF049Path5,
+      raw.IconsaxBulk.settingF049Path6,
     ],
     opacities: [
       0.4,
@@ -13390,7 +13390,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.settings1aadPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -13398,8 +13398,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSettingsC1c6` icon.
   static const IconsaxIconData settingsC1c6 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.settingsC1c6Group1,
       raw.IconsaxBulk.settingsC1c6Path1,
+      raw.IconsaxBulk.settingsC1c6Group1,
     ],
     opacities: [
       1.0,
@@ -13411,8 +13411,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkShapesC19a` icon.
   static const IconsaxIconData shapesC19a = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shapesC19aPath2,
       raw.IconsaxBulk.shapesC19aPath1,
+      raw.IconsaxBulk.shapesC19aPath2,
     ],
     opacities: [
       1.0,
@@ -13437,16 +13437,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkShare` icon.
   static const IconsaxIconData share = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.sharePath1,
       raw.IconsaxBulk.sharePath3,
       raw.IconsaxBulk.sharePath4,
       raw.IconsaxBulk.sharePath5,
-      raw.IconsaxBulk.sharePath1,
       raw.IconsaxBulk.sharePath6,
     ],
     opacities: [
       0.4,
       0.4,
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -13456,8 +13456,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkShield` icon.
   static const IconsaxIconData shield = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shieldPath2,
       raw.IconsaxBulk.shieldPath1,
+      raw.IconsaxBulk.shieldPath2,
     ],
     opacities: [
       0.4,
@@ -13482,9 +13482,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkShieldSearch` icon.
   static const IconsaxIconData shieldSearch = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shieldSearchPath3,
       raw.IconsaxBulk.shieldSearchPath1,
       raw.IconsaxBulk.shieldSearchPath2,
+      raw.IconsaxBulk.shieldSearchPath3,
     ],
     opacities: [
       0.4,
@@ -13500,7 +13500,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.shieldSecurityPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -13513,7 +13513,7 @@ class IconsaxBulk {
     ],
     opacities: [
       0.4,
-      0.4,
+      1.0,
     ],
   );
 
@@ -13521,9 +13521,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkShip` icon.
   static const IconsaxIconData ship = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shipPath3,
-      raw.IconsaxBulk.shipPath2,
       raw.IconsaxBulk.shipPath1,
+      raw.IconsaxBulk.shipPath2,
+      raw.IconsaxBulk.shipPath3,
     ],
     opacities: [
       1.0,
@@ -13536,11 +13536,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkShop` icon.
   static const IconsaxIconData shop = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shopPath3,
-      raw.IconsaxBulk.shopPath5,
       raw.IconsaxBulk.shopPath1,
-      raw.IconsaxBulk.shopPath4,
       raw.IconsaxBulk.shopPath2,
+      raw.IconsaxBulk.shopPath3,
+      raw.IconsaxBulk.shopPath4,
+      raw.IconsaxBulk.shopPath5,
     ],
     opacities: [
       0.4,
@@ -13555,10 +13555,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkShopAdd` icon.
   static const IconsaxIconData shopAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shopAddPath2,
-      raw.IconsaxBulk.shopAddPath4,
       raw.IconsaxBulk.shopAddPath1,
+      raw.IconsaxBulk.shopAddPath2,
       raw.IconsaxBulk.shopAddPath3,
+      raw.IconsaxBulk.shopAddPath4,
       raw.IconsaxBulk.shopAddPath5,
     ],
     opacities: [
@@ -13574,10 +13574,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkShopGift` icon.
   static const IconsaxIconData shopGift = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shopGiftPath4,
       raw.IconsaxBulk.shopGiftPath1,
-      raw.IconsaxBulk.shopGiftPath3,
       raw.IconsaxBulk.shopGiftPath2,
+      raw.IconsaxBulk.shopGiftPath3,
+      raw.IconsaxBulk.shopGiftPath4,
     ],
     opacities: [
       0.4,
@@ -13602,9 +13602,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkShopSnow` icon.
   static const IconsaxIconData shopSnow = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shopSnowPath3,
-      raw.IconsaxBulk.shopSnowPath2,
       raw.IconsaxBulk.shopSnowPath1,
+      raw.IconsaxBulk.shopSnowPath2,
+      raw.IconsaxBulk.shopSnowPath3,
     ],
     opacities: [
       0.4,
@@ -13617,9 +13617,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkShoppingBag` icon.
   static const IconsaxIconData shoppingBag = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.shoppingBagPath1,
       raw.IconsaxBulk.shoppingBagPath2,
       raw.IconsaxBulk.shoppingBagPath3,
-      raw.IconsaxBulk.shoppingBagPath1,
     ],
     opacities: [
       0.4,
@@ -13633,8 +13633,8 @@ class IconsaxBulk {
   static const IconsaxIconData shoppingCart = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.shoppingCartPath1,
-      raw.IconsaxBulk.shoppingCartPath3,
       raw.IconsaxBulk.shoppingCartPath2,
+      raw.IconsaxBulk.shoppingCartPath3,
     ],
     opacities: [
       1.0,
@@ -13647,8 +13647,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkShutterstock` icon.
   static const IconsaxIconData shutterstock = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.shutterstockPath2,
       raw.IconsaxBulk.shutterstockPath1,
+      raw.IconsaxBulk.shutterstockPath2,
       raw.IconsaxBulk.shutterstockPath3,
     ],
     opacities: [
@@ -13662,8 +13662,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSiacoinSc` icon.
   static const IconsaxIconData siacoinSc = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.siacoinScPath2,
       raw.IconsaxBulk.siacoinScPath1,
+      raw.IconsaxBulk.siacoinScPath2,
       raw.IconsaxBulk.siacoinScPath3,
     ],
     opacities: [
@@ -13677,11 +13677,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSidebarBottom` icon.
   static const IconsaxIconData sidebarBottom = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sidebarBottomPath3,
       raw.IconsaxBulk.sidebarBottomPath2,
+      raw.IconsaxBulk.sidebarBottomPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -13690,9 +13690,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSidebarLeft` icon.
   static const IconsaxIconData sidebarLeft = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.sidebarLeftPath1,
       raw.IconsaxBulk.sidebarLeftPath2,
       raw.IconsaxBulk.sidebarLeftPath3,
-      raw.IconsaxBulk.sidebarLeftPath1,
     ],
     opacities: [
       0.4,
@@ -13705,9 +13705,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSidebarRight` icon.
   static const IconsaxIconData sidebarRight = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.sidebarRightPath1,
       raw.IconsaxBulk.sidebarRightPath2,
       raw.IconsaxBulk.sidebarRightPath3,
-      raw.IconsaxBulk.sidebarRightPath1,
     ],
     opacities: [
       0.4,
@@ -13721,8 +13721,8 @@ class IconsaxBulk {
   static const IconsaxIconData sidebarTop = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.sidebarTopPath1,
-      raw.IconsaxBulk.sidebarTopPath3,
       raw.IconsaxBulk.sidebarTopPath2,
+      raw.IconsaxBulk.sidebarTopPath3,
     ],
     opacities: [
       0.4,
@@ -13736,9 +13736,9 @@ class IconsaxBulk {
   static const IconsaxIconData signpost = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.signpostPath1,
-      raw.IconsaxBulk.signpostPath4,
       raw.IconsaxBulk.signpostPath2,
       raw.IconsaxBulk.signpostPath3,
+      raw.IconsaxBulk.signpostPath4,
     ],
     opacities: [
       1.0,
@@ -13752,8 +13752,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSimcard0a63` icon.
   static const IconsaxIconData simcard0a63 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.simcard0a63Path2,
       raw.IconsaxBulk.simcard0a63Path1,
+      raw.IconsaxBulk.simcard0a63Path2,
     ],
     opacities: [
       0.4,
@@ -13765,9 +13765,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSimcard1e1a` icon.
   static const IconsaxIconData simcard1e1a = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.simcard1e1aPath3,
       raw.IconsaxBulk.simcard1e1aPath1,
       raw.IconsaxBulk.simcard1e1aPath2,
+      raw.IconsaxBulk.simcard1e1aPath3,
     ],
     opacities: [
       0.4,
@@ -13780,10 +13780,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSimcard9a94` icon.
   static const IconsaxIconData simcard9a94 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.simcard9a94Path5,
+      raw.IconsaxBulk.simcard9a94Path1,
       raw.IconsaxBulk.simcard9a94Path3,
       raw.IconsaxBulk.simcard9a94Path4,
-      raw.IconsaxBulk.simcard9a94Path1,
+      raw.IconsaxBulk.simcard9a94Path5,
     ],
     opacities: [
       0.4,
@@ -13808,12 +13808,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSki` icon.
   static const IconsaxIconData ski = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.skiPath6,
       raw.IconsaxBulk.skiPath1,
-      raw.IconsaxBulk.skiPath5,
-      raw.IconsaxBulk.skiPath3,
       raw.IconsaxBulk.skiPath2,
+      raw.IconsaxBulk.skiPath3,
       raw.IconsaxBulk.skiPath4,
+      raw.IconsaxBulk.skiPath5,
+      raw.IconsaxBulk.skiPath6,
     ],
     opacities: [
       1.0,
@@ -13829,14 +13829,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkSlack` icon.
   static const IconsaxIconData slack = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.slackPath7,
+      raw.IconsaxBulk.slackPath1,
+      raw.IconsaxBulk.slackPath2,
+      raw.IconsaxBulk.slackPath3,
+      raw.IconsaxBulk.slackPath4,
       raw.IconsaxBulk.slackPath5,
       raw.IconsaxBulk.slackPath6,
-      raw.IconsaxBulk.slackPath1,
-      raw.IconsaxBulk.slackPath4,
-      raw.IconsaxBulk.slackPath2,
+      raw.IconsaxBulk.slackPath7,
       raw.IconsaxBulk.slackPath8,
-      raw.IconsaxBulk.slackPath3,
     ],
     opacities: [
       1.0,
@@ -13867,10 +13867,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSleigh` icon.
   static const IconsaxIconData sleigh = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.sleighPath1,
+      raw.IconsaxBulk.sleighPath2,
       raw.IconsaxBulk.sleighPath3,
       raw.IconsaxBulk.sleighPath4,
-      raw.IconsaxBulk.sleighPath2,
-      raw.IconsaxBulk.sleighPath1,
     ],
     opacities: [
       1.0,
@@ -13897,10 +13897,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSlider` icon.
   static const IconsaxIconData slider = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sliderPath4,
-      raw.IconsaxBulk.sliderPath3,
       raw.IconsaxBulk.sliderPath1,
       raw.IconsaxBulk.sliderPath2,
+      raw.IconsaxBulk.sliderPath3,
+      raw.IconsaxBulk.sliderPath4,
     ],
     opacities: [
       1.0,
@@ -13914,8 +13914,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSliderHorizontal2655` icon.
   static const IconsaxIconData sliderHorizontal2655 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sliderHorizontal2655Path2,
       raw.IconsaxBulk.sliderHorizontal2655Path1,
+      raw.IconsaxBulk.sliderHorizontal2655Path2,
       raw.IconsaxBulk.sliderHorizontal2655Path3,
     ],
     opacities: [
@@ -13929,9 +13929,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSliderHorizontal433e` icon.
   static const IconsaxIconData sliderHorizontal433e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sliderHorizontal433ePath3,
       raw.IconsaxBulk.sliderHorizontal433ePath1,
       raw.IconsaxBulk.sliderHorizontal433ePath2,
+      raw.IconsaxBulk.sliderHorizontal433ePath3,
     ],
     opacities: [
       1.0,
@@ -13945,8 +13945,8 @@ class IconsaxBulk {
   static const IconsaxIconData sliderVertical1d14 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.sliderVertical1d14Path1,
-      raw.IconsaxBulk.sliderVertical1d14Path3,
       raw.IconsaxBulk.sliderVertical1d14Path2,
+      raw.IconsaxBulk.sliderVertical1d14Path3,
     ],
     opacities: [
       1.0,
@@ -13959,9 +13959,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSliderVertical9b23` icon.
   static const IconsaxIconData sliderVertical9b23 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.sliderVertical9b23Path1,
       raw.IconsaxBulk.sliderVertical9b23Path2,
       raw.IconsaxBulk.sliderVertical9b23Path3,
-      raw.IconsaxBulk.sliderVertical9b23Path1,
     ],
     opacities: [
       0.4,
@@ -13978,7 +13978,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.smallcapsPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -13987,9 +13987,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmartBag` icon.
   static const IconsaxIconData smartBag = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smartBagPath3,
-      raw.IconsaxBulk.smartBagPath2,
       raw.IconsaxBulk.smartBagPath1,
+      raw.IconsaxBulk.smartBagPath2,
+      raw.IconsaxBulk.smartBagPath3,
     ],
     opacities: [
       0.4,
@@ -14002,12 +14002,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmartCar` icon.
   static const IconsaxIconData smartCar = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.smartCarPath1,
       raw.IconsaxBulk.smartCarPath2,
+      raw.IconsaxBulk.smartCarPath3,
       raw.IconsaxBulk.smartCarPath4,
       raw.IconsaxBulk.smartCarPath5,
       raw.IconsaxBulk.smartCarPath6,
-      raw.IconsaxBulk.smartCarPath3,
-      raw.IconsaxBulk.smartCarPath1,
     ],
     opacities: [
       1.0,
@@ -14023,10 +14023,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmartCursor` icon.
   static const IconsaxIconData smartCursor = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smartCursorPath4,
-      raw.IconsaxBulk.smartCursorPath3,
-      raw.IconsaxBulk.smartCursorPath2,
       raw.IconsaxBulk.smartCursorPath1,
+      raw.IconsaxBulk.smartCursorPath2,
+      raw.IconsaxBulk.smartCursorPath3,
+      raw.IconsaxBulk.smartCursorPath4,
     ],
     opacities: [
       0.4,
@@ -14040,10 +14040,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmartHome` icon.
   static const IconsaxIconData smartHome = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smartHomePath4,
-      raw.IconsaxBulk.smartHomePath3,
       raw.IconsaxBulk.smartHomePath1,
       raw.IconsaxBulk.smartHomePath2,
+      raw.IconsaxBulk.smartHomePath3,
+      raw.IconsaxBulk.smartHomePath4,
     ],
     opacities: [
       0.4,
@@ -14058,8 +14058,8 @@ class IconsaxBulk {
   static const IconsaxIconData smartLockAi = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.smartLockAiPath1,
-      raw.IconsaxBulk.smartLockAiPath3,
       raw.IconsaxBulk.smartLockAiPath2,
+      raw.IconsaxBulk.smartLockAiPath3,
     ],
     opacities: [
       1.0,
@@ -14072,11 +14072,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmileys` icon.
   static const IconsaxIconData smileys = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smileysPath2,
-      raw.IconsaxBulk.smileysPath6,
-      raw.IconsaxBulk.smileysPath5,
-      raw.IconsaxBulk.smileysPath4,
       raw.IconsaxBulk.smileysPath1,
+      raw.IconsaxBulk.smileysPath2,
+      raw.IconsaxBulk.smileysPath4,
+      raw.IconsaxBulk.smileysPath5,
+      raw.IconsaxBulk.smileysPath6,
     ],
     opacities: [
       0.4,
@@ -14102,8 +14102,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmsEdit` icon.
   static const IconsaxIconData smsEdit = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smsEditPath2,
       raw.IconsaxBulk.smsEditPath1,
+      raw.IconsaxBulk.smsEditPath2,
       raw.IconsaxBulk.smsEditPath3,
     ],
     opacities: [
@@ -14123,8 +14123,8 @@ class IconsaxBulk {
     ],
     opacities: [
       1.0,
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -14132,9 +14132,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmsSearch` icon.
   static const IconsaxIconData smsSearch = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smsSearchPath3,
-      raw.IconsaxBulk.smsSearchPath2,
       raw.IconsaxBulk.smsSearchPath1,
+      raw.IconsaxBulk.smsSearchPath2,
+      raw.IconsaxBulk.smsSearchPath3,
     ],
     opacities: [
       0.4,
@@ -14147,8 +14147,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmsStar` icon.
   static const IconsaxIconData smsStar = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smsStarPath2,
       raw.IconsaxBulk.smsStarPath1,
+      raw.IconsaxBulk.smsStarPath2,
       raw.IconsaxBulk.smsStarPath3,
     ],
     opacities: [
@@ -14162,9 +14162,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSmsTracking` icon.
   static const IconsaxIconData smsTracking = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.smsTrackingPath3,
       raw.IconsaxBulk.smsTrackingPath1,
       raw.IconsaxBulk.smsTrackingPath2,
+      raw.IconsaxBulk.smsTrackingPath3,
     ],
     opacities: [
       1.0,
@@ -14188,19 +14188,19 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow` icon.
   static const IconsaxIconData snow = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snowPath8,
-      raw.IconsaxBulk.snowPath6,
-      raw.IconsaxBulk.snowPath2,
-      raw.IconsaxBulk.snowPath7,
-      raw.IconsaxBulk.snowPath12,
-      raw.IconsaxBulk.snowPath5,
-      raw.IconsaxBulk.snowPath3,
-      raw.IconsaxBulk.snowPath9,
       raw.IconsaxBulk.snowPath1,
-      raw.IconsaxBulk.snowPath13,
-      raw.IconsaxBulk.snowPath11,
+      raw.IconsaxBulk.snowPath2,
+      raw.IconsaxBulk.snowPath3,
       raw.IconsaxBulk.snowPath4,
+      raw.IconsaxBulk.snowPath5,
+      raw.IconsaxBulk.snowPath6,
+      raw.IconsaxBulk.snowPath7,
+      raw.IconsaxBulk.snowPath8,
+      raw.IconsaxBulk.snowPath9,
       raw.IconsaxBulk.snowPath10,
+      raw.IconsaxBulk.snowPath11,
+      raw.IconsaxBulk.snowPath12,
+      raw.IconsaxBulk.snowPath13,
     ],
     opacities: [
       0.4,
@@ -14223,23 +14223,23 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow10` icon.
   static const IconsaxIconData snow10 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow10Path17,
-      raw.IconsaxBulk.snow10Path10,
-      raw.IconsaxBulk.snow10Path5,
-      raw.IconsaxBulk.snow10Path3,
-      raw.IconsaxBulk.snow10Path13,
-      raw.IconsaxBulk.snow10Path7,
       raw.IconsaxBulk.snow10Path1,
       raw.IconsaxBulk.snow10Path2,
-      raw.IconsaxBulk.snow10Path9,
-      raw.IconsaxBulk.snow10Path11,
-      raw.IconsaxBulk.snow10Path14,
-      raw.IconsaxBulk.snow10Path16,
-      raw.IconsaxBulk.snow10Path15,
-      raw.IconsaxBulk.snow10Path8,
-      raw.IconsaxBulk.snow10Path6,
+      raw.IconsaxBulk.snow10Path3,
       raw.IconsaxBulk.snow10Path4,
+      raw.IconsaxBulk.snow10Path5,
+      raw.IconsaxBulk.snow10Path6,
+      raw.IconsaxBulk.snow10Path7,
+      raw.IconsaxBulk.snow10Path8,
+      raw.IconsaxBulk.snow10Path9,
+      raw.IconsaxBulk.snow10Path10,
+      raw.IconsaxBulk.snow10Path11,
       raw.IconsaxBulk.snow10Path12,
+      raw.IconsaxBulk.snow10Path13,
+      raw.IconsaxBulk.snow10Path14,
+      raw.IconsaxBulk.snow10Path15,
+      raw.IconsaxBulk.snow10Path16,
+      raw.IconsaxBulk.snow10Path17,
     ],
     opacities: [
       1.0,
@@ -14267,12 +14267,12 @@ class IconsaxBulk {
   static const IconsaxIconData snow102 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.snow102Path1,
-      raw.IconsaxBulk.snow102Path6,
       raw.IconsaxBulk.snow102Path2,
-      raw.IconsaxBulk.snow102Path5,
       raw.IconsaxBulk.snow102Path3,
-      raw.IconsaxBulk.snow102Path7,
       raw.IconsaxBulk.snow102Path4,
+      raw.IconsaxBulk.snow102Path5,
+      raw.IconsaxBulk.snow102Path6,
+      raw.IconsaxBulk.snow102Path7,
     ],
     opacities: [
       1.0,
@@ -14311,12 +14311,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow14` icon.
   static const IconsaxIconData snow14 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow14Path5,
-      raw.IconsaxBulk.snow14Path8,
       raw.IconsaxBulk.snow14Path1,
-      raw.IconsaxBulk.snow14Path9,
       raw.IconsaxBulk.snow14Path3,
+      raw.IconsaxBulk.snow14Path5,
       raw.IconsaxBulk.snow14Path6,
+      raw.IconsaxBulk.snow14Path8,
+      raw.IconsaxBulk.snow14Path9,
     ],
     opacities: [
       1.0,
@@ -14332,20 +14332,20 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow3` icon.
   static const IconsaxIconData snow3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow3Path10,
       raw.IconsaxBulk.snow3Group1,
-      raw.IconsaxBulk.snow3Path3,
-      raw.IconsaxBulk.snow3Path8,
-      raw.IconsaxBulk.snow3Path7,
-      raw.IconsaxBulk.snow3Path5,
       raw.IconsaxBulk.snow3Path1,
       raw.IconsaxBulk.snow3Path2,
-      raw.IconsaxBulk.snow3Path9,
-      raw.IconsaxBulk.snow3Path6,
+      raw.IconsaxBulk.snow3Path3,
       raw.IconsaxBulk.snow3Path4,
+      raw.IconsaxBulk.snow3Path5,
+      raw.IconsaxBulk.snow3Path6,
+      raw.IconsaxBulk.snow3Path7,
+      raw.IconsaxBulk.snow3Path8,
+      raw.IconsaxBulk.snow3Path9,
+      raw.IconsaxBulk.snow3Path10,
     ],
     opacities: [
-      1.0,
+      0.4,
       1.0,
       1.0,
       1.0,
@@ -14363,15 +14363,15 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow4` icon.
   static const IconsaxIconData snow4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow4Path7,
-      raw.IconsaxBulk.snow4Path3,
-      raw.IconsaxBulk.snow4Path9,
-      raw.IconsaxBulk.snow4Path5,
-      raw.IconsaxBulk.snow4Path2,
-      raw.IconsaxBulk.snow4Path8,
-      raw.IconsaxBulk.snow4Path4,
-      raw.IconsaxBulk.snow4Path6,
       raw.IconsaxBulk.snow4Path1,
+      raw.IconsaxBulk.snow4Path2,
+      raw.IconsaxBulk.snow4Path3,
+      raw.IconsaxBulk.snow4Path4,
+      raw.IconsaxBulk.snow4Path5,
+      raw.IconsaxBulk.snow4Path6,
+      raw.IconsaxBulk.snow4Path7,
+      raw.IconsaxBulk.snow4Path8,
+      raw.IconsaxBulk.snow4Path9,
     ],
     opacities: [
       1.0,
@@ -14390,12 +14390,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow42` icon.
   static const IconsaxIconData snow42 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow42Path3,
       raw.IconsaxBulk.snow42Path1,
-      raw.IconsaxBulk.snow42Path5,
       raw.IconsaxBulk.snow42Path2,
-      raw.IconsaxBulk.snow42Path6,
+      raw.IconsaxBulk.snow42Path3,
       raw.IconsaxBulk.snow42Path4,
+      raw.IconsaxBulk.snow42Path5,
+      raw.IconsaxBulk.snow42Path6,
     ],
     opacities: [
       1.0,
@@ -14422,11 +14422,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow6` icon.
   static const IconsaxIconData snow6 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow6Path4,
       raw.IconsaxBulk.snow6Path1,
       raw.IconsaxBulk.snow6Path2,
-      raw.IconsaxBulk.snow6Path5,
       raw.IconsaxBulk.snow6Path3,
+      raw.IconsaxBulk.snow6Path4,
+      raw.IconsaxBulk.snow6Path5,
     ],
     opacities: [
       1.0,
@@ -14441,12 +14441,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow7` icon.
   static const IconsaxIconData snow7 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow7Path3,
-      raw.IconsaxBulk.snow7Path2,
       raw.IconsaxBulk.snow7Path1,
-      raw.IconsaxBulk.snow7Path6,
-      raw.IconsaxBulk.snow7Path5,
+      raw.IconsaxBulk.snow7Path2,
+      raw.IconsaxBulk.snow7Path3,
       raw.IconsaxBulk.snow7Path4,
+      raw.IconsaxBulk.snow7Path5,
+      raw.IconsaxBulk.snow7Path6,
     ],
     opacities: [
       1.0,
@@ -14462,11 +14462,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow8` icon.
   static const IconsaxIconData snow8 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.snow8Path1,
+      raw.IconsaxBulk.snow8Path2,
       raw.IconsaxBulk.snow8Path3,
       raw.IconsaxBulk.snow8Path4,
-      raw.IconsaxBulk.snow8Path1,
       raw.IconsaxBulk.snow8Path5,
-      raw.IconsaxBulk.snow8Path2,
       raw.IconsaxBulk.snow8Path6,
       raw.IconsaxBulk.snow8Path7,
     ],
@@ -14485,12 +14485,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnow9` icon.
   static const IconsaxIconData snow9 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snow9Path5,
-      raw.IconsaxBulk.snow9Path4,
-      raw.IconsaxBulk.snow9Path6,
       raw.IconsaxBulk.snow9Path1,
       raw.IconsaxBulk.snow9Path2,
       raw.IconsaxBulk.snow9Path3,
+      raw.IconsaxBulk.snow9Path4,
+      raw.IconsaxBulk.snow9Path5,
+      raw.IconsaxBulk.snow9Path6,
     ],
     opacities: [
       1.0,
@@ -14506,20 +14506,20 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnowman` icon.
   static const IconsaxIconData snowman = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snowmanPath6,
-      raw.IconsaxBulk.snowmanPath8,
-      raw.IconsaxBulk.snowmanPath13,
-      raw.IconsaxBulk.snowmanPath7,
-      raw.IconsaxBulk.snowmanPath4,
-      raw.IconsaxBulk.snowmanPath11,
-      raw.IconsaxBulk.snowmanPath2,
       raw.IconsaxBulk.snowmanPath1,
-      raw.IconsaxBulk.snowmanPath5,
-      raw.IconsaxBulk.snowmanPath10,
-      raw.IconsaxBulk.snowmanPath9,
-      raw.IconsaxBulk.snowmanPath14,
-      raw.IconsaxBulk.snowmanPath12,
+      raw.IconsaxBulk.snowmanPath2,
       raw.IconsaxBulk.snowmanPath3,
+      raw.IconsaxBulk.snowmanPath4,
+      raw.IconsaxBulk.snowmanPath5,
+      raw.IconsaxBulk.snowmanPath6,
+      raw.IconsaxBulk.snowmanPath7,
+      raw.IconsaxBulk.snowmanPath8,
+      raw.IconsaxBulk.snowmanPath9,
+      raw.IconsaxBulk.snowmanPath10,
+      raw.IconsaxBulk.snowmanPath11,
+      raw.IconsaxBulk.snowmanPath12,
+      raw.IconsaxBulk.snowmanPath13,
+      raw.IconsaxBulk.snowmanPath14,
     ],
     opacities: [
       1.0,
@@ -14544,9 +14544,9 @@ class IconsaxBulk {
   static const IconsaxIconData snowman2 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.snowman2Path1,
-      raw.IconsaxBulk.snowman2Path4,
       raw.IconsaxBulk.snowman2Path2,
       raw.IconsaxBulk.snowman2Path3,
+      raw.IconsaxBulk.snowman2Path4,
     ],
     opacities: [
       0.4,
@@ -14560,11 +14560,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnowman3` icon.
   static const IconsaxIconData snowman3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snowman3Path5,
-      raw.IconsaxBulk.snowman3Path4,
-      raw.IconsaxBulk.snowman3Path3,
       raw.IconsaxBulk.snowman3Path1,
       raw.IconsaxBulk.snowman3Path2,
+      raw.IconsaxBulk.snowman3Path3,
+      raw.IconsaxBulk.snowman3Path4,
+      raw.IconsaxBulk.snowman3Path5,
     ],
     opacities: [
       1.0,
@@ -14579,13 +14579,13 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnowman4` icon.
   static const IconsaxIconData snowman4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snowman4Path4,
       raw.IconsaxBulk.snowman4Path1,
       raw.IconsaxBulk.snowman4Path2,
-      raw.IconsaxBulk.snowman4Path6,
-      raw.IconsaxBulk.snowman4Path8,
-      raw.IconsaxBulk.snowman4Path7,
+      raw.IconsaxBulk.snowman4Path4,
       raw.IconsaxBulk.snowman4Path5,
+      raw.IconsaxBulk.snowman4Path6,
+      raw.IconsaxBulk.snowman4Path7,
+      raw.IconsaxBulk.snowman4Path8,
     ],
     opacities: [
       1.0,
@@ -14602,11 +14602,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnowman5` icon.
   static const IconsaxIconData snowman5 = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.snowman5Path1,
+      raw.IconsaxBulk.snowman5Path2,
+      raw.IconsaxBulk.snowman5Path3,
       raw.IconsaxBulk.snowman5Path4,
       raw.IconsaxBulk.snowman5Path5,
-      raw.IconsaxBulk.snowman5Path2,
-      raw.IconsaxBulk.snowman5Path1,
-      raw.IconsaxBulk.snowman5Path3,
     ],
     opacities: [
       1.0,
@@ -14623,11 +14623,11 @@ class IconsaxBulk {
     icons: [
       raw.IconsaxBulk.snowman6Group1,
       raw.IconsaxBulk.snowman6Path1,
-      raw.IconsaxBulk.snowman6Path3,
       raw.IconsaxBulk.snowman6Path2,
+      raw.IconsaxBulk.snowman6Path3,
     ],
     opacities: [
-      1.0,
+      0.4,
       1.0,
       1.0,
       1.0,
@@ -14638,12 +14638,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSnowman7` icon.
   static const IconsaxIconData snowman7 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.snowman7Path3,
+      raw.IconsaxBulk.snowman7Path1,
       raw.IconsaxBulk.snowman7Path2,
+      raw.IconsaxBulk.snowman7Path3,
       raw.IconsaxBulk.snowman7Path4,
       raw.IconsaxBulk.snowman7Path5,
       raw.IconsaxBulk.snowman7Path6,
-      raw.IconsaxBulk.snowman7Path1,
     ],
     opacities: [
       1.0,
@@ -14659,8 +14659,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSocks` icon.
   static const IconsaxIconData socks = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.socksPath2,
       raw.IconsaxBulk.socksPath1,
+      raw.IconsaxBulk.socksPath2,
       raw.IconsaxBulk.socksPath3,
     ],
     opacities: [
@@ -14702,10 +14702,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkSort` icon.
   static const IconsaxIconData sort = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sortPath2,
       raw.IconsaxBulk.sortPath1,
-      raw.IconsaxBulk.sortPath4,
+      raw.IconsaxBulk.sortPath2,
       raw.IconsaxBulk.sortPath3,
+      raw.IconsaxBulk.sortPath4,
     ],
     opacities: [
       0.4,
@@ -14719,11 +14719,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSound` icon.
   static const IconsaxIconData sound = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.soundPath5,
-      raw.IconsaxBulk.soundPath3,
-      raw.IconsaxBulk.soundPath4,
       raw.IconsaxBulk.soundPath1,
       raw.IconsaxBulk.soundPath2,
+      raw.IconsaxBulk.soundPath3,
+      raw.IconsaxBulk.soundPath4,
+      raw.IconsaxBulk.soundPath5,
     ],
     opacities: [
       1.0,
@@ -14738,19 +14738,19 @@ class IconsaxBulk {
   /// Composite getter for `bulkSparkler` icon.
   static const IconsaxIconData sparkler = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.sparklerPath13,
-      raw.IconsaxBulk.sparklerPath3,
-      raw.IconsaxBulk.sparklerPath5,
-      raw.IconsaxBulk.sparklerPath8,
-      raw.IconsaxBulk.sparklerPath10,
       raw.IconsaxBulk.sparklerPath1,
-      raw.IconsaxBulk.sparklerPath14,
-      raw.IconsaxBulk.sparklerPath11,
       raw.IconsaxBulk.sparklerPath2,
-      raw.IconsaxBulk.sparklerPath9,
-      raw.IconsaxBulk.sparklerPath6,
+      raw.IconsaxBulk.sparklerPath3,
       raw.IconsaxBulk.sparklerPath4,
+      raw.IconsaxBulk.sparklerPath5,
+      raw.IconsaxBulk.sparklerPath6,
+      raw.IconsaxBulk.sparklerPath8,
+      raw.IconsaxBulk.sparklerPath9,
+      raw.IconsaxBulk.sparklerPath10,
+      raw.IconsaxBulk.sparklerPath11,
       raw.IconsaxBulk.sparklerPath12,
+      raw.IconsaxBulk.sparklerPath13,
+      raw.IconsaxBulk.sparklerPath14,
     ],
     opacities: [
       1.0,
@@ -14773,8 +14773,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSpeaker` icon.
   static const IconsaxIconData speaker = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.speakerPath2,
       raw.IconsaxBulk.speakerPath1,
+      raw.IconsaxBulk.speakerPath2,
       raw.IconsaxBulk.speakerPath3,
     ],
     opacities: [
@@ -14788,9 +14788,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSpeedometer` icon.
   static const IconsaxIconData speedometer = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.speedometerPath3,
       raw.IconsaxBulk.speedometerPath1,
       raw.IconsaxBulk.speedometerPath2,
+      raw.IconsaxBulk.speedometerPath3,
     ],
     opacities: [
       0.4,
@@ -14803,12 +14803,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkSpotify` icon.
   static const IconsaxIconData spotify = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.spotifyPath4,
-      raw.IconsaxBulk.spotifyPath3,
       raw.IconsaxBulk.spotifyPath2,
+      raw.IconsaxBulk.spotifyPath3,
+      raw.IconsaxBulk.spotifyPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -14818,11 +14818,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkStacksStx` icon.
   static const IconsaxIconData stacksStx = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.stacksStxPath3,
       raw.IconsaxBulk.stacksStxPath2,
+      raw.IconsaxBulk.stacksStxPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -14855,8 +14855,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkStar4` icon.
   static const IconsaxIconData star4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.star4Path2,
       raw.IconsaxBulk.star4Path1,
+      raw.IconsaxBulk.star4Path2,
     ],
     opacities: [
       1.0,
@@ -14868,8 +14868,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkStar5` icon.
   static const IconsaxIconData star5 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.star5Path2,
       raw.IconsaxBulk.star5Path1,
+      raw.IconsaxBulk.star5Path2,
     ],
     opacities: [
       0.4,
@@ -14881,8 +14881,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkStar5963` icon.
   static const IconsaxIconData star5963 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.star5963Path2,
       raw.IconsaxBulk.star5963Path1,
+      raw.IconsaxBulk.star5963Path2,
     ],
     opacities: [
       0.4,
@@ -14905,14 +14905,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkStarGarland` icon.
   static const IconsaxIconData starGarland = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.starGarlandPath1,
       raw.IconsaxBulk.starGarlandPath2,
       raw.IconsaxBulk.starGarlandPath3,
-      raw.IconsaxBulk.starGarlandPath1,
       raw.IconsaxBulk.starGarlandPath4,
-      raw.IconsaxBulk.starGarlandPath6,
-      raw.IconsaxBulk.starGarlandPath8,
-      raw.IconsaxBulk.starGarlandPath7,
       raw.IconsaxBulk.starGarlandPath5,
+      raw.IconsaxBulk.starGarlandPath6,
+      raw.IconsaxBulk.starGarlandPath7,
+      raw.IconsaxBulk.starGarlandPath8,
     ],
     opacities: [
       1.0,
@@ -14930,12 +14930,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkStarSlash` icon.
   static const IconsaxIconData starSlash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.starSlashPath3,
       raw.IconsaxBulk.starSlashPath1,
+      raw.IconsaxBulk.starSlashPath3,
     ],
     opacities: [
       0.4,
-      0.4,
+      1.0,
     ],
   );
 
@@ -14943,9 +14943,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkStars` icon.
   static const IconsaxIconData stars = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.starsPath3,
-      raw.IconsaxBulk.starsPath2,
       raw.IconsaxBulk.starsPath1,
+      raw.IconsaxBulk.starsPath2,
+      raw.IconsaxBulk.starsPath3,
     ],
     opacities: [
       0.4,
@@ -14958,8 +14958,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkStatus` icon.
   static const IconsaxIconData status = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.statusPath2,
       raw.IconsaxBulk.statusPath1,
+      raw.IconsaxBulk.statusPath2,
       raw.IconsaxBulk.statusPath3,
     ],
     opacities: [
@@ -14974,12 +14974,12 @@ class IconsaxBulk {
   static const IconsaxIconData statusUp = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.statusUpPath2,
-      raw.IconsaxBulk.statusUpPath5,
       raw.IconsaxBulk.statusUpPath3,
       raw.IconsaxBulk.statusUpPath4,
+      raw.IconsaxBulk.statusUpPath5,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -14990,8 +14990,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkStellarXlm` icon.
   static const IconsaxIconData stellarXlm = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.stellarXlmPath2,
       raw.IconsaxBulk.stellarXlmPath1,
+      raw.IconsaxBulk.stellarXlmPath2,
     ],
     opacities: [
       1.0,
@@ -15056,7 +15056,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.stickynotePath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -15064,10 +15064,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkStory` icon.
   static const IconsaxIconData story = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.storyPath3,
-      raw.IconsaxBulk.storyPath2,
-      raw.IconsaxBulk.storyPath4,
       raw.IconsaxBulk.storyPath1,
+      raw.IconsaxBulk.storyPath2,
+      raw.IconsaxBulk.storyPath3,
+      raw.IconsaxBulk.storyPath4,
     ],
     opacities: [
       1.0,
@@ -15081,9 +15081,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkStrongbox4a2e` icon.
   static const IconsaxIconData strongbox4a2e = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.strongbox4a2ePath1,
       raw.IconsaxBulk.strongbox4a2ePath2,
       raw.IconsaxBulk.strongbox4a2ePath3,
-      raw.IconsaxBulk.strongbox4a2ePath1,
     ],
     opacities: [
       0.4,
@@ -15096,8 +15096,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkStrongboxAa4d` icon.
   static const IconsaxIconData strongboxAa4d = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.strongboxAa4dPath2,
       raw.IconsaxBulk.strongboxAa4dPath1,
+      raw.IconsaxBulk.strongboxAa4dPath2,
     ],
     opacities: [
       0.4,
@@ -15109,9 +15109,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkSwapHorizontal` icon.
   static const IconsaxIconData swapHorizontal = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.swapHorizontalPath3,
       raw.IconsaxBulk.swapHorizontalPath1,
       raw.IconsaxBulk.swapHorizontalPath2,
+      raw.IconsaxBulk.swapHorizontalPath3,
     ],
     opacities: [
       0.4,
@@ -15124,11 +15124,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkSwapHorizontal2` icon.
   static const IconsaxIconData swapHorizontal2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.swapHorizontal2Path3,
       raw.IconsaxBulk.swapHorizontal2Path2,
+      raw.IconsaxBulk.swapHorizontal2Path3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -15137,8 +15137,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkSwapHorizontal3` icon.
   static const IconsaxIconData swapHorizontal3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.swapHorizontal3Path2,
       raw.IconsaxBulk.swapHorizontal3Path1,
+      raw.IconsaxBulk.swapHorizontal3Path2,
       raw.IconsaxBulk.swapHorizontal3Path3,
     ],
     opacities: [
@@ -15176,8 +15176,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkTagCross` icon.
   static const IconsaxIconData tagCross = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.tagCrossPath2,
       raw.IconsaxBulk.tagCrossPath1,
+      raw.IconsaxBulk.tagCrossPath2,
     ],
     opacities: [
       0.4,
@@ -15189,8 +15189,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkTagRight` icon.
   static const IconsaxIconData tagRight = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.tagRightPath2,
       raw.IconsaxBulk.tagRightPath1,
+      raw.IconsaxBulk.tagRightPath2,
     ],
     opacities: [
       1.0,
@@ -15203,8 +15203,8 @@ class IconsaxBulk {
   static const IconsaxIconData tagUser = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.tagUserPath1,
-      raw.IconsaxBulk.tagUserPath3,
       raw.IconsaxBulk.tagUserPath2,
+      raw.IconsaxBulk.tagUserPath3,
     ],
     opacities: [
       1.0,
@@ -15217,12 +15217,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkTask` icon.
   static const IconsaxIconData task = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.taskPath4,
-      raw.IconsaxBulk.taskPath6,
-      raw.IconsaxBulk.taskPath3,
-      raw.IconsaxBulk.taskPath2,
       raw.IconsaxBulk.taskPath1,
+      raw.IconsaxBulk.taskPath2,
+      raw.IconsaxBulk.taskPath3,
+      raw.IconsaxBulk.taskPath4,
       raw.IconsaxBulk.taskPath5,
+      raw.IconsaxBulk.taskPath6,
     ],
     opacities: [
       1.0,
@@ -15238,11 +15238,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkTaskSquare` icon.
   static const IconsaxIconData taskSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.taskSquarePath5,
-      raw.IconsaxBulk.taskSquarePath3,
-      raw.IconsaxBulk.taskSquarePath2,
       raw.IconsaxBulk.taskSquarePath1,
+      raw.IconsaxBulk.taskSquarePath2,
+      raw.IconsaxBulk.taskSquarePath3,
       raw.IconsaxBulk.taskSquarePath4,
+      raw.IconsaxBulk.taskSquarePath5,
     ],
     opacities: [
       0.4,
@@ -15257,8 +15257,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkTeacher` icon.
   static const IconsaxIconData teacher = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.teacherPath2,
       raw.IconsaxBulk.teacherPath1,
+      raw.IconsaxBulk.teacherPath2,
     ],
     opacities: [
       0.4,
@@ -15270,14 +15270,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkTelescope` icon.
   static const IconsaxIconData telescope = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.telescopePath4,
-      raw.IconsaxBulk.telescopePath3,
       raw.IconsaxBulk.telescopePath2,
+      raw.IconsaxBulk.telescopePath3,
+      raw.IconsaxBulk.telescopePath4,
     ],
     opacities: [
       1.0,
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -15353,11 +15353,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkTextUnderline` icon.
   static const IconsaxIconData textUnderline = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.textUnderlinePath3,
       raw.IconsaxBulk.textUnderlinePath2,
+      raw.IconsaxBulk.textUnderlinePath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -15366,9 +15366,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkTextalignCenter` icon.
   static const IconsaxIconData textalignCenter = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.textalignCenterPath3,
       raw.IconsaxBulk.textalignCenterPath1,
       raw.IconsaxBulk.textalignCenterPath2,
+      raw.IconsaxBulk.textalignCenterPath3,
       raw.IconsaxBulk.textalignCenterPath4,
     ],
     opacities: [
@@ -15383,11 +15383,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkTextalignJustifycenter` icon.
   static const IconsaxIconData textalignJustifycenter = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.textalignJustifycenterPath4,
       raw.IconsaxBulk.textalignJustifycenterPath2,
+      raw.IconsaxBulk.textalignJustifycenterPath4,
     ],
     opacities: [
-      1.0,
+      0.4,
       0.4,
     ],
   );
@@ -15413,7 +15413,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.textalignJustifyrightPath4,
     ],
     opacities: [
-      1.0,
+      0.4,
       0.4,
     ],
   );
@@ -15426,7 +15426,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.textalignLeftPath4,
     ],
     opacities: [
-      1.0,
+      0.4,
       0.4,
     ],
   );
@@ -15436,11 +15436,11 @@ class IconsaxBulk {
   static const IconsaxIconData theGraphGrt = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.theGraphGrtPath2,
-      raw.IconsaxBulk.theGraphGrtPath4,
       raw.IconsaxBulk.theGraphGrtPath3,
+      raw.IconsaxBulk.theGraphGrtPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -15450,8 +15450,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkThetaTheta` icon.
   static const IconsaxIconData thetaTheta = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.thetaThetaPath2,
       raw.IconsaxBulk.thetaThetaPath1,
+      raw.IconsaxBulk.thetaThetaPath2,
     ],
     opacities: [
       0.4,
@@ -15463,8 +15463,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkThorchainRune` icon.
   static const IconsaxIconData thorchainRune = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.thorchainRunePath2,
       raw.IconsaxBulk.thorchainRunePath1,
+      raw.IconsaxBulk.thorchainRunePath2,
     ],
     opacities: [
       0.4,
@@ -15503,8 +15503,8 @@ class IconsaxBulk {
   static const IconsaxIconData ticket8f2a = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.ticket8f2aPath1,
-      raw.IconsaxBulk.ticket8f2aPath3,
       raw.IconsaxBulk.ticket8f2aPath2,
+      raw.IconsaxBulk.ticket8f2aPath3,
     ],
     opacities: [
       0.4,
@@ -15517,10 +15517,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkTicketDiscount` icon.
   static const IconsaxIconData ticketDiscount = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ticketDiscountPath2,
-      raw.IconsaxBulk.ticketDiscountPath4,
-      raw.IconsaxBulk.ticketDiscountPath3,
       raw.IconsaxBulk.ticketDiscountPath1,
+      raw.IconsaxBulk.ticketDiscountPath2,
+      raw.IconsaxBulk.ticketDiscountPath3,
+      raw.IconsaxBulk.ticketDiscountPath4,
     ],
     opacities: [
       0.4,
@@ -15547,11 +15547,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkTicketStar` icon.
   static const IconsaxIconData ticketStar = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ticketStarPath3,
       raw.IconsaxBulk.ticketStarPath2,
+      raw.IconsaxBulk.ticketStarPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -15563,7 +15563,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.timerPath1,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -15572,8 +15572,8 @@ class IconsaxBulk {
   static const IconsaxIconData timerPause = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.timerPausePath1,
-      raw.IconsaxBulk.timerPausePath3,
       raw.IconsaxBulk.timerPausePath2,
+      raw.IconsaxBulk.timerPausePath3,
       raw.IconsaxBulk.timerPausePath4,
     ],
     opacities: [
@@ -15599,8 +15599,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkToggleOff` icon.
   static const IconsaxIconData toggleOff = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toggleOffPath2,
       raw.IconsaxBulk.toggleOffPath1,
+      raw.IconsaxBulk.toggleOffPath2,
     ],
     opacities: [
       0.4,
@@ -15612,8 +15612,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkToggleOffCircle` icon.
   static const IconsaxIconData toggleOffCircle = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toggleOffCirclePath2,
       raw.IconsaxBulk.toggleOffCirclePath1,
+      raw.IconsaxBulk.toggleOffCirclePath2,
     ],
     opacities: [
       0.4,
@@ -15625,8 +15625,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkToggleOn` icon.
   static const IconsaxIconData toggleOn = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toggleOnPath2,
       raw.IconsaxBulk.toggleOnPath1,
+      raw.IconsaxBulk.toggleOnPath2,
     ],
     opacities: [
       0.4,
@@ -15651,12 +15651,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkTopBottomGrid` icon.
   static const IconsaxIconData topBottomGrid = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.topBottomGridPath4,
       raw.IconsaxBulk.topBottomGridPath2,
+      raw.IconsaxBulk.topBottomGridPath4,
     ],
     opacities: [
       1.0,
-      1.0,
+      0.4,
     ],
   );
 
@@ -15664,9 +15664,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkToy` icon.
   static const IconsaxIconData toy = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toyPath3,
       raw.IconsaxBulk.toyPath1,
       raw.IconsaxBulk.toyPath2,
+      raw.IconsaxBulk.toyPath3,
     ],
     opacities: [
       0.4,
@@ -15679,12 +15679,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkToy2` icon.
   static const IconsaxIconData toy2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toy2Path6,
-      raw.IconsaxBulk.toy2Path2,
       raw.IconsaxBulk.toy2Path1,
-      raw.IconsaxBulk.toy2Path5,
+      raw.IconsaxBulk.toy2Path2,
       raw.IconsaxBulk.toy2Path3,
       raw.IconsaxBulk.toy2Path4,
+      raw.IconsaxBulk.toy2Path5,
+      raw.IconsaxBulk.toy2Path6,
     ],
     opacities: [
       0.4,
@@ -15701,8 +15701,8 @@ class IconsaxBulk {
   static const IconsaxIconData toy3 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.toy3Path1,
-      raw.IconsaxBulk.toy3Path3,
       raw.IconsaxBulk.toy3Path2,
+      raw.IconsaxBulk.toy3Path3,
       raw.IconsaxBulk.toy3Path4,
     ],
     opacities: [
@@ -15717,11 +15717,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkToy4` icon.
   static const IconsaxIconData toy4 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toy4Path3,
-      raw.IconsaxBulk.toy4Path5,
       raw.IconsaxBulk.toy4Path1,
       raw.IconsaxBulk.toy4Path2,
+      raw.IconsaxBulk.toy4Path3,
       raw.IconsaxBulk.toy4Path4,
+      raw.IconsaxBulk.toy4Path5,
     ],
     opacities: [
       0.4,
@@ -15736,10 +15736,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkToy5` icon.
   static const IconsaxIconData toy5 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.toy5Path3,
-      raw.IconsaxBulk.toy5Path4,
       raw.IconsaxBulk.toy5Path1,
       raw.IconsaxBulk.toy5Path2,
+      raw.IconsaxBulk.toy5Path3,
+      raw.IconsaxBulk.toy5Path4,
     ],
     opacities: [
       1.0,
@@ -15758,7 +15758,7 @@ class IconsaxBulk {
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
     ],
   );
 
@@ -15779,12 +15779,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkTranslate` icon.
   static const IconsaxIconData translate = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.translatePath2,
       raw.IconsaxBulk.translatePath1,
+      raw.IconsaxBulk.translatePath2,
+      raw.IconsaxBulk.translatePath3,
       raw.IconsaxBulk.translatePath4,
       raw.IconsaxBulk.translatePath5,
       raw.IconsaxBulk.translatePath6,
-      raw.IconsaxBulk.translatePath3,
     ],
     opacities: [
       0.4,
@@ -15800,10 +15800,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkTrash` icon.
   static const IconsaxIconData trash = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.trashPath2,
       raw.IconsaxBulk.trashPath1,
-      raw.IconsaxBulk.trashPath4,
+      raw.IconsaxBulk.trashPath2,
       raw.IconsaxBulk.trashPath3,
+      raw.IconsaxBulk.trashPath4,
     ],
     opacities: [
       1.0,
@@ -15817,8 +15817,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkTrashSquare` icon.
   static const IconsaxIconData trashSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.trashSquarePath2,
       raw.IconsaxBulk.trashSquarePath1,
+      raw.IconsaxBulk.trashSquarePath2,
       raw.IconsaxBulk.trashSquarePath3,
     ],
     opacities: [
@@ -15832,16 +15832,16 @@ class IconsaxBulk {
   /// Composite getter for `bulkTree0bdf` icon.
   static const IconsaxIconData tree0bdf = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.tree0bdfPath10,
-      raw.IconsaxBulk.tree0bdfPath2,
-      raw.IconsaxBulk.tree0bdfPath9,
-      raw.IconsaxBulk.tree0bdfPath3,
       raw.IconsaxBulk.tree0bdfPath1,
+      raw.IconsaxBulk.tree0bdfPath2,
+      raw.IconsaxBulk.tree0bdfPath3,
       raw.IconsaxBulk.tree0bdfPath4,
-      raw.IconsaxBulk.tree0bdfPath7,
-      raw.IconsaxBulk.tree0bdfPath6,
-      raw.IconsaxBulk.tree0bdfPath8,
       raw.IconsaxBulk.tree0bdfPath5,
+      raw.IconsaxBulk.tree0bdfPath6,
+      raw.IconsaxBulk.tree0bdfPath7,
+      raw.IconsaxBulk.tree0bdfPath8,
+      raw.IconsaxBulk.tree0bdfPath9,
+      raw.IconsaxBulk.tree0bdfPath10,
     ],
     opacities: [
       1.0,
@@ -15861,8 +15861,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkTree2` icon.
   static const IconsaxIconData tree2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.tree2Path2,
       raw.IconsaxBulk.tree2Path1,
+      raw.IconsaxBulk.tree2Path2,
     ],
     opacities: [
       1.0,
@@ -15874,20 +15874,20 @@ class IconsaxBulk {
   /// Composite getter for `bulkTree3` icon.
   static const IconsaxIconData tree3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.tree3Path3,
-      raw.IconsaxBulk.tree3Path14,
       raw.IconsaxBulk.tree3Path1,
       raw.IconsaxBulk.tree3Path2,
-      raw.IconsaxBulk.tree3Path10,
-      raw.IconsaxBulk.tree3Path9,
-      raw.IconsaxBulk.tree3Path7,
+      raw.IconsaxBulk.tree3Path3,
       raw.IconsaxBulk.tree3Path4,
+      raw.IconsaxBulk.tree3Path5,
+      raw.IconsaxBulk.tree3Path6,
+      raw.IconsaxBulk.tree3Path7,
+      raw.IconsaxBulk.tree3Path8,
+      raw.IconsaxBulk.tree3Path9,
+      raw.IconsaxBulk.tree3Path10,
+      raw.IconsaxBulk.tree3Path11,
       raw.IconsaxBulk.tree3Path12,
       raw.IconsaxBulk.tree3Path13,
-      raw.IconsaxBulk.tree3Path11,
-      raw.IconsaxBulk.tree3Path5,
-      raw.IconsaxBulk.tree3Path8,
-      raw.IconsaxBulk.tree3Path6,
+      raw.IconsaxBulk.tree3Path14,
     ],
     opacities: [
       1.0,
@@ -15911,9 +15911,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkTree83a2` icon.
   static const IconsaxIconData tree83a2 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.tree83a2Path3,
       raw.IconsaxBulk.tree83a2Path1,
       raw.IconsaxBulk.tree83a2Path2,
+      raw.IconsaxBulk.tree83a2Path3,
     ],
     opacities: [
       0.4,
@@ -15930,7 +15930,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.trelloPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
@@ -15962,8 +15962,8 @@ class IconsaxBulk {
   static const IconsaxIconData triangle0ca9 = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.triangle0ca9Path1,
-      raw.IconsaxBulk.triangle0ca9Path3,
       raw.IconsaxBulk.triangle0ca9Path2,
+      raw.IconsaxBulk.triangle0ca9Path3,
     ],
     opacities: [
       0.4,
@@ -15976,9 +15976,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkTriangle12a0` icon.
   static const IconsaxIconData triangle12a0 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.triangle12a0Path3,
       raw.IconsaxBulk.triangle12a0Path1,
       raw.IconsaxBulk.triangle12a0Path2,
+      raw.IconsaxBulk.triangle12a0Path3,
     ],
     opacities: [
       1.0,
@@ -15991,10 +15991,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkTrontronTrx` icon.
   static const IconsaxIconData trontronTrx = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.trontronTrxPath4,
       raw.IconsaxBulk.trontronTrxPath1,
-      raw.IconsaxBulk.trontronTrxPath3,
       raw.IconsaxBulk.trontronTrxPath2,
+      raw.IconsaxBulk.trontronTrxPath3,
+      raw.IconsaxBulk.trontronTrxPath4,
     ],
     opacities: [
       1.0,
@@ -16019,14 +16019,14 @@ class IconsaxBulk {
   /// Composite getter for `bulkTruckFast` icon.
   static const IconsaxIconData truckFast = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.truckFastPath5,
-      raw.IconsaxBulk.truckFastPath6,
-      raw.IconsaxBulk.truckFastPath8,
       raw.IconsaxBulk.truckFastPath1,
-      raw.IconsaxBulk.truckFastPath7,
+      raw.IconsaxBulk.truckFastPath2,
       raw.IconsaxBulk.truckFastPath3,
       raw.IconsaxBulk.truckFastPath4,
-      raw.IconsaxBulk.truckFastPath2,
+      raw.IconsaxBulk.truckFastPath5,
+      raw.IconsaxBulk.truckFastPath6,
+      raw.IconsaxBulk.truckFastPath7,
+      raw.IconsaxBulk.truckFastPath8,
     ],
     opacities: [
       0.4,
@@ -16044,8 +16044,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkTruckRemove` icon.
   static const IconsaxIconData truckRemove = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.truckRemovePath2,
       raw.IconsaxBulk.truckRemovePath1,
+      raw.IconsaxBulk.truckRemovePath2,
     ],
     opacities: [
       1.0,
@@ -16094,12 +16094,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkUi8` icon.
   static const IconsaxIconData ui8 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ui8Path5,
-      raw.IconsaxBulk.ui8Path4,
-      raw.IconsaxBulk.ui8Path2,
-      raw.IconsaxBulk.ui8Path6,
       raw.IconsaxBulk.ui8Path1,
+      raw.IconsaxBulk.ui8Path2,
       raw.IconsaxBulk.ui8Path3,
+      raw.IconsaxBulk.ui8Path4,
+      raw.IconsaxBulk.ui8Path5,
+      raw.IconsaxBulk.ui8Path6,
     ],
     opacities: [
       0.4,
@@ -16126,9 +16126,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkUnlimited` icon.
   static const IconsaxIconData unlimited = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.unlimitedPath1,
       raw.IconsaxBulk.unlimitedPath2,
       raw.IconsaxBulk.unlimitedPath3,
-      raw.IconsaxBulk.unlimitedPath1,
     ],
     opacities: [
       0.4,
@@ -16144,7 +16144,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.unlockPath3,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -16153,11 +16153,11 @@ class IconsaxBulk {
   static const IconsaxIconData usdCoinUsdc = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.usdCoinUsdcPath2,
-      raw.IconsaxBulk.usdCoinUsdcPath4,
       raw.IconsaxBulk.usdCoinUsdcPath3,
+      raw.IconsaxBulk.usdCoinUsdcPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -16178,9 +16178,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkUserAdd` icon.
   static const IconsaxIconData userAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.userAddPath3,
-      raw.IconsaxBulk.userAddPath2,
       raw.IconsaxBulk.userAddPath1,
+      raw.IconsaxBulk.userAddPath2,
+      raw.IconsaxBulk.userAddPath3,
     ],
     opacities: [
       0.4,
@@ -16193,10 +16193,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkUserCircleAdd` icon.
   static const IconsaxIconData userCircleAdd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.userCircleAddPath2,
-      raw.IconsaxBulk.userCircleAddPath4,
-      raw.IconsaxBulk.userCircleAddPath3,
       raw.IconsaxBulk.userCircleAddPath1,
+      raw.IconsaxBulk.userCircleAddPath2,
+      raw.IconsaxBulk.userCircleAddPath3,
+      raw.IconsaxBulk.userCircleAddPath4,
     ],
     opacities: [
       1.0,
@@ -16213,7 +16213,7 @@ class IconsaxBulk {
       raw.IconsaxBulk.userEditPath2,
     ],
     opacities: [
-      1.0,
+      0.4,
     ],
   );
 
@@ -16222,8 +16222,8 @@ class IconsaxBulk {
   static const IconsaxIconData userHexagon = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.userHexagonPath1,
-      raw.IconsaxBulk.userHexagonPath3,
       raw.IconsaxBulk.userHexagonPath2,
+      raw.IconsaxBulk.userHexagonPath3,
     ],
     opacities: [
       0.4,
@@ -16236,8 +16236,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkUserMinus` icon.
   static const IconsaxIconData userMinus = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.userMinusPath2,
       raw.IconsaxBulk.userMinusPath1,
+      raw.IconsaxBulk.userMinusPath2,
     ],
     opacities: [
       1.0,
@@ -16286,8 +16286,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkUserTag` icon.
   static const IconsaxIconData userTag = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.userTagPath2,
       raw.IconsaxBulk.userTagPath1,
+      raw.IconsaxBulk.userTagPath2,
       raw.IconsaxBulk.userTagPath3,
     ],
     opacities: [
@@ -16323,8 +16323,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkVerify` icon.
   static const IconsaxIconData verify = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.verifyPath2,
       raw.IconsaxBulk.verifyPath1,
+      raw.IconsaxBulk.verifyPath2,
     ],
     opacities: [
       0.4,
@@ -16336,12 +16336,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkVibeVibe` icon.
   static const IconsaxIconData vibeVibe = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.vibeVibePath3,
       raw.IconsaxBulk.vibeVibePath1,
+      raw.IconsaxBulk.vibeVibePath3,
     ],
     opacities: [
       1.0,
-      0.4,
+      1.0,
     ],
   );
 
@@ -16349,8 +16349,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkVuesax` icon.
   static const IconsaxIconData vuesax = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.vuesaxPath2,
       raw.IconsaxBulk.vuesaxPath1,
+      raw.IconsaxBulk.vuesaxPath2,
       raw.IconsaxBulk.vuesaxPath3,
     ],
     opacities: [
@@ -16364,8 +16364,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkWallet27b3` icon.
   static const IconsaxIconData wallet27b3 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.wallet27b3Path2,
       raw.IconsaxBulk.wallet27b3Path1,
+      raw.IconsaxBulk.wallet27b3Path2,
       raw.IconsaxBulk.wallet27b3Path3,
       raw.IconsaxBulk.wallet27b3Path4,
     ],
@@ -16381,8 +16381,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkWallet4138` icon.
   static const IconsaxIconData wallet4138 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.wallet4138Path2,
       raw.IconsaxBulk.wallet4138Path1,
+      raw.IconsaxBulk.wallet4138Path2,
     ],
     opacities: [
       0.4,
@@ -16405,9 +16405,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkWalletAdd2b3e` icon.
   static const IconsaxIconData walletAdd2b3e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.walletAdd2b3ePath3,
       raw.IconsaxBulk.walletAdd2b3ePath1,
       raw.IconsaxBulk.walletAdd2b3ePath2,
+      raw.IconsaxBulk.walletAdd2b3ePath3,
       raw.IconsaxBulk.walletAdd2b3ePath4,
     ],
     opacities: [
@@ -16422,12 +16422,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkWalletAdd6c74` icon.
   static const IconsaxIconData walletAdd6c74 = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.walletAdd6c74Path3,
-      raw.IconsaxBulk.walletAdd6c74Path2,
-      raw.IconsaxBulk.walletAdd6c74Path6,
       raw.IconsaxBulk.walletAdd6c74Path1,
-      raw.IconsaxBulk.walletAdd6c74Path5,
+      raw.IconsaxBulk.walletAdd6c74Path2,
+      raw.IconsaxBulk.walletAdd6c74Path3,
       raw.IconsaxBulk.walletAdd6c74Path4,
+      raw.IconsaxBulk.walletAdd6c74Path5,
+      raw.IconsaxBulk.walletAdd6c74Path6,
     ],
     opacities: [
       0.8,
@@ -16479,8 +16479,8 @@ class IconsaxBulk {
   static const IconsaxIconData walletRemove = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.walletRemovePath1,
-      raw.IconsaxBulk.walletRemovePath4,
       raw.IconsaxBulk.walletRemovePath2,
+      raw.IconsaxBulk.walletRemovePath4,
     ],
     opacities: [
       0.4,
@@ -16497,8 +16497,8 @@ class IconsaxBulk {
       raw.IconsaxBulk.walletSearchPath4,
     ],
     opacities: [
-      1.0,
       0.4,
+      1.0,
     ],
   );
 
@@ -16521,8 +16521,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkWanchainWan7c7e` icon.
   static const IconsaxIconData wanchainWan7c7e = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.wanchainWan7c7ePath2,
       raw.IconsaxBulk.wanchainWan7c7ePath1,
+      raw.IconsaxBulk.wanchainWan7c7ePath2,
     ],
     opacities: [
       0.4,
@@ -16534,9 +16534,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkWarning` icon.
   static const IconsaxIconData warning = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.warningPath3,
-      raw.IconsaxBulk.warningPath2,
       raw.IconsaxBulk.warningPath1,
+      raw.IconsaxBulk.warningPath2,
+      raw.IconsaxBulk.warningPath3,
     ],
     opacities: [
       0.4,
@@ -16560,12 +16560,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkWatchStatus` icon.
   static const IconsaxIconData watchStatus = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.watchStatusPath6,
-      raw.IconsaxBulk.watchStatusPath5,
-      raw.IconsaxBulk.watchStatusPath4,
       raw.IconsaxBulk.watchStatusPath1,
       raw.IconsaxBulk.watchStatusPath2,
       raw.IconsaxBulk.watchStatusPath3,
+      raw.IconsaxBulk.watchStatusPath4,
+      raw.IconsaxBulk.watchStatusPath5,
+      raw.IconsaxBulk.watchStatusPath6,
     ],
     opacities: [
       0.4,
@@ -16588,7 +16588,7 @@ class IconsaxBulk {
     ],
     opacities: [
       0.4,
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -16611,8 +16611,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkWhatsapp` icon.
   static const IconsaxIconData whatsapp = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.whatsappPath2,
       raw.IconsaxBulk.whatsappPath1,
+      raw.IconsaxBulk.whatsappPath2,
     ],
     opacities: [
       0.4,
@@ -16625,9 +16625,9 @@ class IconsaxBulk {
   static const IconsaxIconData wifi = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.wifiPath1,
-      raw.IconsaxBulk.wifiPath4,
       raw.IconsaxBulk.wifiPath2,
       raw.IconsaxBulk.wifiPath3,
+      raw.IconsaxBulk.wifiPath4,
     ],
     opacities: [
       0.4,
@@ -16641,8 +16641,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkWifiSquare` icon.
   static const IconsaxIconData wifiSquare = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.wifiSquarePath2,
       raw.IconsaxBulk.wifiSquarePath1,
+      raw.IconsaxBulk.wifiSquarePath2,
       raw.IconsaxBulk.wifiSquarePath3,
       raw.IconsaxBulk.wifiSquarePath4,
     ],
@@ -16658,10 +16658,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkWindows` icon.
   static const IconsaxIconData windows = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.windowsPath4,
-      raw.IconsaxBulk.windowsPath3,
       raw.IconsaxBulk.windowsPath1,
       raw.IconsaxBulk.windowsPath2,
+      raw.IconsaxBulk.windowsPath3,
+      raw.IconsaxBulk.windowsPath4,
     ],
     opacities: [
       0.4,
@@ -16675,9 +16675,9 @@ class IconsaxBulk {
   /// Composite getter for `bulkWingWingFlightAviationAircraftFreedomSoar` icon.
   static const IconsaxIconData wingWingFlightAviationAircraftFreedomSoar = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.wingWingFlightAviationAircraftFreedomSoarPath3,
-      raw.IconsaxBulk.wingWingFlightAviationAircraftFreedomSoarPath2,
       raw.IconsaxBulk.wingWingFlightAviationAircraftFreedomSoarPath1,
+      raw.IconsaxBulk.wingWingFlightAviationAircraftFreedomSoarPath2,
+      raw.IconsaxBulk.wingWingFlightAviationAircraftFreedomSoarPath3,
     ],
     opacities: [
       1.0,
@@ -16690,11 +16690,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkWinterBoots` icon.
   static const IconsaxIconData winterBoots = IconsaxIconData(
     icons: [
+      raw.IconsaxBulk.winterBootsPath1,
+      raw.IconsaxBulk.winterBootsPath2,
       raw.IconsaxBulk.winterBootsPath3,
       raw.IconsaxBulk.winterBootsPath4,
-      raw.IconsaxBulk.winterBootsPath1,
       raw.IconsaxBulk.winterBootsPath5,
-      raw.IconsaxBulk.winterBootsPath2,
     ],
     opacities: [
       1.0,
@@ -16709,11 +16709,11 @@ class IconsaxBulk {
   /// Composite getter for `bulkWinterMitten` icon.
   static const IconsaxIconData winterMitten = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.winterMittenPath4,
       raw.IconsaxBulk.winterMittenPath1,
-      raw.IconsaxBulk.winterMittenPath3,
-      raw.IconsaxBulk.winterMittenPath5,
       raw.IconsaxBulk.winterMittenPath2,
+      raw.IconsaxBulk.winterMittenPath3,
+      raw.IconsaxBulk.winterMittenPath4,
+      raw.IconsaxBulk.winterMittenPath5,
     ],
     opacities: [
       1.0,
@@ -16728,20 +16728,20 @@ class IconsaxBulk {
   /// Composite getter for `bulkWinterPattern` icon.
   static const IconsaxIconData winterPattern = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.winterPatternPath14,
-      raw.IconsaxBulk.winterPatternPath11,
       raw.IconsaxBulk.winterPatternPath1,
-      raw.IconsaxBulk.winterPatternPath9,
-      raw.IconsaxBulk.winterPatternPath3,
-      raw.IconsaxBulk.winterPatternPath8,
       raw.IconsaxBulk.winterPatternPath2,
-      raw.IconsaxBulk.winterPatternPath12,
-      raw.IconsaxBulk.winterPatternPath13,
+      raw.IconsaxBulk.winterPatternPath3,
+      raw.IconsaxBulk.winterPatternPath4,
       raw.IconsaxBulk.winterPatternPath5,
       raw.IconsaxBulk.winterPatternPath6,
-      raw.IconsaxBulk.winterPatternPath4,
-      raw.IconsaxBulk.winterPatternPath10,
       raw.IconsaxBulk.winterPatternPath7,
+      raw.IconsaxBulk.winterPatternPath8,
+      raw.IconsaxBulk.winterPatternPath9,
+      raw.IconsaxBulk.winterPatternPath10,
+      raw.IconsaxBulk.winterPatternPath11,
+      raw.IconsaxBulk.winterPatternPath12,
+      raw.IconsaxBulk.winterPatternPath13,
+      raw.IconsaxBulk.winterPatternPath14,
     ],
     opacities: [
       1.0,
@@ -16765,8 +16765,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkWoman` icon.
   static const IconsaxIconData woman = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.womanPath2,
       raw.IconsaxBulk.womanPath1,
+      raw.IconsaxBulk.womanPath2,
     ],
     opacities: [
       0.4,
@@ -16778,8 +16778,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkXd` icon.
   static const IconsaxIconData xd = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.xdPath2,
       raw.IconsaxBulk.xdPath1,
+      raw.IconsaxBulk.xdPath2,
       raw.IconsaxBulk.xdPath3,
     ],
     opacities: [
@@ -16793,12 +16793,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkXiaomi` icon.
   static const IconsaxIconData xiaomi = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.xiaomiPath4,
       raw.IconsaxBulk.xiaomiPath2,
       raw.IconsaxBulk.xiaomiPath3,
+      raw.IconsaxBulk.xiaomiPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -16808,8 +16808,8 @@ class IconsaxBulk {
   /// Composite getter for `bulkXrpXrp` icon.
   static const IconsaxIconData xrpXrp = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.xrpXrpPath2,
       raw.IconsaxBulk.xrpXrpPath1,
+      raw.IconsaxBulk.xrpXrpPath2,
     ],
     opacities: [
       1.0,
@@ -16835,11 +16835,11 @@ class IconsaxBulk {
   static const IconsaxIconData zelZel = IconsaxIconData(
     icons: [
       raw.IconsaxBulk.zelZelPath2,
-      raw.IconsaxBulk.zelZelPath4,
       raw.IconsaxBulk.zelZelPath3,
+      raw.IconsaxBulk.zelZelPath4,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -16849,10 +16849,10 @@ class IconsaxBulk {
   /// Composite getter for `bulkZipline` icon.
   static const IconsaxIconData zipline = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.ziplinePath4,
-      raw.IconsaxBulk.ziplinePath3,
       raw.IconsaxBulk.ziplinePath1,
       raw.IconsaxBulk.ziplinePath2,
+      raw.IconsaxBulk.ziplinePath3,
+      raw.IconsaxBulk.ziplinePath4,
     ],
     opacities: [
       0.4,
@@ -16866,13 +16866,12 @@ class IconsaxBulk {
   /// Composite getter for `bulkZoom` icon.
   static const IconsaxIconData zoom = IconsaxIconData(
     icons: [
-      raw.IconsaxBulk.zoomPath3,
       raw.IconsaxBulk.zoomPath2,
+      raw.IconsaxBulk.zoomPath3,
     ],
     opacities: [
-      0.4,
+      1.0,
       1.0,
     ],
   );
-
 }

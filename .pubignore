@@ -1,0 +1,17 @@
+# A .pubignore in a directory REPLACES .gitignore for `dart pub publish`, so
+# this has to repeat everything .gitignore excludes, not just the extras.
+.DS_Store
+.dart_tool/
+pubspec.lock
+build/
+*.log
+node_modules/
+
+.gemini/
+.claude/
+.vscode/
+
+# Build tooling and the source SVGs: tracked in git so the fonts can be
+# regenerated, but consumers of the package have no use for them.
+scripts/
+svgs/

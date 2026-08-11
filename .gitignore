@@ -4,7 +4,14 @@ pubspec.lock
 build/
 *.log
 
-# Exclude scripts and svgs directories
-scripts/
+# Build inputs, not package contents. The scripts themselves are tracked so the
+# pipeline is reproducible from a clone; .pubignore keeps them out of the
+# published package.
 svgs/
+scripts/.cache/
+scripts/__pycache__/
 node_modules/
+
+.gemini/
+.claude/
+.vscode/
