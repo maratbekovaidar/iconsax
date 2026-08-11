@@ -156,25 +156,21 @@ cd example && flutter run
 ## Regenerating the fonts
 
 `svgs/` is the source of truth; `fonts/`, `lib/src/**`, `assets/icon-preview/`
-and `example/lib/icon_registry.dart` are all generated from it and committed.
+and `example/lib/icon_registry.dart` are generated from it and committed. The
+fetch-and-build stage that turns SVGs into fonts is kept outside this repository;
+what lives in `scripts/` is everything that operates on an already-built result.
 
-```bash
-python3 scripts/generate_fonts_api.py
-```
-
-The generator posts each SVG to app.iconsax.io's `svg-to-code` endpoint and
-merges the returned TTFs. That endpoint returns correct outlines but writes
+The upstream generator emits correct outlines but writes
 `hmtx.leftSideBearing = 0` for every glyph, even though the real `xMin` runs up
 to 188 of 200 units — rasterizers place a glyph so its `xMin` lands on the lsb,
 so icons drift left (1–2 px at size 24 for the single-layer styles, 6–22 px for
 individual `bulk`/`twotone` layers, which also lose registration with each
-other). The generator also zips an icon's `icons` list (sorted by codepoint) with
-its `opacities` list (SVG document order), so the 0.4 tint lands on the wrong
-layer wherever those orders disagree, and it flattens `<g opacity="0.4">` into
-its children, dropping the group's opacity.
+other). It also zips an icon's `icons` list (sorted by codepoint) with its
+`opacities` list (SVG document order), so the 0.4 tint lands on the wrong layer
+wherever those orders disagree, and it flattens `<g opacity="0.4">` into its
+children, dropping the group's opacity.
 
-Two repair passes fix this. `generate_fonts_api.py` runs both itself; run them by
-hand only if you edited an already-built result:
+Two repair passes fix this. Run both after every font rebuild:
 
 ```bash
 python3 scripts/fix_font_metrics.py
@@ -193,8 +189,8 @@ document order — which is also the correct painting order — each with its ow
 opacity.
 
 Both are idempotent and both accept `--check` to report without writing.
-`scripts/README.md` documents the full pipeline, including how the icon catalogue
-and the SVGs are fetched.
+`scripts/README.md` documents them, along with the preview and registry
+generators.
 
 ## Tests
 

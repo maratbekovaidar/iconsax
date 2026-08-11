@@ -3,11 +3,10 @@
 
 Background
 ----------
-`svgs/` is the single source of truth.  `generate_fonts_api.py` posts each SVG
-to app.iconsax.io's `svg-to-code` endpoint and merges the returned TTFs.  That
-endpoint maps the 24x24 SVG viewBox 1:1 onto the 200-unit em (x = svg_x * 200/24,
-y = (24 - svg_y) * 200/24, baseline on the bottom edge of the viewBox), so the
-outlines it produces are already in the right place.
+`svgs/` is the single source of truth.  The upstream generator maps the 24x24 SVG
+viewBox 1:1 onto the 200-unit em (x = svg_x * 200/24, y = (24 - svg_y) * 200/24,
+baseline on the bottom edge of the viewBox), so the outlines it produces are
+already in the right place.
 
 It then writes ``hmtx.leftSideBearing = 0`` for *every* glyph.
 

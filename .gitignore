@@ -4,13 +4,20 @@ pubspec.lock
 build/
 *.log
 
-# Build inputs, not package contents. The scripts themselves are tracked so the
-# pipeline is reproducible from a clone; .pubignore keeps them out of the
-# published package.
+# Build inputs, not package contents. The post-processing scripts stay tracked so
+# the repair passes are reproducible from a clone; .pubignore keeps them out of
+# the published package.
 svgs/
 scripts/.cache/
 scripts/__pycache__/
 node_modules/
+
+# Fetch stage: these talk to the vendor's CDN and generator. Kept locally so the
+# fonts can still be rebuilt, deliberately untracked so this repo does not
+# redistribute them.
+scripts/download_svgs.py
+scripts/download_icon_parts.py
+scripts/generate_fonts_api.py
 
 .gemini/
 .claude/

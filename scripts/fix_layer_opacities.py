@@ -3,7 +3,7 @@
 
 The bug
 -------
-`generate_fonts_api.py` builds the two lists of an `IconsaxIconData` from two
+The upstream generator builds the two lists of an `IconsaxIconData` from two
 different orderings and then zips them positionally:
 
     icon_glyphs.sort(key=lambda x: x[0])          # by codepoint
@@ -58,7 +58,7 @@ NON_DRAWABLE = {"defs", "clipPath", "mask", "title", "desc", "style", "metadata"
 
 
 def kebab_to_camel(name):
-    """Same identifier rule as generate_fonts_api.py."""
+    """Same identifier rule as the upstream generator."""
     parts = [p for p in re.sub(r"[^a-zA-Z0-9_-]", "-", name).split("-") if p]
     if not parts:
         return ""
