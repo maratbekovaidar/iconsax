@@ -91,3 +91,27 @@ final IconData? icon = IconsaxResolver.fromName('linear-add-circle');
 For icons whose base names start with a digit (e.g. `24-support`, `3d-rotate`), the class constants are prepended with `i` to form valid Dart identifiers:
 - `bold-24-support` -> `IconsaxBold.i24Support`
 - `linear-3d-rotate` -> `IconsaxLinear.i3dRotate`
+
+## Regenerating the fonts
+
+`svgs/` is the single source of truth. `scripts/generate_fonts_api.py` posts each SVG to
+app.iconsax.io's `svg-to-code` endpoint and merges the returned TTFs, which maps the 24x24
+viewBox onto the 200-unit em.
+
+That endpoint emits correct outlines but writes `hmtx.leftSideBearing = 0` for every glyph,
+even though the real `xMin` runs up to 188 of 200 units. Rasterizers position a glyph so
+that its `xMin` lands on the lsb, so every icon ends up shifted left — 1-2 px at size 24 for
+the mono styles, 6-22 px for the individual layers of `bulk`/`twotone`, which also lose
+registration with each other.
+
+**Always run the repair pass after regenerating:**
+
+```bash
+python3 scripts/fix_font_metrics.py
+```
+
+It restores `lsb = xMin`, gives every glyph a full-em advance, centres the handful of icons
+whose source viewBox is not 24x24, normalises the vertical metrics, and rewrites
+.ttf/.woff/.woff2. It is idempotent; `--check` reports without writing.
+
+`test/icon_alignment_test.dart` guards the result through Flutter's own rendering pipeline.
