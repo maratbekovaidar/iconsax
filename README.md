@@ -1,130 +1,212 @@
 # Iconsax for Flutter
 
-A Flutter package containing all **7,134** free Iconsax icons, organized by style classes (`IconsaxBold`, `IconsaxLinear`, etc.) as compile-time constants for optimal performance and automatic tree-shaking support.
+**6,739** free Iconsax icons in six styles, exposed as compile-time constants
+grouped by style (`IconsaxBold`, `IconsaxLinear`, ...) so release builds
+tree-shake the glyphs you never reference.
 
-## Features
+## Styles
 
-- Fully typed and grouped by style:
-  - `IconsaxBold.*` (1,193 icons)
-  - `IconsaxBroken.*` (1,195 icons)
-  - `IconsaxBulk.*` (1,194 icons)
-  - `IconsaxLinear.*` (1,193 icons)
-  - `IconsaxOutline.*` (1,195 icons)
-  - `IconsaxTwotone.*` (1,164 icons)
-- **Automatic Tree-Shaking**: Icons are declared as `static const IconData` to allow Flutter to discard unused glyphs during release builds.
-- **Split Font Files**: The original font was divided into 6 distinct files to reduce asset footprint (each style font file is only ~200-400 KB instead of the full 1.8 MB bundle).
-- Clean facade exports.
+| Class | Constants | Type | Render with |
+|---|---:|---|---|
+| `IconsaxBold` | 1,125 | `IconData` | `Icon` |
+| `IconsaxBroken` | 1,190 | `IconData` | `Icon` |
+| `IconsaxLinear` | 1,120 | `IconData` | `Icon` |
+| `IconsaxOutline` | 1,120 | `IconData` | `Icon` |
+| `IconsaxBulk` | 1,104 | `IconsaxIconData` | `IconsaxIcon` |
+| `IconsaxTwotone` | 1,080 | `IconsaxIconData` | `IconsaxIcon` |
+
+Counts are constants, not quite distinct icons: `bold` and `broken` also expose
+13 and 83 per-layer constants (`IconsaxBold.hexHexPath2`, ...) for the handful of
+icons the font merge left split into pieces.
+
+`bulk` and `twotone` are multi-layer: each icon is several glyphs of the same
+font stacked on a shared 24x24 grid, each layer with its own opacity (typically
+a 0.4 tint under a solid shape). They are **not** `IconData` and cannot be
+passed to `Icon` — use the `IconsaxIcon` widget.
+
+Each style is a separate font file (280–620 KB `.ttf`), so an app that uses one
+style bundles one font rather than the whole set. `fonts/` also carries
+`.woff`/`.woff2` of every style for non-Flutter use; Flutter itself loads only
+the `.ttf`.
+
+Every getter carries a rendered preview in its doc comment — served from
+`raw.githubusercontent.com` on `master` — so hovering an icon name in the IDE
+shows the actual glyph. Five links (in `broken`, `linear`, `twotone`) point at
+PNGs that were never rendered and stay broken until `scripts/generate_previews.py`
+is run again.
 
 ## Installation
-
-Add `iconsax` to your `pubspec.yaml` dependencies:
 
 ```yaml
 dependencies:
   iconsax:
-    path: path/to/iconsax_directory
+    git:
+      url: https://github.com/maratbekovaidar/iconsax.git
 ```
 
+Or from a local checkout:
+
+```yaml
+dependencies:
+  iconsax:
+    path: path/to/iconsax
+```
+
+Requires Dart >= 3.0 and Flutter >= 3.0. Nothing else to wire up — the fonts are
+declared by the package.
+
 ## Usage
+
+Single-layer styles go through the ordinary `Icon` widget:
 
 ```dart
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              // Bold style
-              Icon(IconsaxBold.profile, size: 32),
-              
-              // Linear style
-              Icon(IconsaxLinear.profile, size: 32),
-              
-              // Broken style
-              Icon(IconsaxBroken.profile, size: 32),
-              
-              // Bulk style
-              Icon(IconsaxBulk.profile, size: 32),
-              
-              // Outline style
-              Icon(IconsaxOutline.profile, size: 32),
-              
-              // Twotone style
-              Icon(IconsaxTwotone.profile, size: 32),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
+const Icon(IconsaxBold.profile, size: 32);
+const Icon(IconsaxBroken.profile, size: 32, color: Colors.indigo);
+const Icon(IconsaxLinear.profile, size: 32);
+const Icon(IconsaxOutline.profile, size: 32);
 ```
 
-## Dynamic String Lookup (kebab-case)
-
-If you need to retrieve `IconData` dynamically by its name (e.g. from an API response), import the resolver:
+`bulk` and `twotone` go through `IconsaxIcon`, which takes the icon as its first
+positional argument, like `Icon`:
 
 ```dart
-import 'package:iconsax/iconsax_resolver.dart';
+const IconsaxIcon(IconsaxBulk.profile, size: 32);
+const IconsaxIcon(IconsaxTwotone.profile, size: 32, color: Colors.indigo);
+```
 
-// Returns IconData or null if the name is invalid
+`IconsaxIcon` paints each layer as a plain `Icon` of the same `size`, applying
+the layer opacity to `color`'s alpha. Layout therefore matches the single-layer
+styles pixel for pixel. Both `size` and `color` fall back to the ambient
+`IconTheme`, then to 24.0 / `Colors.black`:
+
+```dart
+IconTheme(
+  data: const IconThemeData(size: 32, color: Colors.indigo),
+  child: const Row(
+    children: [
+      Icon(IconsaxLinear.heartCircle),
+      IconsaxIcon(IconsaxBulk.heartCircle),
+    ],
+  ),
+);
+```
+
+## Naming exceptions
+
+Base names that start with a digit get an `i` prefix to form valid Dart
+identifiers:
+
+- `bold-24-support` -> `IconsaxBold.i24Support`
+- `linear-3d-rotate` -> `IconsaxLinear.i3dRotate`
+
+Where a short name occurs more than once within a style, every one of the
+clashing names gets a 4-hex-character suffix derived from its source URL — so
+`bold`'s two `data` icons become `IconsaxBold.data4d74` and
+`IconsaxBold.data621d`, and no plain `data` exists.
+
+## Dynamic lookup by name
+
+`IconsaxResolver` maps a kebab-case name to `IconData`. It is not exported from
+`package:iconsax/iconsax.dart` — import it directly:
+
+```dart
+import 'package:iconsax/src/static/iconsax_resolver.dart';
+
+// IconData, or null if the name is unknown
 final IconData? icon = IconsaxResolver.fromName('linear-add-circle');
 ```
 
 > [!WARNING]
-> Importing `iconsax_resolver.dart` loads the entire codepoint mapping table (~7,000 entries) and uses dynamic lookup, which **prevents** the Flutter tree-shaker from optimizing the font files in your release build. Use static constants whenever possible.
+> The resolver holds all 11,742 codepoints and looks them up at runtime, which
+> **defeats tree-shaking** for every font in the release build. Prefer the static
+> constants; reach for the resolver only for names that genuinely arrive at
+> runtime (e.g. from an API).
 
-## Naming Exceptions
+Keys for `bold`/`broken`/`linear`/`outline` are whole icons (`bold-24-support`).
+For `bulk`/`twotone` the keys are individual **layers** (`bulk-24-support-path1`,
+`twotone-aave-aave-group1`) — the resolver has no composite entry and cannot
+return an `IconsaxIconData`.
 
-For icons whose base names start with a digit (e.g. `24-support`, `3d-rotate`), the class constants are prepended with `i` to form valid Dart identifiers:
-- `bold-24-support` -> `IconsaxBold.i24Support`
-- `linear-3d-rotate` -> `IconsaxLinear.i3dRotate`
+## Known gaps
+
+Both come from codepoint and glyph-name collisions while the per-batch fonts are
+merged, and closing them means reissuing codepoints — a breaking change for
+anyone already on the package.
+
+- **66 icons** exist under `svgs/` but have no reachable glyph, so they have no
+  getter at all: `IconsaxBold.heart`, `IconsaxLinear.blur`, `IconsaxOutline.eye`,
+  `IconsaxBulk.call` and others.
+- **197 `bulk` and 134 `twotone`** icons lost layers and render as a single
+  shape, missing their tint (`IconsaxBulk.archiveMinus`,
+  `IconsaxTwotone.airplane`, ...).
+
+## Example
+
+`example/` is a searchable gallery of every icon in all six styles, with a
+light/dark toggle; tapping an icon opens a sheet with its usage snippet and a
+copy button:
+
+```bash
+cd example && flutter run
+```
 
 ## Regenerating the fonts
 
-`svgs/` is the single source of truth. `scripts/generate_fonts_api.py` posts each SVG to
-app.iconsax.io's `svg-to-code` endpoint and merges the returned TTFs, which maps the 24x24
-viewBox onto the 200-unit em.
+`svgs/` is the source of truth; `fonts/`, `lib/src/**`, `assets/icon-preview/`
+and `example/lib/icon_registry.dart` are all generated from it and committed.
 
-That endpoint emits correct outlines but writes `hmtx.leftSideBearing = 0` for every glyph,
-even though the real `xMin` runs up to 188 of 200 units. Rasterizers position a glyph so
-that its `xMin` lands on the lsb, so every icon ends up shifted left — 1-2 px at size 24 for
-the mono styles, 6-22 px for the individual layers of `bulk`/`twotone`, which also lose
-registration with each other.
+```bash
+python3 scripts/generate_fonts_api.py
+```
 
-The generator also builds the two lists of an `IconsaxIconData` from different orderings —
-`icons` sorted by codepoint, `opacities` in SVG document order — and zips them positionally,
-so the 0.4 tint lands on the wrong layer whenever the orders disagree. It additionally
-flattens `<g opacity="0.4">` into its child paths, so a grouped layer loses its opacity.
+The generator posts each SVG to app.iconsax.io's `svg-to-code` endpoint and
+merges the returned TTFs. That endpoint returns correct outlines but writes
+`hmtx.leftSideBearing = 0` for every glyph, even though the real `xMin` runs up
+to 188 of 200 units — rasterizers place a glyph so its `xMin` lands on the lsb,
+so icons drift left (1–2 px at size 24 for the single-layer styles, 6–22 px for
+individual `bulk`/`twotone` layers, which also lose registration with each
+other). The generator also zips an icon's `icons` list (sorted by codepoint) with
+its `opacities` list (SVG document order), so the 0.4 tint lands on the wrong
+layer wherever those orders disagree, and it flattens `<g opacity="0.4">` into
+its children, dropping the group's opacity.
 
-**Always run both repair passes after regenerating:**
+Two repair passes fix this. `generate_fonts_api.py` runs both itself; run them by
+hand only if you edited an already-built result:
 
 ```bash
 python3 scripts/fix_font_metrics.py
 ```
 
-Restores `lsb = xMin`, gives every glyph a full-em advance, centres the handful of icons
-whose source viewBox is not 24x24, normalises the vertical metrics, and rewrites
-.ttf/.woff/.woff2.
+Restores `lsb = xMin`, gives every glyph a full-em advance, re-centres the nine
+icons whose source viewBox is not 24x24, zeroes `typoLineGap`, and rewrites
+`.ttf`/`.woff`/`.woff2`.
 
 ```bash
 python3 scripts/fix_layer_opacities.py
 ```
 
-Re-reads the layers of every `bulk`/`twotone` icon from its SVG and re-emits them in
-document order — which is also the correct painting order — each with its own opacity.
+Re-reads each `bulk`/`twotone` icon's layers from its SVG and re-emits them in
+document order — which is also the correct painting order — each with its own
+opacity.
 
-Both are idempotent, and both take `--check` to report without writing.
-`test/icon_alignment_test.dart` guards the geometry through Flutter's own rendering pipeline.
+Both are idempotent and both accept `--check` to report without writing.
+`scripts/README.md` documents the full pipeline, including how the icon catalogue
+and the SVGs are fetched.
+
+## Tests
+
+```bash
+flutter test
+```
+
+`test/icon_alignment_test.dart` rasterises icons through Flutter's own pipeline
+and asserts the ink stays centred and that `bulk`/`twotone` layers stay
+registered with each other — the regression guard for the metrics above.
+
+## Credits
+
+Icons are from the [Iconsax](https://iconsax.io) set by Vuesax. Only free-tier
+icons are included; refer to iconsax.io for their licensing terms.
