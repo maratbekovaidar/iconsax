@@ -104,14 +104,27 @@ that its `xMin` lands on the lsb, so every icon ends up shifted left — 1-2 px 
 the mono styles, 6-22 px for the individual layers of `bulk`/`twotone`, which also lose
 registration with each other.
 
-**Always run the repair pass after regenerating:**
+The generator also builds the two lists of an `IconsaxIconData` from different orderings —
+`icons` sorted by codepoint, `opacities` in SVG document order — and zips them positionally,
+so the 0.4 tint lands on the wrong layer whenever the orders disagree. It additionally
+flattens `<g opacity="0.4">` into its child paths, so a grouped layer loses its opacity.
+
+**Always run both repair passes after regenerating:**
 
 ```bash
 python3 scripts/fix_font_metrics.py
 ```
 
-It restores `lsb = xMin`, gives every glyph a full-em advance, centres the handful of icons
+Restores `lsb = xMin`, gives every glyph a full-em advance, centres the handful of icons
 whose source viewBox is not 24x24, normalises the vertical metrics, and rewrites
-.ttf/.woff/.woff2. It is idempotent; `--check` reports without writing.
+.ttf/.woff/.woff2.
 
-`test/icon_alignment_test.dart` guards the result through Flutter's own rendering pipeline.
+```bash
+python3 scripts/fix_layer_opacities.py
+```
+
+Re-reads the layers of every `bulk`/`twotone` icon from its SVG and re-emits them in
+document order — which is also the correct painting order — each with its own opacity.
+
+Both are idempotent, and both take `--check` to report without writing.
+`test/icon_alignment_test.dart` guards the geometry through Flutter's own rendering pipeline.
