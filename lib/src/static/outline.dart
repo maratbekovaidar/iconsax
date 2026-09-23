@@ -1191,6 +1191,10 @@ class IconsaxOutline {
   /// Getter for `outlineSnow` icon.
   static const IconData snow = IconData(0xff2a0, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/snowman2.png)
+  /// Getter for `outlineSnowman2` icon.
+  static const IconData snowman2 = IconData(0xf68fa, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/snowman3.png)
   /// Getter for `outlineSnowman3` icon.
   static const IconData snowman3 = IconData(0xfe429, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1711,6 +1715,10 @@ class IconsaxOutline {
   /// Getter for `outlineCeloCelo` icon.
   static const IconData celoCelo = IconData(0xfc2fd, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/celsiusCel.png)
+  /// Getter for `outlineCelsiusCel` icon.
+  static const IconData celsiusCel = IconData(0xf8503, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/chainlinkLink.png)
   /// Getter for `outlineChainlinkLink` icon.
   static const IconData chainlinkLink = IconData(0xf6c93, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1742,6 +1750,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/dropbox.png)
   /// Getter for `outlineDropbox` icon.
   static const IconData dropbox = IconData(0xf290b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/educareEkt.png)
+  /// Getter for `outlineEducareEkt` icon.
+  static const IconData educareEkt = IconData(0xf5b12, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/emercoinEmc.png)
   /// Getter for `outlineEmercoinEmc` icon.
@@ -2240,6 +2252,10 @@ class IconsaxOutline {
   /// Getter for `outlineMainComponent` icon.
   static const IconData mainComponent = IconData(0xf9460, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/mask6a79.png)
+  /// Getter for `outlineMask6a79` icon.
+  static const IconData mask6a79 = IconData(0xfb1de, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/maskBecc.png)
   /// Getter for `outlineMaskBecc` icon.
   static const IconData maskBecc = IconData(0xfc9dd, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2688,6 +2704,10 @@ class IconsaxOutline {
   /// Getter for `outlineHome3f9f` icon.
   static const IconData home3f9f = IconData(0xfed0e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/home97ea.png)
+  /// Getter for `outlineHome97ea` icon.
+  static const IconData home97ea = IconData(0xfa338, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/infoCircle.png)
   /// Getter for `outlineInfoCircle` icon.
   static const IconData infoCircle = IconData(0xf4bff, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2783,6 +2803,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/share.png)
   /// Getter for `outlineShare` icon.
   static const IconData share = IconData(0xf4c2a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/signpost.png)
+  /// Getter for `outlineSignpost` icon.
+  static const IconData signpost = IconData(0xf18f4, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/slash.png)
   /// Getter for `outlineSlash` icon.
@@ -3324,6 +3348,10 @@ class IconsaxOutline {
   /// Getter for `outlineMoneyRecive` icon.
   static const IconData moneyRecive = IconData(0xf305e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/moneyRemove.png)
+  /// Getter for `outlineMoneyRemove` icon.
+  static const IconData moneyRemove = IconData(0xf7364, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/moneySend.png)
   /// Getter for `outlineMoneySend` icon.
   static const IconData moneySend = IconData(0xf36ef, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3455,6 +3483,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/transactionMinus.png)
   /// Getter for `outlineTransactionMinus` icon.
   static const IconData transactionMinus = IconData(0xf3a43, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/walletAddD2a1.png)
+  /// Getter for `outlineWalletAddD2a1` icon.
+  static const IconData walletAddD2a1 = IconData(0xf1ba0, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/walletAdd2b7a.png)
   /// Getter for `outlineWalletAdd2b7a` icon.
@@ -3608,6 +3640,14 @@ class IconsaxOutline {
   /// Getter for `outlineMessageProgramming` icon.
   static const IconData messageProgramming = IconData(0xfc15e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/mobileProgramming.png)
+  /// Getter for `outlineMobileProgramming` icon.
+  static const IconData mobileProgramming = IconData(0xf2464, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/programmingArrow.png)
+  /// Getter for `outlineProgrammingArrow` icon.
+  static const IconData programmingArrow = IconData(0xf3378, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/programmingArrows.png)
   /// Getter for `outlineProgrammingArrows` icon.
   static const IconData programmingArrows = IconData(0xf360d, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3743,6 +3783,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/eyeSlash.png)
   /// Getter for `outlineEyeSlash` icon.
   static const IconData eyeSlash = IconData(0xf2749, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/eye.png)
+  /// Getter for `outlineEye` icon.
+  static const IconData eye = IconData(0xf5c80, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/fingerCircle.png)
   /// Getter for `outlineFingerCircle` icon.

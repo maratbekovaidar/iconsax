@@ -1,6 +1,6 @@
 # Iconsax for Flutter
 
-**6,739** free Iconsax icons in six styles, exposed as compile-time constants
+**6,784** free Iconsax icons in six styles, exposed as compile-time constants
 grouped by style (`IconsaxBold`, `IconsaxLinear`, ...) so release builds
 tree-shake the glyphs you never reference.
 
@@ -8,15 +8,15 @@ tree-shake the glyphs you never reference.
 
 | Class | Constants | Type | Render with |
 |---|---:|---|---|
-| `IconsaxBold` | 1,125 | `IconData` | `Icon` |
-| `IconsaxBroken` | 1,190 | `IconData` | `Icon` |
-| `IconsaxLinear` | 1,120 | `IconData` | `Icon` |
-| `IconsaxOutline` | 1,120 | `IconData` | `Icon` |
+| `IconsaxBold` | 1,137 | `IconData` | `Icon` |
+| `IconsaxBroken` | 1,203 | `IconData` | `Icon` |
+| `IconsaxLinear` | 1,128 | `IconData` | `Icon` |
+| `IconsaxOutline` | 1,131 | `IconData` | `Icon` |
 | `IconsaxBulk` | 1,104 | `IconsaxIconData` | `IconsaxIcon` |
-| `IconsaxTwotone` | 1,080 | `IconsaxIconData` | `IconsaxIcon` |
+| `IconsaxTwotone` | 1,081 | `IconsaxIconData` | `IconsaxIcon` |
 
 Counts are constants, not quite distinct icons: `bold` and `broken` also expose
-13 and 83 per-layer constants (`IconsaxBold.hexHexPath2`, ...) for the handful of
+14 and 83 per-layer constants (`IconsaxBold.hexHexPath2`, ...) for the handful of
 icons the font merge left split into pieces.
 
 `bulk` and `twotone` are multi-layer: each icon is several glyphs of the same
@@ -123,7 +123,7 @@ final IconsaxIconData? layered = IconsaxResolver.compositeFromName('bold-hex-hex
 ```
 
 > [!WARNING]
-> The resolver holds all 11,742 codepoints and looks them up at runtime, which
+> The resolver holds all 11,996 codepoints and looks them up at runtime, which
 > **defeats tree-shaking** for every font in the release build. Prefer the static
 > constants; reach for the resolver only for names that genuinely arrive at
 > runtime (e.g. from an API).
@@ -145,16 +145,36 @@ returns it.
 
 ## Known gaps
 
-Both come from codepoint and glyph-name collisions while the per-batch fonts are
-merged, and closing them means reissuing codepoints — a breaking change for
-anyone already on the package.
+The fonts are built in batches and merged. Glyphs that lost their codepoint to
+a collision in that merge (`IconsaxBold.heart`, `IconsaxLinear.blur`,
+`IconsaxOutline.eye`, 254 glyphs in all) have been given free codepoints;
+existing codepoints did not change. Most of what is still missing comes from
+glyphs the font generator stores only once: when two icons in a batch share an
+identical layer, it keeps one glyph under one icon's name, so the other icon
+loses that layer.
 
-- **66 icons** exist under `svgs/` but have no reachable glyph, so they have no
-  getter at all: `IconsaxBold.heart`, `IconsaxLinear.blur`, `IconsaxOutline.eye`,
-  `IconsaxBulk.call` and others.
-- **197 `bulk` and 134 `twotone`** icons lost layers and render as a single
-  shape, missing their tint (`IconsaxBulk.archiveMinus`,
-  `IconsaxTwotone.airplane`, ...).
+- **45 icons** exist under `svgs/` but have no getter at all, 43 of them in
+  `bulk`/`twotone`. Some have no glyph left; others have a single layer, and a
+  getter for it would draw only a fragment of the icon. Examples:
+  `IconsaxBulk.call`, `IconsaxTwotone.clipboardTick`.
+- **361 `bulk` and 196 `twotone`** icons still miss at least one layer
+  (`IconsaxBulk.archiveMinus`, `IconsaxTwotone.archiveTick`, ...).
+
+## React
+
+`react/` is the same icon set as React components, generated from the same
+`svgs/` tree and carrying the **same names**, so a name stored once — in a CMS,
+an API, a config file — renders the same icon on both platforms:
+
+```dart
+IconsaxResolver.fromName('linear-add-circle');  // Flutter: IconData
+```
+```tsx
+IconsaxResolver.fromName('linear-add-circle')   // React: LinearAddCircle
+```
+
+Its generator fails if any name the Dart resolver knows has no React
+counterpart, so the two cannot drift apart. See [react/README.md](react/README.md).
 
 ## Example
 

@@ -665,6 +665,10 @@ class IconsaxLinear {
   /// Getter for `linearBluetoothRectangle` icon.
   static const IconData bluetoothRectangle = raw.IconsaxLinear.bluetoothRectangle;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/blur.png)
+  /// Getter for `linearBlur` icon.
+  static const IconData blur = raw.IconsaxLinear.blur;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/book.png)
   /// Getter for `linearBook` icon.
   static const IconData book = raw.IconsaxLinear.book;
@@ -1556,6 +1560,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/editFe9b.png)
   /// Getter for `linearEditFe9b` icon.
   static const IconData editFe9b = raw.IconsaxLinear.editFe9b;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/educareEkt.png)
+  /// Getter for `linearEducareEkt` icon.
+  static const IconData educareEkt = raw.IconsaxLinear.educareEkt;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/electricity.png)
   /// Getter for `linearElectricity` icon.
@@ -2797,6 +2805,10 @@ class IconsaxLinear {
   /// Getter for `linearMobile` icon.
   static const IconData mobile = raw.IconsaxLinear.mobile;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/mobileProgramming.png)
+  /// Getter for `linearMobileProgramming` icon.
+  static const IconData mobileProgramming = raw.IconsaxLinear.mobileProgramming;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/moneroXmr.png)
   /// Getter for `linearMoneroXmr` icon.
   static const IconData moneroXmr = raw.IconsaxLinear.moneroXmr;
@@ -2832,6 +2844,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/moneyRecive.png)
   /// Getter for `linearMoneyRecive` icon.
   static const IconData moneyRecive = raw.IconsaxLinear.moneyRecive;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/moneyRemove.png)
+  /// Getter for `linearMoneyRemove` icon.
+  static const IconData moneyRemove = raw.IconsaxLinear.moneyRemove;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/moneySend.png)
   /// Getter for `linearMoneySend` icon.
@@ -3681,6 +3697,10 @@ class IconsaxLinear {
   /// Getter for `linearSidebarTop` icon.
   static const IconData sidebarTop = raw.IconsaxLinear.sidebarTop;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/signpost.png)
+  /// Getter for `linearSignpost` icon.
+  static const IconData signpost = raw.IconsaxLinear.signpost;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/simcard43c2.png)
   /// Getter for `linearSimcard43c2` icon.
   static const IconData simcard43c2 = raw.IconsaxLinear.simcard43c2;
@@ -3860,6 +3880,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/snowman.png)
   /// Getter for `linearSnowman` icon.
   static const IconData snowman = raw.IconsaxLinear.snowman;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/snowman2.png)
+  /// Getter for `linearSnowman2` icon.
+  static const IconData snowman2 = raw.IconsaxLinear.snowman2;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/snowman3.png)
   /// Getter for `linearSnowman3` icon.
@@ -4057,6 +4081,10 @@ class IconsaxLinear {
   /// Getter for `linearTetherUsdt` icon.
   static const IconData tetherUsdt = raw.IconsaxLinear.tetherUsdt;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/text.png)
+  /// Getter for `linearText` icon.
+  static const IconData text = raw.IconsaxLinear.text;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textBlock.png)
   /// Getter for `linearTextBlock` icon.
   static const IconData textBlock = raw.IconsaxLinear.textBlock;
@@ -4088,6 +4116,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignJustifyright.png)
   /// Getter for `linearTextalignJustifyright` icon.
   static const IconData textalignJustifyright = raw.IconsaxLinear.textalignJustifyright;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignLeft.png)
+  /// Getter for `linearTextalignLeft` icon.
+  static const IconData textalignLeft = raw.IconsaxLinear.textalignLeft;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignRight.png)
   /// Getter for `linearTextalignRight` icon.

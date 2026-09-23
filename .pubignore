@@ -15,3 +15,6 @@ node_modules/
 # regenerated, but consumers of the package have no use for them.
 scripts/
 svgs/
+
+# The React port. Same icons, same names, published to npm instead of pub.dev.
+react/

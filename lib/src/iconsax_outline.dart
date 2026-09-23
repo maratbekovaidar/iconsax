@@ -1045,6 +1045,10 @@ class IconsaxOutline {
   /// Getter for `outlineCeloCelo` icon.
   static const IconData celoCelo = raw.IconsaxOutline.celoCelo;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/celsiusCel.png)
+  /// Getter for `outlineCelsiusCel` icon.
+  static const IconData celsiusCel = raw.IconsaxOutline.celsiusCel;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/chainlinkLink.png)
   /// Getter for `outlineChainlinkLink` icon.
   static const IconData chainlinkLink = raw.IconsaxOutline.chainlinkLink;
@@ -1557,6 +1561,10 @@ class IconsaxOutline {
   /// Getter for `outlineEditD621` icon.
   static const IconData editD621 = raw.IconsaxOutline.editD621;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/educareEkt.png)
+  /// Getter for `outlineEducareEkt` icon.
+  static const IconData educareEkt = raw.IconsaxOutline.educareEkt;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/electricity.png)
   /// Getter for `outlineElectricity` icon.
   static const IconData electricity = raw.IconsaxOutline.electricity;
@@ -1656,6 +1664,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/externalDrive.png)
   /// Getter for `outlineExternalDrive` icon.
   static const IconData externalDrive = raw.IconsaxOutline.externalDrive;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/eye.png)
+  /// Getter for `outlineEye` icon.
+  static const IconData eye = raw.IconsaxOutline.eye;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/eyeSlash.png)
   /// Getter for `outlineEyeSlash` icon.
@@ -2241,6 +2253,10 @@ class IconsaxOutline {
   /// Getter for `outlineHome73e5` icon.
   static const IconData home73e5 = raw.IconsaxOutline.home73e5;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/home97ea.png)
+  /// Getter for `outlineHome97ea` icon.
+  static const IconData home97ea = raw.IconsaxOutline.home97ea;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/homeHashtag.png)
   /// Getter for `outlineHomeHashtag` icon.
   static const IconData homeHashtag = raw.IconsaxOutline.homeHashtag;
@@ -2597,6 +2613,10 @@ class IconsaxOutline {
   /// Getter for `outlineMapAb13` icon.
   static const IconData mapAb13 = raw.IconsaxOutline.mapAb13;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/mask6a79.png)
+  /// Getter for `outlineMask6a79` icon.
+  static const IconData mask6a79 = raw.IconsaxOutline.mask6a79;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/maskBecc.png)
   /// Getter for `outlineMaskBecc` icon.
   static const IconData maskBecc = raw.IconsaxOutline.maskBecc;
@@ -2793,6 +2813,10 @@ class IconsaxOutline {
   /// Getter for `outlineMobile` icon.
   static const IconData mobile = raw.IconsaxOutline.mobile;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/mobileProgramming.png)
+  /// Getter for `outlineMobileProgramming` icon.
+  static const IconData mobileProgramming = raw.IconsaxOutline.mobileProgramming;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/moneroXmr.png)
   /// Getter for `outlineMoneroXmr` icon.
   static const IconData moneroXmr = raw.IconsaxOutline.moneroXmr;
@@ -2828,6 +2852,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/moneyRecive.png)
   /// Getter for `outlineMoneyRecive` icon.
   static const IconData moneyRecive = raw.IconsaxOutline.moneyRecive;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/moneyRemove.png)
+  /// Getter for `outlineMoneyRemove` icon.
+  static const IconData moneyRemove = raw.IconsaxOutline.moneyRemove;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/moneySend.png)
   /// Getter for `outlineMoneySend` icon.
@@ -3180,6 +3208,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/profileTick.png)
   /// Getter for `outlineProfileTick` icon.
   static const IconData profileTick = raw.IconsaxOutline.profileTick;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/programmingArrow.png)
+  /// Getter for `outlineProgrammingArrow` icon.
+  static const IconData programmingArrow = raw.IconsaxOutline.programmingArrow;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/programmingArrows.png)
   /// Getter for `outlineProgrammingArrows` icon.
@@ -3677,6 +3709,10 @@ class IconsaxOutline {
   /// Getter for `outlineSidebarTop` icon.
   static const IconData sidebarTop = raw.IconsaxOutline.sidebarTop;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/signpost.png)
+  /// Getter for `outlineSignpost` icon.
+  static const IconData signpost = raw.IconsaxOutline.signpost;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/simcard54a2.png)
   /// Getter for `outlineSimcard54a2` icon.
   static const IconData simcard54a2 = raw.IconsaxOutline.simcard54a2;
@@ -3852,6 +3888,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/snowman.png)
   /// Getter for `outlineSnowman` icon.
   static const IconData snowman = raw.IconsaxOutline.snowman;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/snowman2.png)
+  /// Getter for `outlineSnowman2` icon.
+  static const IconData snowman2 = raw.IconsaxOutline.snowman2;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/snowman3.png)
   /// Getter for `outlineSnowman3` icon.
@@ -4364,6 +4404,10 @@ class IconsaxOutline {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/walletAdd2b7a.png)
   /// Getter for `outlineWalletAdd2b7a` icon.
   static const IconData walletAdd2b7a = raw.IconsaxOutline.walletAdd2b7a;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/walletAddD2a1.png)
+  /// Getter for `outlineWalletAddD2a1` icon.
+  static const IconData walletAddD2a1 = raw.IconsaxOutline.walletAddD2a1;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/outline/walletCheck.png)
   /// Getter for `outlineWalletCheck` icon.

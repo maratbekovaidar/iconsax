@@ -963,6 +963,10 @@ class IconsaxBulk {
   /// Getter for `bulkGeminiAe39Path2` icon.
   static const IconData geminiAe39Path2 = IconData(0xf9d5d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/geminiAe39Path1.png)
+  /// Getter for `bulkGeminiAe39Path1` icon.
+  static const IconData geminiAe39Path1 = IconData(0xff132, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/gemini6b5cPath2.png)
   /// Getter for `bulkGemini6b5cPath2` icon.
   static const IconData gemini6b5cPath2 = IconData(0xf3876, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1527,6 +1531,10 @@ class IconsaxBulk {
   /// Getter for `bulkBusPath3` icon.
   static const IconData busPath3 = IconData(0xfc6b6, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/busPath1.png)
+  /// Getter for `bulkBusPath1` icon.
+  static const IconData busPath1 = IconData(0xfe630, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/carPath2.png)
   /// Getter for `bulkCarPath2` icon.
   static const IconData carPath2 = IconData(0xf52e9, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1546,6 +1554,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/drivingPath8.png)
   /// Getter for `bulkDrivingPath8` icon.
   static const IconData drivingPath8 = IconData(0xf2003, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/drivingPath3.png)
+  /// Getter for `bulkDrivingPath3` icon.
+  static const IconData drivingPath3 = IconData(0xf32b5, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/drivingPath2.png)
   /// Getter for `bulkDrivingPath2` icon.
@@ -1659,6 +1671,10 @@ class IconsaxBulk {
   /// Getter for `bulkBall11Path4` icon.
   static const IconData ball11Path4 = IconData(0xf06ef, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball11Path2.png)
+  /// Getter for `bulkBall11Path2` icon.
+  static const IconData ball11Path2 = IconData(0xf22d1, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball11Path1.png)
   /// Getter for `bulkBall11Path1` icon.
   static const IconData ball11Path1 = IconData(0xf7596, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1754,6 +1770,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball16Path1.png)
   /// Getter for `bulkBall16Path1` icon.
   static const IconData ball16Path1 = IconData(0xf367a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball16Path3.png)
+  /// Getter for `bulkBall16Path3` icon.
+  static const IconData ball16Path3 = IconData(0xf55ac, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball16Path5.png)
   /// Getter for `bulkBall16Path5` icon.
@@ -1862,6 +1882,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball22Path2.png)
   /// Getter for `bulkBall22Path2` icon.
   static const IconData ball22Path2 = IconData(0xfc218, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball23Path3.png)
+  /// Getter for `bulkBall23Path3` icon.
+  static const IconData ball23Path3 = IconData(0xf2adf, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ball23Path1.png)
   /// Getter for `bulkBall23Path1` icon.
@@ -2131,6 +2155,10 @@ class IconsaxBulk {
   /// Getter for `bulkCakeE395Path4` icon.
   static const IconData cakeE395Path4 = IconData(0xf1891, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cakeE395Path2.png)
+  /// Getter for `bulkCakeE395Path2` icon.
+  static const IconData cakeE395Path2 = IconData(0xf26fe, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cakeE395Path3.png)
   /// Getter for `bulkCakeE395Path3` icon.
   static const IconData cakeE395Path3 = IconData(0xf52bc, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2142,6 +2170,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calendarChristmasPath2.png)
   /// Getter for `bulkCalendarChristmasPath2` icon.
   static const IconData calendarChristmasPath2 = IconData(0xf801a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calendarTreePath6.png)
+  /// Getter for `bulkCalendarTreePath6` icon.
+  static const IconData calendarTreePath6 = IconData(0xf2031, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calendarTreePath2.png)
   /// Getter for `bulkCalendarTreePath2` icon.
@@ -2807,6 +2839,10 @@ class IconsaxBulk {
   /// Getter for `bulkGiftBagPath4` icon.
   static const IconData giftBagPath4 = IconData(0xf2b5a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/giftBagPath16.png)
+  /// Getter for `bulkGiftBagPath16` icon.
+  static const IconData giftBagPath16 = IconData(0xf3e60, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/giftBagPath9.png)
   /// Getter for `bulkGiftBagPath9` icon.
   static const IconData giftBagPath9 = IconData(0xf48b7, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2882,6 +2918,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/giftCupcakePath8.png)
   /// Getter for `bulkGiftCupcakePath8` icon.
   static const IconData giftCupcakePath8 = IconData(0xf70b5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/giftCupcakePath5.png)
+  /// Getter for `bulkGiftCupcakePath5` icon.
+  static const IconData giftCupcakePath5 = IconData(0xf71bb, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/giftCupcakePath2.png)
   /// Getter for `bulkGiftCupcakePath2` icon.
@@ -3895,6 +3935,10 @@ class IconsaxBulk {
   /// Getter for `bulkSnow102Path7` icon.
   static const IconData snow102Path7 = IconData(0xf6e2b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snow102Path8.png)
+  /// Getter for `bulkSnow102Path8` icon.
+  static const IconData snow102Path8 = IconData(0xf758c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snow102Path4.png)
   /// Getter for `bulkSnow102Path4` icon.
   static const IconData snow102Path4 = IconData(0xf8492, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3974,6 +4018,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snow12.png)
   /// Getter for `bulkSnow12` icon.
   static const IconData snow12 = IconData(0xfff16, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snow13Path7.png)
+  /// Getter for `bulkSnow13Path7` icon.
+  static const IconData snow13Path7 = IconData(0xff706, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snow14Path5.png)
   /// Getter for `bulkSnow14Path5` icon.
@@ -4295,6 +4343,10 @@ class IconsaxBulk {
   /// Getter for `bulkSnowman4Path4` icon.
   static const IconData snowman4Path4 = IconData(0xf31de, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snowman4Path3.png)
+  /// Getter for `bulkSnowman4Path3` icon.
+  static const IconData snowman4Path3 = IconData(0xf4589, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/snowman4Path1.png)
   /// Getter for `bulkSnowman4Path1` icon.
   static const IconData snowman4Path1 = IconData(0xf540f, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4466,6 +4518,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sparklerPath5.png)
   /// Getter for `bulkSparklerPath5` icon.
   static const IconData sparklerPath5 = IconData(0xf24b3, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sparklerPath7.png)
+  /// Getter for `bulkSparklerPath7` icon.
+  static const IconData sparklerPath7 = IconData(0xf25ca, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sparklerPath8.png)
   /// Getter for `bulkSparklerPath8` icon.
@@ -5015,9 +5071,17 @@ class IconsaxBulk {
   /// Getter for `bulkCloudAddPath2` icon.
   static const IconData cloudAddPath2 = IconData(0xfbdce, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cloudChangePath1.png)
+  /// Getter for `bulkCloudChangePath1` icon.
+  static const IconData cloudChangePath1 = IconData(0xf1be0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cloudChangePath2.png)
   /// Getter for `bulkCloudChangePath2` icon.
   static const IconData cloudChangePath2 = IconData(0xfcc6a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cloudChangePath3.png)
+  /// Getter for `bulkCloudChangePath3` icon.
+  static const IconData cloudChangePath3 = IconData(0xff4d3, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cloudConnectionPath1.png)
   /// Getter for `bulkCloudConnectionPath1` icon.
@@ -5343,6 +5407,10 @@ class IconsaxBulk {
   /// Getter for `bulkKeyboardOpenPath5` icon.
   static const IconData keyboardOpenPath5 = IconData(0xf36df, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/keyboardOpenPath1.png)
+  /// Getter for `bulkKeyboardOpenPath1` icon.
+  static const IconData keyboardOpenPath1 = IconData(0xf4285, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/keyboardOpenPath4.png)
   /// Getter for `bulkKeyboardOpenPath4` icon.
   static const IconData keyboardOpenPath4 = IconData(0xf7372, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5367,6 +5435,10 @@ class IconsaxBulk {
   /// Getter for `bulkKeyboardPath1` icon.
   static const IconData keyboardPath1 = IconData(0xf7074, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/keyboardPath2.png)
+  /// Getter for `bulkKeyboardPath2` icon.
+  static const IconData keyboardPath2 = IconData(0xfbd61, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/keyboardPath5.png)
   /// Getter for `bulkKeyboardPath5` icon.
   static const IconData keyboardPath5 = IconData(0xff59f, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5374,6 +5446,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/lampE246Path2.png)
   /// Getter for `bulkLampE246Path2` icon.
   static const IconData lampE246Path2 = IconData(0xfa667, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/lampE246Path1.png)
+  /// Getter for `bulkLampE246Path1` icon.
+  static const IconData lampE246Path1 = IconData(0xfdcbb, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/mirroringScreenPath3.png)
   /// Getter for `bulkMirroringScreenPath3` icon.
@@ -5547,6 +5623,10 @@ class IconsaxBulk {
   /// Getter for `bulkSimcard9a94Path5` icon.
   static const IconData simcard9a94Path5 = IconData(0xf09b1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/simcard9a94Path2.png)
+  /// Getter for `bulkSimcard9a94Path2` icon.
+  static const IconData simcard9a94Path2 = IconData(0xf239b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/simcard9a94Path3.png)
   /// Getter for `bulkSimcard9a94Path3` icon.
   static const IconData simcard9a94Path3 = IconData(0xf411a, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5595,6 +5675,10 @@ class IconsaxBulk {
   /// Getter for `bulkTelescopePath4` icon.
   static const IconData telescopePath4 = IconData(0xf0f0f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/telescopePath1.png)
+  /// Getter for `bulkTelescopePath1` icon.
+  static const IconData telescopePath1 = IconData(0xf8fda, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/telescopePath3.png)
   /// Getter for `bulkTelescopePath3` icon.
   static const IconData telescopePath3 = IconData(0xf9973, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5642,6 +5726,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/archiveBookPath1.png)
   /// Getter for `bulkArchiveBookPath1` icon.
   static const IconData archiveBookPath1 = IconData(0xf0fd1, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/archiveBookPath2.png)
+  /// Getter for `bulkArchiveBookPath2` icon.
+  static const IconData archiveBookPath2 = IconData(0xf3801, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/archiveBookPath4.png)
   /// Getter for `bulkArchiveBookPath4` icon.
@@ -6400,6 +6488,10 @@ class IconsaxBulk {
   /// Getter for `bulkFramerPath2` icon.
   static const IconData framerPath2 = IconData(0xf619c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/framerPath1.png)
+  /// Getter for `bulkFramerPath1` icon.
+  static const IconData framerPath1 = IconData(0xf94f7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ftxTokenFttPath4.png)
   /// Getter for `bulkFtxTokenFttPath4` icon.
   static const IconData ftxTokenFttPath4 = IconData(0xf5661, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -6576,6 +6668,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/illustratorPath2.png)
   /// Getter for `bulkIllustratorPath2` icon.
   static const IconData illustratorPath2 = IconData(0xfe4cd, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/iostIostPath2.png)
+  /// Getter for `bulkIostIostPath2` icon.
+  static const IconData iostIostPath2 = IconData(0xf03a2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/iostIostPath1.png)
   /// Getter for `bulkIostIostPath1` icon.
@@ -7301,6 +7397,10 @@ class IconsaxBulk {
   /// Getter for `bulkCardCoinPath2` icon.
   static const IconData cardCoinPath2 = IconData(0xf1d91, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardCoinPath3.png)
+  /// Getter for `bulkCardCoinPath3` icon.
+  static const IconData cardCoinPath3 = IconData(0xf48a8, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardCoinGroup1.png)
   /// Getter for `bulkCardCoinGroup1` icon.
   static const IconData cardCoinGroup1 = IconData(0xf4e9b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -7573,6 +7673,10 @@ class IconsaxBulk {
   /// Getter for `bulkBlend4975Path2` icon.
   static const IconData blend4975Path2 = IconData(0xf3fd1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/blend4975Path5.png)
+  /// Getter for `bulkBlend4975Path5` icon.
+  static const IconData blend4975Path5 = IconData(0xf47b4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/blend4975Path4.png)
   /// Getter for `bulkBlend4975Path4` icon.
   static const IconData blend4975Path4 = IconData(0xf5362, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -7701,6 +7805,10 @@ class IconsaxBulk {
   /// Getter for `bulkComponent` icon.
   static const IconData component = IconData(0xf9de5, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/copySuccessPath1.png)
+  /// Getter for `bulkCopySuccessPath1` icon.
+  static const IconData copySuccessPath1 = IconData(0xf403e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/copySuccessPath2.png)
   /// Getter for `bulkCopySuccessPath2` icon.
   static const IconData copySuccessPath2 = IconData(0xf8b65, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -7728,6 +7836,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/designtoolsPath2.png)
   /// Getter for `bulkDesigntoolsPath2` icon.
   static const IconData designtoolsPath2 = IconData(0xf4e7f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/designtoolsPath1.png)
+  /// Getter for `bulkDesigntoolsPath1` icon.
+  static const IconData designtoolsPath1 = IconData(0xf706b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/eraser0edaPath2.png)
   /// Getter for `bulkEraser0edaPath2` icon.
@@ -7805,6 +7917,10 @@ class IconsaxBulk {
   /// Getter for `bulkMagicpenPath1` icon.
   static const IconData magicpenPath1 = IconData(0xf7ced, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/magicpenPath3.png)
+  /// Getter for `bulkMagicpenPath3` icon.
+  static const IconData magicpenPath3 = IconData(0xff88f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/mainComponentPath1.png)
   /// Getter for `bulkMainComponentPath1` icon.
   static const IconData mainComponentPath1 = IconData(0xf4bd3, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -7825,6 +7941,10 @@ class IconsaxBulk {
   /// Getter for `bulkMaskC19fPath2` icon.
   static const IconData maskC19fPath2 = IconData(0xfd3ff, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/maskC19fPath1.png)
+  /// Getter for `bulkMaskC19fPath1` icon.
+  static const IconData maskC19fPath1 = IconData(0xffc90, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/mask4208Path1.png)
   /// Getter for `bulkMask4208Path1` icon.
   static const IconData mask4208Path1 = IconData(0xf1c10, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -7844,6 +7964,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/omegaSquarePath1.png)
   /// Getter for `bulkOmegaSquarePath1` icon.
   static const IconData omegaSquarePath1 = IconData(0xf36b7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/paintBrush09c2Path2.png)
+  /// Getter for `bulkPaintBrush09c2Path2` icon.
+  static const IconData paintBrush09c2Path2 = IconData(0xf4340, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/paintBrush09c2Path1.png)
   /// Getter for `bulkPaintBrush09c2Path1` icon.
@@ -7917,9 +8041,17 @@ class IconsaxBulk {
   /// Getter for `bulkPath4ddbPath1` icon.
   static const IconData path4ddbPath1 = IconData(0xff63b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/path0d0fPath1.png)
+  /// Getter for `bulkPath0d0fPath1` icon.
+  static const IconData path0d0fPath1 = IconData(0xf116f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/path0d0fPath2.png)
   /// Getter for `bulkPath0d0fPath2` icon.
   static const IconData path0d0fPath2 = IconData(0xf5363, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/path0d0fPath3.png)
+  /// Getter for `bulkPath0d0fPath3` icon.
+  static const IconData path0d0fPath3 = IconData(0xfb2f3, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/penAddPath4.png)
   /// Getter for `bulkPenAddPath4` icon.
@@ -8041,6 +8173,10 @@ class IconsaxBulk {
   /// Getter for `bulkRulerPenPath5` icon.
   static const IconData rulerPenPath5 = IconData(0xf0aab, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/rulerPenPath7.png)
+  /// Getter for `bulkRulerPenPath7` icon.
+  static const IconData rulerPenPath7 = IconData(0xf2893, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/rulerPenPath2.png)
   /// Getter for `bulkRulerPenPath2` icon.
   static const IconData rulerPenPath2 = IconData(0xf6010, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8056,6 +8192,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/rulerPenPath4.png)
   /// Getter for `bulkRulerPenPath4` icon.
   static const IconData rulerPenPath4 = IconData(0xfe0f0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/rulerPenPath1.png)
+  /// Getter for `bulkRulerPenPath1` icon.
+  static const IconData rulerPenPath1 = IconData(0xffdde, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/rulerPath4.png)
   /// Getter for `bulkRulerPath4` icon.
@@ -8108,6 +8248,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sizePath1.png)
   /// Getter for `bulkSizePath1` icon.
   static const IconData sizePath1 = IconData(0xf8860, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sizePath2.png)
+  /// Getter for `bulkSizePath2` icon.
+  static const IconData sizePath2 = IconData(0xfcf1a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/chatboxPath1.png)
   /// Getter for `bulkChatboxPath1` icon.
@@ -8197,6 +8341,10 @@ class IconsaxBulk {
   /// Getter for `bulkDirectSendPath2` icon.
   static const IconData directSendPath2 = IconData(0xfa869, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/directSendPath1.png)
+  /// Getter for `bulkDirectSendPath1` icon.
+  static const IconData directSendPath1 = IconData(0xffbcc, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/directPath3.png)
   /// Getter for `bulkDirectPath3` icon.
   static const IconData directPath3 = IconData(0xf700b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8249,6 +8397,14 @@ class IconsaxBulk {
   /// Getter for `bulkMessageAdd4715Path1` icon.
   static const IconData messageAdd4715Path1 = IconData(0xf4a81, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageAdd4715Path2.png)
+  /// Getter for `bulkMessageAdd4715Path2` icon.
+  static const IconData messageAdd4715Path2 = IconData(0xf84a6, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageAdd1082Path3.png)
+  /// Getter for `bulkMessageAdd1082Path3` icon.
+  static const IconData messageAdd1082Path3 = IconData(0xfa4c5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageAdd1082Path1.png)
   /// Getter for `bulkMessageAdd1082Path1` icon.
   static const IconData messageAdd1082Path1 = IconData(0xfb49c, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8296,6 +8452,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageFavoritePath4.png)
   /// Getter for `bulkMessageFavoritePath4` icon.
   static const IconData messageFavoritePath4 = IconData(0xfe7e6, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageMinusPath2.png)
+  /// Getter for `bulkMessageMinusPath2` icon.
+  static const IconData messageMinusPath2 = IconData(0xf3a11, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageNotifPath1.png)
   /// Getter for `bulkMessageNotifPath1` icon.
@@ -8384,6 +8544,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messagesBubblesPath3.png)
   /// Getter for `bulkMessagesBubblesPath3` icon.
   static const IconData messagesBubblesPath3 = IconData(0xfc739, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messages0cb2Path1.png)
+  /// Getter for `bulkMessages0cb2Path1` icon.
+  static const IconData messages0cb2Path1 = IconData(0xf30f1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messages0cb2Path2.png)
   /// Getter for `bulkMessages0cb2Path2` icon.
@@ -8629,6 +8793,10 @@ class IconsaxBulk {
   /// Getter for `bulkCakeA2cbPath3` icon.
   static const IconData cakeA2cbPath3 = IconData(0xf907b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cakeA2cbPath1.png)
+  /// Getter for `bulkCakeA2cbPath1` icon.
+  static const IconData cakeA2cbPath1 = IconData(0xfb598, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cakeA2cbPath6.png)
   /// Getter for `bulkCakeA2cbPath6` icon.
   static const IconData cakeA2cbPath6 = IconData(0xfcd8b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8692,6 +8860,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/computingPath1.png)
   /// Getter for `bulkComputingPath1` icon.
   static const IconData computingPath1 = IconData(0xf04e1, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/computingPath4.png)
+  /// Getter for `bulkComputingPath4` icon.
+  static const IconData computingPath4 = IconData(0xfb90c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/computingPath3.png)
   /// Getter for `bulkComputingPath3` icon.
@@ -9013,6 +9185,10 @@ class IconsaxBulk {
   /// Getter for `bulkInformationPath3` icon.
   static const IconData informationPath3 = IconData(0xf417a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/informationPath2.png)
+  /// Getter for `bulkInformationPath2` icon.
+  static const IconData informationPath2 = IconData(0xf55ad, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/instagramPath2.png)
   /// Getter for `bulkInstagramPath2` icon.
   static const IconData instagramPath2 = IconData(0xfa594, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9177,6 +9353,10 @@ class IconsaxBulk {
   /// Getter for `bulkReservePath2` icon.
   static const IconData reservePath2 = IconData(0xf08ee, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/reservePath1.png)
+  /// Getter for `bulkReservePath1` icon.
+  static const IconData reservePath1 = IconData(0xf33da, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/reservePath4.png)
   /// Getter for `bulkReservePath4` icon.
   static const IconData reservePath4 = IconData(0xf512b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9189,6 +9369,10 @@ class IconsaxBulk {
   /// Getter for `bulkSafeHomePath2` icon.
   static const IconData safeHomePath2 = IconData(0xf144b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/safeHomePath1.png)
+  /// Getter for `bulkSafeHomePath1` icon.
+  static const IconData safeHomePath1 = IconData(0xfce08, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/send6775Path2.png)
   /// Getter for `bulkSend6775Path2` icon.
   static const IconData send6775Path2 = IconData(0xfaeb0, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9196,6 +9380,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/send6775Path1.png)
   /// Getter for `bulkSend6775Path1` icon.
   static const IconData send6775Path1 = IconData(0xfb971, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sendCc79Path2.png)
+  /// Getter for `bulkSendCc79Path2` icon.
+  static const IconData sendCc79Path2 = IconData(0xfca38, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sendCc79Path3.png)
   /// Getter for `bulkSendCc79Path3` icon.
@@ -9208,6 +9396,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sharePath3.png)
   /// Getter for `bulkSharePath3` icon.
   static const IconData sharePath3 = IconData(0xf1762, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sharePath2.png)
+  /// Getter for `bulkSharePath2` icon.
+  static const IconData sharePath2 = IconData(0xf3168, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sharePath4.png)
   /// Getter for `bulkSharePath4` icon.
@@ -9473,6 +9665,10 @@ class IconsaxBulk {
   /// Getter for `bulkWeight30f6Path4` icon.
   static const IconData weight30f6Path4 = IconData(0xf97aa, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/weight30f6Path1.png)
+  /// Getter for `bulkWeight30f6Path1` icon.
+  static const IconData weight30f6Path1 = IconData(0xfe5c1, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/weight30f6Path5.png)
   /// Getter for `bulkWeight30f6Path5` icon.
   static const IconData weight30f6Path5 = IconData(0xfe5d7, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9540,6 +9736,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/folderMinusPath2.png)
   /// Getter for `bulkFolderMinusPath2` icon.
   static const IconData folderMinusPath2 = IconData(0xf5a52, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/folderOpenPath2.png)
+  /// Getter for `bulkFolderOpenPath2` icon.
+  static const IconData folderOpenPath2 = IconData(0xf539c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/folderOpenPath1.png)
   /// Getter for `bulkFolderOpenPath1` icon.
@@ -9613,6 +9813,10 @@ class IconsaxBulk {
   /// Getter for `bulkAlignLeftFaa4Path2` icon.
   static const IconData alignLeftFaa4Path2 = IconData(0xfe31a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alignLeft3e6aPath2.png)
+  /// Getter for `bulkAlignLeft3e6aPath2` icon.
+  static const IconData alignLeft3e6aPath2 = IconData(0xf0f1d, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alignLeft3e6aPath1.png)
   /// Getter for `bulkAlignLeft3e6aPath1` icon.
   static const IconData alignLeft3e6aPath1 = IconData(0xff11b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9632,6 +9836,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alignTop4a09Path2.png)
   /// Getter for `bulkAlignTop4a09Path2` icon.
   static const IconData alignTop4a09Path2 = IconData(0xf3aa4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alignTop4a09Path3.png)
+  /// Getter for `bulkAlignTop4a09Path3` icon.
+  static const IconData alignTop4a09Path3 = IconData(0xf440b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alignTop4a09Path1.png)
   /// Getter for `bulkAlignTop4a09Path1` icon.
@@ -9953,6 +10161,10 @@ class IconsaxBulk {
   /// Getter for `bulkGrid9270Path1` icon.
   static const IconData grid9270Path1 = IconData(0xf4726, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/grid9270Path4.png)
+  /// Getter for `bulkGrid9270Path4` icon.
+  static const IconData grid9270Path4 = IconData(0xf922b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/grid9270Path3.png)
   /// Getter for `bulkGrid9270Path3` icon.
   static const IconData grid9270Path3 = IconData(0xfe72a, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9992,6 +10204,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/leftBarGridPath3.png)
   /// Getter for `bulkLeftBarGridPath3` icon.
   static const IconData leftBarGridPath3 = IconData(0xfad3e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/leftSidebarGridPath3.png)
+  /// Getter for `bulkLeftSidebarGridPath3` icon.
+  static const IconData leftSidebarGridPath3 = IconData(0xf27ca, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/leftSidebarGridPath2.png)
   /// Getter for `bulkLeftSidebarGridPath2` icon.
@@ -10191,6 +10407,10 @@ class IconsaxBulk {
   /// Getter for `bulkDirectUpPath1` icon.
   static const IconData directUpPath1 = IconData(0xf5273, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/directUpPath2.png)
+  /// Getter for `bulkDirectUpPath2` icon.
+  static const IconData directUpPath2 = IconData(0xf6aa4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/discoverE0f3Path2.png)
   /// Getter for `bulkDiscoverE0f3Path2` icon.
   static const IconData discoverE0f3Path2 = IconData(0xf56cc, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10259,6 +10479,10 @@ class IconsaxBulk {
   /// Getter for `bulkGlobalRefreshPath6` icon.
   static const IconData globalRefreshPath6 = IconData(0xf8bae, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/globalRefreshPath1.png)
+  /// Getter for `bulkGlobalRefreshPath1` icon.
+  static const IconData globalRefreshPath1 = IconData(0xfe4ce, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/globalSearchPath1.png)
   /// Getter for `bulkGlobalSearchPath1` icon.
   static const IconData globalSearchPath1 = IconData(0xf6ee2, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10314,6 +10538,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/gpsSlashPath6.png)
   /// Getter for `bulkGpsSlashPath6` icon.
   static const IconData gpsSlashPath6 = IconData(0xf991f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/gpsSlashPath1.png)
+  /// Getter for `bulkGpsSlashPath1` icon.
+  static const IconData gpsSlashPath1 = IconData(0xfa86c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/gpsSlashPath8.png)
   /// Getter for `bulkGpsSlashPath8` icon.
@@ -10503,6 +10731,10 @@ class IconsaxBulk {
   /// Getter for `bulkCardPosPath1` icon.
   static const IconData cardPosPath1 = IconData(0xf68ba, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardPosPath4.png)
+  /// Getter for `bulkCardPosPath4` icon.
+  static const IconData cardPosPath4 = IconData(0xfbbc7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardPosPath5.png)
   /// Getter for `bulkCardPosPath5` icon.
   static const IconData cardPosPath5 = IconData(0xfc734, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10543,6 +10775,10 @@ class IconsaxBulk {
   /// Getter for `bulkCardSlashPath2` icon.
   static const IconData cardSlashPath2 = IconData(0xf73b1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardSlashPath6.png)
+  /// Getter for `bulkCardSlashPath6` icon.
+  static const IconData cardSlashPath6 = IconData(0xf809a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardSlashPath3.png)
   /// Getter for `bulkCardSlashPath3` icon.
   static const IconData cardSlashPath3 = IconData(0xfae1f, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10575,6 +10811,10 @@ class IconsaxBulk {
   /// Getter for `bulkCardPath1` icon.
   static const IconData cardPath1 = IconData(0xf6c4f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardPath4.png)
+  /// Getter for `bulkCardPath4` icon.
+  static const IconData cardPath4 = IconData(0xf9f46, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardPath3.png)
   /// Getter for `bulkCardPath3` icon.
   static const IconData cardPath3 = IconData(0xfd77d, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10590,6 +10830,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardsPath4.png)
   /// Getter for `bulkCardsPath4` icon.
   static const IconData cardsPath4 = IconData(0xf9713, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardsPath5.png)
+  /// Getter for `bulkCardsPath5` icon.
+  static const IconData cardsPath5 = IconData(0xfcabf, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cardsPath3.png)
   /// Getter for `bulkCardsPath3` icon.
@@ -10610,6 +10854,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/coin7b79Path1.png)
   /// Getter for `bulkCoin7b79Path1` icon.
   static const IconData coin7b79Path1 = IconData(0xf2da9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/coin7b79Path2.png)
+  /// Getter for `bulkCoin7b79Path2` icon.
+  static const IconData coin7b79Path2 = IconData(0xfe8da, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/coin7b79Path3.png)
   /// Getter for `bulkCoin7b79Path3` icon.
@@ -10923,6 +11171,10 @@ class IconsaxBulk {
   /// Getter for `bulkMoney43fePath3` icon.
   static const IconData money43fePath3 = IconData(0xfb61e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/moneysPath5.png)
+  /// Getter for `bulkMoneysPath5` icon.
+  static const IconData moneysPath5 = IconData(0xf38d0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/moneysPath1.png)
   /// Getter for `bulkMoneysPath1` icon.
   static const IconData moneysPath1 = IconData(0xf5e38, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10934,6 +11186,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/moneysPath4.png)
   /// Getter for `bulkMoneysPath4` icon.
   static const IconData moneysPath4 = IconData(0xfa201, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/moneysPath2.png)
+  /// Getter for `bulkMoneysPath2` icon.
+  static const IconData moneysPath2 = IconData(0xff4f6, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/percentageCirclePath2.png)
   /// Getter for `bulkPercentageCirclePath2` icon.
@@ -11059,6 +11315,10 @@ class IconsaxBulk {
   /// Getter for `bulkReceiptTextPath2` icon.
   static const IconData receiptTextPath2 = IconData(0xf753a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/receiptTextPath3.png)
+  /// Getter for `bulkReceiptTextPath3` icon.
+  static const IconData receiptTextPath3 = IconData(0xfae19, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/receiptA776Path1.png)
   /// Getter for `bulkReceiptA776Path1` icon.
   static const IconData receiptA776Path1 = IconData(0xf153a, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11082,6 +11342,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/receipt3881Path1.png)
   /// Getter for `bulkReceipt3881Path1` icon.
   static const IconData receipt3881Path1 = IconData(0xfe82b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/receiptE48ePath5.png)
+  /// Getter for `bulkReceiptE48ePath5` icon.
+  static const IconData receiptE48ePath5 = IconData(0xf6f08, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/receiptE48ePath3.png)
   /// Getter for `bulkReceiptE48ePath3` icon.
@@ -11166,6 +11430,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ticketStarPath3.png)
   /// Getter for `bulkTicketStarPath3` icon.
   static const IconData ticketStarPath3 = IconData(0xf50d8, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ticketStarPath1.png)
+  /// Getter for `bulkTicketStarPath1` icon.
+  static const IconData ticketStarPath1 = IconData(0xf8b37, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/ticketStarPath2.png)
   /// Getter for `bulkTicketStarPath2` icon.
@@ -11611,6 +11879,10 @@ class IconsaxBulk {
   /// Getter for `bulkHierarchy1090Path2` icon.
   static const IconData hierarchy1090Path2 = IconData(0xfe170, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageProgrammingPath2.png)
+  /// Getter for `bulkMessageProgrammingPath2` icon.
+  static const IconData messageProgrammingPath2 = IconData(0xf079e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/messageProgrammingPath3.png)
   /// Getter for `bulkMessageProgrammingPath3` icon.
   static const IconData messageProgrammingPath3 = IconData(0xf4c3b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11666,6 +11938,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sidebarBottomPath3.png)
   /// Getter for `bulkSidebarBottomPath3` icon.
   static const IconData sidebarBottomPath3 = IconData(0xf0ccf, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sidebarBottomPath1.png)
+  /// Getter for `bulkSidebarBottomPath1` icon.
+  static const IconData sidebarBottomPath1 = IconData(0xf3c27, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/sidebarBottomPath2.png)
   /// Getter for `bulkSidebarBottomPath2` icon.
@@ -11738,6 +12014,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/bookPath3.png)
   /// Getter for `bulkBookPath3` icon.
   static const IconData bookPath3 = IconData(0xf0de8, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/bookPath4.png)
+  /// Getter for `bulkBookPath4` icon.
+  static const IconData bookPath4 = IconData(0xf2f63, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/bookPath2.png)
   /// Getter for `bulkBookPath2` icon.
@@ -11814,6 +12094,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calculatorPath8.png)
   /// Getter for `bulkCalculatorPath8` icon.
   static const IconData calculatorPath8 = IconData(0xfa806, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calculatorPath6.png)
+  /// Getter for `bulkCalculatorPath6` icon.
+  static const IconData calculatorPath6 = IconData(0xfc009, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calculatorPath2.png)
   /// Getter for `bulkCalculatorPath2` icon.
@@ -11907,6 +12191,10 @@ class IconsaxBulk {
   /// Getter for `bulkSearchStatus95f1Path1` icon.
   static const IconData searchStatus95f1Path1 = IconData(0xf36b4, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/searchStatus9d48Path4.png)
+  /// Getter for `bulkSearchStatus9d48Path4` icon.
+  static const IconData searchStatus9d48Path4 = IconData(0xfc2e9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/searchStatus9d48Path3.png)
   /// Getter for `bulkSearchStatus9d48Path3` icon.
   static const IconData searchStatus9d48Path3 = IconData(0xff872, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11935,6 +12223,10 @@ class IconsaxBulk {
   /// Getter for `bulkAlarmPath2` icon.
   static const IconData alarmPath2 = IconData(0xf4ffc, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alarmPath4.png)
+  /// Getter for `bulkAlarmPath4` icon.
+  static const IconData alarmPath4 = IconData(0xf981e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/alarmPath3.png)
   /// Getter for `bulkAlarmPath3` icon.
   static const IconData alarmPath3 = IconData(0xfa1c6, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11946,6 +12238,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/checkPath2.png)
   /// Getter for `bulkCheckPath2` icon.
   static const IconData checkPath2 = IconData(0xf5929, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/checkPath1.png)
+  /// Getter for `bulkCheckPath1` icon.
+  static const IconData checkPath1 = IconData(0xf5bf2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/checkPath3.png)
   /// Getter for `bulkCheckPath3` icon.
@@ -11999,6 +12295,10 @@ class IconsaxBulk {
   /// Getter for `bulkFingerScanPath1` icon.
   static const IconData fingerScanPath1 = IconData(0xf3a9a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/fingerScanPath5.png)
+  /// Getter for `bulkFingerScanPath5` icon.
+  static const IconData fingerScanPath5 = IconData(0xf8f39, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/fingerScanPath2.png)
   /// Getter for `bulkFingerScanPath2` icon.
   static const IconData fingerScanPath2 = IconData(0xf95f5, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12030,6 +12330,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/lockCirclePath2.png)
   /// Getter for `bulkLockCirclePath2` icon.
   static const IconData lockCirclePath2 = IconData(0xf4f38, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/lockSlashPath1.png)
+  /// Getter for `bulkLockSlashPath1` icon.
+  static const IconData lockSlashPath1 = IconData(0xf1aa7, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/lockSlashPath3.png)
   /// Getter for `bulkLockSlashPath3` icon.
@@ -12090,6 +12394,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/passwordCheckPath1.png)
   /// Getter for `bulkPasswordCheckPath1` icon.
   static const IconData passwordCheckPath1 = IconData(0xfe105, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/passwordCheckPath2.png)
+  /// Getter for `bulkPasswordCheckPath2` icon.
+  static const IconData passwordCheckPath2 = IconData(0xfe646, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/radar4976Path1.png)
   /// Getter for `bulkRadar4976Path1` icon.
@@ -12219,6 +12527,10 @@ class IconsaxBulk {
   /// Getter for `bulkSecurityUserPath3` icon.
   static const IconData securityUserPath3 = IconData(0xf530c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/securityUserPath1.png)
+  /// Getter for `bulkSecurityUserPath1` icon.
+  static const IconData securityUserPath1 = IconData(0xf688f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/securityUserPath2.png)
   /// Getter for `bulkSecurityUserPath2` icon.
   static const IconData securityUserPath2 = IconData(0xff7c6, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12226,6 +12538,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/securityPath1.png)
   /// Getter for `bulkSecurityPath1` icon.
   static const IconData securityPath1 = IconData(0xf367f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/securityPath2.png)
+  /// Getter for `bulkSecurityPath2` icon.
+  static const IconData securityPath2 = IconData(0xfaeb3, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/shieldCrossPath1.png)
   /// Getter for `bulkShieldCrossPath1` icon.
@@ -12258,6 +12574,14 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/shieldSlashPath3.png)
   /// Getter for `bulkShieldSlashPath3` icon.
   static const IconData shieldSlashPath3 = IconData(0xf179f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/shieldSlashPath1.png)
+  /// Getter for `bulkShieldSlashPath1` icon.
+  static const IconData shieldSlashPath1 = IconData(0xf57e9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/shieldTickPath2.png)
+  /// Getter for `bulkShieldTickPath2` icon.
+  static const IconData shieldTickPath2 = IconData(0xf2c3d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/shieldPath2.png)
   /// Getter for `bulkShieldPath2` icon.
@@ -12631,6 +12955,10 @@ class IconsaxBulk {
   /// Getter for `bulkShoppingCartPath2` icon.
   static const IconData shoppingCartPath2 = IconData(0xfbdbb, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/shoppingCartPath4.png)
+  /// Getter for `bulkShoppingCartPath4` icon.
+  static const IconData shoppingCartPath4 = IconData(0xfdb97, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/i24SupportPath1.png)
   /// Getter for `bulk24SupportPath1` icon.
   static const IconData i24SupportPath1 = IconData(0xf11c0, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12662,6 +12990,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/heartCirclePath1.png)
   /// Getter for `bulkHeartCirclePath1` icon.
   static const IconData heartCirclePath1 = IconData(0xf5dbb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/heartCirclePath2.png)
+  /// Getter for `bulkHeartCirclePath2` icon.
+  static const IconData heartCirclePath2 = IconData(0xf969d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/heartEditPath2.png)
   /// Getter for `bulkHeartEditPath2` icon.
@@ -12839,6 +13171,10 @@ class IconsaxBulk {
   /// Getter for `bulkSmileysPath6` icon.
   static const IconData smileysPath6 = IconData(0xf69d7, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/smileysPath3.png)
+  /// Getter for `bulkSmileysPath3` icon.
+  static const IconData smileysPath3 = IconData(0xf73ed, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/smileysPath5.png)
   /// Getter for `bulkSmileysPath5` icon.
   static const IconData smileysPath5 = IconData(0xf9427, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12858,6 +13194,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/starSlashPath1.png)
   /// Getter for `bulkStarSlashPath1` icon.
   static const IconData starSlashPath1 = IconData(0xfbc1c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/starSlashPath2.png)
+  /// Getter for `bulkStarSlashPath2` icon.
+  static const IconData starSlashPath2 = IconData(0xfd7f2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/star5963Path2.png)
   /// Getter for `bulkStar5963Path2` icon.
@@ -12950,6 +13290,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calendarSearchPath3.png)
   /// Getter for `bulkCalendarSearchPath3` icon.
   static const IconData calendarSearchPath3 = IconData(0xf9661, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calendarTickPath3.png)
+  /// Getter for `bulkCalendarTickPath3` icon.
+  static const IconData calendarTickPath3 = IconData(0xf4139, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/calendarTickPath1.png)
   /// Getter for `bulkCalendarTickPath1` icon.
@@ -13175,6 +13519,10 @@ class IconsaxBulk {
   /// Getter for `bulkPaperclipE503Path2` icon.
   static const IconData paperclipE503Path2 = IconData(0xf707f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/paragraphspacingPath2.png)
+  /// Getter for `bulkParagraphspacingPath2` icon.
+  static const IconData paragraphspacingPath2 = IconData(0xf8863, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/paragraphspacingPath3.png)
   /// Getter for `bulkParagraphspacingPath3` icon.
   static const IconData paragraphspacingPath3 = IconData(0xff5aa, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13397,6 +13745,10 @@ class IconsaxBulk {
   /// Getter for `bulkProfileAddPath2` icon.
   static const IconData profileAddPath2 = IconData(0xf54dc, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/profileCirclePath1.png)
+  /// Getter for `bulkProfileCirclePath1` icon.
+  static const IconData profileCirclePath1 = IconData(0xf573d, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/profileCirclePath2.png)
   /// Getter for `bulkProfileCirclePath2` icon.
   static const IconData profileCirclePath2 = IconData(0xfb5c2, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13468,6 +13820,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/userEditPath2.png)
   /// Getter for `bulkUserEditPath2` icon.
   static const IconData userEditPath2 = IconData(0xf0b84, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/userEditPath3.png)
+  /// Getter for `bulkUserEditPath3` icon.
+  static const IconData userEditPath3 = IconData(0xfcb8b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/userHexagonPath1.png)
   /// Getter for `bulkUserHexagonPath1` icon.
@@ -13545,6 +13901,10 @@ class IconsaxBulk {
   /// Getter for `bulkBackward10SecondsPath1` icon.
   static const IconData backward10SecondsPath1 = IconData(0xfd4e7, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/backward15SecondsPath2.png)
+  /// Getter for `bulkBackward15SecondsPath2` icon.
+  static const IconData backward15SecondsPath2 = IconData(0xf3be0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/backward15SecondsPath1.png)
   /// Getter for `bulkBackward15SecondsPath1` icon.
   static const IconData backward15SecondsPath1 = IconData(0xf784b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13601,6 +13961,10 @@ class IconsaxBulk {
   /// Getter for `bulkCameraPath3` icon.
   static const IconData cameraPath3 = IconData(0xfa03a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/cameraPath2.png)
+  /// Getter for `bulkCameraPath2` icon.
+  static const IconData cameraPath2 = IconData(0xff2b7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/devicesC3baPath5.png)
   /// Getter for `bulkDevicesC3baPath5` icon.
   static const IconData devicesC3baPath5 = IconData(0xf31b8, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13636,6 +14000,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/forward10SecondsPath2.png)
   /// Getter for `bulkForward10SecondsPath2` icon.
   static const IconData forward10SecondsPath2 = IconData(0xf9440, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/forward10SecondsPath3.png)
+  /// Getter for `bulkForward10SecondsPath3` icon.
+  static const IconData forward10SecondsPath3 = IconData(0xfba99, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/forward10SecondsPath1.png)
   /// Getter for `bulkForward10SecondsPath1` icon.
@@ -13685,6 +14053,10 @@ class IconsaxBulk {
   /// Getter for `bulkGalleryAddPath4` icon.
   static const IconData galleryAddPath4 = IconData(0xfa3ff, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/galleryEditPath4.png)
+  /// Getter for `bulkGalleryEditPath4` icon.
+  static const IconData galleryEditPath4 = IconData(0xf1cdc, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/galleryExportPath4.png)
   /// Getter for `bulkGalleryExportPath4` icon.
   static const IconData galleryExportPath4 = IconData(0xfb412, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13696,6 +14068,10 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/galleryImportPath4.png)
   /// Getter for `bulkGalleryImportPath4` icon.
   static const IconData galleryImportPath4 = IconData(0xfec28, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/galleryRemovePath4.png)
+  /// Getter for `bulkGalleryRemovePath4` icon.
+  static const IconData galleryRemovePath4 = IconData(0xf9cfa, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/gallerySlashPath1.png)
   /// Getter for `bulkGallerySlashPath1` icon.
@@ -13911,4 +14287,8 @@ class IconsaxBulk {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/musicPath1.png)
   /// Getter for `bulkMusicPath1` icon.
   static const IconData musicPath1 = IconData(0xfc31b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bulk/musicPath3.png)
+  /// Getter for `bulkMusicPath3` icon.
+  static const IconData musicPath3 = IconData(0xfdd3d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 }

@@ -875,6 +875,10 @@ class IconsaxBold {
   /// Getter for `boldClock2` icon.
   static const IconData clock2 = IconData(0xf0e3e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/clockE99d.png)
+  /// Getter for `boldClockE99d` icon.
+  static const IconData clockE99d = IconData(0xf6ee0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/decor.png)
   /// Getter for `boldDecor` icon.
   static const IconData decor = IconData(0xf3ea4, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1178,6 +1182,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/snow.png)
   /// Getter for `boldSnow` icon.
   static const IconData snow = IconData(0xff2a0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/snowman2.png)
+  /// Getter for `boldSnowman2` icon.
+  static const IconData snowman2 = IconData(0xf68fa, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/snowman3.png)
   /// Getter for `boldSnowman3` icon.
@@ -1699,6 +1707,10 @@ class IconsaxBold {
   /// Getter for `boldCeloCelo` icon.
   static const IconData celoCelo = IconData(0xfc2fd, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/celsiusCel.png)
+  /// Getter for `boldCelsiusCel` icon.
+  static const IconData celsiusCel = IconData(0xf8503, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/chainlinkLink.png)
   /// Getter for `boldChainlinkLink` icon.
   static const IconData chainlinkLink = IconData(0xf6c93, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1732,6 +1744,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/dropbox.png)
   /// Getter for `boldDropbox` icon.
   static const IconData dropbox = IconData(0xf290b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/educareEkt.png)
+  /// Getter for `boldEducareEkt` icon.
+  static const IconData educareEkt = IconData(0xf5b12, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/emercoinEmc.png)
   /// Getter for `boldEmercoinEmc` icon.
@@ -1792,6 +1808,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/hederaHashgraphHbar.png)
   /// Getter for `boldHederaHashgraphHbar` icon.
   static const IconData hederaHashgraphHbar = IconData(0xfaae5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/hexHexPath1.png)
+  /// Getter for `boldHexHexPath1` icon.
+  static const IconData hexHexPath1 = IconData(0xf436f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/hexHexPath2.png)
   /// Getter for `boldHexHexPath2` icon.
@@ -2307,6 +2327,10 @@ class IconsaxBold {
   /// Getter for `boldPenTool44d0` icon.
   static const IconData penTool44d0 = IconData(0xfe216, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/recoveryConvert.png)
+  /// Getter for `boldRecoveryConvert` icon.
+  static const IconData recoveryConvert = IconData(0xfdafa, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/rulerPen.png)
   /// Getter for `boldRulerPen` icon.
   static const IconData rulerPen = IconData(0xf9801, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2786,6 +2810,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/share.png)
   /// Getter for `boldShare` icon.
   static const IconData share = IconData(0xf4c2a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/signpost.png)
+  /// Getter for `boldSignpost` icon.
+  static const IconData signpost = IconData(0xf18f4, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/slash.png)
   /// Getter for `boldSlash` icon.
@@ -3327,6 +3355,10 @@ class IconsaxBold {
   /// Getter for `boldMoneyRecive` icon.
   static const IconData moneyRecive = IconData(0xf305e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/moneyRemove.png)
+  /// Getter for `boldMoneyRemove` icon.
+  static const IconData moneyRemove = IconData(0xf7364, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/moneySend.png)
   /// Getter for `boldMoneySend` icon.
   static const IconData moneySend = IconData(0xf36ef, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3627,6 +3659,10 @@ class IconsaxBold {
   /// Getter for `boldMessageProgramming` icon.
   static const IconData messageProgramming = IconData(0xfc15e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/mobileProgramming.png)
+  /// Getter for `boldMobileProgramming` icon.
+  static const IconData mobileProgramming = IconData(0xf2464, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/programmingArrow.png)
   /// Getter for `boldProgrammingArrow` icon.
   static const IconData programmingArrow = IconData(0xf3377, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3903,6 +3939,10 @@ class IconsaxBold {
   /// Getter for `boldSetting7ecd` icon.
   static const IconData setting7ecd = IconData(0xf2b10, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/setting651c.png)
+  /// Getter for `boldSetting651c` icon.
+  static const IconData setting651c = IconData(0xf5c92, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/settingF6f7.png)
   /// Getter for `boldSettingF6f7` icon.
   static const IconData settingF6f7 = IconData(0xfaabe, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4022,6 +4062,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/heartTick.png)
   /// Getter for `boldHeartTick` icon.
   static const IconData heartTick = IconData(0xfd002, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/heart.png)
+  /// Getter for `boldHeart` icon.
+  static const IconData heart = IconData(0xf6ee1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/likeDislike.png)
   /// Getter for `boldLikeDislike` icon.
@@ -4398,6 +4442,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/devices52f8.png)
   /// Getter for `boldDevices52f8` icon.
   static const IconData devices52f8 = IconData(0xff7c9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/forward10Seconds.png)
+  /// Getter for `boldForward10Seconds` icon.
+  static const IconData forward10Seconds = IconData(0xfebb7, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/forward15Seconds.png)
   /// Getter for `boldForward15Seconds` icon.

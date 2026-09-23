@@ -655,9 +655,11 @@ class IconsaxTwotone {
   static const IconsaxIconData alignTopC354 = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.alignTopC354Path1,
+      raw.IconsaxTwotone.alignTopC354Path2,
       raw.IconsaxTwotone.alignTopC354Path3,
     ],
     opacities: [
+      0.4,
       0.4,
       1.0,
     ],
@@ -687,17 +689,21 @@ class IconsaxTwotone {
   static const IconsaxIconData android = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.androidPath1,
+      raw.IconsaxTwotone.androidPath2,
       raw.IconsaxTwotone.androidPath3,
       raw.IconsaxTwotone.androidPath4,
       raw.IconsaxTwotone.androidPath5,
       raw.IconsaxTwotone.androidPath6,
+      raw.IconsaxTwotone.androidPath7,
     ],
     opacities: [
       1.0,
       1.0,
+      1.0,
       0.4,
       0.4,
       1.0,
+      0.4,
     ],
   );
 
@@ -1434,8 +1440,10 @@ class IconsaxTwotone {
   static const IconsaxIconData backward15Seconds = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.backward15SecondsPath1,
+      raw.IconsaxTwotone.backward15SecondsPath2,
     ],
     opacities: [
+      0.4,
       0.4,
     ],
   );
@@ -2203,6 +2211,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.bezierPath1,
       raw.IconsaxTwotone.bezierPath2,
       raw.IconsaxTwotone.bezierPath3,
+      raw.IconsaxTwotone.bezierPath4,
       raw.IconsaxTwotone.bezierPath5,
       raw.IconsaxTwotone.bezierPath6,
       raw.IconsaxTwotone.bezierPath7,
@@ -2210,6 +2219,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.bezierPath9,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -2354,12 +2364,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.bitcoinRefreshPath2,
       raw.IconsaxTwotone.bitcoinRefreshPath3,
       raw.IconsaxTwotone.bitcoinRefreshPath4,
+      raw.IconsaxTwotone.bitcoinRefreshGroup1,
     ],
     opacities: [
       1.0,
       1.0,
       1.0,
       1.0,
+      0.4,
     ],
   );
 
@@ -2553,12 +2565,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.bookingSnowPath10,
       raw.IconsaxTwotone.bookingSnowPath11,
       raw.IconsaxTwotone.bookingSnowPath12,
+      raw.IconsaxTwotone.bookingSnowPath13,
       raw.IconsaxTwotone.bookingSnowPath14,
       raw.IconsaxTwotone.bookingSnowPath15,
     ],
     opacities: [
       1.0,
       0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -2630,9 +2644,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneBoxA2b9` icon.
   static const IconsaxIconData boxA2b9 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.boxA2b9Path1,
       raw.IconsaxTwotone.boxA2b9Group1,
     ],
     opacities: [
+      1.0,
       0.4,
     ],
   );
@@ -2789,12 +2805,14 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.broomPath1,
       raw.IconsaxTwotone.broomPath2,
+      raw.IconsaxTwotone.broomPath3,
       raw.IconsaxTwotone.broomPath4,
       raw.IconsaxTwotone.broomPath5,
       raw.IconsaxTwotone.broomPath6,
     ],
     opacities: [
       0.4,
+      1.0,
       1.0,
       0.4,
       0.4,
@@ -2872,9 +2890,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneBucketCircle` icon.
   static const IconsaxIconData bucketCircle = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.bucketCircleGroup1,
       raw.IconsaxTwotone.bucketCirclePath1,
     ],
     opacities: [
+      0.4,
       1.0,
     ],
   );
@@ -3316,12 +3336,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.calendarEditPath3,
       raw.IconsaxTwotone.calendarEditPath4,
       raw.IconsaxTwotone.calendarEditPath5,
+      raw.IconsaxTwotone.calendarEditPath6,
       raw.IconsaxTwotone.calendarEditPath7,
       raw.IconsaxTwotone.calendarEditPath8,
       raw.IconsaxTwotone.calendarEditPath9,
     ],
     opacities: [
       0.4,
+      1.0,
       1.0,
       1.0,
       0.4,
@@ -3356,6 +3378,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.calendarSearchPath3,
       raw.IconsaxTwotone.calendarSearchPath4,
       raw.IconsaxTwotone.calendarSearchPath5,
+      raw.IconsaxTwotone.calendarSearchPath6,
       raw.IconsaxTwotone.calendarSearchPath7,
       raw.IconsaxTwotone.calendarSearchPath8,
       raw.IconsaxTwotone.calendarSearchPath9,
@@ -3366,6 +3389,7 @@ class IconsaxTwotone {
       1.0,
       1.0,
       0.4,
+      1.0,
       0.4,
       0.4,
       0.4,
@@ -3555,6 +3579,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.candle5107Path2,
       raw.IconsaxTwotone.candle5107Path3,
       raw.IconsaxTwotone.candle5107Path4,
+      raw.IconsaxTwotone.candle5107Path5,
       raw.IconsaxTwotone.candle5107Path6,
     ],
     opacities: [
@@ -3562,6 +3587,7 @@ class IconsaxTwotone {
       0.4,
       0.4,
       0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3782,12 +3808,14 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.cardCoinPath1,
       raw.IconsaxTwotone.cardCoinPath2,
+      raw.IconsaxTwotone.cardCoinPath3,
       raw.IconsaxTwotone.cardCoinPath4,
       raw.IconsaxTwotone.cardCoinPath5,
     ],
     opacities: [
       1.0,
       1.0,
+      0.4,
       0.4,
       1.0,
     ],
@@ -3819,12 +3847,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.cardPosPath1,
       raw.IconsaxTwotone.cardPosPath2,
       raw.IconsaxTwotone.cardPosPath3,
+      raw.IconsaxTwotone.cardPosPath4,
       raw.IconsaxTwotone.cardPosPath5,
     ],
     opacities: [
       0.4,
       0.4,
       0.4,
+      1.0,
       1.0,
     ],
   );
@@ -3905,12 +3935,16 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.cardSlashPath2,
       raw.IconsaxTwotone.cardSlashPath3,
       raw.IconsaxTwotone.cardSlashPath4,
+      raw.IconsaxTwotone.cardSlashPath5,
+      raw.IconsaxTwotone.cardSlashPath6,
     ],
     opacities: [
       1.0,
       1.0,
       0.4,
       0.4,
+      1.0,
+      1.0,
     ],
   );
 
@@ -4029,10 +4063,12 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.cardsPath2,
       raw.IconsaxTwotone.cardsPath3,
       raw.IconsaxTwotone.cardsPath4,
+      raw.IconsaxTwotone.cardsPath5,
     ],
     opacities: [
       1.0,
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -4254,11 +4290,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneCheck` icon.
   static const IconsaxIconData check = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.checkPath1,
       raw.IconsaxTwotone.checkPath2,
       raw.IconsaxTwotone.checkPath3,
       raw.IconsaxTwotone.checkPath4,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
       0.4,
@@ -4694,9 +4732,11 @@ class IconsaxTwotone {
   static const IconsaxIconData closeSquare = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.closeSquareGroup1,
+      raw.IconsaxTwotone.closeSquarePath1,
     ],
     opacities: [
       0.4,
+      1.0,
     ],
   );
 
@@ -4719,9 +4759,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneCloudChange` icon.
   static const IconsaxIconData cloudChange = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.cloudChangePath1,
       raw.IconsaxTwotone.cloudChangeGroup1,
     ],
     opacities: [
+      1.0,
       0.4,
     ],
   );
@@ -4733,12 +4775,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.cloudConnectionPath1,
       raw.IconsaxTwotone.cloudConnectionPath2,
       raw.IconsaxTwotone.cloudConnectionPath3,
+      raw.IconsaxTwotone.cloudConnectionPath4,
       raw.IconsaxTwotone.cloudConnectionPath5,
     ],
     opacities: [
       1.0,
       0.4,
       1.0,
+      0.4,
       0.4,
     ],
   );
@@ -4760,10 +4804,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneCode4bb3` icon.
   static const IconsaxIconData code4bb3 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.code4bb3Path1,
       raw.IconsaxTwotone.code4bb3Path2,
       raw.IconsaxTwotone.code4bb3Path3,
     ],
     opacities: [
+      0.4,
       0.4,
       1.0,
     ],
@@ -4808,15 +4854,19 @@ class IconsaxTwotone {
   static const IconsaxIconData coffee = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.coffeePath1,
+      raw.IconsaxTwotone.coffeePath2,
       raw.IconsaxTwotone.coffeePath3,
       raw.IconsaxTwotone.coffeePath4,
       raw.IconsaxTwotone.coffeePath5,
+      raw.IconsaxTwotone.coffeePath6,
     ],
     opacities: [
       1.0,
       0.34,
       0.34,
+      0.34,
       1.0,
+      0.34,
     ],
   );
 
@@ -5023,12 +5073,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.convertCardPath3,
       raw.IconsaxTwotone.convertCardPath4,
       raw.IconsaxTwotone.convertCardPath5,
+      raw.IconsaxTwotone.convertCardPath6,
     ],
     opacities: [
       1.0,
       1.0,
       1.0,
       1.0,
+      0.4,
       0.4,
     ],
   );
@@ -5244,10 +5296,12 @@ class IconsaxTwotone {
   static const IconsaxIconData crownA3f8 = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.crownA3f8Path1,
+      raw.IconsaxTwotone.crownA3f8Path2,
       raw.IconsaxTwotone.crownA3f8Path3,
     ],
     opacities: [
       1.0,
+      0.34,
       0.34,
     ],
   );
@@ -5424,6 +5478,7 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneDesigntools` icon.
   static const IconsaxIconData designtools = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.designtoolsPath1,
       raw.IconsaxTwotone.designtoolsGroup1,
       raw.IconsaxTwotone.designtoolsPath2,
       raw.IconsaxTwotone.designtoolsPath3,
@@ -5431,6 +5486,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.designtoolsPath5,
     ],
     opacities: [
+      1.0,
       0.4,
       1.0,
       1.0,
@@ -5714,9 +5770,11 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.documentCode5f4aPath1,
       raw.IconsaxTwotone.documentCode5f4aPath2,
       raw.IconsaxTwotone.documentCode5f4aPath3,
+      raw.IconsaxTwotone.documentCode5f4aPath4,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -5760,10 +5818,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneDocumentDa10` icon.
   static const IconsaxIconData documentDa10 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.documentDa10Path1,
       raw.IconsaxTwotone.documentDa10Path2,
       raw.IconsaxTwotone.documentDa10Path3,
     ],
     opacities: [
+      1.0,
       0.4,
       0.4,
     ],
@@ -5845,9 +5905,11 @@ class IconsaxTwotone {
   static const IconsaxIconData documentNormal = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.documentNormalPath1,
+      raw.IconsaxTwotone.documentNormalPath2,
     ],
     opacities: [
       0.4,
+      1.0,
     ],
   );
 
@@ -6738,10 +6800,12 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.fingerScanPath1,
       raw.IconsaxTwotone.fingerScanPath3,
       raw.IconsaxTwotone.fingerScanPath4,
+      raw.IconsaxTwotone.fingerScanPath5,
       raw.IconsaxTwotone.fingerScanPath6,
     ],
     opacities: [
       0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -7058,10 +7122,12 @@ class IconsaxTwotone {
   static const IconsaxIconData folderOpen = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.folderOpenPath1,
+      raw.IconsaxTwotone.folderOpenPath2,
       raw.IconsaxTwotone.folderOpenPath3,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
     ],
   );
@@ -7097,9 +7163,11 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.formatCirclePath1,
       raw.IconsaxTwotone.formatCirclePath2,
       raw.IconsaxTwotone.formatCirclePath3,
+      raw.IconsaxTwotone.formatCirclePath4,
       raw.IconsaxTwotone.formatCirclePath5,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -7111,12 +7179,14 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneFormatSquare` icon.
   static const IconsaxIconData formatSquare = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.formatSquarePath1,
       raw.IconsaxTwotone.formatSquarePath2,
       raw.IconsaxTwotone.formatSquarePath3,
       raw.IconsaxTwotone.formatSquarePath4,
       raw.IconsaxTwotone.formatSquarePath5,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
       1.0,
@@ -7143,11 +7213,13 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.forward10SecondsPath1,
       raw.IconsaxTwotone.forward10SecondsPath2,
+      raw.IconsaxTwotone.forward10SecondsPath3,
       raw.IconsaxTwotone.forward10SecondsPath4,
     ],
     opacities: [
       1.0,
       1.0,
+      0.4,
       0.4,
     ],
   );
@@ -7195,9 +7267,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneFramer` icon.
   static const IconsaxIconData framer = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.framerPath1,
       raw.IconsaxTwotone.framerPath2,
     ],
     opacities: [
+      1.0,
       0.4,
     ],
   );
@@ -7644,6 +7718,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.giftBagPath1,
       raw.IconsaxTwotone.giftBagPath2,
       raw.IconsaxTwotone.giftBagPath3,
+      raw.IconsaxTwotone.giftBagPath4,
       raw.IconsaxTwotone.giftBagPath5,
       raw.IconsaxTwotone.giftBagPath6,
       raw.IconsaxTwotone.giftBagPath7,
@@ -7655,11 +7730,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.giftBagPath13,
       raw.IconsaxTwotone.giftBagPath14,
       raw.IconsaxTwotone.giftBagPath15,
+      raw.IconsaxTwotone.giftBagPath16,
       raw.IconsaxTwotone.giftBagPath17,
       raw.IconsaxTwotone.giftBagPath18,
     ],
     opacities: [
       0.4,
+      1.0,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -7686,6 +7764,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.giftCupcakePath2,
       raw.IconsaxTwotone.giftCupcakePath3,
       raw.IconsaxTwotone.giftCupcakePath4,
+      raw.IconsaxTwotone.giftCupcakePath5,
       raw.IconsaxTwotone.giftCupcakePath6,
       raw.IconsaxTwotone.giftCupcakePath7,
       raw.IconsaxTwotone.giftCupcakePath8,
@@ -7699,6 +7778,7 @@ class IconsaxTwotone {
       0.4,
       1.0,
       0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -8017,9 +8097,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneGridEraser` icon.
   static const IconsaxIconData gridEraser = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.gridEraserPath2,
       raw.IconsaxTwotone.gridEraserPath3,
     ],
     opacities: [
+      1.0,
       1.0,
     ],
   );
@@ -8028,9 +8110,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneGridLock` icon.
   static const IconsaxIconData gridLock = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.gridLockPath2,
       raw.IconsaxTwotone.gridLockPath3,
     ],
     opacities: [
+      1.0,
       1.0,
     ],
   );
@@ -8039,11 +8123,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneGrids` icon.
   static const IconsaxIconData grids = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.gridsPath1,
       raw.IconsaxTwotone.gridsPath2,
       raw.IconsaxTwotone.gridsPath3,
       raw.IconsaxTwotone.gridsPath4,
     ],
     opacities: [
+      1.0,
       0.4,
       0.4,
       1.0,
@@ -8139,11 +8225,15 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneHashtag6477` icon.
   static const IconsaxIconData hashtag6477 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.hashtag6477Path1,
       raw.IconsaxTwotone.hashtag6477Path2,
+      raw.IconsaxTwotone.hashtag6477Path3,
       raw.IconsaxTwotone.hashtag6477Path4,
     ],
     opacities: [
       1.0,
+      1.0,
+      0.4,
       0.4,
     ],
   );
@@ -8196,11 +8286,13 @@ class IconsaxTwotone {
   static const IconsaxIconData hat2 = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.hat2Path1,
+      raw.IconsaxTwotone.hat2Path2,
       raw.IconsaxTwotone.hat2Path3,
       raw.IconsaxTwotone.hat2Path4,
     ],
     opacities: [
       1.0,
+      0.4,
       1.0,
       1.0,
     ],
@@ -8295,9 +8387,11 @@ class IconsaxTwotone {
   static const IconsaxIconData heartCircle = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.heartCirclePath1,
+      raw.IconsaxTwotone.heartCirclePath2,
     ],
     opacities: [
       1.0,
+      0.4,
     ],
   );
 
@@ -8365,10 +8459,14 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneHeartTick` icon.
   static const IconsaxIconData heartTick = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.heartTickPath1,
       raw.IconsaxTwotone.heartTickPath2,
+      raw.IconsaxTwotone.heartTickPath3,
     ],
     opacities: [
       1.0,
+      1.0,
+      0.4,
     ],
   );
 
@@ -8435,10 +8533,12 @@ class IconsaxTwotone {
   static const IconsaxIconData hierarchyAbb4 = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.hierarchyAbb4Path1,
+      raw.IconsaxTwotone.hierarchyAbb4Path2,
       raw.IconsaxTwotone.hierarchyAbb4Path3,
       raw.IconsaxTwotone.hierarchyAbb4Path4,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       0.4,
@@ -9084,12 +9184,14 @@ class IconsaxTwotone {
   static const IconsaxIconData keyboard = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.keyboardPath1,
+      raw.IconsaxTwotone.keyboardPath2,
       raw.IconsaxTwotone.keyboardPath3,
       raw.IconsaxTwotone.keyboardPath4,
       raw.IconsaxTwotone.keyboardPath5,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
       0.4,
@@ -9162,10 +9264,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneLampCharge` icon.
   static const IconsaxIconData lampCharge = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.lampChargePath1,
       raw.IconsaxTwotone.lampChargePath2,
       raw.IconsaxTwotone.lampChargePath3,
     ],
     opacities: [
+      0.4,
       1.0,
       0.4,
     ],
@@ -9438,9 +9542,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneLink7148` icon.
   static const IconsaxIconData link7148 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.link7148Path1,
       raw.IconsaxTwotone.link7148Path2,
     ],
     opacities: [
+      1.0,
       0.4,
     ],
   );
@@ -9523,9 +9629,11 @@ class IconsaxTwotone {
   static const IconsaxIconData lockCircle = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.lockCircleGroup1,
+      raw.IconsaxTwotone.lockCirclePath1,
     ],
     opacities: [
       0.4,
+      1.0,
     ],
   );
 
@@ -9701,11 +9809,13 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.magicpenPath1,
       raw.IconsaxTwotone.magicpenPath2,
+      raw.IconsaxTwotone.magicpenPath3,
       raw.IconsaxTwotone.magicpenPath4,
       raw.IconsaxTwotone.magicpenPath5,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
       0.4,
@@ -9717,9 +9827,11 @@ class IconsaxTwotone {
   static const IconsaxIconData mainComponent = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.mainComponentPath1,
+      raw.IconsaxTwotone.mainComponentGroup1,
     ],
     opacities: [
       1.0,
+      0.4,
     ],
   );
 
@@ -9814,6 +9926,7 @@ class IconsaxTwotone {
   static const IconsaxIconData math = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.mathPath1,
+      raw.IconsaxTwotone.mathPath2,
       raw.IconsaxTwotone.mathPath3,
       raw.IconsaxTwotone.mathPath4,
       raw.IconsaxTwotone.mathPath5,
@@ -9822,6 +9935,7 @@ class IconsaxTwotone {
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
       1.0,
@@ -9909,9 +10023,11 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.maximizeEae3Path1,
       raw.IconsaxTwotone.maximizeEae3Group1,
+      raw.IconsaxTwotone.maximizeEae3Path2,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
     ],
   );
@@ -10109,11 +10225,13 @@ class IconsaxTwotone {
   static const IconsaxIconData messageProgramming = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.messageProgrammingPath1,
+      raw.IconsaxTwotone.messageProgrammingPath2,
       raw.IconsaxTwotone.messageProgrammingPath3,
       raw.IconsaxTwotone.messageProgrammingPath4,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -10297,11 +10415,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneMicrophone2e53` icon.
   static const IconsaxIconData microphone2e53 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.microphone2e53Path1,
       raw.IconsaxTwotone.microphone2e53Path2,
       raw.IconsaxTwotone.microphone2e53Path3,
       raw.IconsaxTwotone.microphone2e53Path4,
     ],
     opacities: [
+      1.0,
       0.4,
       0.4,
       0.4,
@@ -10312,11 +10432,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneMicrophoneDd51` icon.
   static const IconsaxIconData microphoneDd51 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.microphoneDd51Path1,
       raw.IconsaxTwotone.microphoneDd51Path2,
       raw.IconsaxTwotone.microphoneDd51Path3,
       raw.IconsaxTwotone.microphoneDd51Group1,
     ],
     opacities: [
+      1.0,
       0.4,
       0.4,
       0.4,
@@ -10350,12 +10472,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.microphoneSlash6d33Path2,
       raw.IconsaxTwotone.microphoneSlash6d33Path3,
       raw.IconsaxTwotone.microphoneSlash6d33Path4,
+      raw.IconsaxTwotone.microphoneSlash6d33Path5,
       raw.IconsaxTwotone.microphoneSlash6d33Path6,
     ],
     opacities: [
       1.0,
       0.4,
       0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -10757,9 +10881,13 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.moneysPath1,
       raw.IconsaxTwotone.moneysPath2,
+      raw.IconsaxTwotone.moneysPath3,
       raw.IconsaxTwotone.moneysPath4,
+      raw.IconsaxTwotone.moneysPath5,
     ],
     opacities: [
+      1.0,
+      0.4,
       1.0,
       0.4,
       0.4,
@@ -10784,6 +10912,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.monitorMobilePath1,
       raw.IconsaxTwotone.monitorMobilePath2,
       raw.IconsaxTwotone.monitorMobilePath3,
+      raw.IconsaxTwotone.monitorMobilePath4,
       raw.IconsaxTwotone.monitorMobilePath5,
       raw.IconsaxTwotone.monitorMobilePath6,
     ],
@@ -10791,6 +10920,7 @@ class IconsaxTwotone {
       1.0,
       1.0,
       0.4,
+      1.0,
       1.0,
       0.4,
     ],
@@ -10804,12 +10934,14 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.monitorRecorderPath2,
       raw.IconsaxTwotone.monitorRecorderPath3,
       raw.IconsaxTwotone.monitorRecorderPath4,
+      raw.IconsaxTwotone.monitorRecorderPath5,
       raw.IconsaxTwotone.monitorRecorderPath6,
     ],
     opacities: [
       1.0,
       0.4,
       0.4,
+      1.0,
       1.0,
       1.0,
     ],
@@ -11543,9 +11675,11 @@ class IconsaxTwotone {
   static const IconsaxIconData paragraphspacing = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.paragraphspacingPath1,
+      raw.IconsaxTwotone.paragraphspacingPath2,
       raw.IconsaxTwotone.paragraphspacingGroup1,
     ],
     opacities: [
+      1.0,
       1.0,
       0.4,
     ],
@@ -11628,11 +11762,15 @@ class IconsaxTwotone {
   static const IconsaxIconData passwordCheck = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.passwordCheckPath1,
+      raw.IconsaxTwotone.passwordCheckPath2,
+      raw.IconsaxTwotone.passwordCheckPath3,
       raw.IconsaxTwotone.passwordCheckPath4,
       raw.IconsaxTwotone.passwordCheckPath5,
     ],
     opacities: [
       0.4,
+      1.0,
+      1.0,
       0.4,
       0.4,
     ],
@@ -11698,11 +11836,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotonePenAdd` icon.
   static const IconsaxIconData penAdd = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.penAddGroup1,
       raw.IconsaxTwotone.penAddPath1,
       raw.IconsaxTwotone.penAddPath2,
       raw.IconsaxTwotone.penAddPath3,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
       1.0,
@@ -11728,12 +11868,14 @@ class IconsaxTwotone {
   /// Composite getter for `twotonePenTool1b5b` icon.
   static const IconsaxIconData penTool1b5b = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.penTool1b5bPath1,
       raw.IconsaxTwotone.penTool1b5bPath2,
       raw.IconsaxTwotone.penTool1b5bPath3,
       raw.IconsaxTwotone.penTool1b5bPath4,
       raw.IconsaxTwotone.penTool1b5bPath5,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -11767,12 +11909,14 @@ class IconsaxTwotone {
   static const IconsaxIconData people = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.peoplePath1,
+      raw.IconsaxTwotone.peoplePath2,
       raw.IconsaxTwotone.peoplePath3,
       raw.IconsaxTwotone.peoplePath4,
       raw.IconsaxTwotone.peoplePath5,
       raw.IconsaxTwotone.peoplePath6,
     ],
     opacities: [
+      0.4,
       0.4,
       0.4,
       0.4,
@@ -11788,11 +11932,13 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.percentageCirclePath1,
       raw.IconsaxTwotone.percentageCirclePath2,
       raw.IconsaxTwotone.percentageCirclePath3,
+      raw.IconsaxTwotone.percentageCirclePath4,
     ],
     opacities: [
       0.4,
       0.4,
       0.4,
+      1.0,
     ],
   );
 
@@ -11931,10 +12077,14 @@ class IconsaxTwotone {
   /// Composite getter for `twotonePrinter` icon.
   static const IconsaxIconData printer = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.printerPath2,
       raw.IconsaxTwotone.printerPath3,
+      raw.IconsaxTwotone.printerPath4,
       raw.IconsaxTwotone.printerPath5,
     ],
     opacities: [
+      1.0,
+      1.0,
       1.0,
       0.4,
     ],
@@ -12012,10 +12162,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneProfileCircle` icon.
   static const IconsaxIconData profileCircle = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.profileCirclePath1,
       raw.IconsaxTwotone.profileCirclePath2,
       raw.IconsaxTwotone.profileCirclePath3,
     ],
     opacities: [
+      0.4,
       0.34,
       1.0,
     ],
@@ -12310,10 +12462,12 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.ranking1a49Path1,
       raw.IconsaxTwotone.ranking1a49Path2,
+      raw.IconsaxTwotone.ranking1a49Path3,
       raw.IconsaxTwotone.ranking1a49Path4,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -12407,10 +12561,12 @@ class IconsaxTwotone {
   static const IconsaxIconData receiptE12f = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.receiptE12fPath1,
+      raw.IconsaxTwotone.receiptE12fPath2,
       raw.IconsaxTwotone.receiptE12fPath3,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
     ],
   );
@@ -12788,11 +12944,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneReserve` icon.
   static const IconsaxIconData reserve = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.reservePath1,
       raw.IconsaxTwotone.reservePath2,
       raw.IconsaxTwotone.reservePath3,
       raw.IconsaxTwotone.reservePath4,
     ],
     opacities: [
+      1.0,
       1.0,
       0.34,
       0.34,
@@ -12917,18 +13075,22 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneRulerPen` icon.
   static const IconsaxIconData rulerPen = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.rulerPenPath1,
       raw.IconsaxTwotone.rulerPenPath2,
       raw.IconsaxTwotone.rulerPenPath3,
       raw.IconsaxTwotone.rulerPenPath4,
       raw.IconsaxTwotone.rulerPenPath5,
       raw.IconsaxTwotone.rulerPenPath6,
+      raw.IconsaxTwotone.rulerPenPath7,
     ],
     opacities: [
+      1.0,
       0.4,
       0.4,
       0.4,
       0.4,
       1.0,
+      0.4,
     ],
   );
 
@@ -12936,9 +13098,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneSafeHome` icon.
   static const IconsaxIconData safeHome = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.safeHomePath1,
       raw.IconsaxTwotone.safeHomePath2,
     ],
     opacities: [
+      1.0,
       0.4,
     ],
   );
@@ -13321,11 +13485,13 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.securityCardPath1,
       raw.IconsaxTwotone.securityCardPath2,
+      raw.IconsaxTwotone.securityCardPath3,
       raw.IconsaxTwotone.securityCardPath4,
       raw.IconsaxTwotone.securityCardPath5,
     ],
     opacities: [
       0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -13590,12 +13756,14 @@ class IconsaxTwotone {
   static const IconsaxIconData share = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.sharePath1,
+      raw.IconsaxTwotone.sharePath2,
       raw.IconsaxTwotone.sharePath3,
       raw.IconsaxTwotone.sharePath4,
       raw.IconsaxTwotone.sharePath5,
       raw.IconsaxTwotone.sharePath6,
     ],
     opacities: [
+      0.34,
       0.34,
       0.34,
       1.0,
@@ -13660,10 +13828,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneShieldSlash` icon.
   static const IconsaxIconData shieldSlash = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.shieldSlashPath1,
       raw.IconsaxTwotone.shieldSlashPath2,
       raw.IconsaxTwotone.shieldSlashPath3,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
     ],
@@ -13690,9 +13860,11 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.shopPath1,
       raw.IconsaxTwotone.shopPath2,
+      raw.IconsaxTwotone.shopPath3,
       raw.IconsaxTwotone.shopGroup1,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       0.4,
@@ -13817,9 +13989,11 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.shoppingCartPath1,
       raw.IconsaxTwotone.shoppingCartPath2,
       raw.IconsaxTwotone.shoppingCartPath3,
+      raw.IconsaxTwotone.shoppingCartPath4,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -14105,10 +14279,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneSliderHorizontalA397` icon.
   static const IconsaxIconData sliderHorizontalA397 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.sliderHorizontalA397Path1,
       raw.IconsaxTwotone.sliderHorizontalA397Path2,
       raw.IconsaxTwotone.sliderHorizontalA397Path3,
     ],
     opacities: [
+      1.0,
       0.4,
       0.4,
     ],
@@ -14150,9 +14326,11 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.smallcapsPath1,
       raw.IconsaxTwotone.smallcapsPath2,
+      raw.IconsaxTwotone.smallcapsPath3,
       raw.IconsaxTwotone.smallcapsGroup1,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       0.4,
@@ -14258,15 +14436,19 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.smileysPath1,
       raw.IconsaxTwotone.smileysPath2,
+      raw.IconsaxTwotone.smileysPath3,
       raw.IconsaxTwotone.smileysPath4,
       raw.IconsaxTwotone.smileysPath5,
       raw.IconsaxTwotone.smileysPath6,
+      raw.IconsaxTwotone.smileysPath7,
       raw.IconsaxTwotone.smileysPath8,
     ],
     opacities: [
       0.4,
       0.4,
       0.4,
+      0.4,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -14405,6 +14587,7 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneSnow12` icon.
   static const IconsaxIconData snow12 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.snow12Path1,
       raw.IconsaxTwotone.snow12Path2,
       raw.IconsaxTwotone.snow12Path3,
       raw.IconsaxTwotone.snow12Path4,
@@ -14419,6 +14602,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.snow12Path13,
     ],
     opacities: [
+      1.0,
       1.0,
       0.4,
       0.4,
@@ -14554,6 +14738,7 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneSnow5` icon.
   static const IconsaxIconData snow5 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.snow5Path1,
       raw.IconsaxTwotone.snow5Path2,
       raw.IconsaxTwotone.snow5Path3,
       raw.IconsaxTwotone.snow5Path4,
@@ -14568,6 +14753,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.snow5Path13,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
       0.4,
@@ -14599,6 +14785,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.snowmanPath10,
       raw.IconsaxTwotone.snowmanPath11,
       raw.IconsaxTwotone.snowmanPath12,
+      raw.IconsaxTwotone.snowmanPath13,
       raw.IconsaxTwotone.snowmanPath14,
       raw.IconsaxTwotone.snowmanPath15,
     ],
@@ -14617,6 +14804,7 @@ class IconsaxTwotone {
       0.4,
       1.0,
       1.0,
+      1.0,
     ],
   );
 
@@ -14627,6 +14815,7 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.snowman2Path1,
       raw.IconsaxTwotone.snowman2Path2,
       raw.IconsaxTwotone.snowman2Path3,
+      raw.IconsaxTwotone.snowman2Path4,
       raw.IconsaxTwotone.snowman2Path5,
       raw.IconsaxTwotone.snowman2Path6,
     ],
@@ -14634,6 +14823,7 @@ class IconsaxTwotone {
       1.0,
       1.0,
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -14817,16 +15007,20 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.sparklerPath4,
       raw.IconsaxTwotone.sparklerPath5,
       raw.IconsaxTwotone.sparklerPath6,
+      raw.IconsaxTwotone.sparklerPath7,
       raw.IconsaxTwotone.sparklerPath8,
       raw.IconsaxTwotone.sparklerPath9,
       raw.IconsaxTwotone.sparklerPath10,
       raw.IconsaxTwotone.sparklerPath11,
       raw.IconsaxTwotone.sparklerPath12,
+      raw.IconsaxTwotone.sparklerPath13,
       raw.IconsaxTwotone.sparklerPath14,
       raw.IconsaxTwotone.sparklerPath15,
     ],
     opacities: [
       0.4,
+      1.0,
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -14905,9 +15099,11 @@ class IconsaxTwotone {
   static const IconsaxIconData star2 = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.star2Path1,
+      raw.IconsaxTwotone.star2Path2,
     ],
     opacities: [
       0.4,
+      1.0,
     ],
   );
 
@@ -14947,6 +15143,17 @@ class IconsaxTwotone {
     opacities: [
       1.0,
       0.4,
+    ],
+  );
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/star9d48.png)
+  /// Composite getter for `twotoneStar9d48` icon.
+  static const IconsaxIconData star9d48 = IconsaxIconData(
+    icons: [
+      raw.IconsaxTwotone.star9d48,
+    ],
+    opacities: [
+      1.0,
     ],
   );
 
@@ -15015,10 +15222,12 @@ class IconsaxTwotone {
   static const IconsaxIconData starSlash = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.starSlashPath1,
+      raw.IconsaxTwotone.starSlashPath2,
       raw.IconsaxTwotone.starSlashPath3,
     ],
     opacities: [
       1.0,
+      0.4,
       1.0,
     ],
   );
@@ -15368,12 +15577,14 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneTelescope` icon.
   static const IconsaxIconData telescope = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.telescopePath1,
       raw.IconsaxTwotone.telescopePath2,
       raw.IconsaxTwotone.telescopePath3,
       raw.IconsaxTwotone.telescopePath4,
       raw.IconsaxTwotone.telescopePath5,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       0.4,
@@ -15660,9 +15871,11 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.ticketDiscountPath1,
       raw.IconsaxTwotone.ticketDiscountPath2,
       raw.IconsaxTwotone.ticketDiscountPath3,
+      raw.IconsaxTwotone.ticketDiscountPath4,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
     ],
@@ -15719,9 +15932,11 @@ class IconsaxTwotone {
       raw.IconsaxTwotone.timerPausePath2,
       raw.IconsaxTwotone.timerPausePath3,
       raw.IconsaxTwotone.timerPausePath4,
+      raw.IconsaxTwotone.timerPausePath5,
     ],
     opacities: [
       1.0,
+      0.4,
       0.4,
       0.4,
       0.4,
@@ -15817,12 +16032,14 @@ class IconsaxTwotone {
   static const IconsaxIconData toy = IconsaxIconData(
     icons: [
       raw.IconsaxTwotone.toyPath1,
+      raw.IconsaxTwotone.toyPath2,
       raw.IconsaxTwotone.toyPath3,
       raw.IconsaxTwotone.toyPath4,
       raw.IconsaxTwotone.toyPath5,
     ],
     opacities: [
       1.0,
+      0.4,
       1.0,
       1.0,
       1.0,
@@ -16403,9 +16620,11 @@ class IconsaxTwotone {
     icons: [
       raw.IconsaxTwotone.userEditPath1,
       raw.IconsaxTwotone.userEditPath2,
+      raw.IconsaxTwotone.userEditPath3,
       raw.IconsaxTwotone.userEditPath4,
     ],
     opacities: [
+      1.0,
       1.0,
       1.0,
       0.4,
@@ -16446,9 +16665,11 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneUserRemove` icon.
   static const IconsaxIconData userRemove = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.userRemovePath4,
       raw.IconsaxTwotone.userRemovePath5,
     ],
     opacities: [
+      1.0,
       1.0,
     ],
   );
@@ -16611,10 +16832,12 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneWallet8596` icon.
   static const IconsaxIconData wallet8596 = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.wallet8596Path1,
       raw.IconsaxTwotone.wallet8596Path2,
       raw.IconsaxTwotone.wallet8596Path3,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
     ],
@@ -16886,11 +17109,13 @@ class IconsaxTwotone {
   /// Composite getter for `twotoneWifi` icon.
   static const IconsaxIconData wifi = IconsaxIconData(
     icons: [
+      raw.IconsaxTwotone.wifiPath1,
       raw.IconsaxTwotone.wifiPath2,
       raw.IconsaxTwotone.wifiPath3,
       raw.IconsaxTwotone.wifiPath4,
     ],
     opacities: [
+      0.4,
       1.0,
       1.0,
       0.4,

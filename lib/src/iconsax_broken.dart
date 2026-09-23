@@ -161,6 +161,10 @@ class IconsaxBroken {
   /// Getter for `brokenAlignTop0448` icon.
   static const IconData alignTop0448 = raw.IconsaxBroken.alignTop0448;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/alignTopF9cc.png)
+  /// Getter for `brokenAlignTopF9cc` icon.
+  static const IconData alignTopF9cc = raw.IconsaxBroken.alignTopF9cc;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/alignVertically.png)
   /// Getter for `brokenAlignVertically` icon.
   static const IconData alignVertically = raw.IconsaxBroken.alignVertically;
@@ -572,6 +576,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/batteryDisable.png)
   /// Getter for `brokenBatteryDisable` icon.
   static const IconData batteryDisable = raw.IconsaxBroken.batteryDisable;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/batteryEmpty2abe.png)
+  /// Getter for `brokenBatteryEmpty2abe` icon.
+  static const IconData batteryEmpty2abe = raw.IconsaxBroken.batteryEmpty2abe;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/batteryEmptyB740.png)
   /// Getter for `brokenBatteryEmptyB740` icon.
@@ -1032,6 +1040,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/celoCelo.png)
   /// Getter for `brokenCeloCelo` icon.
   static const IconData celoCelo = raw.IconsaxBroken.celoCelo;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/celsiusCel.png)
+  /// Getter for `brokenCelsiusCel` icon.
+  static const IconData celsiusCel = raw.IconsaxBroken.celsiusCel;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/chainlinkLink.png)
   /// Getter for `brokenChainlinkLink` icon.
@@ -1540,6 +1552,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/edit7723.png)
   /// Getter for `brokenEdit7723` icon.
   static const IconData edit7723 = raw.IconsaxBroken.edit7723;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/educareEkt.png)
+  /// Getter for `brokenEducareEkt` icon.
+  static const IconData educareEkt = raw.IconsaxBroken.educareEkt;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/electricity.png)
   /// Getter for `brokenElectricity` icon.
@@ -2092,6 +2108,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/gridB9f4.png)
   /// Getter for `brokenGridB9f4` icon.
   static const IconData gridB9f4 = raw.IconsaxBroken.gridB9f4;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/gridC454.png)
+  /// Getter for `brokenGridC454` icon.
+  static const IconData gridC454 = raw.IconsaxBroken.gridC454;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/gridC96b.png)
   /// Getter for `brokenGridC96b` icon.
@@ -2825,6 +2845,10 @@ class IconsaxBroken {
   /// Getter for `brokenMobile` icon.
   static const IconData mobile = raw.IconsaxBroken.mobile;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/mobileProgramming.png)
+  /// Getter for `brokenMobileProgramming` icon.
+  static const IconData mobileProgramming = raw.IconsaxBroken.mobileProgramming;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/moneroXmr.png)
   /// Getter for `brokenMoneroXmr` icon.
   static const IconData moneroXmr = raw.IconsaxBroken.moneroXmr;
@@ -2860,6 +2884,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/moneyRecive.png)
   /// Getter for `brokenMoneyRecive` icon.
   static const IconData moneyRecive = raw.IconsaxBroken.moneyRecive;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/moneyRemove.png)
+  /// Getter for `brokenMoneyRemove` icon.
+  static const IconData moneyRemove = raw.IconsaxBroken.moneyRemove;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/moneySend.png)
   /// Getter for `brokenMoneySend` icon.
@@ -3289,6 +3317,10 @@ class IconsaxBroken {
   /// Getter for `brokenRankingBd63` icon.
   static const IconData rankingBd63 = raw.IconsaxBroken.rankingBd63;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/receipt6517.png)
+  /// Getter for `brokenReceipt6517` icon.
+  static const IconData receipt6517 = raw.IconsaxBroken.receipt6517;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/receipt741e.png)
   /// Getter for `brokenReceipt741e` icon.
   static const IconData receipt741e = raw.IconsaxBroken.receipt741e;
@@ -3424,6 +3456,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/routeSquare.png)
   /// Getter for `brokenRouteSquare` icon.
   static const IconData routeSquare = raw.IconsaxBroken.routeSquare;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/routingB8d6.png)
+  /// Getter for `brokenRoutingB8d6` icon.
+  static const IconData routingB8d6 = raw.IconsaxBroken.routingB8d6;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/routingF0ad.png)
   /// Getter for `brokenRoutingF0ad` icon.
@@ -3712,6 +3748,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/sidebarTop.png)
   /// Getter for `brokenSidebarTop` icon.
   static const IconData sidebarTop = raw.IconsaxBroken.sidebarTop;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/signpost.png)
+  /// Getter for `brokenSignpost` icon.
+  static const IconData signpost = raw.IconsaxBroken.signpost;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/simcard63ce.png)
   /// Getter for `brokenSimcard63ce` icon.
@@ -4136,6 +4176,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/snowman.png)
   /// Getter for `brokenSnowman` icon.
   static const IconData snowman = raw.IconsaxBroken.snowman;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/snowman2.png)
+  /// Getter for `brokenSnowman2` icon.
+  static const IconData snowman2 = raw.IconsaxBroken.snowman2;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/snowman3.png)
   /// Getter for `brokenSnowman3` icon.
@@ -4621,6 +4665,10 @@ class IconsaxBroken {
   /// Getter for `brokenUserTick` icon.
   static const IconData userTick = raw.IconsaxBroken.userTick;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/velasVlx.png)
+  /// Getter for `brokenVelasVlx` icon.
+  static const IconData velasVlx = raw.IconsaxBroken.velasVlx;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/verify.png)
   /// Getter for `brokenVerify` icon.
   static const IconData verify = raw.IconsaxBroken.verify;
@@ -4636,6 +4684,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/wallet49f1.png)
   /// Getter for `brokenWallet49f1` icon.
   static const IconData wallet49f1 = raw.IconsaxBroken.wallet49f1;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/wallet53d9.png)
+  /// Getter for `brokenWallet53d9` icon.
+  static const IconData wallet53d9 = raw.IconsaxBroken.wallet53d9;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/walletAdd0c89.png)
   /// Getter for `brokenWalletAdd0c89` icon.

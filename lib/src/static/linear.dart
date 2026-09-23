@@ -1191,6 +1191,10 @@ class IconsaxLinear {
   /// Getter for `linearSnow` icon.
   static const IconData snow = IconData(0xff2a0, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/snowman2.png)
+  /// Getter for `linearSnowman2` icon.
+  static const IconData snowman2 = IconData(0xf68fa, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/snowman3.png)
   /// Getter for `linearSnowman3` icon.
   static const IconData snowman3 = IconData(0xfe429, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1744,6 +1748,10 @@ class IconsaxLinear {
   /// Getter for `linearDropbox` icon.
   static const IconData dropbox = IconData(0xf290b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/educareEkt.png)
+  /// Getter for `linearEducareEkt` icon.
+  static const IconData educareEkt = IconData(0xf5b12, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/emercoinEmc.png)
   /// Getter for `linearEmercoinEmc` icon.
   static const IconData emercoinEmc = IconData(0xf9109, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2155,6 +2163,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/blend3d21.png)
   /// Getter for `linearBlend3d21` icon.
   static const IconData blend3d21 = IconData(0xfd838, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/blur.png)
+  /// Getter for `linearBlur` icon.
+  static const IconData blur = IconData(0xf92d0, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/brushSquare.png)
   /// Getter for `linearBrushSquare` icon.
@@ -2788,6 +2800,10 @@ class IconsaxLinear {
   /// Getter for `linearShare` icon.
   static const IconData share = IconData(0xf4c2a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/signpost.png)
+  /// Getter for `linearSignpost` icon.
+  static const IconData signpost = IconData(0xf18f4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/slash.png)
   /// Getter for `linearSlash` icon.
   static const IconData slash = IconData(0xf658c, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3328,6 +3344,10 @@ class IconsaxLinear {
   /// Getter for `linearMoneyRecive` icon.
   static const IconData moneyRecive = IconData(0xf305e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/moneyRemove.png)
+  /// Getter for `linearMoneyRemove` icon.
+  static const IconData moneyRemove = IconData(0xf7364, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/moneySend.png)
   /// Getter for `linearMoneySend` icon.
   static const IconData moneySend = IconData(0xf36ef, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3615,6 +3635,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/messageProgramming.png)
   /// Getter for `linearMessageProgramming` icon.
   static const IconData messageProgramming = IconData(0xfc15e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/mobileProgramming.png)
+  /// Getter for `linearMobileProgramming` icon.
+  static const IconData mobileProgramming = IconData(0xf2464, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/programmingArrow.png)
   /// Getter for `linearProgrammingArrow` icon.
@@ -4248,6 +4272,10 @@ class IconsaxLinear {
   /// Getter for `linearTextUnderline` icon.
   static const IconData textUnderline = IconData(0xf56bc, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/text.png)
+  /// Getter for `linearText` icon.
+  static const IconData text = IconData(0xf2c47, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignCenter.png)
   /// Getter for `linearTextalignCenter` icon.
   static const IconData textalignCenter = IconData(0xfbd15, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4263,6 +4291,10 @@ class IconsaxLinear {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignJustifyright.png)
   /// Getter for `linearTextalignJustifyright` icon.
   static const IconData textalignJustifyright = IconData(0xfc81a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignLeft.png)
+  /// Getter for `linearTextalignLeft` icon.
+  static const IconData textalignLeft = IconData(0xf4a79, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/linear/textalignRight.png)
   /// Getter for `linearTextalignRight` icon.

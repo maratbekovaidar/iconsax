@@ -35,6 +35,11 @@ each layer's own opacity.
 Layers whose glyph is missing from the font are dropped rather than shifting
 everything after them.
 
+`lib/src/static/iconsax_data.dart` carries the same two lists a second time,
+keyed by resolver name, for `IconsaxResolver.compositeFromName`.  Its entries
+-- including the multi-glyph icons of `bold`/`broken` -- are rebuilt the same
+way, so the static getter and the resolver draw the same thing.
+
 Usage
 -----
     python3 scripts/fix_layer_opacities.py --check
@@ -52,6 +57,9 @@ import sys
 import xml.etree.ElementTree as ET
 
 STYLES = ["bulk", "twotone"]
+ALL_STYLES = ["bold", "broken", "bulk", "linear", "outline", "twotone"]
+# `iconsax_data.dart` is laid out as `dart format` would at this width.
+PAGE_WIDTH = 120
 DEFAULT_ICONS_JSON = os.environ.get("ICONSAX_CATALOGUE") or os.path.join(
     os.path.dirname(os.path.abspath(__file__)), ".cache", "all_icons_data.json")
 NON_DRAWABLE = {"defs", "clipPath", "mask", "title", "desc", "style", "metadata"}
@@ -120,19 +128,76 @@ def unique_names(style, svgs_dir, url_map):
     return infos
 
 
+def load_url_map(icons_json):
+    """(style, category, filename) -> CDN URL, or exit if the catalogue is missing."""
+    if not os.path.exists(icons_json):
+        sys.exit(f"{icons_json} not found. Colliding icon names carry an md5 "
+                 f"suffix derived from the CDN URL and cannot be resolved without it; "
+                 f"pass --icons-json.")
+    url_map = {}
+    for icon in json.load(open(icons_json, encoding="utf-8")):
+        if icon.get("tier") == "free":
+            url_map[(icon["style"], icon["category"],
+                     os.path.basename(icon["url"]))] = icon["url"]
+    print(f"CDN metadata: {len(url_map)} entries")
+    return url_map
+
+
 def format_number(value):
     """Match the generator's float formatting (1.0, 0.4, 0.44)."""
     return repr(float(value))
 
 
+def raw_getter_names(lib_dir, style):
+    path = os.path.join(lib_dir, "src", "static", f"{style}.dart")
+    return set(re.findall(r"static const IconData (\w+) =",
+                          open(path, encoding="utf-8").read()))
+
+
+def composite_layers(info, raw_getters):
+    """The layers of one icon that have a glyph, bottom first.
+
+    Returns `([(getter, opacity), ...], dropped)`, where `dropped` counts the SVG
+    layers that have no glyph in the font.
+    """
+    layers = svg_layers(info["path"])
+    wanted = [(kebab_to_camel(f'{info["uniq"]}-{suffix}'), opacity)
+              for suffix, opacity in layers]
+    present = [(g, o) for g, o in wanted if g in raw_getters]
+
+    camel = kebab_to_camel(info["uniq"])
+    if not present and camel in raw_getters:
+        # When every layer carries the same opacity the endpoint merges them
+        # into one unsuffixed glyph instead of emitting `-pathN` layers.
+        distinct = {opacity for _, opacity in layers}
+        return [(camel, distinct.pop() if len(distinct) == 1 else 1.0)], 0
+    return present, len(wanted) - len(present)
+
+
+def format_map_entry(key, items):
+    """One `IconsaxData` entry, wrapped the way `dart format` wraps it."""
+    line = f"    '{key}': [{', '.join(items)}],"
+    if len(line) <= PAGE_WIDTH:
+        return line + "\n"
+    return f"    '{key}': [\n" + ",\n".join(f"      {i}" for i in items) + "\n    ],\n"
+
+
+MAP_ENTRY_RE = re.compile(r"    '([\w-]+)': \[[^\]]*\],\n")
+
+
+def map_section(source, name):
+    """Span of the entries of `static const Map<...> <name> = { ... };`."""
+    opening = f" {name} = {{\n"
+    start = source.index(opening) + len(opening)
+    return start, source.index("\n  };", start) + 1
+
+
 def rebuild_style(style, svgs_dir, lib_dir, url_map, check_only):
     dart_class = f"Iconsax{style.capitalize()}"
     public_path = os.path.join(lib_dir, "src", f"iconsax_{style}.dart")
-    raw_path = os.path.join(lib_dir, "src", "static", f"{style}.dart")
 
     source = open(public_path, encoding="utf-8").read()
-    raw_getters = set(re.findall(r"static const IconData (\w+) =",
-                                 open(raw_path, encoding="utf-8").read()))
+    raw_getters = raw_getter_names(lib_dir, style)
 
     blocks = {m.group(1): m for m in re.finditer(
         r"  static const IconsaxIconData (\w+) = IconsaxIconData\(\n"
@@ -150,18 +215,8 @@ def rebuild_style(style, svgs_dir, lib_dir, url_map, check_only):
         if block is None:
             continue
 
-        layers = svg_layers(info["path"])
-        wanted = [(kebab_to_camel(f'{info["uniq"]}-{suffix}'), opacity)
-                  for suffix, opacity in layers]
-        present = [(g, o) for g, o in wanted if g in raw_getters]
-
-        if not present and camel in raw_getters:
-            # When every layer carries the same opacity the endpoint merges them
-            # into one unsuffixed glyph instead of emitting `-pathN` layers.
-            distinct = {opacity for _, opacity in layers}
-            present = [(camel, distinct.pop() if len(distinct) == 1 else 1.0)]
-        else:
-            dropped += len(wanted) - len(present)
+        present, missing = composite_layers(info, raw_getters)
+        dropped += missing
 
         if not present:
             unmatched += 1
@@ -192,6 +247,53 @@ def rebuild_style(style, svgs_dir, lib_dir, url_map, check_only):
     return changed
 
 
+def rebuild_data_map(svgs_dir, lib_dir, url_map, check_only):
+    """Re-pair the entries of `IconsaxData.iconMap` / `opacityMap`."""
+    data_path = os.path.join(lib_dir, "src", "static", "iconsax_data.dart")
+    source = open(data_path, encoding="utf-8").read()
+
+    entries = collections.defaultdict(dict)
+    for map_name in ("iconMap", "opacityMap"):
+        start, end = map_section(source, map_name)
+        for match in MAP_ENTRY_RE.finditer(source, start, end):
+            entries[match.group(1)][map_name] = match
+
+    styles = sorted({key.split("-", 1)[0] for key in entries}, key=ALL_STYLES.index)
+    changed = set()
+    replacements = []
+
+    for style in styles:
+        dart_class = f"Iconsax{style.capitalize()}"
+        raw_getters = raw_getter_names(lib_dir, style)
+        for info in unique_names(style, svgs_dir, url_map):
+            key = f'{style}-{info["uniq"]}'
+            if key not in entries:
+                continue
+            present, _ = composite_layers(info, raw_getters)
+            if not present:
+                continue
+            wanted = {
+                "iconMap": format_map_entry(key, [f"{dart_class}.{g}" for g, _ in present]),
+                "opacityMap": format_map_entry(key, [format_number(o) for _, o in present]),
+            }
+            for map_name, match in entries[key].items():
+                if match.group(0) != wanted[map_name]:
+                    replacements.append((match.start(), match.end(), wanted[map_name]))
+                    changed.add(key)
+
+    print(f"  {'data':8s} icons rebuilt: {len(changed):5d} / {len(entries)}   "
+          f"(IconsaxData, read by IconsaxResolver.compositeFromName)")
+
+    if check_only or not replacements:
+        return len(changed)
+
+    for start, end, text in sorted(replacements, reverse=True):
+        source = source[:start] + text + source[end:]
+    with open(data_path, "w", encoding="utf-8") as handle:
+        handle.write(source)
+    return len(changed)
+
+
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
     repo = os.path.dirname(here)
@@ -209,21 +311,12 @@ def main():
     if not os.path.isdir(args.svgs):
         sys.exit(f"{args.svgs} not found -- the SVGs are the source of truth here.")
 
-    url_map = {}
-    if os.path.exists(args.icons_json):
-        for icon in json.load(open(args.icons_json, encoding="utf-8")):
-            if icon.get("tier") == "free":
-                url_map[(icon["style"], icon["category"],
-                         os.path.basename(icon["url"]))] = icon["url"]
-        print(f"CDN metadata: {len(url_map)} entries")
-    else:
-        sys.exit(f"{args.icons_json} not found. Colliding icon names carry an md5 "
-                 f"suffix derived from the CDN URL and cannot be resolved without it; "
-                 f"pass --icons-json.")
+    url_map = load_url_map(args.icons_json)
 
     total = 0
     for style in STYLES:
         total += rebuild_style(style, args.svgs, args.lib, url_map, args.check)
+    total += rebuild_data_map(args.svgs, args.lib, url_map, args.check)
 
     print()
     if args.check:

@@ -2227,6 +2227,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneBallPath2` icon.
   static const IconData ballPath2 = IconData(0xff744, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/balllGroup1.png)
+  /// Getter for `twotoneBalllGroup1` icon.
+  static const IconData balllGroup1 = IconData(0xf5ac0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/baloonsPath2.png)
   /// Getter for `twotoneBaloonsPath2` icon.
   static const IconData baloonsPath2 = IconData(0xf535e, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2262,6 +2266,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/birdsPath1.png)
   /// Getter for `twotoneBirdsPath1` icon.
   static const IconData birdsPath1 = IconData(0xfa734, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bookingSnowPath13.png)
+  /// Getter for `twotoneBookingSnowPath13` icon.
+  static const IconData bookingSnowPath13 = IconData(0xf1724, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bookingSnowPath4.png)
   /// Getter for `twotoneBookingSnowPath4` icon.
@@ -3127,6 +3135,14 @@ class IconsaxTwotone {
   /// Getter for `twotoneGiftBagPath3` icon.
   static const IconData giftBagPath3 = IconData(0xf12ef, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/giftBagPath4.png)
+  /// Getter for `twotoneGiftBagPath4` icon.
+  static const IconData giftBagPath4 = IconData(0xf2b5c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/giftBagPath16.png)
+  /// Getter for `twotoneGiftBagPath16` icon.
+  static const IconData giftBagPath16 = IconData(0xf3e60, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/giftBagPath18.png)
   /// Getter for `twotoneGiftBagPath18` icon.
   static const IconData giftBagPath18 = IconData(0xf4021, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3214,6 +3230,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/giftCupcakePath8.png)
   /// Getter for `twotoneGiftCupcakePath8` icon.
   static const IconData giftCupcakePath8 = IconData(0xf70b5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/giftCupcakePath5.png)
+  /// Getter for `twotoneGiftCupcakePath5` icon.
+  static const IconData giftCupcakePath5 = IconData(0xf71bb, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/giftCupcakePath2.png)
   /// Getter for `twotoneGiftCupcakePath2` icon.
@@ -3466,6 +3486,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hat2Path3.png)
   /// Getter for `twotoneHat2Path3` icon.
   static const IconData hat2Path3 = IconData(0xf252a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hat2Path2.png)
+  /// Getter for `twotoneHat2Path2` icon.
+  static const IconData hat2Path2 = IconData(0xf285e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hat2Path4.png)
   /// Getter for `twotoneHat2Path4` icon.
@@ -4307,6 +4331,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneSnow12Path13` icon.
   static const IconData snow12Path13 = IconData(0xf4afb, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snow12Path1.png)
+  /// Getter for `twotoneSnow12Path1` icon.
+  static const IconData snow12Path1 = IconData(0xf6d05, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snow12Path7.png)
   /// Getter for `twotoneSnow12Path7` icon.
   static const IconData snow12Path7 = IconData(0xf702b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4495,6 +4523,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneSnow4Path1` icon.
   static const IconData snow4Path1 = IconData(0xff2f4, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snow5Path1.png)
+  /// Getter for `twotoneSnow5Path1` icon.
+  static const IconData snow5Path1 = IconData(0xf22d1, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snow5Path5.png)
   /// Getter for `twotoneSnow5Path5` icon.
   static const IconData snow5Path5 = IconData(0xf2b5b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4590,6 +4622,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snowman2Path1.png)
   /// Getter for `twotoneSnowman2Path1` icon.
   static const IconData snowman2Path1 = IconData(0xf6f88, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snowman2Path4.png)
+  /// Getter for `twotoneSnowman2Path4` icon.
+  static const IconData snowman2Path4 = IconData(0xf8632, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snowman2Path2.png)
   /// Getter for `twotoneSnowman2Path2` icon.
@@ -4707,6 +4743,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneSnowmanPath8` icon.
   static const IconData snowmanPath8 = IconData(0xf16e5, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snowmanPath13.png)
+  /// Getter for `twotoneSnowmanPath13` icon.
+  static const IconData snowmanPath13 = IconData(0xf3722, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/snowmanPath7.png)
   /// Getter for `twotoneSnowmanPath7` icon.
   static const IconData snowmanPath7 = IconData(0xf5656, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4767,6 +4807,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneSocksPath3` icon.
   static const IconData socksPath3 = IconData(0xf69dc, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sparklerPath13.png)
+  /// Getter for `twotoneSparklerPath13` icon.
+  static const IconData sparklerPath13 = IconData(0xf0bba, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sparklerPath3.png)
   /// Getter for `twotoneSparklerPath3` icon.
   static const IconData sparklerPath3 = IconData(0xf0de1, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -4774,6 +4818,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sparklerPath5.png)
   /// Getter for `twotoneSparklerPath5` icon.
   static const IconData sparklerPath5 = IconData(0xf24b3, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sparklerPath7.png)
+  /// Getter for `twotoneSparklerPath7` icon.
+  static const IconData sparklerPath7 = IconData(0xf25ca, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sparklerPath8.png)
   /// Getter for `twotoneSparklerPath8` icon.
@@ -4870,6 +4918,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/star2Path1.png)
   /// Getter for `twotoneStar2Path1` icon.
   static const IconData star2Path1 = IconData(0xf4305, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/star2Path2.png)
+  /// Getter for `twotoneStar2Path2` icon.
+  static const IconData star2Path2 = IconData(0xf5909, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/star3Path1.png)
   /// Getter for `twotoneStar3Path1` icon.
@@ -5038,6 +5090,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/toyPath5.png)
   /// Getter for `twotoneToyPath5` icon.
   static const IconData toyPath5 = IconData(0xf8e57, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/toyPath2.png)
+  /// Getter for `twotoneToyPath2` icon.
+  static const IconData toyPath2 = IconData(0xfe630, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/toyPath4.png)
   /// Getter for `twotoneToyPath4` icon.
@@ -5427,6 +5483,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneCloudAddPath2` icon.
   static const IconData cloudAddPath2 = IconData(0xfbdce, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cloudChangePath1.png)
+  /// Getter for `twotoneCloudChangePath1` icon.
+  static const IconData cloudChangePath1 = IconData(0xf1be0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cloudChangeGroup1.png)
   /// Getter for `twotoneCloudChangeGroup1` icon.
   static const IconData cloudChangeGroup1 = IconData(0xfb768, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5446,6 +5506,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cloudConnectionPath2.png)
   /// Getter for `twotoneCloudConnectionPath2` icon.
   static const IconData cloudConnectionPath2 = IconData(0xf64bb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cloudConnectionPath4.png)
+  /// Getter for `twotoneCloudConnectionPath4` icon.
+  static const IconData cloudConnectionPath4 = IconData(0xf8b9e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cloudRemovePath2.png)
   /// Getter for `twotoneCloudRemovePath2` icon.
@@ -5803,6 +5867,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneKeyboardPath1` icon.
   static const IconData keyboardPath1 = IconData(0xf7074, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/keyboardPath2.png)
+  /// Getter for `twotoneKeyboardPath2` icon.
+  static const IconData keyboardPath2 = IconData(0xfbd61, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/keyboardPath5.png)
   /// Getter for `twotoneKeyboardPath5` icon.
   static const IconData keyboardPath5 = IconData(0xff59f, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5855,6 +5923,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneMonitorMobilePath2` icon.
   static const IconData monitorMobilePath2 = IconData(0xf7789, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/monitorMobilePath4.png)
+  /// Getter for `twotoneMonitorMobilePath4` icon.
+  static const IconData monitorMobilePath4 = IconData(0xf8264, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/monitorMobilePath6.png)
   /// Getter for `twotoneMonitorMobilePath6` icon.
   static const IconData monitorMobilePath6 = IconData(0xf988b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -5870,6 +5942,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/monitorRecorderPath6.png)
   /// Getter for `twotoneMonitorRecorderPath6` icon.
   static const IconData monitorRecorderPath6 = IconData(0xf459a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/monitorRecorderPath5.png)
+  /// Getter for `twotoneMonitorRecorderPath5` icon.
+  static const IconData monitorRecorderPath5 = IconData(0xf8314, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/monitorRecorderPath2.png)
   /// Getter for `twotoneMonitorRecorderPath2` icon.
@@ -5939,6 +6015,14 @@ class IconsaxTwotone {
   /// Getter for `twotonePrinterPath5` icon.
   static const IconData printerPath5 = IconData(0xf736f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/printerPath4.png)
+  /// Getter for `twotonePrinterPath4` icon.
+  static const IconData printerPath4 = IconData(0xfd7ed, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/printerPath2.png)
+  /// Getter for `twotonePrinterPath2` icon.
+  static const IconData printerPath2 = IconData(0xfe7c3, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ramB7b3Path2.png)
   /// Getter for `twotoneRamB7b3Path2` icon.
   static const IconData ramB7b3Path2 = IconData(0xf1692, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -6002,6 +6086,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/telescopePath4.png)
   /// Getter for `twotoneTelescopePath4` icon.
   static const IconData telescopePath4 = IconData(0xf0f0f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/telescopePath1.png)
+  /// Getter for `twotoneTelescopePath1` icon.
+  static const IconData telescopePath1 = IconData(0xf8fda, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/telescopePath3.png)
   /// Getter for `twotoneTelescopePath3` icon.
@@ -6135,6 +6223,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneClipboardTextPath2` icon.
   static const IconData clipboardTextPath2 = IconData(0xfecfe, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/clipboardTickPath1.png)
+  /// Getter for `twotoneClipboardTickPath1` icon.
+  static const IconData clipboardTickPath1 = IconData(0xf05d0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/copyrightPath2.png)
   /// Getter for `twotoneCopyrightPath2` icon.
   static const IconData copyrightPath2 = IconData(0xf6c94, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -6242,6 +6334,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentLikePath1.png)
   /// Getter for `twotoneDocumentLikePath1` icon.
   static const IconData documentLikePath1 = IconData(0xfd836, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentNormalPath2.png)
+  /// Getter for `twotoneDocumentNormalPath2` icon.
+  static const IconData documentNormalPath2 = IconData(0xf6713, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentNormalPath1.png)
   /// Getter for `twotoneDocumentNormalPath1` icon.
@@ -6554,6 +6650,14 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/androidPath6.png)
   /// Getter for `twotoneAndroidPath6` icon.
   static const IconData androidPath6 = IconData(0xf772c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/androidPath2.png)
+  /// Getter for `twotoneAndroidPath2` icon.
+  static const IconData androidPath2 = IconData(0xfa709, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/androidPath7.png)
+  /// Getter for `twotoneAndroidPath7` icon.
+  static const IconData androidPath7 = IconData(0xfc2ad, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/androidPath4.png)
   /// Getter for `twotoneAndroidPath4` icon.
@@ -7008,6 +7112,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/framerPath2.png)
   /// Getter for `twotoneFramerPath2` icon.
   static const IconData framerPath2 = IconData(0xf619c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/framerPath1.png)
+  /// Getter for `twotoneFramerPath1` icon.
+  static const IconData framerPath1 = IconData(0xf94f7, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ftxTokenFttPath4.png)
   /// Getter for `twotoneFtxTokenFttPath4` icon.
@@ -7879,6 +7987,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneBitcoinRefreshPath4` icon.
   static const IconData bitcoinRefreshPath4 = IconData(0xf8439, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bitcoinRefreshGroup1.png)
+  /// Getter for `twotoneBitcoinRefreshGroup1` icon.
+  static const IconData bitcoinRefreshGroup1 = IconData(0xfb770, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bitcoinRefreshPath1.png)
   /// Getter for `twotoneBitcoinRefreshPath1` icon.
   static const IconData bitcoinRefreshPath1 = IconData(0xfd874, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -7906,6 +8018,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardCoinPath2.png)
   /// Getter for `twotoneCardCoinPath2` icon.
   static const IconData cardCoinPath2 = IconData(0xf1d91, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardCoinPath3.png)
+  /// Getter for `twotoneCardCoinPath3` icon.
+  static const IconData cardCoinPath3 = IconData(0xf48a8, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardCoinPath5.png)
   /// Getter for `twotoneCardCoinPath5` icon.
@@ -8215,6 +8331,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneBezierPath2` icon.
   static const IconData bezierPath2 = IconData(0xfd590, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bezierPath4.png)
+  /// Getter for `twotoneBezierPath4` icon.
+  static const IconData bezierPath4 = IconData(0xfdf31, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bezierPath9.png)
   /// Getter for `twotoneBezierPath9` icon.
   static const IconData bezierPath9 = IconData(0xfe6b8, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8282,6 +8402,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/brushPath3.png)
   /// Getter for `twotoneBrushPath3` icon.
   static const IconData brushPath3 = IconData(0xfba8b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bucketCircleGroup1.png)
+  /// Getter for `twotoneBucketCircleGroup1` icon.
+  static const IconData bucketCircleGroup1 = IconData(0xf170d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/bucketCirclePath1.png)
   /// Getter for `twotoneBucketCirclePath1` icon.
@@ -8399,6 +8523,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneDesigntoolsPath2` icon.
   static const IconData designtoolsPath2 = IconData(0xf4e7f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/designtoolsPath1.png)
+  /// Getter for `twotoneDesigntoolsPath1` icon.
+  static const IconData designtoolsPath1 = IconData(0xf706b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/eraser0d51Group1.png)
   /// Getter for `twotoneEraser0d51Group1` icon.
   static const IconData eraser0d51Group1 = IconData(0xf161a, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8490,6 +8618,14 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/magicpenPath1.png)
   /// Getter for `twotoneMagicpenPath1` icon.
   static const IconData magicpenPath1 = IconData(0xf7ced, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/magicpenPath3.png)
+  /// Getter for `twotoneMagicpenPath3` icon.
+  static const IconData magicpenPath3 = IconData(0xff88f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/mainComponentGroup1.png)
+  /// Getter for `twotoneMainComponentGroup1` icon.
+  static const IconData mainComponentGroup1 = IconData(0xf1725, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/mainComponentPath1.png)
   /// Getter for `twotoneMainComponentPath1` icon.
@@ -8619,6 +8755,10 @@ class IconsaxTwotone {
   /// Getter for `twotonePath8320Path3` icon.
   static const IconData path8320Path3 = IconData(0xf84a4, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/penAddGroup1.png)
+  /// Getter for `twotonePenAddGroup1` icon.
+  static const IconData penAddGroup1 = IconData(0xf8894, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/penAddPath1.png)
   /// Getter for `twotonePenAddPath1` icon.
   static const IconData penAddPath1 = IconData(0xf8b66, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8683,6 +8823,10 @@ class IconsaxTwotone {
   /// Getter for `twotonePenTool1b5bPath3` icon.
   static const IconData penTool1b5bPath3 = IconData(0xfc8c2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/penTool1b5bPath1.png)
+  /// Getter for `twotonePenTool1b5bPath1` icon.
+  static const IconData penTool1b5bPath1 = IconData(0xff9bd, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/recoveryConvertPath1.png)
   /// Getter for `twotoneRecoveryConvertPath1` icon.
   static const IconData recoveryConvertPath1 = IconData(0xf5c26, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8703,6 +8847,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneRulerPenPath5` icon.
   static const IconData rulerPenPath5 = IconData(0xf0aab, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/rulerPenPath7.png)
+  /// Getter for `twotoneRulerPenPath7` icon.
+  static const IconData rulerPenPath7 = IconData(0xf2893, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/rulerPenPath2.png)
   /// Getter for `twotoneRulerPenPath2` icon.
   static const IconData rulerPenPath2 = IconData(0xf6010, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -8718,6 +8866,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/rulerPenPath4.png)
   /// Getter for `twotoneRulerPenPath4` icon.
   static const IconData rulerPenPath4 = IconData(0xfe0f0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/rulerPenPath1.png)
+  /// Getter for `twotoneRulerPenPath1` icon.
+  static const IconData rulerPenPath1 = IconData(0xffdde, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/rulerPath4.png)
   /// Getter for `twotoneRulerPath4` icon.
@@ -8998,6 +9150,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/messageFavoritePath4.png)
   /// Getter for `twotoneMessageFavoritePath4` icon.
   static const IconData messageFavoritePath4 = IconData(0xfe7e6, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/messageMinusPath2.png)
+  /// Getter for `twotoneMessageMinusPath2` icon.
+  static const IconData messageMinusPath2 = IconData(0xf3a11, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/messageNotifPath1.png)
   /// Getter for `twotoneMessageNotifPath1` icon.
@@ -9323,6 +9479,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneBatteryFullPath3` icon.
   static const IconData batteryFullPath3 = IconData(0xfef7f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/boxA2b9Path1.png)
+  /// Getter for `twotoneBoxA2b9Path1` icon.
+  static const IconData boxA2b9Path1 = IconData(0xf09eb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/boxA2b9Group1.png)
   /// Getter for `twotoneBoxA2b9Group1` icon.
   static const IconData boxA2b9Group1 = IconData(0xf9b14, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9342,6 +9502,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/broomPath2.png)
   /// Getter for `twotoneBroomPath2` icon.
   static const IconData broomPath2 = IconData(0xfa3e5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/broomPath3.png)
+  /// Getter for `twotoneBroomPath3` icon.
+  static const IconData broomPath3 = IconData(0xfce9d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/broomPath4.png)
   /// Getter for `twotoneBroomPath4` icon.
@@ -9419,6 +9583,18 @@ class IconsaxTwotone {
   /// Getter for `twotoneCloseSquareGroup1` icon.
   static const IconData closeSquareGroup1 = IconData(0xf60e5, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/closeSquarePath1.png)
+  /// Getter for `twotoneCloseSquarePath1` icon.
+  static const IconData closeSquarePath1 = IconData(0xfd936, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/coffeePath6.png)
+  /// Getter for `twotoneCoffeePath6` icon.
+  static const IconData coffeePath6 = IconData(0xf4564, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/coffeePath2.png)
+  /// Getter for `twotoneCoffeePath2` icon.
+  static const IconData coffeePath2 = IconData(0xfa120, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/coffeePath5.png)
   /// Getter for `twotoneCoffeePath5` icon.
   static const IconData coffeePath5 = IconData(0xfa4c4, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9462,6 +9638,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/crownA3f8Path1.png)
   /// Getter for `twotoneCrownA3f8Path1` icon.
   static const IconData crownA3f8Path1 = IconData(0xf75d9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/crownA3f8Path2.png)
+  /// Getter for `twotoneCrownA3f8Path2` icon.
+  static const IconData crownA3f8Path2 = IconData(0xff797, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cupPath4.png)
   /// Getter for `twotoneCupPath4` icon.
@@ -9983,6 +10163,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneReservePath2` icon.
   static const IconData reservePath2 = IconData(0xf08ee, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/reservePath1.png)
+  /// Getter for `twotoneReservePath1` icon.
+  static const IconData reservePath1 = IconData(0xf33da, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/reservePath4.png)
   /// Getter for `twotoneReservePath4` icon.
   static const IconData reservePath4 = IconData(0xf512b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -9994,6 +10178,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/safeHomePath2.png)
   /// Getter for `twotoneSafeHomePath2` icon.
   static const IconData safeHomePath2 = IconData(0xf144b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/safeHomePath1.png)
+  /// Getter for `twotoneSafeHomePath1` icon.
+  static const IconData safeHomePath1 = IconData(0xfce08, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sendB880Path1.png)
   /// Getter for `twotoneSendB880Path1` icon.
@@ -10014,6 +10202,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sharePath3.png)
   /// Getter for `twotoneSharePath3` icon.
   static const IconData sharePath3 = IconData(0xf1762, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sharePath2.png)
+  /// Getter for `twotoneSharePath2` icon.
+  static const IconData sharePath2 = IconData(0xf3168, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sharePath4.png)
   /// Getter for `twotoneSharePath4` icon.
@@ -10295,6 +10487,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneWifiSquarePath4` icon.
   static const IconData wifiSquarePath4 = IconData(0xfdfae, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/wifiPath1.png)
+  /// Getter for `twotoneWifiPath1` icon.
+  static const IconData wifiPath1 = IconData(0xf5596, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/wifiPath4.png)
   /// Getter for `twotoneWifiPath4` icon.
   static const IconData wifiPath4 = IconData(0xf6650, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10342,6 +10538,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/folderOpenPath3.png)
   /// Getter for `twotoneFolderOpenPath3` icon.
   static const IconData folderOpenPath3 = IconData(0xf478f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/folderOpenPath2.png)
+  /// Getter for `twotoneFolderOpenPath2` icon.
+  static const IconData folderOpenPath2 = IconData(0xf539c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/folderOpenPath1.png)
   /// Getter for `twotoneFolderOpenPath1` icon.
@@ -10439,6 +10639,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneAlignTopC354Path3` icon.
   static const IconData alignTopC354Path3 = IconData(0xf57eb, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/alignTopC354Path2.png)
+  /// Getter for `twotoneAlignTopC354Path2` icon.
+  static const IconData alignTopC354Path2 = IconData(0xf7729, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/alignTop4502Path1.png)
   /// Getter for `twotoneAlignTop4502Path1` icon.
   static const IconData alignTop4502Path1 = IconData(0xf4745, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10527,6 +10731,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneFormatCirclePath2` icon.
   static const IconData formatCirclePath2 = IconData(0xf649c, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/formatCirclePath4.png)
+  /// Getter for `twotoneFormatCirclePath4` icon.
+  static const IconData formatCirclePath4 = IconData(0xfebb5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/formatSquarePath4.png)
   /// Getter for `twotoneFormatSquarePath4` icon.
   static const IconData formatSquarePath4 = IconData(0xf3572, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10534,6 +10742,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/formatSquarePath2.png)
   /// Getter for `twotoneFormatSquarePath2` icon.
   static const IconData formatSquarePath2 = IconData(0xf9fe9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/formatSquarePath1.png)
+  /// Getter for `twotoneFormatSquarePath1` icon.
+  static const IconData formatSquarePath1 = IconData(0xfacb2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/formatSquarePath3.png)
   /// Getter for `twotoneFormatSquarePath3` icon.
@@ -10599,6 +10811,14 @@ class IconsaxTwotone {
   /// Getter for `twotoneGridEraserPath3` icon.
   static const IconData gridEraserPath3 = IconData(0xf1693, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/gridEraserPath2.png)
+  /// Getter for `twotoneGridEraserPath2` icon.
+  static const IconData gridEraserPath2 = IconData(0xfb63e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/gridLockPath2.png)
+  /// Getter for `twotoneGridLockPath2` icon.
+  static const IconData gridLockPath2 = IconData(0xf4288, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/gridLockPath3.png)
   /// Getter for `twotoneGridLockPath3` icon.
   static const IconData gridLockPath3 = IconData(0xf6dca, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10662,6 +10882,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/gridsPath2.png)
   /// Getter for `twotoneGridsPath2` icon.
   static const IconData gridsPath2 = IconData(0xfbd85, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/gridsPath1.png)
+  /// Getter for `twotoneGridsPath1` icon.
+  static const IconData gridsPath1 = IconData(0xfff34, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/layoutAdjustPath1.png)
   /// Getter for `twotoneLayoutAdjustPath1` icon.
@@ -10735,6 +10959,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneMaximizeEae3Path1` icon.
   static const IconData maximizeEae3Path1 = IconData(0xfa6ce, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/maximizeEae3Path2.png)
+  /// Getter for `twotoneMaximizeEae3Path2` icon.
+  static const IconData maximizeEae3Path2 = IconData(0xfeefb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/maximize81cdPath2.png)
   /// Getter for `twotoneMaximize81cdPath2` icon.
   static const IconData maximize81cdPath2 = IconData(0xf1bf7, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -10802,6 +11030,11 @@ class IconsaxTwotone {
   /// Getter for `twotoneSliderHorizontalA397Path3` icon.
   static const IconData sliderHorizontalA397Path3 =
       IconData(0xf0bec, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sliderHorizontalA397Path1.png)
+  /// Getter for `twotoneSliderHorizontalA397Path1` icon.
+  static const IconData sliderHorizontalA397Path1 =
+      IconData(0xf2004, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/sliderHorizontalA397Path2.png)
   /// Getter for `twotoneSliderHorizontalA397Path2` icon.
@@ -11004,6 +11237,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneCardPosPath1` icon.
   static const IconData cardPosPath1 = IconData(0xf68ba, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardPosPath4.png)
+  /// Getter for `twotoneCardPosPath4` icon.
+  static const IconData cardPosPath4 = IconData(0xfbbc7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardPosPath5.png)
   /// Getter for `twotoneCardPosPath5` icon.
   static const IconData cardPosPath5 = IconData(0xfc734, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11072,9 +11309,17 @@ class IconsaxTwotone {
   /// Getter for `twotoneCardSendPath1` icon.
   static const IconData cardSendPath1 = IconData(0xffa08, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardSlashPath5.png)
+  /// Getter for `twotoneCardSlashPath5` icon.
+  static const IconData cardSlashPath5 = IconData(0xf538b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardSlashPath2.png)
   /// Getter for `twotoneCardSlashPath2` icon.
   static const IconData cardSlashPath2 = IconData(0xf73b1, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardSlashPath6.png)
+  /// Getter for `twotoneCardSlashPath6` icon.
+  static const IconData cardSlashPath6 = IconData(0xf809a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardSlashPath3.png)
   /// Getter for `twotoneCardSlashPath3` icon.
@@ -11148,6 +11393,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneCardsPath4` icon.
   static const IconData cardsPath4 = IconData(0xf9713, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardsPath5.png)
+  /// Getter for `twotoneCardsPath5` icon.
+  static const IconData cardsPath5 = IconData(0xfcabf, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/cardsPath3.png)
   /// Getter for `twotoneCardsPath3` icon.
   static const IconData cardsPath3 = IconData(0xff3fb, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11196,6 +11445,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneConvertCardPath5` icon.
   static const IconData convertCardPath5 = IconData(0xf663a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/convertCardPath6.png)
+  /// Getter for `twotoneConvertCardPath6` icon.
+  static const IconData convertCardPath6 = IconData(0xf6c82, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/convertCardPath3.png)
   /// Getter for `twotoneConvertCardPath3` icon.
   static const IconData convertCardPath3 = IconData(0xf9db0, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11231,6 +11484,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentDa10Path3.png)
   /// Getter for `twotoneDocumentDa10Path3` icon.
   static const IconData documentDa10Path3 = IconData(0xf9e89, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentDa10Path1.png)
+  /// Getter for `twotoneDocumentDa10Path1` icon.
+  static const IconData documentDa10Path1 = IconData(0xfb787, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/dollarCircleGroup1.png)
   /// Getter for `twotoneDollarCircleGroup1` icon.
@@ -11343,6 +11600,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/emptyWalletPath1.png)
   /// Getter for `twotoneEmptyWalletPath1` icon.
   static const IconData emptyWalletPath1 = IconData(0xfc11a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/mathPath2.png)
+  /// Getter for `twotoneMathPath2` icon.
+  static const IconData mathPath2 = IconData(0xf121e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/mathPath5.png)
   /// Getter for `twotoneMathPath5` icon.
@@ -11548,9 +11809,17 @@ class IconsaxTwotone {
   /// Getter for `twotoneMoneyDaf1Path3` icon.
   static const IconData moneyDaf1Path3 = IconData(0xfecc8, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/moneysPath5.png)
+  /// Getter for `twotoneMoneysPath5` icon.
+  static const IconData moneysPath5 = IconData(0xf38d0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/moneysPath1.png)
   /// Getter for `twotoneMoneysPath1` icon.
   static const IconData moneysPath1 = IconData(0xf5e38, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/moneysPath3.png)
+  /// Getter for `twotoneMoneysPath3` icon.
+  static const IconData moneysPath3 = IconData(0xf8a13, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/moneysPath4.png)
   /// Getter for `twotoneMoneysPath4` icon.
@@ -11567,6 +11836,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/percentageCirclePath2.png)
   /// Getter for `twotonePercentageCirclePath2` icon.
   static const IconData percentageCirclePath2 = IconData(0xf718d, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/percentageCirclePath4.png)
+  /// Getter for `twotonePercentageCirclePath4` icon.
+  static const IconData percentageCirclePath4 = IconData(0xf7ad4, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/percentageCirclePath3.png)
   /// Getter for `twotonePercentageCirclePath3` icon.
@@ -11736,6 +12009,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneReceiptE12fPath3` icon.
   static const IconData receiptE12fPath3 = IconData(0xf06ce, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/receiptE12fPath2.png)
+  /// Getter for `twotoneReceiptE12fPath2` icon.
+  static const IconData receiptE12fPath2 = IconData(0xf95ec, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/receiptE12fPath1.png)
   /// Getter for `twotoneReceiptE12fPath1` icon.
   static const IconData receiptE12fPath1 = IconData(0xfd3ad, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -11759,6 +12036,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/securityCardPath5.png)
   /// Getter for `twotoneSecurityCardPath5` icon.
   static const IconData securityCardPath5 = IconData(0xf7ad2, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/securityCardPath3.png)
+  /// Getter for `twotoneSecurityCardPath3` icon.
+  static const IconData securityCardPath3 = IconData(0xf8446, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/securityCardPath4.png)
   /// Getter for `twotoneSecurityCardPath4` icon.
@@ -11803,6 +12084,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ticketDiscountPath2.png)
   /// Getter for `twotoneTicketDiscountPath2` icon.
   static const IconData ticketDiscountPath2 = IconData(0xf190c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ticketDiscountPath4.png)
+  /// Getter for `twotoneTicketDiscountPath4` icon.
+  static const IconData ticketDiscountPath4 = IconData(0xf44b5, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ticketDiscountPath3.png)
   /// Getter for `twotoneTicketDiscountPath3` icon.
@@ -12048,6 +12333,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneWallet8596Path2` icon.
   static const IconData wallet8596Path2 = IconData(0xf9591, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/wallet8596Path1.png)
+  /// Getter for `twotoneWallet8596Path1` icon.
+  static const IconData wallet8596Path1 = IconData(0xfbd66, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/wallet8596Path3.png)
   /// Getter for `twotoneWallet8596Path3` icon.
   static const IconData wallet8596Path3 = IconData(0xfd360, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12055,6 +12344,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/lampChargePath3.png)
   /// Getter for `twotoneLampChargePath3` icon.
   static const IconData lampChargePath3 = IconData(0xf3662, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/lampChargePath1.png)
+  /// Getter for `twotoneLampChargePath1` icon.
+  static const IconData lampChargePath1 = IconData(0xfcef3, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/lampChargePath2.png)
   /// Getter for `twotoneLampChargePath2` icon.
@@ -12166,6 +12459,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneCode4bb3Path3` icon.
   static const IconData code4bb3Path3 = IconData(0xf3979, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/code4bb3Path1.png)
+  /// Getter for `twotoneCode4bb3Path1` icon.
+  static const IconData code4bb3Path1 = IconData(0xf3e2c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/code4bb3Path2.png)
   /// Getter for `twotoneCode4bb3Path2` icon.
   static const IconData code4bb3Path2 = IconData(0xfd51a, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12238,6 +12535,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneDocumentCode5f4aPath2` icon.
   static const IconData documentCode5f4aPath2 = IconData(0xf1291, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentCode5f4aPath4.png)
+  /// Getter for `twotoneDocumentCode5f4aPath4` icon.
+  static const IconData documentCode5f4aPath4 = IconData(0xf813f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/documentCode5f4aPath1.png)
   /// Getter for `twotoneDocumentCode5f4aPath1` icon.
   static const IconData documentCode5f4aPath1 = IconData(0xf8c67, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12286,6 +12587,14 @@ class IconsaxTwotone {
   /// Getter for `twotoneHashtag6477Path4` icon.
   static const IconData hashtag6477Path4 = IconData(0xf78b1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hashtag6477Path3.png)
+  /// Getter for `twotoneHashtag6477Path3` icon.
+  static const IconData hashtag6477Path3 = IconData(0xf95eb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hashtag6477Path1.png)
+  /// Getter for `twotoneHashtag6477Path1` icon.
+  static const IconData hashtag6477Path1 = IconData(0xfc669, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hashtag6477Path2.png)
   /// Getter for `twotoneHashtag6477Path2` icon.
   static const IconData hashtag6477Path2 = IconData(0xff263, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12300,6 +12609,11 @@ class IconsaxTwotone {
   static const IconData hierarchySquare0bf7Path1 =
       IconData(0xf49c8, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hierarchySquareE75cGroup1.png)
+  /// Getter for `twotoneHierarchySquareE75cGroup1` icon.
+  static const IconData hierarchySquareE75cGroup1 =
+      IconData(0xfba3f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hierarchySquare6de8Path1.png)
   /// Getter for `twotoneHierarchySquare6de8Path1` icon.
   static const IconData hierarchySquare6de8Path1 =
@@ -12313,6 +12627,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hierarchyAbb4Path3.png)
   /// Getter for `twotoneHierarchyAbb4Path3` icon.
   static const IconData hierarchyAbb4Path3 = IconData(0xf0486, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hierarchyAbb4Path2.png)
+  /// Getter for `twotoneHierarchyAbb4Path2` icon.
+  static const IconData hierarchyAbb4Path2 = IconData(0xf3d93, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hierarchyAbb4Path4.png)
   /// Getter for `twotoneHierarchyAbb4Path4` icon.
@@ -12345,6 +12663,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/hierarchy7622Path3.png)
   /// Getter for `twotoneHierarchy7622Path3` icon.
   static const IconData hierarchy7622Path3 = IconData(0xfc9f5, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/messageProgrammingPath2.png)
+  /// Getter for `twotoneMessageProgrammingPath2` icon.
+  static const IconData messageProgrammingPath2 = IconData(0xf079e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/messageProgrammingPath3.png)
   /// Getter for `twotoneMessageProgrammingPath3` icon.
@@ -12762,6 +13084,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneCheckPath2` icon.
   static const IconData checkPath2 = IconData(0xf5929, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/checkPath1.png)
+  /// Getter for `twotoneCheckPath1` icon.
+  static const IconData checkPath1 = IconData(0xf5bf2, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/checkPath3.png)
   /// Getter for `twotoneCheckPath3` icon.
   static const IconData checkPath3 = IconData(0xfa8cd, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12814,6 +13140,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneFingerScanPath1` icon.
   static const IconData fingerScanPath1 = IconData(0xf3a9a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/fingerScanPath5.png)
+  /// Getter for `twotoneFingerScanPath5` icon.
+  static const IconData fingerScanPath5 = IconData(0xf8f39, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/fingerScanPath4.png)
   /// Getter for `twotoneFingerScanPath4` icon.
   static const IconData fingerScanPath4 = IconData(0xfcc53, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -12849,6 +13179,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/lockCircleGroup1.png)
   /// Getter for `twotoneLockCircleGroup1` icon.
   static const IconData lockCircleGroup1 = IconData(0xf042d, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/lockCirclePath1.png)
+  /// Getter for `twotoneLockCirclePath1` icon.
+  static const IconData lockCirclePath1 = IconData(0xff01a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/lockSlashPath1.png)
   /// Getter for `twotoneLockSlashPath1` icon.
@@ -12898,9 +13232,17 @@ class IconsaxTwotone {
   /// Getter for `twotonePasswordCheckPath5` icon.
   static const IconData passwordCheckPath5 = IconData(0xf50d3, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/passwordCheckPath3.png)
+  /// Getter for `twotonePasswordCheckPath3` icon.
+  static const IconData passwordCheckPath3 = IconData(0xf6ac4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/passwordCheckPath1.png)
   /// Getter for `twotonePasswordCheckPath1` icon.
   static const IconData passwordCheckPath1 = IconData(0xfe105, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/passwordCheckPath2.png)
+  /// Getter for `twotonePasswordCheckPath2` icon.
+  static const IconData passwordCheckPath2 = IconData(0xfe646, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/radar9347Path5.png)
   /// Getter for `twotoneRadar9347Path5` icon.
@@ -13006,6 +13348,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneSecurityUserPath2` icon.
   static const IconData securityUserPath2 = IconData(0xff7c6, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/securityPath2.png)
+  /// Getter for `twotoneSecurityPath2` icon.
+  static const IconData securityPath2 = IconData(0xfaeb3, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shieldCrossPath1.png)
   /// Getter for `twotoneShieldCrossPath1` icon.
   static const IconData shieldCrossPath1 = IconData(0xf29c7, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13041,6 +13387,14 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shieldSlashPath3.png)
   /// Getter for `twotoneShieldSlashPath3` icon.
   static const IconData shieldSlashPath3 = IconData(0xf179f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shieldSlashPath1.png)
+  /// Getter for `twotoneShieldSlashPath1` icon.
+  static const IconData shieldSlashPath1 = IconData(0xf57e9, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shieldTickPath2.png)
+  /// Getter for `twotoneShieldTickPath2` icon.
+  static const IconData shieldTickPath2 = IconData(0xf2c3d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shield.png)
   /// Getter for `twotoneShield` icon.
@@ -13097,6 +13451,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/candle5107Path6.png)
   /// Getter for `twotoneCandle5107Path6` icon.
   static const IconData candle5107Path6 = IconData(0xf0193, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/candle5107Path5.png)
+  /// Getter for `twotoneCandle5107Path5` icon.
+  static const IconData candle5107Path5 = IconData(0xf6435, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/candle5107Path4.png)
   /// Getter for `twotoneCandle5107Path4` icon.
@@ -13430,6 +13788,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneShopRemovePath7` icon.
   static const IconData shopRemovePath7 = IconData(0xfbc5b, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shopPath3.png)
+  /// Getter for `twotoneShopPath3` icon.
+  static const IconData shopPath3 = IconData(0xf40b4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shopGroup1.png)
   /// Getter for `twotoneShopGroup1` icon.
   static const IconData shopGroup1 = IconData(0xf6bf2, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13465,6 +13827,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shoppingCartPath2.png)
   /// Getter for `twotoneShoppingCartPath2` icon.
   static const IconData shoppingCartPath2 = IconData(0xfbdbb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/shoppingCartPath4.png)
+  /// Getter for `twotoneShoppingCartPath4` icon.
+  static const IconData shoppingCartPath4 = IconData(0xfdb97, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/i24SupportPath1.png)
   /// Getter for `twotone24SupportPath1` icon.
@@ -13505,6 +13871,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heartCirclePath1.png)
   /// Getter for `twotoneHeartCirclePath1` icon.
   static const IconData heartCirclePath1 = IconData(0xf5dbb, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heartCirclePath2.png)
+  /// Getter for `twotoneHeartCirclePath2` icon.
+  static const IconData heartCirclePath2 = IconData(0xf969d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heartEditPath2.png)
   /// Getter for `twotoneHeartEditPath2` icon.
@@ -13554,9 +13924,17 @@ class IconsaxTwotone {
   /// Getter for `twotoneHeartSlashPath1` icon.
   static const IconData heartSlashPath1 = IconData(0xf8595, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heartTickPath3.png)
+  /// Getter for `twotoneHeartTickPath3` icon.
+  static const IconData heartTickPath3 = IconData(0xf4a78, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heartTickPath2.png)
   /// Getter for `twotoneHeartTickPath2` icon.
   static const IconData heartTickPath2 = IconData(0xf95e7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heartTickPath1.png)
+  /// Getter for `twotoneHeartTickPath1` icon.
+  static const IconData heartTickPath1 = IconData(0xffcfc, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/heart.png)
   /// Getter for `twotoneHeart` icon.
@@ -13658,6 +14036,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneRanking1a49Path2` icon.
   static const IconData ranking1a49Path2 = IconData(0xf5495, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ranking1a49Path3.png)
+  /// Getter for `twotoneRanking1a49Path3` icon.
+  static const IconData ranking1a49Path3 = IconData(0xf59d6, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/ranking1a49Path1.png)
   /// Getter for `twotoneRanking1a49Path1` icon.
   static const IconData ranking1a49Path1 = IconData(0xf7af1, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13686,9 +14068,17 @@ class IconsaxTwotone {
   /// Getter for `twotoneSmileysPath8` icon.
   static const IconData smileysPath8 = IconData(0xf35f8, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smileysPath7.png)
+  /// Getter for `twotoneSmileysPath7` icon.
+  static const IconData smileysPath7 = IconData(0xf4c21, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smileysPath6.png)
   /// Getter for `twotoneSmileysPath6` icon.
   static const IconData smileysPath6 = IconData(0xf69d7, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smileysPath3.png)
+  /// Getter for `twotoneSmileysPath3` icon.
+  static const IconData smileysPath3 = IconData(0xf73ed, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smileysPath5.png)
   /// Getter for `twotoneSmileysPath5` icon.
@@ -13709,6 +14099,14 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/starSlashPath1.png)
   /// Getter for `twotoneStarSlashPath1` icon.
   static const IconData starSlashPath1 = IconData(0xfbc1c, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/starSlashPath2.png)
+  /// Getter for `twotoneStarSlashPath2` icon.
+  static const IconData starSlashPath2 = IconData(0xfd7f2, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/star9d48.png)
+  /// Getter for `twotoneStar9d48` icon.
+  static const IconData star9d48 = IconData(0xf1050, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/unlimited.png)
   /// Getter for `twotoneUnlimited` icon.
@@ -13786,6 +14184,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneCalendarEditPath5` icon.
   static const IconData calendarEditPath5 = IconData(0xf1a88, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/calendarEditPath6.png)
+  /// Getter for `twotoneCalendarEditPath6` icon.
+  static const IconData calendarEditPath6 = IconData(0xf3abe, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/calendarEditPath9.png)
   /// Getter for `twotoneCalendarEditPath9` icon.
   static const IconData calendarEditPath9 = IconData(0xf6ec2, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -13825,6 +14227,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/calendarSearchPath5.png)
   /// Getter for `twotoneCalendarSearchPath5` icon.
   static const IconData calendarSearchPath5 = IconData(0xf028a, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/calendarSearchPath6.png)
+  /// Getter for `twotoneCalendarSearchPath6` icon.
+  static const IconData calendarSearchPath6 = IconData(0xf137f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/calendarSearchPath2.png)
   /// Getter for `twotoneCalendarSearchPath2` icon.
@@ -13917,6 +14323,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/timerPausePath2.png)
   /// Getter for `twotoneTimerPausePath2` icon.
   static const IconData timerPausePath2 = IconData(0xfac44, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/timerPausePath5.png)
+  /// Getter for `twotoneTimerPausePath5` icon.
+  static const IconData timerPausePath5 = IconData(0xfc30e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/timerPausePath4.png)
   /// Getter for `twotoneTimerPausePath4` icon.
@@ -14042,6 +14452,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneLink7148Path2` icon.
   static const IconData link7148Path2 = IconData(0xfb415, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/link7148Path1.png)
+  /// Getter for `twotoneLink7148Path1` icon.
+  static const IconData link7148Path1 = IconData(0xfedd2, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/maximize7c5bGroup1.png)
   /// Getter for `twotoneMaximize7c5bGroup1` icon.
   static const IconData maximize7c5bGroup1 = IconData(0xf155c, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -14061,6 +14475,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/paragraphspacingGroup1.png)
   /// Getter for `twotoneParagraphspacingGroup1` icon.
   static const IconData paragraphspacingGroup1 = IconData(0xf31ea, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/paragraphspacingPath2.png)
+  /// Getter for `twotoneParagraphspacingPath2` icon.
+  static const IconData paragraphspacingPath2 = IconData(0xf8863, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/paragraphspacingPath1.png)
   /// Getter for `twotoneParagraphspacingPath1` icon.
@@ -14121,6 +14539,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smallcapsPath2.png)
   /// Getter for `twotoneSmallcapsPath2` icon.
   static const IconData smallcapsPath2 = IconData(0xf09dc, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smallcapsPath3.png)
+  /// Getter for `twotoneSmallcapsPath3` icon.
+  static const IconData smallcapsPath3 = IconData(0xf19c6, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/smallcapsPath1.png)
   /// Getter for `twotoneSmallcapsPath1` icon.
@@ -14306,6 +14728,10 @@ class IconsaxTwotone {
   /// Getter for `twotonePeoplePath1` icon.
   static const IconData peoplePath1 = IconData(0xf5345, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/peoplePath2.png)
+  /// Getter for `twotonePeoplePath2` icon.
+  static const IconData peoplePath2 = IconData(0xf8c50, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/peoplePath6.png)
   /// Getter for `twotonePeoplePath6` icon.
   static const IconData peoplePath6 = IconData(0xfb3f0, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -14341,6 +14767,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/profileAddGroup1.png)
   /// Getter for `twotoneProfileAddGroup1` icon.
   static const IconData profileAddGroup1 = IconData(0xf9814, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/profileCirclePath1.png)
+  /// Getter for `twotoneProfileCirclePath1` icon.
+  static const IconData profileCirclePath1 = IconData(0xf573d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/profileCirclePath2.png)
   /// Getter for `twotoneProfileCirclePath2` icon.
@@ -14458,6 +14888,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneUserEditPath1` icon.
   static const IconData userEditPath1 = IconData(0xf83d2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/userEditPath3.png)
+  /// Getter for `twotoneUserEditPath3` icon.
+  static const IconData userEditPath3 = IconData(0xfcb8b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/userHexagonPath1.png)
   /// Getter for `twotoneUserHexagonPath1` icon.
   static const IconData userHexagonPath1 = IconData(0xf33e1, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -14481,6 +14915,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/userMinusPath4.png)
   /// Getter for `twotoneUserMinusPath4` icon.
   static const IconData userMinusPath4 = IconData(0xfa322, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/userRemovePath4.png)
+  /// Getter for `twotoneUserRemovePath4` icon.
+  static const IconData userRemovePath4 = IconData(0xf00c2, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/userRemovePath5.png)
   /// Getter for `twotoneUserRemovePath5` icon.
@@ -14570,6 +15008,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneBackward10SecondsPath1` icon.
   static const IconData backward10SecondsPath1 = IconData(0xfd4e7, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/backward15SecondsPath2.png)
+  /// Getter for `twotoneBackward15SecondsPath2` icon.
+  static const IconData backward15SecondsPath2 = IconData(0xf3be0, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/backward15SecondsPath1.png)
   /// Getter for `twotoneBackward15SecondsPath1` icon.
   static const IconData backward15SecondsPath1 = IconData(0xf784b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -14629,6 +15071,10 @@ class IconsaxTwotone {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/forward10SecondsPath2.png)
   /// Getter for `twotoneForward10SecondsPath2` icon.
   static const IconData forward10SecondsPath2 = IconData(0xf9440, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/forward10SecondsPath3.png)
+  /// Getter for `twotoneForward10SecondsPath3` icon.
+  static const IconData forward10SecondsPath3 = IconData(0xfba99, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/forward10SecondsPath4.png)
   /// Getter for `twotoneForward10SecondsPath4` icon.
@@ -14706,6 +15152,10 @@ class IconsaxTwotone {
   /// Getter for `twotoneGalleryImportPath2` icon.
   static const IconData galleryImportPath2 = IconData(0xfdadc, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/galleryRemoveGroup1.png)
+  /// Getter for `twotoneGalleryRemoveGroup1` icon.
+  static const IconData galleryRemoveGroup1 = IconData(0xfec39, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/gallerySlashPath1.png)
   /// Getter for `twotoneGallerySlashPath1` icon.
   static const IconData gallerySlashPath1 = IconData(0xf251b, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -14773,6 +15223,11 @@ class IconsaxTwotone {
   static const IconData microphoneSlash6d33Path4 =
       IconData(0xf7a79, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/microphoneSlash6d33Path5.png)
+  /// Getter for `twotoneMicrophoneSlash6d33Path5` icon.
+  static const IconData microphoneSlash6d33Path5 =
+      IconData(0xfeaa4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/microphoneSlash6d33Path1.png)
   /// Getter for `twotoneMicrophoneSlash6d33Path1` icon.
   static const IconData microphoneSlash6d33Path1 =
@@ -14820,9 +15275,17 @@ class IconsaxTwotone {
   /// Getter for `twotoneMicrophoneDd51Path3` icon.
   static const IconData microphoneDd51Path3 = IconData(0xfd2c1, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/microphoneDd51Path1.png)
+  /// Getter for `twotoneMicrophoneDd51Path1` icon.
+  static const IconData microphoneDd51Path1 = IconData(0xffe4f, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/microphone2e53Path2.png)
   /// Getter for `twotoneMicrophone2e53Path2` icon.
   static const IconData microphone2e53Path2 = IconData(0xf2b29, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/microphone2e53Path1.png)
+  /// Getter for `twotoneMicrophone2e53Path1` icon.
+  static const IconData microphone2e53Path1 = IconData(0xfb664, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/twotone/microphone2e53Path4.png)
   /// Getter for `twotoneMicrophone2e53Path4` icon.

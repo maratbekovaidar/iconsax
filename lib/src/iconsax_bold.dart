@@ -1041,6 +1041,10 @@ class IconsaxBold {
   /// Getter for `boldCeloCelo` icon.
   static const IconData celoCelo = raw.IconsaxBold.celoCelo;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/celsiusCel.png)
+  /// Getter for `boldCelsiusCel` icon.
+  static const IconData celsiusCel = raw.IconsaxBold.celsiusCel;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/chainlinkLink.png)
   /// Getter for `boldChainlinkLink` icon.
   static const IconData chainlinkLink = raw.IconsaxBold.chainlinkLink;
@@ -1160,6 +1164,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/clock5dfe.png)
   /// Getter for `boldClock5dfe` icon.
   static const IconData clock5dfe = raw.IconsaxBold.clock5dfe;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/clockE99d.png)
+  /// Getter for `boldClockE99d` icon.
+  static const IconData clockE99d = raw.IconsaxBold.clockE99d;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/closeCircle.png)
   /// Getter for `boldCloseCircle` icon.
@@ -1565,6 +1573,10 @@ class IconsaxBold {
   /// Getter for `boldEditD62b` icon.
   static const IconData editD62b = raw.IconsaxBold.editD62b;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/educareEkt.png)
+  /// Getter for `boldEducareEkt` icon.
+  static const IconData educareEkt = raw.IconsaxBold.educareEkt;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/electricity.png)
   /// Getter for `boldElectricity` icon.
   static const IconData electricity = raw.IconsaxBold.electricity;
@@ -1836,6 +1848,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/forward.png)
   /// Getter for `boldForward` icon.
   static const IconData forward = raw.IconsaxBold.forward;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/forward10Seconds.png)
+  /// Getter for `boldForward10Seconds` icon.
+  static const IconData forward10Seconds = raw.IconsaxBold.forward10Seconds;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/forward15Seconds.png)
   /// Getter for `boldForward15Seconds` icon.
@@ -2165,6 +2181,10 @@ class IconsaxBold {
   /// Getter for `boldHealth` icon.
   static const IconData health = raw.IconsaxBold.health;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/heart.png)
+  /// Getter for `boldHeart` icon.
+  static const IconData heart = raw.IconsaxBold.heart;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/heartAdd.png)
   /// Getter for `boldHeartAdd` icon.
   static const IconData heartAdd = raw.IconsaxBold.heartAdd;
@@ -2196,6 +2216,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/hederaHashgraphHbar.png)
   /// Getter for `boldHederaHashgraphHbar` icon.
   static const IconData hederaHashgraphHbar = raw.IconsaxBold.hederaHashgraphHbar;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/hexHexPath1.png)
+  /// Getter for `boldHexHexPath1` icon.
+  static const IconData hexHexPath1 = raw.IconsaxBold.hexHexPath1;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/hexHexPath2.png)
   /// Getter for `boldHexHexPath2` icon.
@@ -2813,6 +2837,10 @@ class IconsaxBold {
   /// Getter for `boldMobile` icon.
   static const IconData mobile = raw.IconsaxBold.mobile;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/mobileProgramming.png)
+  /// Getter for `boldMobileProgramming` icon.
+  static const IconData mobileProgramming = raw.IconsaxBold.mobileProgramming;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/moneroXmr.png)
   /// Getter for `boldMoneroXmr` icon.
   static const IconData moneroXmr = raw.IconsaxBold.moneroXmr;
@@ -2848,6 +2876,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/moneyRecive.png)
   /// Getter for `boldMoneyRecive` icon.
   static const IconData moneyRecive = raw.IconsaxBold.moneyRecive;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/moneyRemove.png)
+  /// Getter for `boldMoneyRemove` icon.
+  static const IconData moneyRemove = raw.IconsaxBold.moneyRemove;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/moneySend.png)
   /// Getter for `boldMoneySend` icon.
@@ -3337,6 +3369,10 @@ class IconsaxBold {
   /// Getter for `boldReceived` icon.
   static const IconData received = raw.IconsaxBold.received;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/recoveryConvert.png)
+  /// Getter for `boldRecoveryConvert` icon.
+  static const IconData recoveryConvert = raw.IconsaxBold.recoveryConvert;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/redoArrow.png)
   /// Getter for `boldRedoArrow` icon.
   static const IconData redoArrow = raw.IconsaxBold.redoArrow;
@@ -3585,6 +3621,10 @@ class IconsaxBold {
   /// Getter for `boldServingDome` icon.
   static const IconData servingDome = raw.IconsaxBold.servingDome;
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/setting651c.png)
+  /// Getter for `boldSetting651c` icon.
+  static const IconData setting651c = raw.IconsaxBold.setting651c;
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/setting7ecd.png)
   /// Getter for `boldSetting7ecd` icon.
   static const IconData setting7ecd = raw.IconsaxBold.setting7ecd;
@@ -3696,6 +3736,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/sidebarTop.png)
   /// Getter for `boldSidebarTop` icon.
   static const IconData sidebarTop = raw.IconsaxBold.sidebarTop;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/signpost.png)
+  /// Getter for `boldSignpost` icon.
+  static const IconData signpost = raw.IconsaxBold.signpost;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/simcard02e3.png)
   /// Getter for `boldSimcard02e3` icon.
@@ -3868,6 +3912,10 @@ class IconsaxBold {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/snowman.png)
   /// Getter for `boldSnowman` icon.
   static const IconData snowman = raw.IconsaxBold.snowman;
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/snowman2.png)
+  /// Getter for `boldSnowman2` icon.
+  static const IconData snowman2 = raw.IconsaxBold.snowman2;
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/bold/snowman3.png)
   /// Getter for `boldSnowman3` icon.

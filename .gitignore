@@ -18,7 +18,12 @@ node_modules/
 scripts/download_svgs.py
 scripts/download_icon_parts.py
 scripts/generate_fonts_api.py
+scripts/fix_cmap_collisions.py
+scripts/generate_react_package.py
 
 .gemini/
 .claude/
 .vscode/
+
+react
+react.zip

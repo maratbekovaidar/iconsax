@@ -1463,6 +1463,10 @@ class IconsaxBroken {
   /// Getter for `brokenSnow` icon.
   static const IconData snow = IconData(0xff2a0, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/snowman2.png)
+  /// Getter for `brokenSnowman2` icon.
+  static const IconData snowman2 = IconData(0xf68fa, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/snowman3.png)
   /// Getter for `brokenSnowman3` icon.
   static const IconData snowman3 = IconData(0xfe429, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -1979,6 +1983,10 @@ class IconsaxBroken {
   /// Getter for `brokenCeloCelo` icon.
   static const IconData celoCelo = IconData(0xfc2fd, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/celsiusCel.png)
+  /// Getter for `brokenCelsiusCel` icon.
+  static const IconData celsiusCel = IconData(0xf8503, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/chainlinkLink.png)
   /// Getter for `brokenChainlinkLink` icon.
   static const IconData chainlinkLink = IconData(0xf6c93, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -2010,6 +2018,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/dropbox.png)
   /// Getter for `brokenDropbox` icon.
   static const IconData dropbox = IconData(0xf290b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/educareEkt.png)
+  /// Getter for `brokenEducareEkt` icon.
+  static const IconData educareEkt = IconData(0xf5b12, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/emercoinEmc.png)
   /// Getter for `brokenEmercoinEmc` icon.
@@ -2275,6 +2287,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/usdCoinUsdc.png)
   /// Getter for `brokenUsdCoinUsdc` icon.
   static const IconData usdCoinUsdc = IconData(0xf8efc, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/velasVlx.png)
+  /// Getter for `brokenVelasVlx` icon.
+  static const IconData velasVlx = IconData(0xf6169, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/vibeVibe.png)
   /// Getter for `brokenVibeVibe` icon.
@@ -2797,6 +2813,10 @@ class IconsaxBroken {
   /// Getter for `brokenBatteryDisable` icon.
   static const IconData batteryDisable = IconData(0xf6258, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/batteryEmpty2abe.png)
+  /// Getter for `brokenBatteryEmpty2abe` icon.
+  static const IconData batteryEmpty2abe = IconData(0xfdd18, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/batteryEmptyB740.png)
   /// Getter for `brokenBatteryEmptyB740` icon.
   static const IconData batteryEmptyB740 = IconData(0xfbf21, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3069,6 +3089,10 @@ class IconsaxBroken {
   /// Getter for `brokenShare` icon.
   static const IconData share = IconData(0xf4c2a, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/signpost.png)
+  /// Getter for `brokenSignpost` icon.
+  static const IconData signpost = IconData(0xf18f4, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/slash.png)
   /// Getter for `brokenSlash` icon.
   static const IconData slash = IconData(0xf658c, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3217,6 +3241,10 @@ class IconsaxBroken {
   /// Getter for `brokenAlignTop0448` icon.
   static const IconData alignTop0448 = IconData(0xf99ea, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/alignTopF9cc.png)
+  /// Getter for `brokenAlignTopF9cc` icon.
+  static const IconData alignTopF9cc = IconData(0xf9d54, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/alignVertically.png)
   /// Getter for `brokenAlignVertically` icon.
   static const IconData alignVertically = IconData(0xfbb18, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3288,6 +3316,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/grid7387.png)
   /// Getter for `brokenGrid7387` icon.
   static const IconData grid7387 = IconData(0xfdd6b, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/gridC454.png)
+  /// Getter for `brokenGridC454` icon.
+  static const IconData gridC454 = IconData(0xfcc3f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/gridC96b.png)
   /// Getter for `brokenGridC96b` icon.
@@ -3461,6 +3493,10 @@ class IconsaxBroken {
   /// Getter for `brokenRouteSquare` icon.
   static const IconData routeSquare = IconData(0xf2912, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/routingB8d6.png)
+  /// Getter for `brokenRoutingB8d6` icon.
+  static const IconData routingB8d6 = IconData(0xfe783, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/routingF0ad.png)
   /// Getter for `brokenRoutingF0ad` icon.
   static const IconData routingF0ad = IconData(0xfed05, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3597,6 +3633,10 @@ class IconsaxBroken {
   /// Getter for `brokenMoneyRecive` icon.
   static const IconData moneyRecive = IconData(0xf305e, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/moneyRemove.png)
+  /// Getter for `brokenMoneyRemove` icon.
+  static const IconData moneyRemove = IconData(0xf7364, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/moneySend.png)
   /// Getter for `brokenMoneySend` icon.
   static const IconData moneySend = IconData(0xf36ef, fontFamily: _fontFamily, fontPackage: _fontPackage);
@@ -3672,6 +3712,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/receiptE06f.png)
   /// Getter for `brokenReceiptE06f` icon.
   static const IconData receiptE06f = IconData(0xf1bca, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/receipt6517.png)
+  /// Getter for `brokenReceipt6517` icon.
+  static const IconData receipt6517 = IconData(0xf307f, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/receiptA572.png)
   /// Getter for `brokenReceiptA572` icon.
@@ -3752,6 +3796,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/walletSearch.png)
   /// Getter for `brokenWalletSearch` icon.
   static const IconData walletSearch = IconData(0xf742d, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/wallet53d9.png)
+  /// Getter for `brokenWallet53d9` icon.
+  static const IconData wallet53d9 = IconData(0xf673d, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/wallet49f1.png)
   /// Getter for `brokenWallet49f1` icon.
@@ -3876,6 +3924,10 @@ class IconsaxBroken {
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/messageProgramming.png)
   /// Getter for `brokenMessageProgramming` icon.
   static const IconData messageProgramming = IconData(0xfc15e, fontFamily: _fontFamily, fontPackage: _fontPackage);
+
+  /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/mobileProgramming.png)
+  /// Getter for `brokenMobileProgramming` icon.
+  static const IconData mobileProgramming = IconData(0xf2464, fontFamily: _fontFamily, fontPackage: _fontPackage);
 
   /// ![](https://raw.githubusercontent.com/maratbekovaidar/iconsax/master/assets/icon-preview/broken/programmingArrow.png)
   /// Getter for `brokenProgrammingArrow` icon.
